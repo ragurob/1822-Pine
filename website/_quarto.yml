@@ -1,6 +1,15 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - "../chapters/*.qmd"
+    - "../chapters/*.html"
+    - "../guidebook/*.qmd"
+    - "../guidebook/*.html"
+    - "../handouts/*.qmd"
+    - "../handouts/*.html"
+    - "../raw_documents/*.pdf"
+    - "../images/**"
 
 website:
   title: "The Rittenhouse Residence"

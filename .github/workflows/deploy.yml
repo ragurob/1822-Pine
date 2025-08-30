@@ -29,8 +29,40 @@ jobs:
         
       - name: Build with Quarto
         run: |
+          # First, render the main website
           cd website
           quarto render --to html
+          
+          # Now handle the chapters and other content
+          cd ..
+          
+          # Render all chapters individually
+          echo "Rendering chapters..."
+          for chapter in chapters/*.qmd; do
+            echo "Processing $chapter"
+            quarto render "$chapter" --to html --output-dir website/_site/chapters/
+          done
+          
+          # Render guidebook
+          echo "Rendering guidebook..."
+          for guide in guidebook/*.qmd; do
+            echo "Processing $guide"
+            quarto render "$guide" --to html --output-dir website/_site/guidebook/
+          done
+          
+          # Render handouts
+          echo "Rendering handouts..."
+          for handout in handouts/*.qmd; do
+            echo "Processing $handout"
+            quarto render "$handout" --to html --output-dir website/_site/handouts/
+          done
+          
+          # Copy PDFs and images
+          echo "Copying resources..."
+          mkdir -p website/_site/raw_documents
+          cp -r raw_documents/*.pdf website/_site/raw_documents/ 2>/dev/null || true
+          mkdir -p website/_site/images
+          cp -r images/* website/_site/images/ 2>/dev/null || true
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
