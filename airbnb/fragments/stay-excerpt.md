@@ -1,0 +1,18 @@
+---
+# (Auto‑Generated Stay Excerpt — Airbnb)
+---
+
+## About This Space (Airbnb Extract)
+
+Mansion In Rittenhouse Square. 8 Bedrooms (7 Queen. 1 King. ). 2 Kitchens. 3 Living Rooms, Library, Roof Deck. This home is a stunner! Built in 1845, and at almost 7,000 sq ft you will go back in time and do it in style. You’ll also enjoy easy access to the best of Philadelphia from this centrally located mansion with Rittenhouse Square two blocks away. The space Step back in time at this exquisite 1845 historic mansion, one of Philadelphia's true architectural gems. With nearly 7,000 sq ft of elegant living space, this grand home offers an unparalleled experience for a festive holiday gathering. It is also a perfect setting for corporate retreats, family reunions, and other special occasions. Perfectly situated just two blocks from the iconic Rittenhouse Square, you are steps away from the city's finest dining, shopping, and cultural landmarks. The space: This is more than a home; it's a journey into history. The moment you enter, you are greeted by the magnificent Grand Parlour—one of the largest private rooms in the city—showcasing original 19th-century details and featuring a pool table and lounge area. Designed to accommodate large groups with ease, the home provides: - Luxury & Privacy: Eight well-appointed bedrooms across five private suites. The Master and Library suites each have a private bathroom, while the other suites share one bathroom between two rooms. - Unrivaled Amenities: Whip up a gourmet meal in our chef's kitchen, complete with stainless steel appliances, a gas range, and all the tools you'll need. With a second, additional kitchen and three living rooms, there's ample space for socializing, dining, and relaxation without ever feeling crowded. - A Rooftop Oasis: Ascend to the stunning roof deck for a truly exclusive experience. Enjoy panoramic city views from a vantage point only available from this location, perfect for morning coffee or sunset cocktails. The house's layout is thoughtfully designed for both togetherness and personal space. The second floor features two luxurious suites, including the expansive Library Suite, which includes a wet bar and a 70-inch 4K TV—often left as a communal space for all to enjoy. The upper floors house an additional kitchen and the remaining suites, providing comfortable and private accommodations for up to 16 guests. Work & Productivity This home is an ideal home base for business travel and team collaboration. Enjoy high-speed Wi-Fi throughout the house and a variety of flexible workspaces, from desks in some suites to communal work areas and comfortable lounges -perfect for breakout sessions or private calls. Guest access You will have exclusive access to the entire 7,000-square-foot mansion, ensuring a completely private and unique experience for you and your guests. Other things to note We have a FIRM NO PARTY POLICY. There are noise and crowd sensors that will sound in the house and also alert management if they detect sustained levels above 79 Decibels. Repeated breaches of the …
+
+### Amenities Snapshot
+
+- **Core:** What this place offers City skyline view Kitchen Fast wifi – 351 Mbps Dedicated workspace 70 inch HDTV with Netflix Free washer – In unit Free dryer – In unit Central air conditioning Bathtub Exterior security cameras on property Show all 54 amenities
+- **Kitchen:** 
+- **Safety:** 
+- **Entertainment:** 
+
+
+
+_Sourced from Airbnb https://www.airbnb.com/rooms/6000930 (2025-08-30T13:12:38Z UTC)._

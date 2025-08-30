@@ -314,5 +314,5 @@ execute:
   echo: false
   warning: false
   
-metadata-files:
-  - _metadata.yml
+# metadata-files:
+#   - _metadata.yml

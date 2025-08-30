@@ -20,9 +20,23 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         
+      - name: Check website structure
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Contents of website directory:"
+          ls -la website/
+          echo "Checking for _quarto.yml:"
+          cat website/_quarto.yml | head -20
+          
       - name: Render Website
         run: |
           cd website
+          # Remove metadata-files reference if it doesn't exist
+          if [ ! -f "_metadata.yml" ]; then
+            echo "No _metadata.yml found, adjusting _quarto.yml"
+            grep -v "metadata-files:" _quarto.yml > _quarto_temp.yml && mv _quarto_temp.yml _quarto.yml
+          fi
           quarto render --to html
           
       - name: Upload artifact

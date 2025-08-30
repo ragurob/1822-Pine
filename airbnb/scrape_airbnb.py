@@ -84,23 +84,77 @@ def playwright_scrape(url: str, mapping: dict, cookies_path: str | None, max_ima
         page = context.new_page()
         page.set_default_timeout(timeout_ms)
         page.goto(url)
-        # Wait a bit for dynamic sections
-        time.sleep(5)
-        html = page.content()
-        data = extract_fields(html, mapping)
-        # images: try to capture gallery <img> tags
-        imgs = []
+        # Wait explicitly for title or description to ensure core DOM loaded
         try:
-            # Use locator to gather
-            for el in page.locator('img').element_handles():
-                src = el.get_attribute('src')
-                if src and 'images' in src and src.startswith('https://'):
-                    imgs.append(src.split('?')[0])
-                    if len(imgs) >= max_images:
-                        break
+            page.wait_for_selector('h1[data-testid="title"], div[data-section-id="DESCRIPTION_DEFAULT"]', timeout=timeout_ms)
         except Exception:
             pass
-        if imgs:
+        # Progressive scroll to load lazy sections
+        for _ in range(10):
+            page.mouse.wheel(0, 1500)
+            time.sleep(0.4)
+        # Attempt to expand any 'Show more' buttons (description / house rules / amenities)
+        try:
+            buttons = page.locator('button:has-text("Show more")')
+            for i in range(buttons.count()):
+                try:
+                    buttons.nth(i).click()
+                    time.sleep(0.2)
+                except Exception:
+                    continue
+        except Exception:
+            pass
+        # Give dynamic content a moment
+        time.sleep(1.5)
+        html = page.content()
+        data = extract_fields(html, mapping)
+        # Direct field overrides using live DOM (more reliable than static HTML for dynamic elements)
+        try:
+            if 'title' not in data:
+                tloc = page.locator('h1[data-testid="title"]')
+                if tloc.count() > 0:
+                    data['title'] = collapse_text(tloc.first.inner_text())
+        except Exception:
+            pass
+        # House rules explicit extraction
+        try:
+            if 'house_rules' not in data:
+                hr = page.locator('[data-section-id="HOUSE_RULES_DEFAULT"], section[data-testid="HOUSE_RULES_DEFAULT"]')
+                if hr.count() > 0:
+                    data['house_rules'] = collapse_text(hr.first.inner_text())
+        except Exception:
+            pass
+        # Amenities granular items
+        try:
+            amen_items = page.locator('[data-testid="amenity-item"]')
+            if amen_items.count() > 0:
+                texts = []
+                for i in range(min(amen_items.count(), 400)):
+                    try:
+                        txt = collapse_text(amen_items.nth(i).inner_text())
+                        if txt and txt not in texts:
+                            texts.append(txt)
+                    except Exception:
+                        continue
+                if texts:
+                    data['amenities'] = '\n'.join(texts)
+        except Exception:
+            pass
+        # images: select visible gallery images first
+        imgs: List[str] = []
+        try:
+            gallery_sel = page.locator('div[data-testid="image-grid"] img, picture img, img')
+            for el in gallery_sel.element_handles():
+                if len(imgs) >= max_images:
+                    break
+                src = el.get_attribute('src') or ''
+                if src.startswith('https://') and any(d in src for d in ['airbnbstatic', 'a0.muscache.com']):
+                    base = src.split('?')[0]
+                    if base not in imgs:
+                        imgs.append(base)
+        except Exception:
+            pass
+        if imgs and 'images_raw' not in data:
             data['images_raw'] = imgs
         browser.close()
         return data

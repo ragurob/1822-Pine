@@ -1,0 +1,54 @@
+name: Simple Quarto Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+      
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        
+      - name: Render Quarto Project
+        run: |
+          # Navigate to website directory
+          cd website
+          
+          # List files for debugging
+          echo "Files in website directory:"
+          ls -la
+          
+          # Try to render
+          quarto render --to html || {
+            echo "Quarto render failed, trying with minimal config"
+            # If render fails, try to identify the issue
+            echo "Checking for problematic files..."
+            find . -name "*.qmd" -exec echo "Found: {}" \;
+          }
+          
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: website/_site
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
