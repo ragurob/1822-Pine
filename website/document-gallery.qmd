@@ -6,12 +6,9 @@ keywords: ["1822 pine street history", "philadelphia historical documents", "rit
 page-layout: full
 toc: true
 toc-title: "Document Categories"
-execute:
-  echo: false
 ---
 
-```{css}
-#| echo: false
+<style>
 .document-year {
   display: inline-block;
   background: #2c3e50;
@@ -141,7 +138,7 @@ execute:
   white-space: nowrap;
   border: 0;
 }
-```
+</style>
 
 ## Overview
 

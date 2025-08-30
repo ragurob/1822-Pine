@@ -4,12 +4,9 @@ subtitle: "Professional Photography & Historical Documents"
 description: "Explore 170 years of history through professional photography, floor plans, and original documents from Philadelphia's premier historic rental property"
 keywords: ["1822 pine street photos", "rittenhouse square mansion", "philadelphia historic house", "luxury rental photos", "historic documents"]
 page-layout: full
-execute:
-  echo: false
 ---
 
-```{css}
-#| echo: false
+<style>
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -116,7 +113,7 @@ execute:
 .booking-cta .btn:hover {
   transform: translateY(-2px);
 }
-```
+</style>
 
 ## Experience Every Detail
 
