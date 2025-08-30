@@ -56,114 +56,98 @@ website:
             
       - text: "The History"
         menu:
-          - section: "Quick Access"
-            contents:
-              - text: "Historical Timeline"
-                href: timeline.qmd
-                icon: clock-history
-              - text: "Verified Facts (Provenance)"
-                href: provenance.qmd
-                icon: patch-check
-              - text: "Document Archive"
-                href: documents.qmd
-                icon: archive
+          - text: "Historical Timeline"
+            href: timeline.qmd
+            icon: clock-history
+          - text: "Verified Facts (Provenance)"
+            href: provenance.qmd
+            icon: patch-check
+          - text: "Document Archive"
+            href: documents.qmd
+            icon: archive
           - text: "---"
-          - section: "The Full Story"
-            contents:
-              - text: "Book Introduction"
-                href: history-book.qmd
-                icon: book-half
-              - text: "---"
-              - text: "00. Preamble"
-                href: ../chapters/00-preamble.qmd
-              - text: "01. Before the Threshold (1820s-1850s)"
-                href: ../chapters/01-before-the-threshold.qmd
-              - text: "02. Between Mourning & Modernity"
-                href: ../chapters/02-between-mourning-and-modernity.qmd
-              - text: "03. Votes in the Parlor (Suffrage)"
-                href: ../chapters/03-votes-in-the-parlor.qmd
-              - text: "04. Walk the Rooms"
-                href: ../chapters/04-walk-the-rooms.qmd
-              - text: "05. The Long Edwardian Afternoon"
-                href: ../chapters/05-long-edwardian-afternoon.qmd
-              - text: "06. Architecture & Fabric"
-                href: ../chapters/06-architecture-fabric.qmd
-              - text: "07. The Apartment House Years"
-                href: ../chapters/07-apartment-house-years.qmd
-              - text: "08. Back to Grande Dame"
-                href: ../chapters/08-back-to-grande-dame.qmd
+          - text: "Book Introduction"
+            href: history-book.qmd
+            icon: book-half
           - text: "---"
-          - section: "Reference Guides"
-            contents:
-              - text: "09. Room-by-Room Field Guide"
-                href: ../chapters/09-walk-rooms-field-guide.qmd
-              - text: "10. Provenance Dossier"
-                href: ../chapters/10-provenance-dossier.qmd
-              - text: "11. Events & Filming Playbook"
-                href: ../chapters/11-events-filming-playbook.qmd
-              - text: "12. The Seasonal House"
-                href: ../chapters/12-seasonal-house.qmd
-              - text: "13. Floor Plans Reference"
-                href: ../chapters/13-floor-plans.qmd
+          - text: "00. Preamble"
+            href: ../chapters/00-preamble.qmd
+          - text: "01. Before the Threshold"
+            href: ../chapters/01-before-the-threshold.qmd
+          - text: "02. Between Mourning & Modernity"
+            href: ../chapters/02-between-mourning-and-modernity.qmd
+          - text: "03. Votes in the Parlor"
+            href: ../chapters/03-votes-in-the-parlor.qmd
+          - text: "04. Walk the Rooms"
+            href: ../chapters/04-walk-the-rooms.qmd
+          - text: "05. The Long Edwardian Afternoon"
+            href: ../chapters/05-long-edwardian-afternoon.qmd
+          - text: "06. Architecture & Fabric"
+            href: ../chapters/06-architecture-fabric.qmd
+          - text: "07. The Apartment House Years"
+            href: ../chapters/07-apartment-house-years.qmd
+          - text: "08. Back to Grande Dame"
+            href: ../chapters/08-back-to-grande-dame.qmd
           - text: "---"
-          - section: "Appendices"
-            contents:
-              - text: "Historical Timeline (Full)"
-                href: ../chapters/98-timeline.qmd
-              - text: "Document Gallery"
-                href: ../chapters/99-document-gallery.qmd
-              - text: "Conclusion"
-                href: ../chapters/99-conclusion.qmd
+          - text: "09. Room-by-Room Field Guide"
+            href: ../chapters/09-walk-rooms-field-guide.qmd
+          - text: "10. Provenance Dossier"
+            href: ../chapters/10-provenance-dossier.qmd
+          - text: "11. Events & Filming Playbook"
+            href: ../chapters/11-events-filming-playbook.qmd
+          - text: "12. The Seasonal House"
+            href: ../chapters/12-seasonal-house.qmd
+          - text: "13. Floor Plans Reference"
+            href: ../chapters/13-floor-plans.qmd
+          - text: "---"
+          - text: "Historical Timeline (Full)"
+            href: ../chapters/98-timeline.qmd
+          - text: "Document Gallery"
+            href: ../chapters/99-document-gallery.qmd
+          - text: "Conclusion"
+            href: ../chapters/99-conclusion.qmd
                 
       - text: "Resources"
         menu:
-          - text: "For Guests"
-            contents:
-              - text: "Guest Guidebook"
-                href: ../guidebook/guest-guidebook-2024.qmd
-                icon: journal-text
-              - text: "FAQ"
-                href: faq.qmd
-                icon: question-circle
-              - text: "Neighborhood Guide"
-                href: neighborhood-guide.qmd
-                icon: map-fill
+          - text: "Guest Guidebook"
+            href: ../guidebook/guest-guidebook-2024.qmd
+            icon: journal-text
+          - text: "FAQ"
+            href: faq.qmd
+            icon: question-circle
+          - text: "Neighborhood Guide"
+            href: neighborhood-guide.qmd
+            icon: map-fill
           - text: "---"
-          - text: "For Events & Filming"
-            contents:
-              - text: "Event Planning Guide"
-                href: ../chapters/11-events-filming-playbook.qmd
-                icon: camera-reels
-              - text: "Event Fact Sheet"
-                href: ../handouts/event-filming-fact-sheet.qmd
-                icon: file-text
-              - text: "Floor Plans & Capacity"
-                href: floor-plans-events.qmd
-                icon: diagram-3
+          - text: "Event Planning Guide"
+            href: ../chapters/11-events-filming-playbook.qmd
+            icon: camera-reels
+          - text: "Event Fact Sheet"
+            href: ../handouts/event-filming-fact-sheet.qmd
+            icon: file-text
+          - text: "Floor Plans & Capacity"
+            href: floor-plans-events.qmd
+            icon: diagram-3
           - text: "---"
-          - text: "For Researchers"
-            contents:
-              - text: "Document Archive"
-                href: documents.qmd
-                icon: archive
-              - text: "Provenance Dossier"
-                href: ../chapters/10-provenance-dossier.qmd
-                icon: file-earmark-text
-              - text: "Bibliography"
-                href: ../refs/bibliography_complete.bib
-                icon: journal-bookmark
+          - text: "Document Archive"
+            href: documents.qmd
+            icon: archive
+          - text: "Provenance Dossier"
+            href: ../chapters/10-provenance-dossier.qmd
+            icon: file-earmark-text
+          - text: "Bibliography"
+            href: https://github.com/ragurob/1822-Pine/blob/main/refs/bibliography_complete.bib
+            icon: journal-bookmark
           - text: "---"
-          - text: "Site Resources"
-            contents:
-              - text: "Master Content Index"
-                href: https://github.com/ragurob/1822-Pine/blob/main/MASTER-CONTENT-INDEX.md
-                icon: list-nested
-              - text: "Content Directory Structure"
-                href: https://github.com/ragurob/1822-Pine/blob/main/CONTENT-DIRECTORY-STRUCTURE.md
-                icon: diagram-2
-              - text: "Deployment Guide"
-                href: https://github.com/ragurob/1822-Pine/blob/main/website/DEPLOYMENT.md
-                icon: rocket
+          - text: "Master Content Index"
+            href: https://github.com/ragurob/1822-Pine/blob/main/MASTER-CONTENT-INDEX.md
+            icon: list-nested
+          - text: "Content Directory Structure"
+            href: https://github.com/ragurob/1822-Pine/blob/main/CONTENT-DIRECTORY-STRUCTURE.md
+            icon: diagram-2
+          - text: "Deployment Guide"
+            href: https://github.com/ragurob/1822-Pine/blob/main/website/DEPLOYMENT.md
+            icon: rocket
                 
     right:
       - text: "Book on Airbnb"
@@ -226,7 +210,6 @@ website:
   search:
     location: navbar
     type: overlay
-    placeholder: "Search property, history, or documents..."
   
   google-analytics: "G-XXXXXXXXXX"
   
