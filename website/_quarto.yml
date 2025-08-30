@@ -43,6 +43,9 @@ website:
           - text: "Photo Gallery"
             href: gallery.qmd
             icon: images
+          - text: "Document Archive"
+            href: document-gallery.qmd
+            icon: archive
           - text: "---"
           - text: "Architecture & Preservation"
             href: architecture.qmd
