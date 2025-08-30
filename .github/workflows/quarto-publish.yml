@@ -29,15 +29,43 @@ jobs:
         
       - name: Render Quarto Website
         run: |
+          # Render the website
           cd website
           quarto render --to html
-          # Add .nojekyll to prevent GitHub Pages from processing with Jekyll
-          touch _site/.nojekyll
+          
+          # Create deployment directory
+          cd ..
+          mkdir -p _deploy
+          
+          # Copy everything from website/_site to _deploy
+          cp -r website/_site/* _deploy/
+          
+          # Add .nojekyll to prevent Jekyll processing
+          touch _deploy/.nojekyll
+          
+          # Create a root index.html that redirects to the actual site
+          cat > _deploy/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html>
+          <head>
+              <meta charset="utf-8">
+              <title>The Rittenhouse Residence</title>
+              <meta http-equiv="refresh" content="0; url=index.html">
+          </head>
+          <body>
+              <p>Loading The Rittenhouse Residence...</p>
+          </body>
+          </html>
+          EOF
+          
+          # List what we're deploying
+          echo "Deploying the following files:"
+          ls -la _deploy/ | head -20
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: website/_site
+          path: _deploy
 
   # Deployment job
   deploy:
