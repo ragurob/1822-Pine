@@ -1,0 +1,71 @@
+name: Minimal Quarto Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+      
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        
+      - name: Use Minimal Config and Render
+        run: |
+          cd website
+          
+          # Backup original config
+          mv _quarto.yml _quarto-full.yml || true
+          
+          # Use minimal config
+          cp _quarto-minimal.yml _quarto.yml
+          
+          # Show what we're rendering
+          echo "=== Files to render ==="
+          ls *.qmd
+          
+          echo ""
+          echo "=== Using minimal config ==="
+          cat _quarto.yml
+          
+          echo ""
+          echo "=== Attempting render ==="
+          quarto render --to html --verbose 2>&1 | tee render.log || {
+            EXIT_CODE=$?
+            echo ""
+            echo "=== RENDER FAILED with exit code $EXIT_CODE ==="
+            echo "=== Last 100 lines of output ==="
+            tail -100 render.log
+            echo ""
+            echo "=== Searching for errors ==="
+            grep -A2 -B2 -i "error\|fail\|cannot\|missing" render.log || true
+            exit $EXIT_CODE
+          }
+          
+      - name: Upload Pages Artifact
+        if: success()
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: website/_site
+          
+      - name: Deploy to GitHub Pages
+        if: success()
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -15,4 +15,4 @@ Mansion In Rittenhouse Square. 8 Bedrooms (7 Queen. 1 King. ). 2 Kitchens. 3 Liv
 
 
 
-_Sourced from Airbnb https://www.airbnb.com/rooms/6000930 (2025-08-30T13:12:38Z UTC)._
+_Sourced from Airbnb https://www.airbnb.com/rooms/6000930 (2025-08-30T13:42:24Z UTC)._

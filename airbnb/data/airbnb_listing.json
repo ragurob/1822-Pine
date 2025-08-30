@@ -12,37 +12,120 @@
   "images": [
     {
       "url": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-search-bar-icons/original/4aae4ed7-5939-4e76-b100-e69440ebeae4.png",
-      "local_path": "1822-pine/images/web/airbnb/airbnb_00.jpg"
+      "local_path": "1822-pine/images/web/airbnb/airbnb_00.jpg",
+      "alt": ""
     },
     {
       "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-6000930/original/134501cf-9bcf-44c9-8ac1-64add58f958b.jpeg",
-      "local_path": "1822-pine/images/web/airbnb/airbnb_01.jpg"
+      "local_path": "1822-pine/images/web/airbnb/airbnb_01.jpg",
+      "alt": ""
     },
     {
       "url": "https://a0.muscache.com/im/pictures/miso/Hosting-6000930/original/68bd6331-3820-4c06-ad1c-e4922e41bd42.jpeg",
-      "local_path": "1822-pine/images/web/airbnb/airbnb_02.jpg"
+      "local_path": "1822-pine/images/web/airbnb/airbnb_02.jpg",
+      "alt": ""
     },
     {
       "url": "https://a0.muscache.com/im/pictures/miso/Hosting-6000930/original/748c6b9f-2bd5-411c-96ad-05f08272b728.jpeg",
-      "local_path": "1822-pine/images/web/airbnb/airbnb_03.jpg"
+      "local_path": "1822-pine/images/web/airbnb/airbnb_03.jpg",
+      "alt": ""
     },
     {
       "url": "https://a0.muscache.com/im/pictures/miso/Hosting-6000930/original/ba972d1f-61d0-46f5-bc29-e7fa1f3ac1ed.jpeg",
-      "local_path": "1822-pine/images/web/airbnb/airbnb_04.jpg"
+      "local_path": "1822-pine/images/web/airbnb/airbnb_04.jpg",
+      "alt": ""
     },
     {
       "url": "https://a0.muscache.com/im/pictures/miso/Hosting-6000930/original/7d9841a0-68d6-4929-aa53-302089e02c68.jpeg",
-      "local_path": "1822-pine/images/web/airbnb/airbnb_05.jpg"
+      "local_path": "1822-pine/images/web/airbnb/airbnb_05.jpg",
+      "alt": ""
     },
     {
       "url": "https://a0.muscache.com/im/pictures/user/User-31152695/original/dbd06b01-584a-477d-a42a-4d3e6e78acaf.png",
-      "local_path": "1822-pine/images/web/airbnb/airbnb_06.jpg"
+      "local_path": "1822-pine/images/web/airbnb/airbnb_06.jpg",
+      "alt": "Host profile picture"
     },
     {
       "url": "https://a0.muscache.com/im/pictures/hosting/Hosting-6000930/original/bf375547-123c-4362-a6b0-be5111f33e9e.jpeg",
-      "local_path": "1822-pine/images/web/airbnb/airbnb_07.jpg"
+      "local_path": "1822-pine/images/web/airbnb/airbnb_07.jpg",
+      "alt": "Bedroom 1"
+    },
+    {
+      "url": "https://a0.muscache.com/im/pictures/miso/Hosting-6000930/original/4a5acc78-6200-47e4-89b0-3a6ea4fdadec.jpeg",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_08.jpg",
+      "alt": "Bedroom 2"
+    },
+    {
+      "url": "https://a0.muscache.com/im/pictures/miso/Hosting-6000930/original/600d440c-68bc-4e9b-812f-993e0f3b5bb6.jpeg",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_09.jpg",
+      "alt": "Bedroom 8"
+    },
+    {
+      "url": "https://a0.muscache.com/im/pictures/miso/Hosting-6000930/original/5dcacfe2-3b53-48bf-899c-f93d47df0932.jpeg",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_10.jpg",
+      "alt": "Bedroom 6"
+    },
+    {
+      "url": "https://a0.muscache.com/im/pictures/miso/Hosting-6000930/original/260b15ac-1a8b-434b-8057-1f548fa22dba.jpeg",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_11.jpg",
+      "alt": "Bedroom 5"
+    },
+    {
+      "url": "https://a0.muscache.com/im/pictures/miso/Hosting-6000930/original/a431b324-2f37-46e2-974f-3909124f2fc3.jpeg",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_12.jpg",
+      "alt": "Bedroom 4"
+    },
+    {
+      "url": "https://a0.muscache.com/im/pictures/miso/Hosting-6000930/original/45549ddf-363a-4c73-85e4-21fcb624579b.jpeg",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_13.jpg",
+      "alt": "Bedroom 3"
+    },
+    {
+      "url": "https://a0.muscache.com/im/pictures/miso/Hosting-6000930/original/3f46b1a8-2c55-4e93-b3e5-5465e17cb59e.jpeg",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_14.jpg",
+      "alt": "Bedroom 7"
+    },
+    {
+      "url": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-GuestFavorite/original/78b7687c-5acf-4ef8-a5ea-eda732ae3b2f.png",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_15.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-GuestFavorite/original/b4005b30-79ff-4287-860c-67829ecd7412.png",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_16.jpg",
+      "alt": ""
+    },
+    {
+      "url": "https://a0.muscache.com/im/pictures/user/51a5561f-37a7-4ea9-8053-071f25492515.jpg",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_17.jpg",
+      "alt": "Neeta"
+    },
+    {
+      "url": "https://a0.muscache.com/im/pictures/user/User-10234216/original/eca49cfe-c907-4b68-8ab2-90d422d98194.jpeg",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_18.jpg",
+      "alt": "Samantha"
+    },
+    {
+      "url": "https://a0.muscache.com/im/users/15303153/profile_pic/1399646713/original.jpg",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_19.jpg",
+      "alt": "Lucas"
+    },
+    {
+      "url": "https://a0.muscache.com/im/users/672986/profile_pic/1307419686/original.jpg",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_20.jpg",
+      "alt": "Matt"
+    },
+    {
+      "url": "https://a0.muscache.com/im/pictures/user/f3aa09ff-aee0-440f-93a9-3d5e03d17551.jpg",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_21.jpg",
+      "alt": "Malathy"
+    },
+    {
+      "url": "https://a0.muscache.com/im/pictures/user/b03a1d52-624e-4070-a878-596d0bb96b0a.jpg",
+      "local_path": "1822-pine/images/web/airbnb/airbnb_22.jpg",
+      "alt": "Sheetal"
     }
   ],
-  "last_fetched": "2025-08-30T13:12:38Z",
+  "last_fetched": "2025-08-30T13:42:24Z",
   "source_url": "https://www.airbnb.com/rooms/6000930"
 }

@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "The Rittenhouse Residence"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: rates.qmd
+        text: Rates
+      - href: gallery.qmd
+        text: Gallery
+      - href: contact.qmd
+        text: Contact
+
+format:
+  html:
+    theme: cosmo
+    toc: true

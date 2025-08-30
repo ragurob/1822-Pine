@@ -42,6 +42,7 @@ def render_fragments(data: Dict[str, Any], templates_dir: str, out_dir: str):
         'index-hero.md.j2': 'index-hero.md',
         'stay-excerpt.md.j2': 'stay-excerpt.md',
         'house-rules.md.j2': 'house-rules.md',
+    'gallery.md.j2': 'gallery.md',
     }
     for tpl_name, out_name in template_map.items():
         tpl = env.get_template(tpl_name)
