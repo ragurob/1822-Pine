@@ -1,0 +1,20 @@
+{
+  "filename": "The_Philadelphia_Inquirer_1912_09_29_Page_26.pdf",
+  "type": "clipping",
+  "file_hash": "9f8806111a9069e0a23fed64863f1658",
+  "processed_date": "2025-08-29T13:52:07.771995",
+  "pages": 1,
+  "text": "https://www.newspapers.com/ image/169065346/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Sun, Sep 29, \n1912 \u00b7 Page 26\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
+  "extracted_date": "1912-09-29",
+  "entities": {
+    "people": [
+      "The Philadelphia Inquirer",
+      "All Rights Reserved"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [],
+  "error": "Unable to get page count. Is poppler installed and in PATH?"
+}

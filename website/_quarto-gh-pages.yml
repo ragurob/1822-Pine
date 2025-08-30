@@ -1,0 +1,15 @@
+# GitHub Pages specific configuration
+# This extends the main _quarto.yml when building for GitHub Pages
+
+project:
+  type: website
+  output-dir: _site
+
+website:
+  site-url: "https://[your-github-username].github.io/1822-pine"
+  
+format:
+  html:
+    # Ensure all links work correctly on GitHub Pages
+    link-external-newwindow: true
+    link-external-icon: true

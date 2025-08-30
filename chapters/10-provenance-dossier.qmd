@@ -1,0 +1,108 @@
+---
+title: "Provenance Dossier"
+subtitle: "Reproducible, Address‑Anchored Lines"
+---
+
+# Chapter 10 — Provenance Dossier (Reproducible, Address‑Anchored Lines)
+
+*I am made of dates as much as brick. I learned the calendar by the weight of footsteps—the day the mason left, the winter the doctor hung a shingle, the spring a tax bill arrived with a principle attached. Here are the moments you can hold up like a lantern and say: it happened here.*
+
+> **How to use this chapter:** These are **copy‑and‑paste‑ready** lines for **therittenhouseresidence.com**, buyer packets, and the foyer booklet. Each entry ties **directly** to **1822 Pine Street** via deeds, directories, architect notices, obituaries, and your compiled research. When a planner or buyer asks, "Can you prove it?", point to these.
+
+## Chain of Title & Occupancy (core lines)
+
+* **Apr 1854 — Deed:** **John McCrea** (developer) **sells 1822 Pine** to **John Roset**, merchant [@deed_1854_abstract]. *Anchor for "first long‑term owners; house likely new"*
+* **1854–1893 — Roset era:** **John & Mary Ann (Laning) Roset** hold the house; upon Mary Ann's death (**1880**), property held **in trust** by the Pennsylvania Company. *Explains possible letting in the 1880s*
+* **Apr 20, 1891 — Tragedy:** **Howard Spencer Jr.**, age 7, dies of scarlet fever **at 1822 Pine Street** [@news_1891_scarlet_spencer]. *First documented personal event at the address*
+* **Jun 29, 1893 — Deed:** **Roset estate (trustee) → Howard Spencer** [@deed_1893_abstract]. *Start of Spencer chapter*
+* **Jun 28, 1896 — Obit:** **Howard Spencer** dies; estate handled by **Henry S. Pleasants** and **William McLean** (executors)
+* **Apr 3, 1899 — Deed:** **Executors (Pleasants & McLean) → Agnes M. Spencer** (daughter/heir) [@deed_1899_abstract]
+* **Aug 2, 1899 — Architects' notice:** **Duhring, Okie & Ziegler** commissioned for **"alterations & additions"** at **1822 Pine** (client: **Agnes M. Spencer**). *Your turn‑of‑century modernization anchor*
+* **Jan 11, 1901 — Society:** Mrs. Graham Spencer returns to **1822 Pine Street** for winter from Chester County [@news_1901_winter_return]
+* **Oct 27, 1901 — Residence:** **Fayette R. Plumb** listed at **1822 Pine Street** [@news_1901_plumb_residence]
+* **Nov 21, 1901 — Wedding:** Rolin-Plumb wedding breakfast **at 1822 Pine Street** [@news_1901_plumb_wedding]
+* **Dec 11, 1904 — At Homes:** **Mrs. Henry C. Davis and the Misses Davis, of 1822 Pine street** [@news_1904_davis_athome]
+* **Aug 4, 1905 — Improvement:** J.N. Long installs fireplace at **1822 Pine St.** for $130 [@news_1905_fireplace]
+* **1911 — Suffrage line:** "**Mrs. Henry C. Davis, of 1822 Pine Street**" identified in **tax‑resistance** coverage. *Parlors as organizing space*
+* **Jan 8, 1915 — Activism:** **Miss Martha Davis, 1822 Pine street** selling Equal Franchise Society tickets [@news_1915_suffrage]
+* **1915 — Medical roll:** **Dr. Damon B. Pfeiffer, 1822 Pine St.** (Fellow, College of Physicians). *Professional suite documented*
+* **1916 — Directory:** **Stillwell Corson Burns, Surgery — 1822 Pine.** *Confirms medical continuity*
+* **May 21, 1918 — Obit:** "**Suddenly, at 1822 Pine St. … NAOMI LAWTON**." *A life event fixed to the address*
+* **1922–1952 — Transitions:** Five documented property transfers [@deed_1922_abstract; @deed_1941_abstract; @deed_1947_abstract; @deed_1949_abstract; @deed_1952_abstract]. *Apartment era ownership changes*
+* **1995 — Historic district:** **Rittenhouse‑Fitler Residential Historic District** (Philadelphia Register) includes **1822 Pine**. *Exterior stewardship begins*
+* **2013 — Listing & revival:** Marketing emphasizes **c. 1845 fabric**, **6–8 bedrooms**, and restored details; later **luxury‑rental** use confirms capacity and demand
+
+## People & Connections (use in captions and sidebars)
+
+* **John Roset (1794–1870):** Philadelphia merchant of French parentage; married **Mary Ann Laning** (granddaughter of **Judge Matthias Hollenback**); their daughter **Ellen B. Roset** married **Anthony J. Drexel (1850)**—ties the house's first owners to the Gilded‑Age banking story
+* **John McCrea:** Prolific 1840s–50s developer west of Broad; responsible for multiple Pine/Delancey/Spruce blockfronts, giving the area its unified red‑brick face. *Use when interpreting the façade*
+* **Agnes M. Spencer:** Young heiress who hired **DO&Z (1899)**; modernization aligns the house with early‑1900s services and taste
+* **Naomi Lawton Davis:** Suffragist whose 1911 **"no taxation without representation"** stance lists her **at this address**; died **at 1822 Pine** in 1918
+* **Martha Davis:** Daughter who continued the activism, selling Equal Franchise Society tickets from **1822 Pine** in 1915 [@news_1915_suffrage]
+* **Dr. Damon B. Pfeiffer** → **Stillwell Corson Burns:** Physicians documented **at 1822 Pine** (1915–1916), proving parlor‑to‑practice adaptability
+
+## Room‑by‑Room Pins (print these as little labels)
+
+* **Hall table:** Card tray → **"At Homes"** (winter social season, 1904 [@news_1904_davis_athome]). *Explains plan logic to guests*
+* **Parlors:** **1899 DO&Z**—alterations & additions; **1905 fireplace** [@news_1905_fireplace]; place the dates by mantel or medallion
+* **Rear door:** **Lot 22×90 ft → Waverly**—service entry then, discreet load‑in now for **therittenhouseresidence.com** events
+* **Office/ground‑floor room:** **1915–1916 medical listings**—parlor as professional suite
+* **Stair landing:** **May 21, 1918**—Naomi Lawton Davis's death **at 1822 Pine** (quietly human scale)
+* **Façade:** **1995 district listing**—why Pine Street still looks like Pine Street
+
+## "Publishable Claims" Checklist (safe to print on site/handouts)
+
+* House built **mid‑19th century (c. 1845)**; **first documented sale 1854** (**McCrea → Roset**) [@deed_1854_abstract]
+* **Turn‑of‑century modernization (1899)** by **Duhring, Okie & Ziegler** for **Agnes M. Spencer** [@deed_1899_abstract]
+* **Suffrage activism (1911, 1915)** and **medical practice (1915–1916)** documented **at this address** [@news_1915_suffrage]
+* **1905 fireplace** installation documented [@news_1905_fireplace]
+* **Historic‑district inclusion (1995)**; **21st‑century restoration/marketing** emphasize **6–8 bedrooms** and preserved fabric
+* **Today:** hospitality configuration **sleeps 16** (up to **18** with sofa‑bed); **rear access via Waverly** supports events/filming with minimal street impact at **The Rittenhouse Residence**
+
+## "Probables" to Flag (publish only with qualifier)
+
+* **Rear extension/back stair** added c. 1900. *Owner recollection consistent with era; verify via permit book/Builders' Guide page before stating as fact*
+* **Stable/coach structure** on Waverly in 19th century. *Typical for the lot; confirm via atlas/Sanborn pull before phrasing as certainty*
+
+---
+
+## Micro‑copy for therittenhouseresidence.com (drop‑in blocks)
+
+### Provenance: What We Can Prove About 1822 Pine Street
+
+*From an 1854 deed to a 1899 architect's contract and a 1915 suffrage line, our story is printed against this exact address—evidence you can tour, book, and trust.*
+
+**Explore the parlors, then plan your event or stay—sleeps 16–18, discreet Waverly load‑in, unmatched Rittenhouse Square location.**
+
+### Quick Facts for Event Planners
+
+* **Built:** c. 1845, first sale 1854
+* **Modernized:** 1899 by Duhring, Okie & Ziegler
+* **Historic Features:** 1905 fireplace, marble mantels, double parlors
+* **Capacity:** Sleeps 16-18, event space for 50-75
+* **Access:** Front on Pine Street, service via Waverly
+* **Protected:** Rittenhouse-Fitler Historic District (1995)
+
+### For Real Estate Professionals
+
+**Documented Provenance:**
+- 1854: McCrea to Roset [@deed_1854_abstract]
+- 1893: Roset Estate to Spencer [@deed_1893_abstract]
+- 1899: To Agnes M. Spencer + DO&Z renovation [@deed_1899_abstract]
+- 1922-1952: Five transfers during apartment era
+- 1995: Historic district designation
+- 2013-present: Luxury rental/event venue
+
+**Investment Highlights:**
+- Protected streetscape ensures neighborhood stability
+- Multiple revenue streams (events, lodging, filming)
+- Documented high-end rental history
+- Original architectural features intact
+
+---
+
+## Closing note
+
+This dossier stays conservative on claims and generous with proof. When you add a clipping scan or permit page, insert it under the relevant bullet and keep the language tight. The house has already done the hard part—it left its footprints in the paper. You're just letting the marble step speak.
+
+Visit **therittenhouseresidence.com** to experience this documented history yourself.

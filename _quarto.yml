@@ -1,0 +1,92 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: "House at the Edge of the Square: 1822 Pine Street"
+  subtitle: "A Historical Documentation Through 1950"
+  author: "1822 Pine Street Historical Project"
+  date: today
+  chapters:
+    - chapters/00-preamble.qmd
+    - chapters/01-before-the-threshold.qmd
+    - chapters/02-between-mourning-and-modernity.qmd
+    - chapters/03-votes-in-the-parlor.qmd
+    - chapters/04-walk-the-rooms.qmd
+    - chapters/05-long-edwardian-afternoon.qmd
+    - chapters/06-architecture-fabric.qmd
+    - chapters/07-apartment-house-years.qmd
+    - chapters/08-back-to-grande-dame.qmd
+    - chapters/09-walk-rooms-field-guide.qmd
+    - chapters/10-provenance-dossier.qmd
+    - chapters/11-events-filming-playbook.qmd
+    - chapters/12-seasonal-house.qmd
+    - chapters/13-floor-plans.qmd
+    - chapters/98-timeline.qmd
+    - chapters/99-document-gallery.qmd
+    - chapters/99-conclusion.qmd
+  downloads: [pdf, epub]
+  sidebar:
+    style: floating
+    search: true
+  page-footer:
+    left: |
+      Copyright 2024, 1822 Pine Street
+    right: |
+      Built with [Quarto](https://quarto.org)
+
+format:
+  html:
+    theme: 
+      light: cosmo
+      dark: slate
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    css: styles/theme.css
+    include-in-header:
+      - text: |
+          <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            // Add zoom functionality to images
+            document.querySelectorAll('.document-image').forEach(img => {
+              img.style.cursor = 'zoom-in';
+              img.addEventListener('click', function() {
+                if (this.style.transform === 'scale(2)') {
+                  this.style.transform = 'scale(1)';
+                  this.style.cursor = 'zoom-in';
+                } else {
+                  this.style.transform = 'scale(2)';
+                  this.style.cursor = 'zoom-out';
+                }
+              });
+            });
+          });
+          </script>
+  pdf:
+    documentclass: book
+    papersize: letter
+    geometry:
+      - margin=1in
+    linkcolor: black
+    urlcolor: blue
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    include-in-header:
+      - text: |
+          \usepackage{fancyhdr}
+          \pagestyle{fancy}
+          \fancyhead[L]{1822 Pine Street}
+          \fancyhead[R]{\thepage}
+  epub:
+    toc: true
+    toc-depth: 2
+    
+bibliography: refs/bibliography_complete.bib
+csl: https://www.zotero.org/styles/chicago-fullnote-bibliography
+lang: en
+
+execute:
+  echo: false
+  warning: false

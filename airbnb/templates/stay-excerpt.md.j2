@@ -1,0 +1,15 @@
+---
+# (Auto‑Generated Stay Excerpt — Airbnb)
+---
+
+## About This Space (Airbnb Extract)
+
+{{ description | truncate(3000, True, ' …') if description }}
+
+{% if amenities %}### Amenities Snapshot
+
+{% for cat, items in amenities.items() %}- **{{ cat }}:** {{ items | join(', ') }}
+{% endfor %}
+{% endif %}
+
+_Sourced from Airbnb {{ source_url }} ({{ last_fetched }} UTC)._

@@ -1,0 +1,12 @@
+{
+  "filename": "1822 2 Floor.jpg",
+  "type": "clipping",
+  "file_hash": "d40a3bb4455aec89bd70f5398234308e",
+  "processed_date": "2025-08-29T13:51:58.448991",
+  "dimensions": "612x792",
+  "text": "",
+  "extracted_date": null,
+  "entities": {},
+  "images": [],
+  "error": "tesseract is not installed or it's not in your PATH. See README file for more information."
+}

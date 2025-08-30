@@ -1,0 +1,64 @@
+---
+title: "Architecture & Fabric"
+subtitle: "What Changed, What Endured"
+---
+
+# Chapter 6 — Architecture & Fabric: What Changed, What Endured
+
+*I keep score in stone. The first tally was brick and marble, a sober grammar of lintel and sill. Then came the careful substitutions: a brighter jet of light, pipes that sang in winter, more confident paper on the walls. Through all of it, I stayed myself: a long hall for movement, two parlors for ceremony, a service path to the quiet of Waverly.*
+
+## The original idea (c. 1845–1854)
+
+**John McCrea's** building campaign west of Broad gave this block its unified red‑brick front and side‑hall plan—late **Greek Revival** tending toward **Italianate** in cornice and proportion. Inside: high ceilings, marble mantels, a gracious stair. Outside: the white‑marble stoop that still frames the entry. The lot runs **22′ × 90′** back to **Waverly**, setting up the invisible service geometry that continues to make events and load‑in easy today at **The Rittenhouse Residence** (therittenhouseresidence.com).
+
+The **April 1854** deed from McCrea to **John Roset** [@deed_1854_abstract] marks the beginning of the house's documented life at this address—the physical foundation for all that would follow.
+
+## The 1899 modernization (tasteful, not tear‑down)
+
+When **Agnes M. Spencer** took title on **April 3, 1899** [@deed_1899_abstract], she hired **Duhring, Okie & Ziegler** for **"alterations & additions"**—a classic turn‑of‑century refresh that likely meant upgraded plumbing and lighting, decorative re‑finishing, and a clearer separation of service from show. This is the provable line—client, address, architects, date—to place beside mantel and stair. Family memory and period patterns suggest a rear addition and back stair; we present those as probable until a permit book or Real Estate Record & Builders' Guide text confirms the exact scope.
+
+The **1905** installation of a fireplace by J.N. Long for **$130** [@news_1905_fireplace] represents the continued investment in comfort and modernization—small improvements that accumulated into the gracious whole we see today.
+
+## Adaptation without amputation (1900s–1950s)
+
+As medicine moved in, the building gained signage and light partitioning rather than structural surgery: a parlor as waiting room, an inner room as consultation, and the family still moving above. The **1915–1916** medical directories listing **Dr. Damon B. Pfeiffer** and **Stillwell Corson Burns** at **1822 Pine** demonstrate this flexible use—professional below, residential above.
+
+Mid‑century, like much of Rittenhouse, 1822 Pine likely cycled through professional suites or apartments—a pragmatic interval that, paradoxically, protected original fabric by keeping the building in constant use. The deed abstracts from **1922**, **1941**, **1947**, **1949**, and **1952** [@deed_1922_abstract; @deed_1941_abstract; @deed_1947_abstract; @deed_1949_abstract; @deed_1952_abstract] trace this evolution of ownership while the bones of the house remained intact.
+
+## Protection and revival (1995 → present)
+
+The house sits within the **Rittenhouse‑Fitler Residential Historic District** (local register, **1995**), which helped preserve its exterior character through late‑20th‑century work and subsequent private restorations. By the 2010s, marketing materials celebrate **6–8 bedrooms**, high ceilings, and original detailing; today the home operates as **The Rittenhouse Residence**, a *historic townhouse stay* and *Rittenhouse Square wedding venue* (with **1822Pine.com** directed to **therittenhouseresidence.com**).
+
+::: {.callout-note}
+### What to Notice Today (fabric that "reads" at a glance)
+
+* **Stair geometry.** The long side‑hall + single stair is the building's time‑machine: public life below, family life above, service to the rear
+* **Mantels & plaster.** Marble and molded plaster mark the mid‑19th‑century core; a few details skew subtly Edwardian, likely from the c. 1899 refit
+* **The 1905 fireplace** in the parlor—still warming gatherings as it did for Mrs. Davis's "At Homes"
+* **Rear logic.** The Waverly axis still does the house's invisible work—catering, staging, light load‑in—exactly as the stable once did
+* **Modern layer.** A roof terrace and "library" finishes are later sympathetic additions—contemporary utility without street‑front disruption under district rules
+:::
+
+## For Event Planners & Filming (practical notes from the fabric)
+
+* **Flow:** side‑hall circulation means clear sightlines and minimal cross‑traffic—ideal for *micro‑weddings*, *board dinners*, *interviews*, and *stills/video setups* at **therittenhouseresidence.com**
+* **Load‑in:** prefer Waverly for quiet staging; protect the marble threshold with mats/ramps
+* **Sound & light:** high ceilings = lively acoustics; plan soft furnishings for audio, and use the long north‑south axis for natural‑light shots
+* **Preservation:** exterior changes are reviewed under district guidelines; interior work that respects the plan reads best with audiences and buyers alike
+
+## For Buyers (how the fabric supports value)
+
+* **Documented modernization:** 1899 DO&Z "alterations & additions." Pair this line with current photos; it signals a house updated in‑period rather than compromised
+* **Continuity of use:** medical listings (1915–1916) and later professional/apartment years show durable utility—an argument for longevity and liquidity
+* **Protected context:** 1995 district listing preserves streetscape value—neighborhood stability that buyers and appraisers recognize
+* **Investment timeline:** From the 1905 fireplace to present‑day systems, each improvement layer adds value while respecting the original fabric
+
+## SEO micro‑copy (drop‑in for therittenhouseresidence.com)
+
+### Rittenhouse Square Historic Townhouse for Weddings, Retreats & Filming
+
+Host your micro‑wedding, reunion, or off‑site at **The Rittenhouse Residence**—an 1840s side‑hall townhouse with 1899 upgrades, elegant double parlors, and discreet Waverly access. Sleeps 16–18.
+
+**Keywords naturally woven:** *Rittenhouse Square wedding venue*, *Philadelphia historic townhouse rental*, *large‑group lodging Center City*, *film location Philadelphia*, *corporate retreat house Rittenhouse*
+
+Visit **therittenhouseresidence.com** to book this extraordinary venue where Philadelphia's architectural heritage meets modern hospitality.

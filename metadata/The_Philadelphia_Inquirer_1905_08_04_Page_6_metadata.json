@@ -1,0 +1,20 @@
+{
+  "filename": "The_Philadelphia_Inquirer_1905_08_04_Page_6.pdf",
+  "type": "clipping",
+  "file_hash": "36a8c452fed89e6c8062bffbfff1bd30",
+  "processed_date": "2025-08-29T13:51:46.451078",
+  "pages": 1,
+  "text": "https://www.newspapers.com/ image/168348476/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Fri, Aug 4, 1905 \n\u00b7 Page 6\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
+  "extracted_date": "1905-08-04",
+  "entities": {
+    "people": [
+      "The Philadelphia Inquirer",
+      "All Rights Reserved"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [],
+  "error": "Unable to get page count. Is poppler installed and in PATH?"
+}

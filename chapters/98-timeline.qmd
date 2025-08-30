@@ -1,0 +1,250 @@
+---
+title: "Historical Timeline"
+subtitle: "1822 Pine Street Through the Decades"
+---
+
+# Historical Timeline
+
+This timeline chronicles the documented history of 1822 Pine Street from the earliest records through 1952, based on newspaper archives, property deeds, and historical documents.
+
+```{python}
+#| echo: false
+#| warning: false
+
+import yaml
+import pandas as pd
+from pathlib import Path
+import json
+
+# Load timeline data
+timeline_path = Path("../data/timeline.yml")
+if timeline_path.exists():
+    with open(timeline_path) as f:
+        timeline_data = yaml.safe_load(f)
+    
+    events = timeline_data.get('timeline', [])
+    
+    # Create a more detailed timeline with context
+    enhanced_events = []
+    
+    for event in events:
+        if event.get('date'):
+            year = int(event['date'][:4]) if event['date'] else 0
+            
+            # Add era context
+            if year < 1890:
+                era = "Early History"
+            elif 1890 <= year < 1900:
+                era = "The Spencer Era"
+            elif 1900 <= year < 1910:
+                era = "Turn of the Century"
+            elif 1910 <= year < 1920:
+                era = "Progressive Era"
+            elif 1920 <= year < 1940:
+                era = "Between the Wars"
+            else:
+                era = "Mid-20th Century"
+            
+            enhanced_events.append({
+                'Date': event['date'],
+                'Year': year,
+                'Era': era,
+                'Event': event.get('description', ''),
+                'Source': event.get('source', '')
+            })
+    
+    # Create DataFrame for display
+    df = pd.DataFrame(enhanced_events)
+    if not df.empty:
+        df = df.sort_values('Date')
+```
+
+## Timeline by Era
+
+### Early History (Pre-1890)
+
+```{python}
+#| echo: false
+#| output: asis
+
+if 'df' in locals() and not df.empty:
+    early = df[df['Era'] == 'Early History']
+    if not early.empty:
+        for _, row in early.iterrows():
+            print(f"**{row['Date']}**")
+            print(f"- {row['Event']}")
+            print(f"- *Source: {row['Source']}*")
+            print()
+```
+
+### The Spencer Era (1890-1899)
+
+The 1890s marked a significant period for 1822 Pine Street, with the Spencer family establishing their residence and experiencing both tragedy and transformation.
+
+```{python}
+#| echo: false
+#| output: asis
+
+if 'df' in locals() and not df.empty:
+    spencer_era = df[df['Era'] == 'The Spencer Era']
+    if not spencer_era.empty:
+        for _, row in spencer_era.iterrows():
+            print(f"**{row['Date']}**")
+            print(f"- {row['Event']}")
+            print(f"- *Source: {row['Source']}*")
+            print()
+```
+
+::: {.callout-note}
+**Key Event**: April 20, 1891 - Howard Spencer Jr., aged 7, died of scarlet fever at 1822 Pine Street, marking a tragic moment in the house's history.
+:::
+
+### Turn of the Century (1900-1909)
+
+The new century brought new families and modernization to the property.
+
+```{python}
+#| echo: false
+#| output: asis
+
+if 'df' in locals() and not df.empty:
+    turn_century = df[df['Era'] == 'Turn of the Century']
+    if not turn_century.empty:
+        for _, row in turn_century.iterrows():
+            print(f"**{row['Date']}**")
+            print(f"- {row['Event']}")
+            print(f"- *Source: {row['Source']}*")
+            print()
+```
+
+::: {.callout-note}
+**Notable Residents**: 
+- 1901: Fayette R. Plumb (manufacturer)
+- 1904: Mrs. Henry C. Davis and family
+- 1905: Fireplace installation ($130)
+:::
+
+### Progressive Era (1910-1919)
+
+The 1910s saw 1822 Pine Street connected to the women's suffrage movement.
+
+```{python}
+#| echo: false
+#| output: asis
+
+if 'df' in locals() and not df.empty:
+    progressive = df[df['Era'] == 'Progressive Era']
+    if not progressive.empty:
+        for _, row in progressive.iterrows():
+            print(f"**{row['Date']}**")
+            print(f"- {row['Event']}")
+            print(f"- *Source: {row['Source']}*")
+            print()
+```
+
+::: {.callout-note}
+**Suffrage Connection**: 1915 - Miss Martha Davis of 1822 Pine Street sold tickets for Equal Franchise Society benefits, linking the house to the women's suffrage movement.
+:::
+
+### Between the Wars (1920-1939)
+
+```{python}
+#| echo: false
+#| output: asis
+
+if 'df' in locals() and not df.empty:
+    between_wars = df[df['Era'] == 'Between the Wars']
+    if not between_wars.empty:
+        for _, row in between_wars.iterrows():
+            print(f"**{row['Date']}**")
+            print(f"- {row['Event']}")
+            print(f"- *Source: {row['Source']}*")
+            print()
+```
+
+### Mid-20th Century (1940-1952)
+
+```{python}
+#| echo: false
+#| output: asis
+
+if 'df' in locals() and not df.empty:
+    mid_century = df[df['Era'] == 'Mid-20th Century']
+    if not mid_century.empty:
+        for _, row in mid_century.iterrows():
+            print(f"**{row['Date']}**")
+            print(f"- {row['Event']}")
+            print(f"- *Source: {row['Source']}*")
+            print()
+```
+
+## Visual Timeline
+
+```{python}
+#| echo: false
+#| fig-cap: "1822 Pine Street: 128 Years of History"
+
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+from datetime import datetime
+
+if 'df' in locals() and not df.empty:
+    # Create figure
+    fig, ax = plt.subplots(figsize=(12, 8))
+    
+    # Group events by decade
+    df['Decade'] = (df['Year'] // 10) * 10
+    decade_counts = df.groupby('Decade').size()
+    
+    # Create bar chart
+    decades = list(decade_counts.index)
+    counts = list(decade_counts.values)
+    
+    bars = ax.bar([str(d) + 's' for d in decades], counts, color='#8b7355')
+    
+    # Customize
+    ax.set_xlabel('Decade', fontsize=12)
+    ax.set_ylabel('Number of Documented Events', fontsize=12)
+    ax.set_title('1822 Pine Street: Historical Documentation by Decade', fontsize=14, fontweight='bold')
+    
+    # Add value labels on bars
+    for bar, count in zip(bars, counts):
+        height = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width()/2., height + 0.1,
+                f'{int(count)}', ha='center', va='bottom')
+    
+    # Style
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.grid(axis='y', alpha=0.3)
+    
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+```
+
+## Summary Statistics
+
+```{python}
+#| echo: false
+
+if 'df' in locals() and not df.empty:
+    print(f"**Total Documented Events**: {len(df)}")
+    print(f"**Date Range**: {df['Date'].min()} to {df['Date'].max()}")
+    print(f"**Most Active Decade**: {df['Decade'].mode().values[0]}s")
+    print(f"**Number of Property Transfers**: {len(df[df['Event'].str.contains('Deed', na=False)])}")
+```
+
+::: {.callout-buyer}
+**For Prospective Buyers**
+This comprehensive timeline demonstrates the thoroughly documented provenance of 1822 Pine Street, with newspaper coverage, property records, and social documentation spanning over a century. The continuous record of notable residents and improvements establishes the property's significance in Philadelphia's social history.
+:::
+
+::: {.callout-guest}
+**For Guests**
+As you walk through these rooms, you're experiencing spaces that have hosted Philadelphia society for over 150 years—from Victorian mourning rituals to suffragette meetings, from wedding breakfasts to "At Home" afternoons.
+:::
+
+---
+
+*Continue to Chapter 99: Document Gallery →*

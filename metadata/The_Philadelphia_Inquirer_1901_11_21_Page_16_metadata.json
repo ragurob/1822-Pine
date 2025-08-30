@@ -1,0 +1,20 @@
+{
+  "filename": "The_Philadelphia_Inquirer_1901_11_21_Page_16.pdf",
+  "type": "clipping",
+  "file_hash": "726d36c58e0704343441475efe358a95",
+  "processed_date": "2025-08-29T13:51:58.416956",
+  "pages": 1,
+  "text": "https://www.newspapers.com/ image/168316181/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Thu, Nov 21, \n1901 \u00b7 Page 16\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
+  "extracted_date": "1901-11-21",
+  "entities": {
+    "people": [
+      "The Philadelphia Inquirer",
+      "All Rights Reserved"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [],
+  "error": "Unable to get page count. Is poppler installed and in PATH?"
+}

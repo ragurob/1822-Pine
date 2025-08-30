@@ -1,0 +1,20 @@
+{
+  "filename": "The_Philadelphia_Inquirer_1908_01_06_Page_14.pdf",
+  "type": "clipping",
+  "file_hash": "6728a9525c49998eb00aa53a79aeea10",
+  "processed_date": "2025-08-29T13:52:13.373933",
+  "pages": 1,
+  "text": "https://www.newspapers.com/ image/168301766/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Mon, Jan 6, \n1908 \u00b7 Page 14\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
+  "extracted_date": "1908-01-06",
+  "entities": {
+    "people": [
+      "The Philadelphia Inquirer",
+      "All Rights Reserved"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [],
+  "error": "Unable to get page count. Is poppler installed and in PATH?"
+}

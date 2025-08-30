@@ -1,0 +1,17 @@
+{
+  "filename": "1822 Pine - Deed 1987.pdf",
+  "type": "deed",
+  "file_hash": "9ae0148be852b759b74a57f3e982a2e3",
+  "processed_date": "2025-08-29T13:51:58.597039",
+  "pages": 4,
+  "text": "\n\n\n",
+  "extracted_date": null,
+  "entities": {
+    "people": [],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [],
+  "error": "Unable to get page count. Is poppler installed and in PATH?"
+}

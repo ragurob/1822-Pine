@@ -1,0 +1,12 @@
+{
+  "filename": "1822 Roof Deck.jpg",
+  "type": "clipping",
+  "file_hash": "267bfb48e2f4637f3a976df9960e23ed",
+  "processed_date": "2025-08-29T13:51:58.566685",
+  "dimensions": "612x792",
+  "text": "",
+  "extracted_date": null,
+  "entities": {},
+  "images": [],
+  "error": "tesseract is not installed or it's not in your PATH. See README file for more information."
+}

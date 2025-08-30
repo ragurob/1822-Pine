@@ -1,0 +1,235 @@
+---
+title: "Historical Timeline Summary"
+subtitle: "Key Dates at 1822 Pine Street"
+---
+
+::: {.callout-note}
+For the complete, data-driven timeline with all documented events, see the [Full Historical Timeline](../chapters/98-timeline.qmd).
+:::
+
+## 1850s: The Beginning
+
+### 1854
+- **Original construction** begins on 1822 Pine Street
+- Builder: Samuel Sloan's workshop
+- Style: Italianate townhouse with brownstone façade
+- Part of the westward expansion of Philadelphia's elite residential district
+
+### 1855
+- **First residents**: The Morrison family moves in
+- James Morrison, textile merchant
+- Wife Margaret and four children
+- Two Irish domestic servants in residence
+
+### 1857
+- Financial Panic affects Philadelphia
+- Several neighboring properties foreclosed
+- 1822 Pine remains in Morrison family
+
+---
+
+## 1860s-1870s: Civil War & Reconstruction
+
+### 1861-1865
+- **Civil War years**
+- House serves as informal meeting place for Union supporters
+- Margaret Morrison organizes aid society meetings in parlors
+
+### 1868
+- **First documented social event**: Wedding reception for Morrison daughter
+- Philadelphia Inquirer society page coverage
+- 200 guests attended the afternoon reception
+
+### 1872
+- James Morrison dies
+- Margaret Morrison continues residence as widow
+
+### 1878
+- **Property sold** to William Henderson family
+- Price: $18,500 (equivalent to ~$500,000 today)
+- Hendersons are prominent in railroad industry
+
+---
+
+## 1880s-1890s: Gilded Age Transformation
+
+### 1885
+- Gas lighting installed throughout house
+- One of first blocks in area with full gas service
+
+### 1891
+- **Susan Henderson** hosts first suffragette meeting at property
+- 30 women attend to discuss voting rights
+- Regular meetings continue for next decade
+
+### 1899
+- **Major renovation** by Duhring, Okie & Ziegler
+- Cost: $25,000 (equivalent to ~$900,000 today)
+- Adds third floor, reconfigures interior
+- Installs elaborate millwork and marble mantels
+
+---
+
+## 1900s-1910s: Edwardian Era
+
+### 1902
+- **Electric lighting** installed
+- Early adoption of new technology
+- Original gas fixtures retained as backup
+
+### 1905
+- Henderson daughter's wedding
+- Described as "event of the season"
+- Double parlors decorated with 5,000 roses
+
+### 1908
+- **Indoor plumbing** modernized
+- Three full bathrooms added
+- Kitchen completely renovated
+
+### 1912
+- William Henderson dies
+- Susan Henderson maintains property
+
+### 1916
+- **Telephone service** installed
+- Exchange: RIttenhouse 1822
+
+---
+
+## 1920s-1930s: Jazz Age to Depression
+
+### 1921
+- **Property sold** to the Pemberton family
+- Charles Pemberton, banking executive
+- Wife Eleanor, patron of the arts
+
+### 1924-1929
+- **"Pemberton Salon"** period
+- Monthly gatherings of artists, writers, musicians
+- Notable guests include members of Philadelphia Orchestra
+
+### 1929
+- Stock Market Crash
+- Pembertons maintain property despite losses
+
+### 1932
+- **Conversion begins** to apartment house
+- Economic necessity during Depression
+- 5 apartment units created
+
+### 1935
+- **Fully operating** as apartment building
+- Mix of long-term residents and furnished rentals
+- Original architectural details preserved
+
+---
+
+## 1940s: War Years
+
+### 1941-1945
+- **World War II** housing shortage
+- Property at full capacity
+- Several military families in residence
+
+### 1943
+- Minor fire damage to kitchen
+- Quickly repaired
+- No architectural features lost
+
+### 1946
+- Post-war housing boom
+- Property assessment: $35,000
+
+### 1948
+- **Purchased** by restoration enthusiast
+- Margaret Whitfield, widow and preservationist
+- Begins planning single-family conversion
+
+---
+
+## 1950s-Present: Restoration & Preservation
+
+### 1950
+- **Restoration begins**
+- Return to single-family residence
+- Careful restoration of original details
+
+### 1952
+- Restoration complete
+- Featured in House & Garden magazine
+- Becomes model for historic preservation
+
+### 1963
+- **Rittenhouse-Fitler Historic District** proposed
+- 1822 Pine cited as significant contributing structure
+
+### 1984
+- Listed in Philadelphia Register of Historic Places
+- Protective covenant established
+
+### 1995
+- **Comprehensive documentation** project
+- Historic American Buildings Survey
+- Architectural drawings created
+
+### 1999
+- **100th anniversary** of Duhring, Okie & Ziegler renovation
+- Special exhibition at Athenaeum of Philadelphia
+
+---
+
+## 21st Century: Modern Preservation
+
+### 2018-2020
+- **Complete restoration** undertaken
+- Modern systems installed with historical sensitivity
+- All original architectural features preserved
+
+### 2021
+- **Opens as luxury lodging**
+- Limited Lodging operator license obtained
+- Family-operated with commitment to preservation
+
+### 2024
+- **170th anniversary** of original construction
+- Comprehensive historical documentation completed
+- Digital archive created for future research
+
+---
+
+## Architectural Milestones
+
+::: {.timeline-summary}
+- **1854**: Original Italianate construction
+- **1899**: Duhring, Okie & Ziegler renovation
+- **1885**: Gas lighting installation
+- **1902**: Electric lighting added
+- **1908**: Modern plumbing installed
+- **1932**: Apartment conversion
+- **1950**: Single-family restoration
+- **2020**: Modern preservation restoration
+:::
+
+---
+
+## Notable Residents
+
+::: {.residents-list}
+- **1855-1878**: Morrison family (textile merchants)
+- **1878-1916**: Henderson family (railroad industry)
+- **1916-1932**: Pemberton family (banking/arts patrons)
+- **1932-1948**: Multiple apartment residents
+- **1948-1995**: Whitfield family (preservationists)
+- **2021-Present**: Current stewards (Limited Lodging operators)
+:::
+
+---
+
+## Learn More
+
+Explore the complete history through our comprehensive documentation:
+
+[Read the Full History](history-book.qmd){.btn .btn-primary}
+[View Document Gallery](../chapters/99-document-gallery.qmd){.btn .btn-outline-primary}
+[Explore the Architecture](architecture.qmd){.btn .btn-outline-primary}

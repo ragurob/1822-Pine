@@ -1,0 +1,20 @@
+{
+  "filename": "The_Philadelphia_Times_1896_06_29_Page_5.pdf",
+  "type": "clipping",
+  "file_hash": "da7b2069108ec60028341e3992cfe4c4",
+  "processed_date": "2025-08-29T13:51:58.630000",
+  "pages": 1,
+  "text": "https://www.newspapers.com/ image/52394573/The Philadelphia Times (Philadelphia, Pennsylvania) \u00b7 Mon, Jun 29, \n1896 \u00b7 Page 5\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
+  "extracted_date": "1896-06-29",
+  "entities": {
+    "people": [
+      "The Philadelphia Times",
+      "All Rights Reserved"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [],
+  "error": "Unable to get page count. Is poppler installed and in PATH?"
+}

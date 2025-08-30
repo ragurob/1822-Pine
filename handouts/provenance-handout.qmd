@@ -1,0 +1,69 @@
+---
+title: "1822 Pine Street - Historical Provenance"
+format:
+  pdf:
+    documentclass: article
+    geometry:
+      - margin=0.75in
+    fontsize: 11pt
+  html:
+    toc: false
+---
+
+# 1822 Pine Street, Philadelphia
+## The Rittenhouse Residence - Historical Provenance
+
+### Property Timeline
+
+**1854** — John McCrea (developer) sells newly-built house to John Roset, merchant  
+**1854-1893** — Roset family residence (39 years)  
+**1891** — Howard Spencer Jr. dies of scarlet fever at the house, age 7  
+**1893** — Property transfers to Howard Spencer  
+**1899** — Agnes M. Spencer inherits; commissions Duhring, Okie & Ziegler for modernization  
+**1901** — Fayette R. Plumb residence; Rolin-Plumb wedding breakfast  
+**1904** — Mrs. Henry C. Davis establishes "At Home" days  
+**1905** — J.N. Long installs fireplace ($130 investment)  
+**1911** — Mrs. Davis refuses taxes without vote (suffrage activism)  
+**1915** — Miss Martha Davis sells Equal Franchise Society tickets from house  
+**1915-1916** — Dr. Damon B. Pfeiffer medical practice  
+**1918** — Naomi Lawton Davis dies at 1822 Pine  
+**1922-1952** — Multiple ownership transfers; apartment/professional use  
+**1995** — Included in Rittenhouse-Fitler Residential Historic District  
+**2013-Present** — Restored to single-family use; luxury rental and event venue  
+
+### Architectural Significance
+
+- **Original Construction**: c. 1845-1854, Greek Revival transitioning to Italianate
+- **Builder**: John McCrea, prominent Philadelphia developer
+- **1899 Renovation**: Duhring, Okie & Ziegler (noted restoration architects)
+- **Preserved Features**: Marble mantels, original staircase, double parlors, 1905 fireplace
+- **Lot**: 22' × 90' running from Pine Street to Waverly Street
+
+### Notable Residents & Events
+
+- **Roset Family**: Connected to Drexel banking family through marriage
+- **Spencer/Davis Era**: Documented suffrage activism headquarters
+- **Medical Practice**: Early example of mixed residential/professional use
+- **Social History**: Documented "At Homes," weddings, and society gatherings
+
+### Current Use - The Rittenhouse Residence
+
+- **Capacity**: Sleeps 16-18; Events for 50-75
+- **Venue Features**: Double parlors, garden access, separate service entrance
+- **Bookings**: therittenhouseresidence.com
+- **Address**: 1822 Pine Street, Philadelphia, PA 19103
+
+### Documentation Available
+
+All claims supported by:
+- Property deeds (1854-present)
+- Philadelphia newspaper archives
+- Building permits and directories
+- Historic district designation (1995)
+- Photographic documentation
+
+---
+
+*For complete historical documentation, refer to "House at the Edge of the Square: 1822 Pine Street"*
+
+**Contact**: Visit therittenhouseresidence.com for tours and bookings

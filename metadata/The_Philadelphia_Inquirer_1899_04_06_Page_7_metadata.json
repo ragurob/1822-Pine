@@ -1,0 +1,20 @@
+{
+  "filename": "The_Philadelphia_Inquirer_1899_04_06_Page_7.pdf",
+  "type": "clipping",
+  "file_hash": "ee93fc66adc8f15c5d100e7ec3f249d9",
+  "processed_date": "2025-08-29T13:51:46.440922",
+  "pages": 1,
+  "text": "https://www.newspapers.com/ image/168302979/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Thu, Apr 6, \n1899 \u00b7 Page 7\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
+  "extracted_date": "1899-04-06",
+  "entities": {
+    "people": [
+      "The Philadelphia Inquirer",
+      "All Rights Reserved"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [],
+  "error": "Unable to get page count. Is poppler installed and in PATH?"
+}

@@ -1,0 +1,30 @@
+fields:
+  title:
+    selectors:
+      - css: 'meta[property="og:title"]'
+      - css: 'h1[data-testid="title"]'
+  subtitle:
+    selectors:
+      - css: 'h2[data-testid="subtitle"]'
+  description:
+    selectors:
+      - css: 'div[data-section-id="DESCRIPTION_DEFAULT"]'
+      - css: 'section[data-testid="DESCRIPTION_DEFAULT"]'
+  house_rules:
+    selectors:
+      - css: 'div[data-section-id="HOUSE_RULES_DEFAULT"]'
+      - css: 'section[data-testid="HOUSE_RULES_DEFAULT"]'
+  amenities:
+    selectors:
+      - css: 'div[data-section-id="AMENITIES_DEFAULT"]'
+      - css: 'section[data-testid="AMENITIES_DEFAULT"]'
+  location_snippet:
+    selectors:
+      - css: 'div[data-section-id="LOCATION_DEFAULT"]'
+  image_gallery:
+    selectors:
+      - css: 'div[data-testid="image-grid"]'
+settings:
+  max_images: 12
+  min_text_length: 15
+  request_timeout: 20000

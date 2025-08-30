@@ -1,0 +1,20 @@
+{
+  "filename": "The_United_States_Gazette_1824_03_26_3.pdf",
+  "type": "clipping",
+  "file_hash": "e8def1da5e485677e56d7323e299af04",
+  "processed_date": "2025-08-29T13:51:46.434201",
+  "pages": 1,
+  "text": "https://www.newspapers.com/ image/605056395/The United States Gazette (Philadelphia, Pennsylvania) \u00b7 Fri, Mar 26, \n1824 \u00b7 Page 3\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
+  "extracted_date": "1824-03-26",
+  "entities": {
+    "people": [
+      "The United States Gazette",
+      "All Rights Reserved"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [],
+  "error": "Unable to get page count. Is poppler installed and in PATH?"
+}

@@ -1,0 +1,254 @@
+---
+title: "Floor Plans for Event Planning"
+subtitle: "The Rittenhouse Residence - 1822 Pine Street"
+---
+
+# Floor Plans for Event Planning
+
+Plan your perfect event with our detailed architectural drawings. These floor plans show exact room configurations, traffic flow, and service access points essential for successful event execution.
+
+## Quick Planning Guide
+
+### Capacity by Event Type
+
+| Event Type | Capacity | Configuration |
+|------------|----------|---------------|
+| **Seated Dinner** | 12-16 | Formal dining room + parlor table |
+| **Cocktail Reception** | 50-75 | Full first floor flow |
+| **Ceremony** | 30-50 | Parlors with chairs |
+| **Corporate Meeting** | 25-30 | Boardroom or theater style |
+| **Full House Buyout** | 16-18 | Overnight accommodation |
+
+### Critical Measurements
+- **Parlor Doorways**: 5 feet (double pocket doors: 10 feet)
+- **Hall Width**: 5 feet
+- **Ceiling Heights**: 12 feet (first floor), 10 feet (upper floors)
+- **Dining Table**: Seats 12 (expandable to 16)
+
+---
+
+## First Floor - Main Event Space
+
+![First Floor - Event Layout](../images/floor-plans/1822 1 Floor.pdf){width=100%}
+
+### Event Setup Options
+
+#### Ceremony Configuration
+- **Aisle**: Run north-south through parlor axis
+- **Seating**: 30 chairs in front parlor, 20 in rear
+- **Altar**: At fireplace or window bay
+- **Music**: Piano placement in corner
+
+#### Reception Configuration
+- **Bar**: Second parlor near garden door
+- **Food Stations**: Dining room and hall
+- **Dance Floor**: Center of front parlor (remove furniture)
+- **Guest Flow**: Circular through all rooms
+
+#### Corporate Configuration
+- **Presentation**: Front parlor with screen at fireplace
+- **Breakout 1**: Second parlor
+- **Breakout 2**: Dining room
+- **Catering**: Buffet in dining room
+
+### Service Access
+- **Primary Guest Entry**: Pine Street front door
+- **Vendor Entry**: Waverly Street rear access
+- **Kitchen Access**: Direct to dining room
+- **Coat Storage**: Hall closet + second floor if needed
+
+---
+
+## Second Floor - VIP & Prep Space
+
+![Second Floor - Support Spaces](../images/floor-plans/1822 2 Floor.pdf){width=100%}
+
+### Event Support Uses
+
+#### Wedding Day
+- **Bridal Suite**: Emily Drexel Suite (rear)
+- **Hair & Makeup**: Library Suite with natural light
+- **Photography**: Library Suite and stairway
+- **Groom's Quarters**: Front bedroom
+
+#### Corporate Events
+- **Executive Office**: Library Suite with desk
+- **Private Meetings**: Emily Drexel sitting room
+- **Phone Calls**: Quiet spaces throughout
+- **Storage**: Ample closet space
+
+---
+
+## Third Floor - Catering & Support
+
+![Third Floor - Service Level](../images/floor-plans/1822 3 Floor.pdf){width=100%}
+
+### Catering Advantages
+- **Second Full Kitchen**: Prep and staging area
+- **Casual Dining**: Overflow seating for 8
+- **Bar Setup**: Second bar location
+- **Staff Break Room**: Rear lounge
+- **Storage**: For supplies and equipment
+
+### Guest Overflow
+- **Cocktail Hour**: Additional mingling space
+- **Kids' Area**: Separate from main event
+- **Quiet Zone**: For guests needing a break
+
+---
+
+## Fourth Floor - Accommodation
+
+![Fourth Floor - Guest Rooms](../images/floor-plans/1822 4 Floor.pdf){width=100%}
+
+### Overnight Capacity
+- **Pine Street Suite**: 2 queens (4 guests)
+- **Waverly Suite**: 1 queen + 1 full (3-4 guests)
+- **Total Fourth Floor**: 7-8 guests
+
+### Event Uses
+- **Wedding Party**: Housing for out-of-town guests
+- **Corporate**: Executive accommodation
+- **Storage**: Equipment and supplies
+- **Green Room**: Talent holding for productions
+
+---
+
+## Roof Deck - Seasonal Bonus
+
+![Roof Deck Layout](../images/floor-plans/1822 Roof Deck.pdf){width=100%}
+
+### Cocktail Hour Option (Weather Permitting)
+- **Capacity**: 12-15 for cocktails
+- **Season**: April through October
+- **Hours**: Must end by 10 PM
+- **Setup**: Existing furniture only
+- **Restrictions**: No glassware, no dance floor
+
+### Photo Opportunities
+- **City Skyline**: 360-degree views
+- **Golden Hour**: Spectacular sunset shots
+- **Private**: No overlooking buildings
+
+---
+
+## Traffic Flow Diagrams
+
+### Guest Flow Pattern
+```
+Pine Street Entry → Hall → Parlor 1 → Parlor 2 → Dining → Garden
+                     ↓                                      ↓
+                  Powder Room                        Waverly Exit
+```
+
+### Service Flow Pattern
+```
+Waverly Entry → Kitchen → Dining Room → Parlors
+        ↓
+   Second Kitchen (3rd Floor) → Service Elevator (dishes only)
+```
+
+---
+
+## Load-In Logistics
+
+### Timing
+- **Setup Start**: 9:00 AM earliest
+- **Vendor Access**: Via Waverly only
+- **Guest Arrival**: 30 minutes before event
+- **Breakdown**: Must complete by midnight
+
+### Equipment Placement
+- **Catering**: Kitchen and third floor
+- **AV Equipment**: Parlor corners
+- **Flowers**: Throughout first floor
+- **Rentals**: Delivered to Waverly
+
+### Protection Requirements
+- **Floors**: Runners in high-traffic areas
+- **Marble**: Padding for heavy equipment
+- **Walls**: No tape or adhesives
+- **Furniture**: Movement only with permission
+
+---
+
+## Planning Resources
+
+### Download Options
+- [High-Resolution Floor Plans (PDF)](#)
+- [Furniture Layout Options (PDF)](#)
+- [Capacity Calculator (Excel)](#)
+- [Vendor Access Map (PDF)](#)
+
+### Virtual Planning Tools
+- **3D Walkthrough**: Available on request
+- **Video Tour**: therittenhouseresidence.com/tour
+- **Zoom Consultation**: Schedule with our team
+
+### Preferred Vendors
+Our vendors know these floor plans intimately:
+- **Peachtree Catering**: Full-service events
+- **Bloom Flower Shop**: Familiar with all surfaces
+- **Party Rental Ltd**: Exact table/chair fits
+- **Sound Solutions**: Acoustic optimization
+
+---
+
+## Booking Your Event
+
+### What We Provide
+- Exclusive use of designated spaces
+- Tables and chairs for 40
+- Full kitchen access
+- China and glassware for 16
+- Setup/breakdown assistance
+- Day-of coordination support
+
+### What You Arrange
+- Catering and bar service
+- Additional rentals
+- Entertainment
+- Flowers and décor
+- Photography/videography
+- Event insurance
+
+### Investment
+- **4-Hour Event**: Starting at $3,500
+- **Full Day (12 hours)**: Starting at $5,500
+- **Full Weekend Buyout**: Starting at $12,000
+- *Includes overnight accommodation for 16-18*
+
+---
+
+## Site Visits
+
+Seeing the space is essential for planning. We offer:
+
+### Venue Tours
+- **Tuesday-Thursday**: 10 AM - 4 PM
+- **By Appointment**: 60 minutes
+- **Include**: All floors and outdoor spaces
+- **Bring**: Your planner and vendors
+
+### Planning Meetings
+- **In-Person**: At the residence
+- **Virtual**: Via Zoom with floor plans
+- **Include**: Capacity planning, layout options
+- **Output**: Customized event blueprint
+
+---
+
+## Contact Our Events Team
+
+Ready to plan your event? 
+
+**Email**: events@therittenhouseresidence.com  
+**Phone**: [Provided upon inquiry]  
+**Website**: therittenhouseresidence.com/events  
+**Instagram**: @therittenhouseresidence  
+
+*Please include your event date, type, and approximate guest count in your inquiry.*
+
+---
+
+*The Rittenhouse Residence - Where Philadelphia's history becomes your celebration*

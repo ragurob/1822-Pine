@@ -1,0 +1,399 @@
+---
+title: "Welcome to The Rittenhouse Residence"
+subtitle: "Your Guide to 1822 Pine Street"
+format:
+  pdf:
+    documentclass: article
+    geometry:
+      - margin=1in
+    fontsize: 11pt
+    toc: true
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+# Welcome to The Rittenhouse Residence
+
+Dear Guests,
+
+Welcome to **1822 Pine Street**, a magnificent piece of Philadelphia history that has been welcoming visitors since 1854. You're not just staying in a house—you're experiencing 170 years of Philadelphia life, from Victorian elegance through the suffragette movement to today's modern luxury.
+
+As you cross the white marble threshold, you're following in the footsteps of merchants and activists, doctors and socialites, all of whom called this address home. We're delighted you've chosen The Rittenhouse Residence for your Philadelphia stay.
+
+This guidebook will help you make the most of your time here. Please don't hesitate to reach out if you need anything during your stay.
+
+Warmly,  
+The Rittenhouse Residence Team
+
+---
+
+## Quick Start Guide
+
+### Your Access Codes
+- **Front Door Code**: [Provided separately]
+- **WiFi Network**: RittenhouseResidence_5G
+- **WiFi Password**: [Provided separately]
+- **Emergency Contact**: [Provided separately]
+
+### Essential Information
+- **Check-out Time**: 11:00 AM
+- **Quiet Hours**: 10:00 PM - 8:00 AM
+- **Maximum Occupancy**: 16 guests (all must be registered)
+- **No Smoking**: Anywhere on property
+- **No Parties**: Strictly enforced with monitoring
+
+---
+
+## The House Story
+
+### A Living Timeline
+**1854**: Built by developer John McCrea, first owned by the Roset family  
+**1891**: The Spencer era begins amid both tragedy and transformation  
+**1899**: Modernized by architects Duhring, Okie & Ziegler  
+**1901**: Society weddings and winter "At Homes" fill the parlors  
+**1905**: The fireplace you'll enjoy tonight was installed  
+**1911-1915**: Suffragette meetings held in these very rooms  
+**1995**: Protected as part of Rittenhouse-Fitler Historic District  
+**Today**: Your chapter in this continuing story
+
+### What Makes This Special
+The double parlors where you'll gather for breakfast once hosted Victorian weddings and suffragette strategy sessions. The marble threshold you cross counted calling cards in the 1890s. The service corridor to Waverly Street that your breakfast delivery uses once brought coal and ice. Every room has a story—ask us about your suite's history!
+
+---
+
+## Your Suites
+
+*Floor plans are available in the Library Suite showing the complete house layout.*
+
+### Second Floor Suites
+
+#### The Emily Drexel Suite (Rear)
+Named for the Roset-Drexel family connection (the original owners' daughter married into the banking family), this master suite offers garden views and the house's most spacious private quarters. Perfect for the trip organizer who deserves extra comfort.
+
+#### The Library Suite (Front)
+Originally the ladies' sitting room and house library, this is our premier suite with wet bar, 70" Smart TV, and workspace. Many groups choose to keep this as a communal gathering space—the choice is yours!
+
+### Third Floor
+
+#### The Mansion Suite (Front)
+The original master bedroom from the 1854 plan, this two-bedroom suite maintains its primacy with Pine Street views and preserved period details.
+
+#### Entertainment Lounge & Kitchen #2 (Rear)
+Your breakfast buffet station and late-night snack center. No bedrooms here—just comfort and convenience.
+
+### Fourth Floor Suites
+
+#### Pine Street Suite (Front)
+Wake up to tree-top views of Pine Street in this converted servants' quarters, now offering two queen bedrooms with all modern amenities.
+
+#### Waverly Street Suite (Rear)
+Overlooking the historic service alley, this sunny suite provides a quiet retreat at the top of the house.
+
+---
+
+## House Amenities
+
+### The Double Parlors
+Your main gathering space features:
+- **1905 working fireplace** (decorative use only)
+- **Pool table** for evening entertainment
+- **Lounge seating** for 20+ guests
+- **Original marble mantels** from 1854
+
+### Dining Options
+- **Formal Dining Room**: Seats 12 at main table
+- **Expansion Available**: Add 4 more with advance notice
+- **Kitchen Dining**: Casual seating for 8 on third floor
+- **Garden Access**: Weather permitting
+
+### Two Full Kitchens
+**Main Kitchen (First Floor)**
+- Professional gas range and double ovens
+- Full cookware and serving pieces for 16
+- Coffee station with Keurig and traditional maker
+- Direct access to formal dining room
+
+**Upper Kitchen (Third Floor)**
+- Perfect for breakfast prep and late-night snacks
+- Additional refrigerator and freezer space
+- Casual dining area
+- Access to rear terrace
+
+### The Roof Deck
+**Your exclusive urban oasis** (weather permitting):
+- 360-degree Philadelphia views
+- Furniture for 12
+- Open 8:00 AM - 10:00 PM only
+- No glassware permitted
+- Access via fourth floor stairs
+
+### Technology & Comfort
+- **High-speed WiFi** throughout (500+ Mbps)
+- **Smart TVs** in Library Suite and select bedrooms
+- **Climate control** in all rooms
+- **Washer/Dryer** in basement
+- **Iron and board** in second floor closet
+- **Hair dryers** in all bathrooms
+
+---
+
+## House Rules Summary
+
+### Respect the History
+This is a protected historic property. Please:
+- Don't move furniture without permission
+- No adhesives on any surfaces
+- Handle artifacts and artwork with care
+- Report any accidents immediately
+
+### Be a Good Neighbor
+We're in a quiet residential area:
+- **Noise sensors** monitor sound levels
+- **79 decibel limit** strictly enforced
+- **Quiet hours** 10 PM - 8 AM
+- **No parties** under any circumstances
+
+### Safety First
+- No smoking anywhere (including roof deck)
+- No candles except in designated holders
+- Keep front door locked at all times
+- Don't share access codes
+
+### Full Rules
+Complete house rules available at therittenhouseresidence.com/house-rules
+
+---
+
+## Dining & Catering
+
+### In-House Dining
+You have full access to both kitchens. Local grocery options:
+- **Whole Foods**: 2101 Pennsylvania Ave (10-min walk)
+- **Trader Joe's**: 2121 Market St (12-min walk)
+- **DiBruno Bros**: 1730 Chestnut (8-min walk)
+- **Instacart/Amazon Fresh**: Deliver to front door
+
+### Catered Events
+Planning a special dinner? We work with several caterers familiar with the house:
+- **Peachtree Catering**: Full-service events
+- **Saxbys Catering**: Corporate breakfast/lunch
+- **DiBruno Bros**: Cheese boards and prepared foods
+
+Contact us for introductions and planning assistance.
+
+### Restaurant Recommendations
+
+**Fine Dining (Reservations Essential)**
+- **Vernick Food & Drink**: 2031 Walnut (5-min walk)
+- **Parc**: 227 S 18th, overlooking Rittenhouse Square
+- **Barclay Prime**: 237 S 18th, premium steakhouse
+
+**Casual Favorites**
+- **Dizengoff**: 1625 Sansom, Israeli hummus
+- **Mac Mart**: 104 S 18th, gourmet mac & cheese
+- **Federal Donuts**: 1632 Sansom, chicken and donuts
+
+**Brunch**
+- **Sabrina's**: 227 S 18th, huge portions
+- **Green Eggs Cafe**: 1306 Dickinson, worth the trip
+- **The Love**: 130 S 18th, Sunday brunch
+
+---
+
+## Neighborhood Guide
+
+### Rittenhouse Square (2-minute walk)
+Philadelphia's premier park, perfect for morning coffee or evening strolls. Free concerts in summer, holiday lights in winter.
+
+### Museums (Walking Distance)
+- **Rosenbach Museum**: 2008 Delancey (3 minutes)
+- **Mütter Museum**: 19 S 22nd (8 minutes)
+- **Philadelphia Museum of Art**: 2600 Ben Franklin (20 minutes or quick Uber)
+
+### Shopping
+- **Walnut Street**: Designer boutiques (2 minutes)
+- **Rittenhouse Row**: All major brands (5 minutes)
+- **Reading Terminal Market**: Local foods and crafts (15-min walk)
+
+### Fitness
+- **Rittenhouse Square**: Free outdoor space
+- **City Fitness**: Day passes available (multiple locations)
+- **SoulCycle**: 1417 Locust Street
+
+### Practical Needs
+- **CVS Pharmacy**: 1518 Chestnut (5 minutes)
+- **Wine & Spirits**: 1913 Chestnut (7 minutes)
+- **Nearest Hospital**: Pennsylvania Hospital, 800 Spruce (5 minutes)
+
+---
+
+## Transportation
+
+### Getting Around
+
+**Walking**
+Most attractions within 20 minutes on foot. We're in the heart of Center City.
+
+**Public Transit**
+- **Broad Street Line**: Walnut-Locust Station (5-min walk)
+- **SEPTA Bus**: Routes 9, 12, 21, 42 all within 2 blocks
+- **PATCO**: 15th Street Station to New Jersey (5 minutes)
+
+**Ride Services**
+- Uber/Lyft readily available (2-3 minute wait typical)
+- Average fare to Old City: $12-15
+- Average fare to Airport: $35-45
+
+**Parking**
+- **Street**: 2-hour limit until 8 PM (except Sunday)
+- **Parkway Corp Garage**: 1650 Locust ($35/day)
+- **LAZ Parking**: 1919 Spruce ($30/day)
+
+### Day Trips
+- **Independence Hall**: 20 minutes by foot or 8 by Uber
+- **Eastern State Penitentiary**: 15 minutes by Uber
+- **Valley Forge**: 45 minutes by car
+- **New Hope**: 1.5 hours by car
+- **NYC**: 1.5 hours by Amtrak from 30th Street Station
+
+---
+
+## During Your Stay
+
+### Daily Housekeeping
+Not included, but available for additional fee:
+- **Refresh Service**: $150 (towels, beds, trash)
+- **Full Clean**: $300 (complete house cleaning)
+- **Contact 24 hours in advance**
+
+### Maintenance Issues
+- **Emergency**: Call number provided at check-in
+- **Non-urgent**: Text or email with photos
+- **Response time**: Within 2 hours during business hours
+
+### Supplies & Restocking
+Basic supplies provided for first 2 days:
+- Toilet paper, paper towels
+- Dish soap, dishwasher pods
+- Coffee, tea, sugar, cream
+- Basic spices and cooking oil
+
+For longer stays, grocery delivery recommended.
+
+### Events During Your Stay
+Hosting a dinner or gathering? Please notify us:
+- Groups over 16 require prior approval
+- Catering arrangements available
+- Additional tables/chairs can be arranged
+- Insurance may be required for large events
+
+---
+
+## Check-Out Instructions
+
+### Before 11:00 AM
+1. **Gather belongings**: Check all suites and common areas
+2. **Kitchen**: Load and start dishwasher
+3. **Trash**: Bag and leave in kitchen (we'll handle removal)
+4. **Windows**: Please close and lock
+5. **Thermostat**: Set to 68°F (winter) or 74°F (summer)
+6. **Keys**: Leave any physical keys on dining table
+7. **Damages**: Report any issues
+
+### Lost Items
+We'll hold found items for 30 days. Shipping available at cost plus $25 handling fee.
+
+---
+
+## Emergency Information
+
+### Emergency Services
+**Call 911** for any emergency
+
+### Nearest Facilities
+- **Hospital**: Pennsylvania Hospital, 800 Spruce Street (5 minutes)
+- **Urgent Care**: Jefferson Urgent Care, 1201 Chestnut (7 minutes)
+- **Police**: 9th District, 401 N 21st Street
+- **Fire Station**: Engine 43, 216 S 12th Street
+
+### House Emergency Contacts
+- **Property Manager**: [Provided at check-in]
+- **Maintenance Emergency**: [Provided at check-in]
+- **After-Hours Support**: [Provided at check-in]
+
+### Utility Shutoffs
+Located in basement (staff access only):
+- Water main
+- Gas shutoff
+- Electrical panel
+
+---
+
+## Special Experiences
+
+### Historical Tours
+Interested in the house's full history? We offer:
+- **Self-guided tour cards** in each room
+- **Full historical book** available in Library Suite
+- **Virtual tour** at therittenhouseresidence.com
+
+### Seasonal Highlights
+
+**Spring/Summer**
+- Roof deck at sunset
+- Garden breakfast
+- Rittenhouse Square concerts
+
+**Fall/Winter**
+- Fireplace evenings
+- Holiday decorations (by request)
+- Cozy parlor gatherings
+
+### Instagram Moments
+- The marble front stoop (#RittenhouseResidence)
+- Double parlor symmetry
+- Roof deck city views
+- Original 1905 fireplace
+- Garden door morning light
+
+---
+
+## Feedback & Future Stays
+
+### We Value Your Input
+Please share your experience:
+- **Review**: Your platform of choice
+- **Direct feedback**: info@therittenhouseresidence.com
+- **Suggestions**: We're always improving
+
+### Book Again
+- **Direct booking**: 10% returning guest discount
+- **Extended stays**: Special monthly rates
+- **Event planning**: We'll remember your preferences
+
+### Referrals
+Love your stay? Refer friends and receive:
+- $200 credit per successful booking
+- VIP treatment for your referrals
+- Priority booking for peak dates
+
+---
+
+## Thank You
+
+Thank you for choosing The Rittenhouse Residence. You're now part of the continuing story of 1822 Pine Street—a house that has welcomed Philadelphia's residents and visitors for 170 years.
+
+From the marble threshold that counted Victorian calling cards to the parlors that hosted suffragette meetings, from the 1905 fireplace that still warms gatherings to the roof deck with its modern city views, this house bridges past and present.
+
+Enjoy your stay, and remember: you're not just visiting Philadelphia, you're living in it.
+
+**The Rittenhouse Residence Team**
+
+---
+
+*For additional information, visit **therittenhouseresidence.com***
+
+*Follow us @therittenhouseresidence*
+
+*Direct booking always available at better rates than third-party platforms*

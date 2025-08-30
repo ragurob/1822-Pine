@@ -1,0 +1,12 @@
+{% set hero_image = images[0] if images %}
+---
+# (Auto‑Generated Hero Block — Airbnb)
+---
+
+# {{ title | default('Your Stay at 1822 Pine Street') }}
+
+{% if subtitle %}_{{ subtitle }}_
+
+{% endif %}**Source:** Airbnb listing ({{ source_url }}) — fetched {{ last_fetched }} UTC.
+
+{% if hero_image %}![Hero image from Airbnb listing]({{ hero_image.local_path }}){% endif %}

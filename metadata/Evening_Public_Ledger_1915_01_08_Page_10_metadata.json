@@ -1,0 +1,20 @@
+{
+  "filename": "Evening_Public_Ledger_1915_01_08_Page_10.pdf",
+  "type": "clipping",
+  "file_hash": "52fabf3ee499bc3e8029a5b9e8158de4",
+  "processed_date": "2025-08-29T13:51:58.423647",
+  "pages": 1,
+  "text": "https://www.newspapers.com/ image/164189759/Evening Public Ledger (Philadelphia, Pennsylvania) \u00b7 Fri, Jan 8, 1915 \u00b7 \nPage 10\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
+  "extracted_date": "1915-01-08",
+  "entities": {
+    "people": [
+      "Evening Public Ledger",
+      "All Rights Reserved"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [],
+  "error": "Unable to get page count. Is poppler installed and in PATH?"
+}

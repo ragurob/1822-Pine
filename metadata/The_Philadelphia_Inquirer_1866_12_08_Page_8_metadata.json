@@ -1,0 +1,20 @@
+{
+  "filename": "The_Philadelphia_Inquirer_1866_12_08_Page_8.pdf",
+  "type": "clipping",
+  "file_hash": "0bc2616fd95792426a2d9decb5b7c654",
+  "processed_date": "2025-08-29T13:51:58.623569",
+  "pages": 1,
+  "text": "https://www.newspapers.com/ image/168345600/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Sat, Dec 8, \n1866 \u00b7 Page 8\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
+  "extracted_date": "1866-12-08",
+  "entities": {
+    "people": [
+      "The Philadelphia Inquirer",
+      "All Rights Reserved"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [],
+  "error": "Unable to get page count. Is poppler installed and in PATH?"
+}

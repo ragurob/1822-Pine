@@ -1,0 +1,41 @@
+{
+  "filename": "1822 Pine - Property Cert.pdf",
+  "type": "clipping",
+  "file_hash": "5dd83d74c9b92339151b0b0c659e4dfe",
+  "processed_date": "2025-08-29T13:52:07.722032",
+  "pages": 1,
+  "text": "PC-2022-009391Property Certificate\nCertification Number\n1521 Locust Street\nSte 605\nPhiladelphia, PA  19102\nUSARachael Pritzker DBA: Pritzker Law Group, LLCAPPLICANT\n1822 PINE ST\nPHILADELPHIA, PA 19103-PRICE ROBERTSONOWNERPROPERTY ADDRESS\n1822 PINE ST, Philadelphia, PA 19103-6602\nZONING CLASSIFICATION\nRM1ISSUE DATE\n03/30/2022\nResidential - Household Living - Multi-FamilyDEPARTMENT RECORDS INDICATE THIS PROPERTY IS LEGALLY REGISTERED FOR USE AS FOLLOWS\nFive (5) dwelling units.ADDITIONAL USE DESCRIPTION\nIf this property is not being used as indicated above, it is the owner's responsibility to file for a new use registration permit with the Department's Zoning unit.\nPROPERTY NOTE\nIF THE DESCRIBED USE HAS BEEN DISCONTINUED FOR A PERIOD OF THREE (3) YEARS, A NEW USE REGISTRATION PERMIT\nMAY BE REQUIRED. THE DEPARTMENT IS NOT RESPONSIBLE TO VERIFY CONTINUOUS USE.\nDEPARTMENT RECORDS INDICATE THE FOLLOWING VIOLATIONS\nDATE CASE CODE SECTION DESCRIPTION LOCATION\n \n\u2022 No person  shall  collect  rent with  respect  to any property,  or maintain  a vacant  lot, structure,  or waterfront  structure,  without  first obtaining  \nthe appropriate  License  pursuant  to Title  9 of the Philadelphia  Code.  Failure  of the purchaser  of such  a property  or structure  to obtain  said  \nLicense  within  ten (10) days  after  the transfer  of ownership  shall  constitute  a Violation  of the Philadelphia  Code  and may  result  in fines  and \npenalties.\n\u2022 If this property  is not being  used  as a single  family  dwelling,  it is the Owner's  responsibility  to submit  Application  for a Zoning  Permit  with  \nthe Department  of Licenses  and Inspections  (L&I).  A single  family  dwelling  is limited  no more  than  three  unrelated  persons  occupying  the \ndwelling  unit.\n\u2022 A REPORT  OF NO VIOLATIONS  MAY  BE THE  RESULT  OF NO INSPECTION  OF THE  PROPERTY.  NO WARRANTY  OR GUARANTEE  IS \nIMPLIED  OR GRANTED  BY THE  CITY  THAT  THIS  PROPERTY  IS FREE  OF CODE  VIOLATIONS.\n\u2022 Sellers  of single  family  dwellings  shall  certify  in writing  to the buyer  that required  smoke  detectors  have  been  installed  and are in operating  \ncondition  in accordance  with  the Phila.  Fire Code.\n\u2022 Condominiums:  This  document  pertains  to the specific  address  and unit and does  not include  records  that may  exist  elsewhere  in the \nbuilding  or development.\n\u2022 Properties  registered  HISTORICAL  require  approval  from  the Historical  Commission  prior  to any alteration.\nThis is a Historic Property Note PlaceholderHISTORICAL PROPERTY NOTE\nPage 1 of 1",
+  "extracted_date": "2022-03-30",
+  "entities": {
+    "people": [
+      "Certificate\nCertification Number",
+      "Locust Street\nSte",
+      "Pritzker Law Group",
+      "Household Living",
+      "Philadelphia  Code",
+      "Philadelphia  Code",
+      "Zoning  Permit",
+      "Fire Code",
+      "Historical  Commission",
+      "Historic Property Note"
+    ],
+    "organizations": [],
+    "addresses": [
+      [
+        "1521",
+        "Locust Street"
+      ],
+      [
+        "1822",
+        "PINE ST"
+      ],
+      [
+        "1822",
+        "PINE ST"
+      ]
+    ],
+    "monetary_amounts": []
+  },
+  "images": [],
+  "error": "Unable to get page count. Is poppler installed and in PATH?"
+}

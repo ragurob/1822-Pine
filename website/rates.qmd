@@ -1,0 +1,168 @@
+---
+title: "Rates & Booking"
+subtitle: "Reserve Your Stay at The Rittenhouse Residence"
+---
+
+## Current Rates
+
+Our rates reflect the unique historic character and premium location of this meticulously preserved property. All accommodations include the entire 7,000 square foot townhouse with 5 suites.
+
+### Standard Nightly Rates
+
+::: {.rates-table}
+| Period | Rate | Notes |
+|--------|------|-------|
+| **Weekdays** (Mon-Thu) | $1,600/night | Best availability |
+| **Weekends** (Fri-Sun) | $1,800/night | 2-night minimum |
+| **Prime Weekends** | $2,500/night | Graduations, holidays |
+| **Cleaning Fee** | $450 | One-time charge |
+:::
+
+### Extended Stay Discounts
+
+| Length of Stay | Discount | Effective Rate |
+|----------------|----------|----------------|
+| **Weekly** (7-13 nights) | 10% off | From $1,440/night |
+| **Bi-weekly** (14-27 nights) | 15% off | From $1,360/night |
+| **Monthly** (28+ nights) | 20% off | From $1,280/night |
+| **Direct Booking** | Additional 5% | Contact for quote |
+
+*Note: Stays under 30 days are subject to 15.5% Philadelphia hotel tax*
+
+---
+
+## What's Included
+
+### Full House Access
+- 5 bedroom suites with en-suite or dedicated bathrooms
+- Double parlors with original 1854 marble mantels
+- Formal dining room seating 12
+- Chef's kitchen with professional appliances
+- Butler's pantry with beverage station
+- Private garden courtyard
+- 5 levels of historic living space
+
+### Amenities
+- High-speed WiFi (500+ Mbps)
+- Central air conditioning & heating
+- Smart TVs in main living areas
+- Sonos sound system
+- Washer & dryer
+- Full kitchen equipment & dishware
+- Luxury linens & towels
+- Basic toiletries
+- Coffee & tea station
+
+### Services
+- Pre-arrival communication & planning
+- Digital guest guidebook
+- Local recommendations
+- 24/7 emergency support
+- Flexible check-in (when available)
+
+---
+
+## Booking Methods
+
+### Instant Booking Platforms
+
+::: {.booking-cards}
+::: {.card}
+#### Airbnb
+Our primary booking platform with instant confirmation and Airbnb's guest protection.
+
+[Book on Airbnb](https://www.airbnb.com/rooms/6000930){.btn .btn-primary}
+:::
+
+::: {.card}
+#### VRBO
+Alternative platform with family-friendly filters and trip insurance options.
+
+[Book on VRBO](https://www.vrbo.com/757481){.btn .btn-primary}
+
+*Premier Host status*
+:::
+:::
+
+### Direct Booking
+
+For the best rates and personalized service, book directly with us:
+
+- Save 5% off platform rates
+- Flexible payment terms
+- Custom arrangements for extended stays
+- Corporate billing available
+
+[Request Direct Booking](contact.qmd){.btn .btn-outline-primary .btn-lg}
+
+---
+
+## Policies
+
+### Minimum Stay
+- **Standard**: 2 nights
+- **Holiday weekends**: 3 nights
+- **Peak season** (May, September-October): 3 nights
+- **Monthly stays**: Flexible start dates
+
+### Check-in/Check-out
+- **Check-in**: 4:00 PM (earlier if available)
+- **Check-out**: 11:00 AM (later if available)
+- **Luggage storage**: Available by arrangement
+
+### Cancellation Policy
+- **Platform bookings**: Per platform policy
+- **Direct bookings**:
+  - 30+ days notice: Full refund minus processing
+  - 14-29 days: 50% refund
+  - Less than 14 days: No refund unless re-booked
+
+### Payment
+- **Platforms**: Processed by Airbnb/VRBO
+- **Direct**: 50% deposit, balance 30 days before arrival
+- **Accepted**: All major credit cards, wire transfer
+- **Monthly**: Can be paid in installments
+
+---
+
+## Special Arrangements
+
+### Corporate Housing
+- Invoicing to companies
+- Customized lease agreements
+- Cleaning service options
+- Extended stay amenities
+
+### Family Gatherings
+- Multiple suite configurations
+- Extra bedding available
+- High chair & pack-n-play
+- Local catering recommendations
+
+### Accessibility Note
+This is a historic 5-story townhouse with stairs between all levels. Unfortunately, it is not wheelchair accessible. Please contact us to discuss specific mobility needs.
+
+---
+
+## Availability Calendar
+
+Check current availability on our booking platforms:
+
+::: {.calendar-links}
+[View Airbnb Calendar](https://www.airbnb.com/rooms/6000930){.btn .btn-outline-primary}
+[View VRBO Calendar](https://www.vrbo.com/757481){.btn .btn-outline-primary}
+[Contact for Future Dates](contact.qmd){.btn .btn-outline-primary}
+:::
+
+---
+
+## Questions?
+
+We're happy to help you plan your stay at The Rittenhouse Residence.
+
+**Email**: [info@therittenhouseresidence.com](mailto:info@therittenhouseresidence.com)  
+**Response time**: Usually within 4 hours
+
+::: {.alert .alert-info}
+**Booking Note**: Maximum occupancy is 16 adults (18 with prior approval). All overnight guests must be registered at time of booking.
+:::

@@ -1,0 +1,243 @@
+/* 1822 Pine Street Custom Theme */
+
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #8b7355;
+  --accent-color: #d4af37;
+  --text-color: #333;
+  --bg-color: #fdfbf7;
+  --border-color: #e1d9d1;
+}
+
+/* Typography */
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  color: var(--primary-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  border-bottom: 3px double var(--secondary-color);
+  padding-bottom: 0.5rem;
+}
+
+/* Content width for readability */
+.content {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Historical document styling */
+.document-container {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: white;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.document-image {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  border: 1px solid var(--border-color);
+  margin: 1rem 0;
+}
+
+.document-caption {
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* Timeline styling */
+.timeline {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 2rem;
+  border-left: 2px solid var(--secondary-color);
+}
+
+.timeline-date {
+  position: absolute;
+  left: -5rem;
+  width: 4rem;
+  text-align: right;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.timeline-content {
+  background: white;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Callout boxes */
+.callout {
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid var(--accent-color);
+  background: rgba(212, 175, 55, 0.05);
+}
+
+.callout-note {
+  border-left-color: var(--secondary-color);
+  background: rgba(139, 115, 85, 0.05);
+}
+
+.callout-guest {
+  border-left-color: #5cb85c;
+  background: rgba(92, 184, 92, 0.05);
+}
+
+.callout-buyer {
+  border-left-color: #5bc0de;
+  background: rgba(91, 192, 222, 0.05);
+}
+
+.callout-title {
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+/* Print-specific styles */
+@media print {
+  body {
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+  
+  .document-image {
+    max-width: 100%;
+    page-break-inside: avoid;
+  }
+  
+  .timeline-item {
+    page-break-inside: avoid;
+  }
+  
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+  
+  .sidebar,
+  .toc,
+  .page-footer {
+    display: none;
+  }
+}
+
+/* Gallery grid for document viewing */
+.document-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.gallery-item {
+  background: white;
+  border: 1px solid var(--border-color);
+  padding: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-item-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.gallery-item-date {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Bibliography styling */
+.references {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--border-color);
+}
+
+.csl-entry {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  text-indent: -2rem;
+}
+
+/* Chain of title table */
+.chain-of-title {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+.chain-of-title th,
+.chain-of-title td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid var(--border-color);
+}
+
+.chain-of-title th {
+  background: var(--primary-color);
+  color: white;
+  font-weight: bold;
+}
+
+.chain-of-title tr:nth-child(even) {
+  background: rgba(0,0,0,0.02);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .content {
+    padding: 1rem;
+  }
+  
+  .timeline-item {
+    padding-left: 2rem;
+  }
+  
+  .timeline-date {
+    position: static;
+    width: auto;
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+  
+  .document-gallery {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,211 @@
+---
+title: "Historical Documents Archive"
+subtitle: "Original Deeds, Press Clippings, and Primary Sources"
+page-layout: full
+---
+
+# Complete Document Collection
+
+Over 65 original documents spanning 170 years, including property deeds, newspaper clippings, architectural plans, and more.
+
+## Property Deeds & Legal Documents
+
+Establishing the complete chain of ownership from 1854 to present.
+
+::: {.document-grid}
+
+### 19th Century Deeds
+- **1854 Deed Abstract** - Original McCrea to Roset sale
+- **1893 Deed Abstract** - Roset Estate to Howard Spencer
+- **1899 Deed Abstracts (2 documents)** - Transfer to Agnes M. Spencer
+
+### 20th Century Deeds
+- **1922 Deed Abstracts (2 documents)** - Early apartment era
+- **1941 Deed Abstracts (2 documents)** - Depression era transfers
+- **1947 Deed Abstracts (2 documents)** - Post-war ownership
+- **1949 Deed Abstracts (2 documents)** - Mid-century transitions
+- **1952 Deed Abstracts (2 documents)** - Return to single family
+
+### Modern Legal Documents
+- **1979 Deed** - Late 20th century ownership
+- **1985 Deed** - Transfer documents
+- **1987 Deed** - Ownership transition
+- **1999 Deeds (2 documents)** - End of century transfers
+- **2002 Deed** - 21st century ownership
+- **2013 Deed** - Recent transfer to current configuration
+- **Property Certificate** - Official city documentation
+
+:::
+
+---
+
+## Newspaper Clippings Collection
+
+### 1820s-1860s: Early Philadelphia
+- **United States Gazette (March 26, 1824)** - Early Philadelphia context
+- **The Philadelphia Inquirer (December 8, 1866)** - Post-Civil War society
+- **The Evening Telegraph (April 8, 1867)** - Local news coverage
+- **The Evening Telegraph (August 10, 1870)** - Death of John Roset
+- **The Philadelphia Inquirer (January 14, 1871)** - Estate notices
+- **The Philadelphia Inquirer (December 6, 1871)** - Society news
+
+### 1880s-1890s: Gilded Age Society
+- **The Philadelphia Times (December 9, 1883)** - Society events
+- **Scarlet Fever Notice (April 23, 1891)** - Howard Spencer Jr. tragedy at 1822 Pine
+- **The Philadelphia Inquirer (November 28, 1891)** - Society news
+- **The Philadelphia Times (February 1, 1893)** - Local coverage
+- **The Philadelphia Inquirer (July 1, 1893)** - Property transfer news
+- **The Philadelphia Times (July 1, 1893)** - Spencer estate
+- **The Philadelphia Times (June 29, 1896)** - Howard Spencer death
+- **The Philadelphia Times (November 23, 1896)** - Society events
+
+### 1899: The Transformation Year
+- **The Philadelphia Inquirer (April 6, 1899)** - Architectural commission
+- **The Philadelphia Inquirer (July 18, 1899)** - Duhring, Okie & Ziegler renovation
+- **The Philadelphia Times (August 6, 1899)** - Construction progress
+
+### 1900s-1910s: Progressive Era
+- **The Philadelphia Inquirer (October 3, 1900)** - Society returns
+- **The Philadelphia Times (January 11, 1901)** - Mrs. Graham Spencer returns to 1822 Pine
+- **The Philadelphia Inquirer (October 27, 1901)** - Fayette R. Plumb residence
+- **The Philadelphia Inquirer (November 21, 1901)** - Rolin-Plumb wedding breakfast at 1822 Pine
+- **The Philadelphia Inquirer (December 11, 1904)** - Mrs. Henry C. Davis "At Homes"
+- **The Philadelphia Inquirer (August 4, 1905)** - Fireplace installation ($130)
+- **The Philadelphia Inquirer (December 30, 1906)** - Holiday events
+- **The Philadelphia Inquirer (December 15, 1907)** - Society calendar
+- **The Philadelphia Inquirer (January 6, 1908)** - New Year receptions
+- **The Philadelphia Inquirer (September 29, 1912)** - Social season begins
+- **The Philadelphia Inquirer (February 9, 1913)** - Winter society
+- **The Philadelphia Inquirer (March 10, 1913)** - Spring events
+- **The Philadelphia Inquirer (March 27, 1914)** - Easter season
+- **Evening Public Ledger (January 8, 1915)** - Martha Davis selling Equal Franchise Society tickets
+- **Society Tea** - Undated society gathering document
+
+---
+
+## Architectural Plans
+
+### Floor Plans
+- **First Floor Plan** (PDF & JPG)
+- **Second Floor Plan** (PDF & JPG)
+- **Third Floor Plan** (PDF & JPG)
+- **Fourth Floor Plan** (PDF & JPG)
+- **Roof Deck Plan** (PDF & JPG)
+
+---
+
+## How to Access Original Documents
+
+All documents have been digitized at high resolution and are available for research purposes.
+
+### For Researchers
+Contact us for access to high-resolution scans of specific documents. Please include:
+- Document name and date
+- Purpose of research
+- Institutional affiliation (if applicable)
+
+### For Guests
+Selected documents are displayed throughout the house with QR codes linking to their digital versions and historical context.
+
+### Citation Format
+When citing these documents, please use:
+> [Document Name], 1822 Pine Street Historical Archive, The Rittenhouse Residence Collection, [Date].
+
+---
+
+## Document Highlights
+
+### Most Significant Discoveries
+
+::: {.highlight-cards}
+
+::: {.card}
+**1899 Duhring, Okie & Ziegler Commission**
+The architectural firm's notice in The Philadelphia Inquirer (July 18, 1899) documents the major renovation that gave the house its current configuration.
+:::
+
+::: {.card}
+**1915 Suffrage Movement**
+Martha Davis selling Equal Franchise Society tickets from 1822 Pine Street, documenting the property's role in the women's suffrage movement.
+:::
+
+::: {.card}
+**1891 Personal Tragedy**
+The scarlet fever death of 7-year-old Howard Spencer Jr. at the property, the first documented personal event at this address.
+:::
+
+::: {.card}
+**1901 Rolin-Plumb Wedding**
+Detailed coverage of a society wedding breakfast at 1822 Pine, showing how the double parlors functioned for events.
+:::
+
+:::
+
+---
+
+## Document Processing & Preservation
+
+### Digitization Process
+- All documents scanned at 600 DPI
+- Color-corrected for legibility
+- OCR text extraction where possible
+- Metadata catalogued in JSON format
+
+### Physical Preservation
+- Original documents stored in acid-free folders
+- Climate-controlled environment
+- Limited handling protocols
+- Professional conservation assessment completed
+
+### Digital Archive
+- Cloud backup in multiple locations
+- Version control for all edits
+- Public access copies at web resolution
+- Research copies available on request
+
+---
+
+## Using These Documents
+
+### For Property History
+These documents establish:
+- Complete chain of title from 1854
+- Documented architectural modifications
+- Notable residents and events
+- Social and cultural significance
+
+### For Event Planning
+Historical precedent for:
+- Wedding receptions (1901, 1868)
+- Society gatherings (1904-1915)
+- Political meetings (1891, 1911, 1915)
+- Professional use (1915-1916 medical practice)
+
+### For Academic Research
+Primary sources for:
+- Philadelphia social history
+- Women's suffrage movement
+- Gilded Age architecture
+- Urban development patterns
+
+---
+
+## Related Resources
+
+::: {.resource-links}
+[Read the Complete History](history-book.qmd){.btn .btn-primary}
+[View Historical Timeline](timeline.qmd){.btn .btn-outline-primary}
+[Explore the Provenance Dossier](../chapters/10-provenance-dossier.qmd){.btn .btn-outline-primary}
+[Tour the Architecture](architecture.qmd){.btn .btn-outline-primary}
+:::
+
+---
+
+## Questions About Documents?
+
+For research inquiries, document requests, or to contribute additional historical materials:
+
+**Email**: [archives@therittenhouseresidence.com](mailto:archives@therittenhouseresidence.com)  
+**Response time**: 2-3 business days for research requests
+
+[Contact Us](contact.qmd){.btn .btn-primary}

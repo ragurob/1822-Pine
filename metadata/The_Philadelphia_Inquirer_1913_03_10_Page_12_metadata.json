@@ -1,0 +1,20 @@
+{
+  "filename": "The_Philadelphia_Inquirer_1913_03_10_Page_12.pdf",
+  "type": "clipping",
+  "file_hash": "987a4109c9dd986d12601e1d228b484d",
+  "processed_date": "2025-08-29T13:52:20.103218",
+  "pages": 1,
+  "text": "https://www.newspapers.com/ image/169073105/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Mon, Mar 10, \n1913 \u00b7 Page 12\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
+  "extracted_date": "1913-03-10",
+  "entities": {
+    "people": [
+      "The Philadelphia Inquirer",
+      "All Rights Reserved"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [],
+  "error": "Unable to get page count. Is poppler installed and in PATH?"
+}

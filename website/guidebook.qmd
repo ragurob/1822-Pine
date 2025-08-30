@@ -1,0 +1,113 @@
+---
+title: "Guest Guidebook"
+subtitle: "Everything You Need for Your Stay"
+---
+
+# Welcome to The Rittenhouse Residence
+
+We've prepared a comprehensive guidebook to help you make the most of your stay at 1822 Pine Street.
+
+## Access the Full Guidebook
+
+::: {.guidebook-access}
+[View the Complete Guest Guidebook](../guidebook/guest-guidebook-2024.qmd){.btn .btn-primary .btn-lg}
+
+*Includes house instructions, local recommendations, emergency contacts, and more*
+:::
+
+---
+
+## Quick Reference
+
+### Essential Information
+- **WiFi Network**: RittenhouseResidence_5G
+- **WiFi Password**: [Provided at check-in]
+- **Check-out**: 11:00 AM
+- **Emergency Contact**: [Provided at check-in]
+
+### House Features
+- 5 bedroom suites across 5 floors
+- Full chef's kitchen
+- Double parlors
+- Private garden
+- Washer/dryer
+- High-speed WiFi throughout
+
+### Neighborhood Highlights
+- **Rittenhouse Square**: 2 blocks north
+- **Whole Foods**: 4 blocks
+- **CVS Pharmacy**: 2 blocks
+- **Restaurants**: 30+ within 5 blocks
+
+---
+
+## What's in the Full Guidebook?
+
+### House Operations
+- Room-by-room guide
+- Appliance instructions
+- Climate control
+- Entertainment systems
+- WiFi and tech setup
+
+### Local Recommendations
+- Restaurant guide by cuisine
+- Coffee shops and cafes
+- Shopping destinations
+- Museums and attractions
+- Parks and recreation
+
+### Transportation
+- Parking options
+- Public transit guide
+- Airport connections
+- Uber/Lyft tips
+- Walking routes
+
+### Emergency Information
+- Medical facilities
+- Pharmacy locations
+- Emergency contacts
+- House manager contact
+
+### Historical Information
+- House history highlights
+- Architectural features
+- Notable past residents
+- Neighborhood history
+
+---
+
+## Digital Access
+
+The guidebook is available in multiple formats:
+
+::: {.format-options}
+[Online Version](../guidebook/guest-guidebook-2024.qmd){.btn .btn-outline-primary}
+[Download PDF](../guidebook/guest-guidebook-2024.pdf){.btn .btn-outline-primary}
+[Mobile-Friendly Version](../guidebook/mobile.html){.btn .btn-outline-primary}
+:::
+
+*QR codes throughout the house link to specific sections*
+
+---
+
+## Need Help?
+
+If you can't find what you need in the guidebook:
+
+**Text/Call**: [Provided at check-in]  
+**Email**: [info@therittenhouseresidence.com](mailto:info@therittenhouseresidence.com)  
+**Response time**: Usually within 30 minutes during waking hours
+
+---
+
+## Share Your Experience
+
+After your stay, we'd love to hear about your experience:
+
+- Leave a review on [Airbnb](https://airbnb.com/h/therittenhouseresidence) or [VRBO](https://vrbo.com/therittenhouseresidence)
+- Tag us on Instagram: [@therittenhouseresidence](https://instagram.com/therittenhouseresidence)
+- Share your favorite spots with future guests
+
+[Back to Homepage](index.qmd){.btn .btn-outline-secondary}

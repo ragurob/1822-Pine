@@ -1,0 +1,20 @@
+{
+  "filename": "The_Philadelphia_Times_1899_08_06_Page_10.pdf",
+  "type": "clipping",
+  "file_hash": "2733ce21625e54bb7c081e3af8ff9bb1",
+  "processed_date": "2025-08-29T13:51:58.612136",
+  "pages": 1,
+  "text": "https://www.newspapers.com/ image/53320902/The Philadelphia Times (Philadelphia, Pennsylvania) \u00b7 Sun, Aug 6, 1899 \n\u00b7 Page 10\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
+  "extracted_date": "1899-08-06",
+  "entities": {
+    "people": [
+      "The Philadelphia Times",
+      "All Rights Reserved"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [],
+  "error": "Unable to get page count. Is poppler installed and in PATH?"
+}

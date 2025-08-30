@@ -1,0 +1,157 @@
+---
+title: "Document Gallery"
+---
+
+# Historical Document Gallery
+
+This gallery presents the complete collection of historical documents related to 1822 Pine Street, organized chronologically. Each document has been digitized at high resolution and is available for detailed examination.
+
+```{python}
+#| echo: false
+import json
+import os
+from pathlib import Path
+
+# Load metadata
+metadata_dir = Path("../metadata")
+if metadata_dir.exists():
+    # Load processing results
+    results_file = metadata_dir / "processing_results.json"
+    if results_file.exists():
+        with open(results_file) as f:
+            results = json.load(f)
+            
+        # Group documents by type and decade
+        deeds = []
+        clippings_by_decade = {}
+        
+        for doc in results.get('processed', []):
+            if doc['type'] == 'deed':
+                deeds.append(doc)
+            else:
+                if doc.get('extracted_date'):
+                    year = int(doc['extracted_date'][:4])
+                    decade = f"{(year // 10) * 10}s"
+                    if decade not in clippings_by_decade:
+                        clippings_by_decade[decade] = []
+                    clippings_by_decade[decade].append(doc)
+```
+
+## Property Deeds
+
+Legal documents establishing ownership and transfer of 1822 Pine Street.
+
+::: {.document-gallery}
+```{python}
+#| echo: false
+#| output: asis
+if 'deeds' in locals():
+    for deed in sorted(deeds, key=lambda x: x.get('extracted_date', '')):
+        if deed.get('images'):
+            web_image = deed['images'][0]['web']
+            date = deed.get('extracted_date', 'Undated')
+            print(f'''
+<div class="gallery-item">
+  <img src="../{web_image}" alt="{deed['filename']}" class="document-image">
+  <div class="gallery-item-title">Property Deed</div>
+  <div class="gallery-item-date">{date}</div>
+</div>
+''')
+```
+:::
+
+## Newspaper Clippings by Decade
+
+### 1890s
+
+::: {.document-gallery}
+```{python}
+#| echo: false
+#| output: asis
+if 'clippings_by_decade' in locals() and '1890s' in clippings_by_decade:
+    for clip in sorted(clippings_by_decade['1890s'], key=lambda x: x.get('extracted_date', '')):
+        if clip.get('images'):
+            web_image = clip['images'][0]['web']
+            date = clip.get('extracted_date', 'Undated')
+            print(f'''
+<div class="gallery-item">
+  <img src="../{web_image}" alt="{clip['filename']}" class="document-image">
+  <div class="gallery-item-title">{clip['filename']}</div>
+  <div class="gallery-item-date">{date}</div>
+</div>
+''')
+```
+:::
+
+### 1900s
+
+::: {.document-gallery}
+```{python}
+#| echo: false
+#| output: asis
+if 'clippings_by_decade' in locals() and '1900s' in clippings_by_decade:
+    for clip in sorted(clippings_by_decade['1900s'], key=lambda x: x.get('extracted_date', '')):
+        if clip.get('images'):
+            web_image = clip['images'][0]['web']
+            date = clip.get('extracted_date', 'Undated')
+            print(f'''
+<div class="gallery-item">
+  <img src="../{web_image}" alt="{clip['filename']}" class="document-image">
+  <div class="gallery-item-title">{clip['filename']}</div>
+  <div class="gallery-item-date">{date}</div>
+</div>
+''')
+```
+:::
+
+### 1910s
+
+::: {.document-gallery}
+```{python}
+#| echo: false
+#| output: asis
+if 'clippings_by_decade' in locals() and '1910s' in clippings_by_decade:
+    for clip in sorted(clippings_by_decade['1910s'], key=lambda x: x.get('extracted_date', '')):
+        if clip.get('images'):
+            web_image = clip['images'][0]['web']
+            date = clip.get('extracted_date', 'Undated')
+            print(f'''
+<div class="gallery-item">
+  <img src="../{web_image}" alt="{clip['filename']}" class="document-image">
+  <div class="gallery-item-title">{clip['filename']}</div>
+  <div class="gallery-item-date">{date}</div>
+</div>
+''')
+```
+:::
+
+### 1920s-1950s
+
+::: {.document-gallery}
+```{python}
+#| echo: false
+#| output: asis
+if 'clippings_by_decade' in locals():
+    for decade in ['1920s', '1930s', '1940s', '1950s']:
+        if decade in clippings_by_decade:
+            for clip in sorted(clippings_by_decade[decade], key=lambda x: x.get('extracted_date', '')):
+                if clip.get('images'):
+                    web_image = clip['images'][0]['web']
+                    date = clip.get('extracted_date', 'Undated')
+                    print(f'''
+<div class="gallery-item">
+  <img src="../{web_image}" alt="{clip['filename']}" class="document-image">
+  <div class="gallery-item-title">{clip['filename']}</div>
+  <div class="gallery-item-date">{date}</div>
+</div>
+''')
+```
+:::
+
+## Download Options
+
+All documents are available in high resolution for research purposes:
+
+- [Download Complete Archive (PDF)](../_site/1822-pine-complete.pdf)
+- [Download Timeline Data (CSV)](../data/timeline.csv)
+- [Download Bibliography (BibTeX)](../refs/bibliography.bib)

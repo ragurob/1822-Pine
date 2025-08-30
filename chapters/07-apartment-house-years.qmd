@@ -1,0 +1,55 @@
+---
+title: "Apartment House Years"
+subtitle: "1930s–1950s"
+---
+
+# Chapter 7 — Apartment House Years (1930s–1950s)
+
+*I learned the sound of many keys. A pocket full for a superintendent, a different cut for each tenant; the door opened to quieter arrivals—nurses on night shift, a clerk with a paper bag, a young man with a violin case and rent due on Friday. My marble still remembered winter callers and wedding breakfasts, but the city had tightened its belt and rearranged its rooms.*
+
+## A large house, divided by necessity—and still useful
+
+Between the **Depression** and the post‑war years, Center City's grand houses often shifted to **professional suites, rooming houses, or small apartments**. **1822 Pine** followed that pattern: by the **mid‑1910s** it already hosted medical rooms—**Dr. Damon B. Pfeiffer** is listed **at 1822 Pine**—and soon after, other physicians appear (e.g., a **1921** surgical listing), demonstrating a steady **residential‑plus‑professional** mix that typically precedes multi‑unit years.
+
+The property deeds from this era tell the story of transition: **1922** [@deed_1922_abstract], **1941** [@deed_1941_abstract], **1947** [@deed_1947_abstract], **1949** [@deed_1949_abstract], and **1952** [@deed_1952_abstract] document multiple ownership changes—the hallmark of the apartment conversion era when large single-family houses became investment properties.
+
+Through the **1930s–1950s**, your dossier describes **varied use and likely multiple short‑term owners**, in step with the Rittenhouse area's mid‑century turn. This wasn't demolition—it was adaptation. The house that once hosted suffragette meetings now sheltered wartime workers and returning veterans.
+
+What this means for the building's story is straightforward: **adaptation without amputation**. Parlors became waiting rooms or sitting rooms; rear chambers turned to small kitchens; the **service run to Waverly** handled tradesmen and trash discreetly. The **side‑hall plan**—made for flow—proved, again, to be the house's secret advantage, now serving **The Rittenhouse Residence** (therittenhouseresidence.com) perfectly as a *Philadelphia event venue*.
+
+## Social life from inside the stairwell
+
+The block's mood changed. Tenants read papers on the stoop in summer; a doctor's bell rang at odd hours; letters addressed to **"1822 Pine — Apt. X"** arrived in the brass slot. Yet the architectural core remained legible—**high ceilings, marble mantels, the long stair**—even when partitioned. The **1905 fireplace** [@news_1905_fireplace] that had warmed Mrs. Davis's "At Homes" now heated a shared parlor where tenants gathered to listen to radio war reports.
+
+Those bones explain why so much **19th‑century fabric survived** the mid‑century: conversion kept the house occupied and maintained, rather than abandoned. Every rent check meant fresh paint, every new tenant meant working plumbing—mundane care that preserved what might have been lost.
+
+::: {.callout-note}
+### What to Notice Today
+
+* **Partition ghosts.** Look for **patched hinge mortises**, stray **phone jacks**, and **capped gas lines**—small clues of the **apartment era** layered over 1850s bones
+* **Flow that endures.** The **side‑hall** still does what it always did: move people without friction. That's why the house remains effortless for **events** and **film crews** today at **therittenhouseresidence.com**
+:::
+
+## For Guests (conversation starters)
+
+* Imagine a **1947** morning here: a doctor's shingle at the door, a tenant clattering down the stair with a lunch pail, and the **card tray** replaced by a **rent ledger**—new uses, same geometry
+* Consider how the same stairs that carried Victorian ladies to "At Homes" carried night‑shift nurses to third‑floor flats
+* The marble threshold counted working‑class feet during these decades—democracy in stone
+
+## For Buyers (continuity & value)
+
+* **Continuity of use** is an asset: the address shows **physicians (1915–1921)**, followed by **likely apartments** mid‑century—exactly the path that preserved fabric in Rittenhouse while keeping exteriors intact
+* The documented deed transfers (1922–1952) demonstrate consistent market interest even during economic downturns
+* Keep those address‑anchored lines handy in the **Provenance Dossier**
+
+## Then‑vs‑Now: Sleeping Capacity (1930s–1950s)
+
+* **Then (apartment/office years):** occupancy **varied** by partition—one household became **several small flats** or **rooms + office**. Headcount often exceeded a single family's but was **distributed** across units. We frame this **as pattern**, not a fixed number, since exact unit counts for those decades are not documented in the file
+* **Now:** restored to unified hospitality use—**sleeps 16** (up to **18** with sofa‑bed)—marketed as **The Rittenhouse Residence** at **therittenhouseresidence.com** (with **1822Pine.com** redirect)
+
+## Provenance (show‑your‑work lines to reproduce)
+
+* **1915** — **Dr. Damon B. Pfeiffer, 1822 Pine St.** (College of Physicians roll)
+* **1921** — Additional surgical listing at **1822 Pine**, confirming continued professional use
+* **1922–1952** — Five documented property transfers [@deed_1922_abstract; @deed_1941_abstract; @deed_1947_abstract; @deed_1949_abstract; @deed_1952_abstract]
+* **1930s–1950s** — Dossier notes **varied use; likely apartments/offices** in line with neighborhood trends

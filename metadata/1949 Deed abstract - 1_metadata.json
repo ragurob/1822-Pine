@@ -1,0 +1,12 @@
+{
+  "filename": "1949 Deed abstract - 1.jpg",
+  "type": "deed",
+  "file_hash": "c497756f451d4bd6fa7d1553f7a813ad",
+  "processed_date": "2025-08-29T13:51:52.584107",
+  "dimensions": "4032x3024",
+  "text": "",
+  "extracted_date": null,
+  "entities": {},
+  "images": [],
+  "error": "tesseract is not installed or it's not in your PATH. See README file for more information."
+}

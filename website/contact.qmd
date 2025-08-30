@@ -1,0 +1,205 @@
+---
+title: "Contact Us"
+subtitle: "Inquire About Your Stay at The Rittenhouse Residence"
+---
+
+## Get in Touch
+
+We're here to help you plan an exceptional stay at The Rittenhouse Residence. Whether you're looking for a weekend getaway, extended stay, or have questions about the property, we typically respond within 4 hours.
+
+---
+
+## Contact Form
+
+<form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/contact-success">
+  <input type="hidden" name="form-name" value="contact">
+  <p class="hidden">
+    <label>Don't fill this out if you're human: <input name="bot-field"></label>
+  </p>
+  
+  <div class="form-group">
+    <label for="name">Name *</label>
+    <input type="text" class="form-control" id="name" name="name" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="email">Email *</label>
+    <input type="email" class="form-control" id="email" name="email" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="phone">Phone</label>
+    <input type="tel" class="form-control" id="phone" name="phone">
+  </div>
+  
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="checkin">Check-in Date</label>
+      <input type="date" class="form-control" id="checkin" name="checkin">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="checkout">Check-out Date</label>
+      <input type="date" class="form-control" id="checkout" name="checkout">
+    </div>
+  </div>
+  
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="guests">Number of Guests</label>
+      <select class="form-control" id="guests" name="guests">
+        <option value="">Select...</option>
+        <option value="1-2">1-2 guests</option>
+        <option value="3-4">3-4 guests</option>
+        <option value="5-6">5-6 guests</option>
+        <option value="7-8">7-8 guests</option>
+        <option value="9-12">9-12 guests</option>
+        <option value="13-16">13-16 guests</option>
+        <option value="16+">More than 16</option>
+      </select>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inquiry-type">Inquiry Type</label>
+      <select class="form-control" id="inquiry-type" name="inquiry-type">
+        <option value="general">General Inquiry</option>
+        <option value="booking">Booking Request</option>
+        <option value="extended">Extended Stay (30+ days)</option>
+        <option value="corporate">Corporate Housing</option>
+        <option value="special">Special Request</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="message">Message *</label>
+    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+  </div>
+  
+  <div class="form-group">
+    <label>
+      <input type="checkbox" name="newsletter" value="yes">
+      Send me updates about special rates and Philadelphia events
+    </label>
+  </div>
+  
+  <button type="submit" class="btn btn-primary btn-lg">Send Inquiry</button>
+</form>
+
+---
+
+## Direct Contact
+
+### Email
+[info@therittenhouseresidence.com](mailto:info@therittenhouseresidence.com)
+
+*We typically respond within 4 hours during business hours*
+
+### Social Media
+- Instagram: [@therittenhouseresidence](https://instagram.com/therittenhouseresidence)
+- Facebook: [The Rittenhouse Residence](https://facebook.com/therittenhouseresidence)
+
+### Booking Platforms
+For instant booking with confirmed availability:
+
+::: {.booking-buttons}
+[Book on Airbnb](https://www.airbnb.com/rooms/6000930){.btn .btn-outline-primary}
+[Book on VRBO](https://www.vrbo.com/757481){.btn .btn-outline-primary}
+:::
+
+---
+
+## Location
+
+### Address
+**The Rittenhouse Residence**  
+1822 Pine Street  
+Philadelphia, PA 19103
+
+*Located in the Rittenhouse-Fitler Historic District, 2 blocks south of Rittenhouse Square*
+
+### Getting Here
+
+#### From Philadelphia International Airport (PHL)
+- **By car/Uber/Lyft**: 20-25 minutes via I-76 E
+- **By train**: SEPTA Airport Line to Suburban Station, then walk or short taxi
+- **Cost**: $30-40 by rideshare, $8 by train
+
+#### From 30th Street Station (Amtrak)
+- **By car**: 10 minutes
+- **By foot**: 25-minute walk through Center City
+- **By transit**: Multiple bus and trolley options
+
+#### Parking
+- **Street parking**: 2-hour limit until 8 PM (except Sunday)
+- **Overnight**: Resident permit required or use garage
+- **Nearest garage**: 1810 Rittenhouse Square ($25/day)
+- **Valet options**: Available at nearby restaurants
+
+### Neighborhood Map
+
+<iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.7387145601584!2d-75.17538068461816!3d39.94773897942209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c6318c3f3d55%3A0x3b2e4d8c5f7f9f55!2s1822%20Pine%20St%2C%20Philadelphia%2C%20PA%2019103!5e0!3m2!1sen!2sus!4v1234567890" 
+  width="100%" 
+  height="450" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+---
+
+## Frequently Asked Questions
+
+### Booking & Availability
+**Q: What's your minimum stay?**  
+A: Typically 2 nights, but 3 nights for holiday weekends and peak season.
+
+**Q: Can we book for just one bedroom?**  
+A: No, the entire house is rented as a single unit to ensure privacy and the full experience.
+
+**Q: Do you offer same-day booking?**  
+A: When available, yes. Check our platforms or contact us directly.
+
+### Property & Amenities
+**Q: Is the property wheelchair accessible?**  
+A: Unfortunately, no. This is a 5-story historic townhouse with stairs between all levels.
+
+**Q: Is parking included?**  
+A: Street parking is available but limited. We recommend the nearby garage at 1810 Rittenhouse.
+
+**Q: Can we host an event?**  
+A: As a Limited Lodging property, we cannot host commercial events or parties. Small family gatherings with overnight guests only are permitted.
+
+### Policies
+**Q: What's your cancellation policy?**  
+A: For direct bookings: 30+ days for full refund, 14-29 days for 50% refund. Platform bookings follow platform policies.
+
+**Q: Can we have visitors?**  
+A: Yes, visitors are welcome 8 AM to midnight but cannot stay overnight.
+
+**Q: Are pets allowed?**  
+A: No, to preserve the historic furnishings and accommodate guests with allergies.
+
+---
+
+## Business Inquiries
+
+### Corporate Housing
+For companies seeking premium accommodations for executives or teams:
+- Customized lease agreements
+- Direct billing to companies
+- Flexible terms for 30+ day stays
+- Cleaning service arrangements
+
+### Media & Photography
+The property is available for approved photography and filming projects that align with its historic character. Please include project details, dates, and insurance information in your inquiry.
+
+### Historical Research
+We welcome inquiries from historians, preservationists, and students researching Philadelphia's architectural heritage. Our extensive documentation of the property's history is available for academic purposes.
+
+---
+
+::: {.contact-footer}
+**The Rittenhouse Residence**  
+*A meticulously preserved 1854 historic home*
+:::

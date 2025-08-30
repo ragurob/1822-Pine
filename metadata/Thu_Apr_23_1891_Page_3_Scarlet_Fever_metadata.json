@@ -1,0 +1,20 @@
+{
+  "filename": "Thu_Apr_23_1891_Page_3_Scarlet_Fever.pdf",
+  "type": "clipping",
+  "file_hash": "59fdc042c61cd625cb4beb37a0ec966d",
+  "processed_date": "2025-08-29T13:51:58.606107",
+  "pages": 1,
+  "text": "https://www.newspapers.com/ image/168367089/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Thu, Apr 23, \n1891 \u00b7 Page 3\nDownloaded on Aug 23, 2025\n  \n  \nThu, Apr 23, 1891, Page 3 - Scarlet FeverClipped By:\nrobprice9\nAug 23, 2025\n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
+  "extracted_date": "1891-04-23",
+  "entities": {
+    "people": [
+      "The Philadelphia Inquirer",
+      "All Rights Reserved"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [],
+  "error": "Unable to get page count. Is poppler installed and in PATH?"
+}

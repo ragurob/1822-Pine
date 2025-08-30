@@ -1,0 +1,199 @@
+{
+  "photos": [
+    {
+      "filename": "DSC00066.jpg",
+      "location": "entry-hall",
+      "room": "Entry Hall",
+      "floor": 1,
+      "features": ["original-door", "checkerboard-floor", "stained-glass-transom", "radiator"],
+      "historical": true,
+      "priority": 2,
+      "caption": "Original 1854 entry with checkerboard marble floor",
+      "alt": "Entry hall with black and white checkerboard floor and original stained glass transom"
+    },
+    {
+      "filename": "DSC00070.jpg",
+      "location": "unknown",
+      "room": "TBD",
+      "floor": null,
+      "features": [],
+      "historical": false,
+      "priority": 3,
+      "caption": "",
+      "alt": ""
+    },
+    {
+      "filename": "DSC00076.jpg",
+      "location": "bathroom",
+      "room": "Bathroom",
+      "floor": null,
+      "features": ["wallpaper", "pedestal-sink", "window"],
+      "historical": false,
+      "priority": 3,
+      "caption": "Elegantly appointed bathroom with designer wallpaper",
+      "alt": "Bathroom with black floral wallpaper and white pedestal sink"
+    },
+    {
+      "filename": "DSC00078.jpg",
+      "location": "unknown",
+      "room": "TBD",
+      "floor": null,
+      "features": [],
+      "historical": false,
+      "priority": 3,
+      "caption": "",
+      "alt": ""
+    },
+    {
+      "filename": "DSC00080.jpg",
+      "location": "unknown",
+      "room": "TBD",
+      "floor": null,
+      "features": [],
+      "historical": false,
+      "priority": 3,
+      "caption": "",
+      "alt": ""
+    },
+    {
+      "filename": "DSC00082.jpg",
+      "location": "unknown",
+      "room": "TBD",
+      "floor": null,
+      "features": [],
+      "historical": false,
+      "priority": 3,
+      "caption": "",
+      "alt": ""
+    },
+    {
+      "filename": "DSC00084.jpg",
+      "location": "primary-bedroom",
+      "room": "Primary Bedroom",
+      "floor": 2,
+      "features": ["four-poster-bed", "chandelier", "crown-molding", "built-in-cabinet"],
+      "historical": true,
+      "priority": 1,
+      "caption": "Primary suite with original crown molding and crystal chandelier",
+      "alt": "Elegant bedroom with four-poster bed, crystal chandelier, and original architectural details"
+    },
+    {
+      "filename": "DSC00088.jpg",
+      "location": "unknown",
+      "room": "TBD",
+      "floor": null,
+      "features": [],
+      "historical": false,
+      "priority": 3,
+      "caption": "",
+      "alt": ""
+    },
+    {
+      "filename": "DSC00090.jpg",
+      "location": "unknown",
+      "room": "TBD",
+      "floor": null,
+      "features": [],
+      "historical": false,
+      "priority": 3,
+      "caption": "",
+      "alt": ""
+    },
+    {
+      "filename": "DSC00094.jpg",
+      "location": "unknown",
+      "room": "TBD",
+      "floor": null,
+      "features": [],
+      "historical": false,
+      "priority": 3,
+      "caption": "",
+      "alt": ""
+    },
+    {
+      "filename": "DSC00096.jpg",
+      "location": "unknown",
+      "room": "TBD",
+      "floor": null,
+      "features": [],
+      "historical": false,
+      "priority": 3,
+      "caption": "",
+      "alt": ""
+    },
+    {
+      "filename": "DSC00102.jpg",
+      "location": "unknown",
+      "room": "TBD",
+      "floor": null,
+      "features": [],
+      "historical": false,
+      "priority": 3,
+      "caption": "",
+      "alt": ""
+    },
+    {
+      "filename": "DSC00104.jpg",
+      "location": "unknown",
+      "room": "TBD",
+      "floor": null,
+      "features": [],
+      "historical": false,
+      "priority": 3,
+      "caption": "",
+      "alt": ""
+    },
+    {
+      "filename": "DSC00106.jpg",
+      "location": "unknown",
+      "room": "TBD",
+      "floor": null,
+      "features": [],
+      "historical": false,
+      "priority": 3,
+      "caption": "",
+      "alt": ""
+    },
+    {
+      "filename": "DSC00108.jpg",
+      "location": "unknown",
+      "room": "TBD",
+      "floor": null,
+      "features": [],
+      "historical": false,
+      "priority": 3,
+      "caption": "",
+      "alt": ""
+    },
+    {
+      "filename": "DSC00110.jpg",
+      "location": "unknown",
+      "room": "TBD",
+      "floor": null,
+      "features": [],
+      "historical": false,
+      "priority": 3,
+      "caption": "",
+      "alt": ""
+    },
+    {
+      "filename": "DSC00112.jpg",
+      "location": "unknown",
+      "room": "TBD",
+      "floor": null,
+      "features": [],
+      "historical": false,
+      "priority": 3,
+      "caption": "",
+      "alt": ""
+    }
+  ],
+  "metadata": {
+    "date_created": "2024-08-29",
+    "photographer": "Professional",
+    "total_photos": 27,
+    "catalogued": 3,
+    "pending": 24,
+    "notes": "Photos to be catalogued with room locations and features as identified"
+  }
+}

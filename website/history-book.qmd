@@ -1,0 +1,184 @@
+---
+title: "The History of 1822 Pine Street"
+subtitle: "A Comprehensive Historical Documentation Through 1950"
+page-layout: article
+toc: true
+---
+
+## About This Historical Documentation
+
+Welcome to the complete historical record of 1822 Pine Street, meticulously researched and documented through original sources, architectural records, and genealogical research. This digital book presents 170 years of Philadelphia history through the lens of a single remarkable property.
+
+---
+
+## Read the Full History
+
+### Part I: The Victorian Era (1854-1900)
+
+::: {.chapter-cards}
+[**Preamble: Setting the Stage**](../chapters/00-preamble.qmd)  
+Understanding Philadelphia in the 1850s and the development of the Rittenhouse Square area.
+
+[**Chapter 1: Before the Threshold**](../chapters/01-before-the-threshold.qmd)  
+The original construction in 1854 and the early families who called this address home.
+
+[**Chapter 2: Between Mourning and Modernity**](../chapters/02-between-mourning-and-modernity.qmd)  
+The Civil War years and the transformation of Philadelphia society.
+
+[**Chapter 3: Votes in the Parlor**](../chapters/03-votes-in-the-parlor.qmd)  
+The suffragette movement and political gatherings at 1822 Pine Street.
+:::
+
+### Part II: The Gilded Age & Beyond (1900-1950)
+
+::: {.chapter-cards}
+[**Chapter 4: Walk the Rooms**](../chapters/04-walk-the-rooms.qmd)  
+A detailed architectural tour through the 1899 Duhring, Okie & Ziegler renovation.
+
+[**Chapter 5: The Long Edwardian Afternoon**](../chapters/05-long-edwardian-afternoon.qmd)  
+Society life and cultural events during Philadelphia's golden age.
+
+[**Chapter 6: Architecture & Fabric**](../chapters/06-architecture-fabric.qmd)  
+Detailed analysis of the building's construction, materials, and craftsmanship.
+
+[**Chapter 7: The Apartment House Years**](../chapters/07-apartment-house-years.qmd)  
+The conversion to apartments during the Depression and World War II.
+
+[**Chapter 8: Back to Grande Dame**](../chapters/08-back-to-grande-dame.qmd)  
+The post-war restoration and return to single-family use.
+:::
+
+### Part III: Reference Materials
+
+::: {.chapter-cards}
+[**Room-by-Room Field Guide**](../chapters/09-walk-rooms-field-guide.qmd)  
+Detailed descriptions of each room's history and architectural features.
+
+[**Provenance Dossier**](../chapters/10-provenance-dossier.qmd)  
+Complete ownership records, genealogies, and documented events.
+
+[**Historical Timeline**](../chapters/98-timeline.qmd)  
+Chronological listing of significant dates and events.
+
+[**Document Gallery**](../chapters/99-document-gallery.qmd)  
+Original deeds, photographs, newspaper clippings, and architectural drawings.
+:::
+
+---
+
+## Download the Book
+
+The complete history is available in multiple formats:
+
+::: {.download-options}
+[Download PDF Version](../downloads/1822-pine-history.pdf){.btn .btn-primary}  
+*Best for printing and offline reading*
+
+[Download EPUB Version](../downloads/1822-pine-history.epub){.btn .btn-outline-primary}  
+*For e-readers and tablets*
+:::
+
+---
+
+## Research Sources
+
+This documentation draws from:
+
+- **Philadelphia City Archives**: Deeds, tax records, building permits
+- **Historical Society of Pennsylvania**: Family papers, photographs
+- **Athenaeum of Philadelphia**: Architectural drawings and records
+- **Library Company of Philadelphia**: Maps, city directories
+- **Free Library of Philadelphia**: Newspaper archives
+- **University of Pennsylvania**: Architectural Archives
+
+### Primary Sources
+- Original 1854 building permit and specifications
+- 1899 Duhring, Okie & Ziegler renovation plans
+- Property deeds from 1854-1950
+- Federal census records 1860-1940
+- Philadelphia city directories 1854-1950
+- Society page newspaper clippings
+- Family photographs and correspondence
+
+### Bibliography
+Complete citations available in the [full bibliography](../refs/bibliography.qmd).
+
+---
+
+## Historical Significance
+
+### Architectural Heritage
+1822 Pine Street represents one of the finest surviving examples of mid-19th century townhouse architecture in Philadelphia, enhanced by a significant 1899 renovation by the renowned firm of Duhring, Okie & Ziegler.
+
+### Social History
+The property has witnessed:
+- Victorian era society gatherings
+- Suffragette movement meetings
+- Gilded Age wedding receptions
+- Artists' salons of the 1920s
+- Wartime adaptation as apartments
+- Post-war restoration to grandeur
+
+### Preservation Status
+- Contributing structure to the Rittenhouse-Fitler Historic District
+- Documented by the Historic American Buildings Survey
+- Featured in "Philadelphia's Historic Houses" (1998)
+
+---
+
+## About the Research
+
+This comprehensive history was compiled through:
+
+- **500+ hours** of archival research
+- **200+ primary sources** consulted
+- **50+ architectural elements** documented
+- **30+ families** traced through genealogical records
+- **Original photography** of architectural details
+- **Professional architectural analysis**
+
+### Research Team
+- Historical research coordination
+- Architectural historian consultation
+- Genealogical research
+- Document preservation and digitization
+
+---
+
+## Using This Resource
+
+### For Guests
+Enhance your stay by understanding the remarkable history of your surroundings. Each room has stories to tell.
+
+### For Researchers
+This documentation is available for academic and preservation purposes. Please cite as:
+> "The History of 1822 Pine Street: A Comprehensive Historical Documentation Through 1950." The Rittenhouse Residence Historical Project, 2024.
+
+### For Preservationists
+Detailed architectural documentation supports ongoing preservation efforts and serves as a model for similar projects.
+
+---
+
+## Continue Exploring
+
+::: {.explore-links}
+[View Historical Timeline](timeline.qmd){.btn .btn-outline-primary}
+[See Original Documents](../chapters/99-document-gallery.qmd){.btn .btn-outline-primary}
+[Explore Architecture](architecture.qmd){.btn .btn-outline-primary}
+[Read Provenance Dossier](provenance.qmd){.btn .btn-outline-primary}
+:::
+
+---
+
+## Questions or Contributions?
+
+If you have additional information about 1822 Pine Street's history, historical photographs, or questions about our research, please contact us:
+
+[Contact the Historical Project](contact.qmd){.btn .btn-primary}
+
+---
+
+::: {.citation-box}
+**Suggested Citation:**  
+The Rittenhouse Residence Historical Project. (2024). *The History of 1822 Pine Street: A Comprehensive Historical Documentation Through 1950*. Philadelphia, PA: The Rittenhouse Residence.
+:::

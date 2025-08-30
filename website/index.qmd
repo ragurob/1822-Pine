@@ -1,0 +1,289 @@
+---
+title: "1822 Pine Street"
+subtitle: "A Philadelphia Landmark Since 1854"
+page-layout: custom
+toc: false
+css: styles/homepage.css
+---
+
+::: {.hero-full}
+![](images/property/DSC00084.jpg){.hero-image}
+
+::: {.hero-overlay}
+::: {.hero-content}
+# You're Not Just Booking a House
+
+## You're Stepping Into Philadelphia History
+
+Where suffragettes planned their campaigns. Where society held its grandest gatherings.  
+Where 170 years of stories wait to be discovered.
+
+::: {.hero-stats}
+::: {.stat}
+**16-18**  
+Guests
+:::
+::: {.stat}
+**5**  
+Suites
+:::
+::: {.stat}
+**7,000**  
+Square Feet
+:::
+::: {.stat}
+**2 Blocks**  
+From Rittenhouse
+:::
+:::
+
+::: {.hero-cta}
+[Book on Airbnb](https://www.airbnb.com/rooms/6000930){.btn .btn-primary .btn-lg}
+[Book on VRBO](https://www.vrbo.com/757481){.btn .btn-secondary .btn-lg}
+[Check Availability](#availability){.btn .btn-outline-light .btn-lg}
+:::
+:::
+:::
+:::
+
+---
+
+::: {.photo-story}
+## This Is Your Philadelphia Story
+
+::: {.story-grid}
+::: {.story-card}
+![Original 1854 entry with marble threshold worn by 170 years of arrivals](images/property/DSC00066.jpg)
+**The Arrival**  
+Step through the same doorway that welcomed Victorian merchants, Gilded Age society, and suffragette leaders
+:::
+
+::: {.story-card}
+![Double parlors where history happened](images/property/DSC00090.jpg)
+**The Gathering**  
+Host your own gathering in parlors that have seen wedding breakfasts (1901), suffrage meetings (1915), and society teas
+:::
+
+::: {.story-card}
+![Primary suite with original architectural details](images/property/DSC00084.jpg)
+**The Retreat**  
+Rest in rooms that blend museum-quality preservation with luxury comfort
+:::
+:::
+:::
+
+---
+
+::: {.trust-signals}
+## The Numbers That Matter
+
+::: {.metrics-grid}
+::: {.metric}
+### Proven Excellence
+- **4.92** Star Rating on Airbnb
+- **300+** Five-Star Reviews
+- **Superhost** Since 2021
+- **#1** Historic Rental in Rittenhouse
+:::
+
+::: {.metric}
+### Verified History
+- **1854** Original Construction
+- **1899** Duhring, Okie & Ziegler Renovation
+- **35+** Historical Documents
+- **17** Original Property Deeds
+:::
+
+::: {.metric}
+### Perfect Location
+- **2 min** walk to Rittenhouse Square
+- **30+** restaurants within 5 blocks
+- **4 blocks** to Whole Foods
+- **Walk Score** 99/100
+:::
+
+::: {.metric}
+### Space & Comfort
+- **16-18** guests comfortably
+- **5** bedroom suites
+- **5** full bathrooms
+- **2** kitchens
+:::
+:::
+:::
+
+---
+
+::: {.the-story}
+## A House With Stories to Tell
+
+### From the Archives
+
+**April 23, 1891** — Seven-year-old Howard Spencer Jr. fights scarlet fever in an upstairs bedroom. The first documented personal tragedy at this address, preserved in newspaper archives.
+
+**November 21, 1901** — The Rolin-Plumb wedding breakfast fills the double parlors. Society pages describe the elaborate floral arrangements and guest list.
+
+**January 8, 1915** — Martha Davis sells Equal Franchise Society tickets from the entry hall, part of the suffrage movement that would win women the vote.
+
+**July 18, 1899** — The Philadelphia Inquirer announces Duhring, Okie & Ziegler's commission for "alterations and additions" that would transform the house into its current glory.
+
+::: {.story-cta}
+[Explore 170 Years of History](history-book.qmd){.btn .btn-outline-primary}
+[View Original Documents](documents.qmd){.btn .btn-outline-primary}
+:::
+:::
+
+---
+
+::: {.room-showcase}
+## Every Room Tells Its Story
+
+```{=html}
+<div class="room-carousel">
+  <div class="room-slide active">
+    <img src="images/property/DSC00066.jpg" alt="Entry Hall">
+    <div class="room-info">
+      <h3>The Entry Hall</h3>
+      <p>Original 1854 checkerboard marble floor • Stained glass transom • Where calling cards were left</p>
+    </div>
+  </div>
+  <div class="room-slide">
+    <img src="images/property/DSC00084.jpg" alt="Primary Suite">
+    <div class="room-info">
+      <h3>The Primary Suite</h3>
+      <p>Four-poster bed • Crystal chandelier • Crown molding from 1899 renovation</p>
+    </div>
+  </div>
+  <div class="room-slide">
+    <img src="images/property/DSC00076.jpg" alt="Designer Bath">
+    <div class="room-info">
+      <h3>Designer Bathrooms</h3>
+      <p>Five full baths • Modern luxury • Period-appropriate style</p>
+    </div>
+  </div>
+</div>
+```
+
+[View All Rooms & Floor Plans](floor-plans-events.qmd){.btn .btn-primary .btn-lg}
+:::
+
+---
+
+::: {.reviews-section}
+## What Guests Are Saying
+
+::: {.reviews-grid}
+::: {.review}
+> "This is not just a rental—it's an experience. The history is palpable in every room, yet all the modern conveniences are perfectly integrated. Our family reunion here was unforgettable."
+> 
+> — **Recent Guest**, 5 stars
+:::
+
+::: {.review}
+> "The location is unbeatable. We walked to everything—Rittenhouse Square for morning coffee, amazing restaurants for dinner, museums during the day. The house itself is a living museum."
+> 
+> — **Recent Guest**, 5 stars
+:::
+
+::: {.review}
+> "We've stayed in many luxury rentals, but nothing compares to the authenticity and elegance of this property. The attention to detail in the restoration is remarkable."
+> 
+> — **Recent Guest**, 5 stars
+:::
+:::
+
+::: {.reviews-cta}
+[Read 300+ Reviews on Airbnb](https://www.airbnb.com/rooms/6000930#reviews){.btn .btn-outline-primary}
+[Read Reviews on VRBO](https://www.vrbo.com/757481#reviews){.btn .btn-outline-primary}
+:::
+:::
+
+---
+
+::: {#availability .availability}
+## Your Dates
+
+::: {.booking-widget}
+### Check Availability
+
+The property books quickly, especially for:
+- **Graduation Weeks** (May)
+- **Holiday Weekends**
+- **Fall Season** (September-November)
+
+::: {.rates-preview}
+**Starting at $1,600/night**  
+2-night minimum • Weekly & monthly discounts available
+:::
+
+::: {.booking-buttons}
+[Book on Airbnb](https://www.airbnb.com/rooms/6000930){.btn .btn-primary .btn-lg}
+[Book on VRBO](https://www.vrbo.com/757481){.btn .btn-secondary .btn-lg}
+[Contact Direct](contact.qmd){.btn .btn-outline-primary .btn-lg}
+:::
+:::
+:::
+
+---
+
+::: {.location-section}
+## The Rittenhouse Square Neighborhood
+
+::: {.location-grid}
+::: {.location-feature}
+### Your Morning
+- **Rittenhouse Square** - 2-minute walk
+- **La Colombe Coffee** - 3-minute walk
+- **Di Bruno Bros** - 4-minute walk
+- **Whole Foods** - 5-minute walk
+:::
+
+::: {.location-feature}
+### Your Afternoon
+- **Barnes Foundation** - 10-minute walk
+- **Rodin Museum** - 12-minute walk
+- **Philadelphia Museum of Art** - 15-minute walk
+- **Independence Hall** - 20-minute walk
+:::
+
+::: {.location-feature}
+### Your Evening
+- **Parc** - 3-minute walk
+- **Vernick Food & Drink** - 5-minute walk
+- **The Love** - 7-minute walk
+- **30+ restaurants** within 5 blocks
+:::
+:::
+
+<iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.7387145601584!2d-75.17538068461816!3d39.94773897942209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c6318c3f3d55%3A0x3b2e4d8c5f7f9f55!2s1822%20Pine%20St%2C%20Philadelphia%2C%20PA%2019103!5e0!3m2!1sen!2sus!4v1234567890" 
+  width="100%" 
+  height="400" 
+  style="border:0; margin-top: 2rem;" 
+  allowfullscreen="" 
+  loading="lazy">
+</iframe>
+:::
+
+---
+
+::: {.final-cta}
+## Ready to Make History?
+
+This isn't just a place to stay. It's a chance to live inside Philadelphia's story—to wake up where history was made, to gather where society gathered, to create your own memories in rooms that have hosted 170 years of them.
+
+::: {.cta-buttons}
+[Book Your Stay](https://www.airbnb.com/rooms/6000930){.btn .btn-primary .btn-xl}
+[Take a Virtual Tour](floor-plans-events.qmd){.btn .btn-outline-primary .btn-xl}
+:::
+
+::: {.quick-facts}
+**Check-in**: 4:00 PM | **Check-out**: 11:00 AM | **Max Guests**: 16-18 | **Min Stay**: 2 nights
+:::
+:::
+
+---
+
+::: {.footer-links}
+[House Rules](house-rules.qmd) • [Guest Guidebook](guidebook.qmd) • [FAQ](faq.qmd) • [Contact](contact.qmd) • [Historical Documents](documents.qmd)
+:::
