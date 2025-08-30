@@ -1,49 +1,45 @@
-name: Publish Quarto Website
+name: Deploy Quarto site to GitHub Pages
 
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
+  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
+      - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Set up Quarto
+        
+      - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         
-      - name: Check website structure
-        run: |
-          echo "Current directory:"
-          pwd
-          echo "Contents of website directory:"
-          ls -la website/
-          echo "Checking for _quarto.yml:"
-          cat website/_quarto.yml | head -20
-          
-      - name: Render Website
+      - name: Render Quarto Website
         run: |
           cd website
-          # Remove metadata-files reference if it doesn't exist
-          if [ ! -f "_metadata.yml" ]; then
-            echo "No _metadata.yml found, adjusting _quarto.yml"
-            grep -v "metadata-files:" _quarto.yml > _quarto_temp.yml && mv _quarto_temp.yml _quarto.yml
-          fi
           quarto render --to html
+          # Add .nojekyll to prevent GitHub Pages from processing with Jekyll
+          touch _site/.nojekyll
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: website/_site
 
+  # Deployment job
   deploy:
     environment:
       name: github-pages
