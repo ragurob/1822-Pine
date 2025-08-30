@@ -1,0 +1,12 @@
+---
+title: "Terms of Service"
+---
+
+## Terms of Service
+
+Please refer to our booking platforms for complete terms:
+
+- [Airbnb Terms](https://www.airbnb.com/rooms/6000930)
+- [VRBO Terms](https://www.vrbo.com/757481)
+
+For direct booking inquiries, please [contact us](contact.qmd).

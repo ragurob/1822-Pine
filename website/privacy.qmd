@@ -1,0 +1,24 @@
+---
+title: "Privacy Policy"
+---
+
+## Privacy Policy
+
+We respect your privacy and protect your personal information.
+
+### Information We Collect
+- Contact information for booking inquiries
+- Guest information required for stays
+
+### How We Use Information
+- To process bookings
+- To communicate about your stay
+- To ensure safety and security
+
+### Third-Party Platforms
+When booking through our partner platforms:
+- [Airbnb Privacy Policy](https://www.airbnb.com/terms/privacy_policy)
+- [VRBO Privacy Policy](https://www.vrbo.com/legal/privacy-policy)
+
+### Contact
+For privacy concerns: [Contact Us](contact.qmd)

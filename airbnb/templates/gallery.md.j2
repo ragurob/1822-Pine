@@ -1,0 +1,12 @@
+---
+# (Auto‑Generated Image Gallery — Airbnb)
+---
+
+## Airbnb Gallery ({{ images|length }} images)
+
+{% for img in images %}![{{ img.alt if img.alt else 'Airbnb image ' ~ loop.index }}]({{ img.local_path }})
+{% if img.alt %}_Caption:_ {{ img.alt }}
+{% endif %}
+
+{% endfor %}
+_Sourced from Airbnb {{ source_url }} ({{ last_fetched }} UTC)._

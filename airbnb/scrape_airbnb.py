@@ -142,20 +142,36 @@ def playwright_scrape(url: str, mapping: dict, cookies_path: str | None, max_ima
             pass
         # images: select visible gallery images first
         imgs: List[str] = []
+        # Try expanding full photo gallery
         try:
-            gallery_sel = page.locator('div[data-testid="image-grid"] img, picture img, img')
-            for el in gallery_sel.element_handles():
-                if len(imgs) >= max_images:
-                    break
-                src = el.get_attribute('src') or ''
-                if src.startswith('https://') and any(d in src for d in ['airbnbstatic', 'a0.muscache.com']):
-                    base = src.split('?')[0]
-                    if base not in imgs:
-                        imgs.append(base)
+            show_photos = page.locator('button:has-text("Show all") , a:has-text("Show all photos")')
+            if show_photos.count() > 0:
+                show_photos.first.click()
+                time.sleep(2)
         except Exception:
             pass
-        if imgs and 'images_raw' not in data:
-            data['images_raw'] = imgs
+        try:
+            gallery_sel = page.locator('div[data-testid="image-grid"] img, div[role="dialog"] img, picture img, img')
+            seen = set()
+            image_info = []
+            for el in gallery_sel.element_handles():
+                if len(image_info) >= max_images:
+                    break
+                src = el.get_attribute('src') or ''
+                if not src.startswith('https://'):
+                    continue
+                if not any(d in src for d in ['airbnbstatic', 'a0.muscache.com']):
+                    continue
+                base = src.split('?')[0]
+                if base in seen:
+                    continue
+                alt = el.get_attribute('alt') or el.get_attribute('aria-label') or ''
+                seen.add(base)
+                image_info.append({'url': base, 'alt': collapse_text(alt) if alt else ''})
+            if image_info and 'images_raw' not in data:
+                data['images_raw'] = image_info
+        except Exception:
+            pass
         browser.close()
         return data
 
@@ -232,7 +248,15 @@ def normalize(data: Dict[str, Any], max_images: int, images_dir: str) -> Dict[st
     # Images
     images_raw = data.get('images_raw', [])[:max_images]
     downloaded = []
-    for idx, url in enumerate(images_raw):
+    for idx, item in enumerate(images_raw):
+        if isinstance(item, dict):
+            url = item.get('url')
+            alt = item.get('alt', '')
+        else:
+            url = item
+            alt = ''
+        if not url:
+            continue
         try:
             r = requests.get(url, timeout=10)
             if r.status_code == 200:
@@ -241,7 +265,7 @@ def normalize(data: Dict[str, Any], max_images: int, images_dir: str) -> Dict[st
                 fpath = os.path.join(images_dir, fname)
                 with open(fpath, 'wb') as fh:
                     fh.write(r.content)
-                downloaded.append({'url': url, 'local_path': fpath})
+                downloaded.append({'url': url, 'local_path': fpath, 'alt': alt})
         except Exception:
             continue
     if downloaded:

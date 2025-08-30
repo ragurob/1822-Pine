@@ -150,19 +150,19 @@ website:
                 href: ../chapters/10-provenance-dossier.qmd
                 icon: file-earmark-text
               - text: "Bibliography"
-                href: ../refs/bibliography.qmd
+                href: ../refs/bibliography_complete.bib
                 icon: journal-bookmark
           - text: "---"
           - text: "Site Resources"
             contents:
               - text: "Master Content Index"
-                href: ../MASTER-CONTENT-INDEX.md
+                href: https://github.com/ragurob/1822-Pine/blob/main/MASTER-CONTENT-INDEX.md
                 icon: list-nested
               - text: "Content Directory Structure"
-                href: ../CONTENT-DIRECTORY-STRUCTURE.md
+                href: https://github.com/ragurob/1822-Pine/blob/main/CONTENT-DIRECTORY-STRUCTURE.md
                 icon: diagram-2
               - text: "Deployment Guide"
-                href: DEPLOYMENT.md
+                href: https://github.com/ragurob/1822-Pine/blob/main/website/DEPLOYMENT.md
                 icon: rocket
                 
     right:
@@ -221,7 +221,7 @@ website:
     right: |
       [Terms](terms.qmd) | [Privacy](privacy.qmd)<br>
       [Instagram](https://instagram.com/therittenhouseresidence) | [Facebook](https://facebook.com/therittenhouseresidence)<br>
-      [Site Index](../MASTER-CONTENT-INDEX.md)
+      [Site Index](https://github.com/ragurob/1822-Pine/blob/main/MASTER-CONTENT-INDEX.md)
   
   search:
     location: navbar
