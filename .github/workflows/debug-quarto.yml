@@ -1,0 +1,121 @@
+name: Debug Quarto Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        
+      - name: Check Quarto Version
+        run: |
+          echo "=== Quarto Version ==="
+          quarto --version
+          
+      - name: Check Directory Structure
+        run: |
+          echo "=== Root Directory ==="
+          ls -la
+          echo ""
+          echo "=== Website Directory ==="
+          ls -la website/
+          echo ""
+          echo "=== Checking for key files ==="
+          echo "website/_quarto.yml exists: $(test -f website/_quarto.yml && echo 'YES' || echo 'NO')"
+          echo "website/index.qmd exists: $(test -f website/index.qmd && echo 'YES' || echo 'NO')"
+          
+      - name: Validate YAML
+        run: |
+          echo "=== Validating _quarto.yml ==="
+          python3 -c "
+          import yaml
+          import sys
+          try:
+              with open('website/_quarto.yml', 'r') as f:
+                  config = yaml.safe_load(f)
+              print('YAML is valid')
+              print(f'Project type: {config.get(\"project\", {}).get(\"type\", \"unknown\")}')
+          except Exception as e:
+              print(f'YAML ERROR: {e}')
+              sys.exit(1)
+          "
+          
+      - name: Check File References
+        run: |
+          echo "=== Checking QMD file references ==="
+          cd website
+          grep -oE "href:[[:space:]]*[^[:space:]]+\\.qmd" _quarto.yml | while read -r line; do
+            file=$(echo "$line" | sed 's/href:[[:space:]]*//')
+            if [[ $file == ../* ]]; then
+              # Check parent directory references
+              parent_file="../${file#../}"
+              if [ -f "$parent_file" ]; then
+                echo "✓ Found: $file"
+              else
+                echo "✗ MISSING: $file"
+              fi
+            else
+              # Check local references
+              if [ -f "$file" ]; then
+                echo "✓ Found: $file"
+              else
+                echo "✗ MISSING: $file"
+              fi
+            fi
+          done
+          
+      - name: Try Minimal Render
+        run: |
+          echo "=== Attempting minimal render ==="
+          cd website
+          
+          # Create a minimal test file
+          cat > test.qmd << 'EOF'
+          ---
+          title: "Test"
+          ---
+          
+          This is a test page.
+          EOF
+          
+          echo "Rendering test file..."
+          quarto render test.qmd --to html 2>&1 || echo "Test render failed with code $?"
+          
+      - name: Try Full Render with Verbose Output
+        run: |
+          echo "=== Attempting full render with verbose output ==="
+          cd website
+          quarto render --debug 2>&1 | tee render.log || {
+            EXIT_CODE=$?
+            echo "Render failed with exit code: $EXIT_CODE"
+            echo ""
+            echo "=== Last 50 lines of output ==="
+            tail -50 render.log
+            echo ""
+            echo "=== Searching for error patterns ==="
+            grep -i "error" render.log | head -10 || true
+            grep -i "failed" render.log | head -10 || true
+            grep -i "cannot" render.log | head -10 || true
+            grep -i "missing" render.log | head -10 || true
+            exit $EXIT_CODE
+          }
+          
+      - name: Check Output
+        if: success()
+        run: |
+          echo "=== Checking _site directory ==="
+          if [ -d "website/_site" ]; then
+            echo "Success! _site directory created"
+            ls -la website/_site/ | head -20
+          else
+            echo "Warning: _site directory not found"
+          fi
