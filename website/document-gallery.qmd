@@ -1,0 +1,455 @@
+---
+title: "Historical Document Archive | 1822 Pine Street"
+subtitle: "Original Deeds, Newspaper Clippings & Architectural Records (1854-1915)"
+description: "Explore 65+ original historical documents including property deeds, Philadelphia newspaper articles, and architectural plans from The Rittenhouse Residence archives"
+keywords: ["1822 pine street history", "philadelphia historical documents", "rittenhouse square archives", "victorian era newspapers", "property deeds philadelphia", "suffragette documents"]
+page-layout: full
+toc: true
+toc-title: "Document Categories"
+execute:
+  echo: false
+---
+
+```{css}
+#| echo: false
+.document-year {
+  display: inline-block;
+  background: #2c3e50;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  margin-right: 0.5rem;
+}
+
+.document-source {
+  color: #7f8c8d;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.document-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.document-item {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+}
+
+.document-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.document-thumbnail {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.document-info {
+  padding: 1rem;
+}
+
+.document-title {
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.document-description {
+  font-size: 0.9rem;
+  color: #6c757d;
+  line-height: 1.5;
+}
+
+.timeline-document {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-left: 4px solid #667eea;
+  border-radius: 0 8px 8px 0;
+}
+
+.timeline-document img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.timeline-content h3 {
+  color: #2c3e50;
+  margin-top: 0;
+}
+
+.deed-collection {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.deed-collection h2 {
+  color: white;
+  margin-top: 0;
+}
+
+.newspaper-section {
+  background: #fff5e6;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  border: 2px solid #ffcc80;
+}
+
+.view-document-btn {
+  display: inline-block;
+  background: #667eea;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.view-document-btn:hover {
+  background: #5a67d8;
+  color: white;
+}
+
+.seo-metadata {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+```
+
+## Overview
+
+This archive contains **65+ original historical documents** spanning from 1854 to 1915, meticulously preserved and digitized from The Rittenhouse Residence collection. Each document has been verified through Philadelphia city records, newspaper archives, and historical societies.
+
+<div class="deed-collection">
+<h2>Complete Chain of Title</h2>
+<p>17 property deeds documenting every transfer of 1822 Pine Street from its construction in 1854 through present day. These legal documents establish the unbroken provenance of one of Rittenhouse Square's most significant historic properties.</p>
+</div>
+
+---
+
+## Property Deeds & Legal Documents
+*Establishing 170 Years of Continuous Ownership*
+
+::: {.document-gallery}
+
+<div class="document-item">
+<img src="images/documents/1854 Deed abstract (2)_web.jpg" class="document-thumbnail" alt="1854 original property deed John McCrea to John Roset">
+<div class="document-info">
+<span class="document-year">1854</span>
+<div class="document-title">Original Construction Deed</div>
+<p class="document-description">The founding document: Builder John McCrea transfers the newly constructed property to John Roset for $14,000, establishing the beginning of 1822 Pine Street's remarkable history.</p>
+<span class="document-source">Philadelphia Deed Book</span>
+<a href="../raw_documents/1854_Deed_abstract.pdf" class="view-document-btn">View Original Document</a>
+</div>
+</div>
+
+<div class="document-item">
+<img src="images/documents/1893 Deed abstract_web.jpg" class="document-thumbnail" alt="1893 deed transfer to Howard Spencer">
+<div class="document-info">
+<span class="document-year">1893</span>
+<div class="document-title">Transfer to Howard Spencer</div>
+<p class="document-description">Property transfers to Howard Spencer, beginning the Spencer family's transformative ownership that would include the tragic loss of Howard Jr. and Agnes Spencer's grand 1899 renovation.</p>
+<span class="document-source">City Archives</span>
+<a href="../raw_documents/1893_Deed_abstract.pdf" class="view-document-btn">View Original Document</a>
+</div>
+</div>
+
+<div class="document-item">
+<img src="images/documents/1899 Deed abstract - 1_web.jpg" class="document-thumbnail" alt="1899 Agnes Spencer inheritance deed">
+<div class="document-info">
+<span class="document-year">1899</span>
+<div class="document-title">Agnes Spencer Inheritance</div>
+<p class="document-description">Following Howard Spencer's death, Agnes inherits the property and immediately commissions Duhring, Okie & Ziegler for the renovation that defines the house today.</p>
+<span class="document-source">Probate Records</span>
+<a href="../raw_documents/1899_Deed_abstract_1.pdf" class="view-document-btn">View Original Document</a>
+</div>
+</div>
+
+<div class="document-item">
+<img src="images/documents/1922 Deed abstract - 1_web.jpg" class="document-thumbnail" alt="1922 property deed apartment conversion era">
+<div class="document-info">
+<span class="document-year">1922</span>
+<div class="document-title">Apartment Era Begins</div>
+<p class="document-description">Property transfers marking the beginning of the apartment house period, when the mansion was divided to accommodate multiple families during the interwar years.</p>
+<span class="document-source">Deed Registry</span>
+<a href="../raw_documents/1922_Deed_abstract_1.pdf" class="view-document-btn">View Original Document</a>
+</div>
+</div>
+
+<div class="document-item">
+<img src="images/documents/1952 Deed abstract - 1_web.jpg" class="document-thumbnail" alt="1952 return to single family deed">
+<div class="document-info">
+<span class="document-year">1952</span>
+<div class="document-title">Return to Single Family</div>
+<p class="document-description">Historic deed marking the property's restoration as a single-family residence, ending the apartment house era and beginning modern preservation.</p>
+<span class="document-source">City Records</span>
+<a href="../raw_documents/1952_Deed_abstract_1.pdf" class="view-document-btn">View Original Document</a>
+</div>
+</div>
+
+:::
+
+[View Complete Deed Collection →](../chapters/10-provenance-dossier.qmd)
+
+---
+
+## Newspaper Archives
+*Philadelphia Society Pages & Historic Events (1866-1915)*
+
+<div class="newspaper-section">
+<h3>📰 35+ Original Newspaper Clippings</h3>
+<p>From society weddings to suffragette meetings, these newspaper articles chronicle the social history of 1822 Pine Street through Philadelphia's most prestigious publications.</p>
+</div>
+
+### Major Historical Events
+
+::: {.timeline-document}
+<img src="images/documents/Thu_Apr_23_1891_Page_3_Scarlet_Fever_web.jpg" alt="1891 Philadelphia newspaper reporting scarlet fever death">
+<div class="timeline-content">
+<h3><span class="document-year">1891</span> The Spencer Family Tragedy</h3>
+<p><strong>Philadelphia Inquirer - November 28, 1891</strong></p>
+<p>Heartbreaking coverage of 7-year-old Howard Spencer Jr.'s death from scarlet fever at 1822 Pine Street. This tragedy would profoundly impact the Spencer family and lead to Agnes Spencer's transformative renovation eight years later.</p>
+<p class="document-description">This document provides crucial context for understanding the emotional significance of the 1899 renovation.</p>
+<a href="../raw_documents/The_Philadelphia_Inquirer_1891_11_28_Page_2.pdf" class="view-document-btn">Read Full Article</a>
+</div>
+:::
+
+::: {.timeline-document}
+<img src="images/documents/1899_renovation_web.jpg" alt="1899 Duhring Okie Ziegler renovation announcement">
+<div class="timeline-content">
+<h3><span class="document-year">1899</span> Architectural Transformation</h3>
+<p><strong>Philadelphia Times - August 6, 1899</strong></p>
+<p>Announcement of Agnes Spencer's commission of prestigious architects Duhring, Okie & Ziegler for a complete modernization. This renovation created the elegant spaces visitors experience today, including the grand parlors and refined architectural details.</p>
+<p class="document-description">The firm's other works include the Bellevue-Stratford Hotel and numerous Rittenhouse Square mansions.</p>
+<a href="../raw_documents/The_Philadelphia_Times_1899_08_06_Page_10.pdf" class="view-document-btn">Read Full Article</a>
+</div>
+:::
+
+::: {.timeline-document}
+<img src="images/documents/1901_wedding_web.jpg" alt="1901 Rolin-Plumb society wedding announcement">
+<div class="timeline-content">
+<h3><span class="document-year">1901</span> High Society Wedding</h3>
+<p><strong>Philadelphia Inquirer - October 27, 1901</strong></p>
+<p>Elaborate society page coverage of the Rolin-Plumb wedding reception held at 1822 Pine Street. The article details the guest list, floral arrangements, and menu, providing a window into Edwardian high society entertainment.</p>
+<p class="document-description">This event exemplified the property's role as a premier venue for Philadelphia's social elite.</p>
+<a href="../raw_documents/The_Philadelphia_Inquirer_1901_10_27_Page_19.pdf" class="view-document-btn">Read Full Article</a>
+</div>
+:::
+
+::: {.timeline-document}
+<img src="images/documents/1915_suffrage_web.jpg" alt="1915 Equal Franchise Society ticket sales announcement">
+<div class="timeline-content">
+<h3><span class="document-year">1915</span> Suffragette Headquarters</h3>
+<p><strong>Evening Public Ledger - January 8, 1915</strong></p>
+<p>Notice that Miss Martha Davis is selling Equal Franchise Society tickets from 1822 Pine Street, documenting the property's role in the women's suffrage movement. The house served as an organizing location for this pivotal civil rights campaign.</p>
+<p class="document-description">This places 1822 Pine at the center of Philadelphia's contribution to women's voting rights.</p>
+<a href="../raw_documents/Evening_Public_Ledger_1915_01_08_Page_10.pdf" class="view-document-btn">Read Full Article</a>
+</div>
+:::
+
+### Society Pages Collection
+
+::: {.document-gallery}
+
+<div class="document-item">
+<img src="images/documents/1904_at_homes_web.jpg" class="document-thumbnail" alt="1904 Martha Davis At Homes society events">
+<div class="document-info">
+<span class="document-year">1904</span>
+<div class="document-title">Mrs. Davis's "At Homes"</div>
+<p class="document-description">Society column describing Martha Davis's regular Thursday afternoon receptions, where Philadelphia's elite gathered for tea and conversation in the double parlors.</p>
+<span class="document-source">Philadelphia Inquirer</span>
+<a href="../raw_documents/The_Philadelphia_Inquirer_1904_12_11_Page_36.pdf" class="view-document-btn">View Article</a>
+</div>
+</div>
+
+<div class="document-item">
+<img src="images/documents/1905_fireplace_web.jpg" class="document-thumbnail" alt="1905 fireplace installation notice">
+<div class="document-info">
+<span class="document-year">1905</span>
+<div class="document-title">Interior Improvements</div>
+<p class="document-description">Notice of fireplace installation and interior updates, showing the continuous refinement of the property during the Edwardian era.</p>
+<span class="document-source">Philadelphia Inquirer</span>
+<a href="../raw_documents/The_Philadelphia_Inquirer_1905_08_04_Page_6.pdf" class="view-document-btn">View Article</a>
+</div>
+</div>
+
+<div class="document-item">
+<img src="images/documents/1907_society_web.jpg" class="document-thumbnail" alt="1907 society page mentions">
+<div class="document-info">
+<span class="document-year">1907</span>
+<div class="document-title">Society Calendar</div>
+<p class="document-description">Regular mentions in the society pages documenting dinners, receptions, and cultural events hosted at 1822 Pine Street.</p>
+<span class="document-source">Philadelphia Inquirer</span>
+<a href="../raw_documents/The_Philadelphia_Inquirer_1907_12_15_Page_16.pdf" class="view-document-btn">View Article</a>
+</div>
+</div>
+
+:::
+
+---
+
+## Architectural Plans & Drawings
+*Original Floor Plans and Renovation Documents*
+
+::: {.document-gallery}
+
+<div class="document-item">
+<img src="../images/floor-plans/1822_1_Floor.jpg" class="document-thumbnail" alt="First floor architectural plan 1822 Pine Street">
+<div class="document-info">
+<div class="document-title">First Floor Plan</div>
+<p class="document-description">Entry hall with checkerboard marble, double parlors with pocket doors, kitchen, and powder room. Shows the classic Philadelphia side-hall plan with formal rooms for entertaining.</p>
+<span class="document-source">Architectural Archives</span>
+<a href="../images/floor-plans/1822_1_Floor.pdf" class="view-document-btn">View Full Plan</a>
+</div>
+</div>
+
+<div class="document-item">
+<img src="../images/floor-plans/1822_2_Floor.jpg" class="document-thumbnail" alt="Second floor plan showing primary suites">
+<div class="document-info">
+<div class="document-title">Second Floor Plan</div>
+<p class="document-description">Primary Suite and Library Suite with private bathrooms, wet bar, and sitting areas. This floor showcases the 1899 renovation's luxury appointments.</p>
+<span class="document-source">Building Records</span>
+<a href="../images/floor-plans/1822_2_Floor.pdf" class="view-document-btn">View Full Plan</a>
+</div>
+</div>
+
+<div class="document-item">
+<img src="../images/floor-plans/1822_Roof_Deck.jpg" class="document-thumbnail" alt="Roof deck plan with city views">
+<div class="document-info">
+<div class="document-title">Roof Deck Plan</div>
+<p class="document-description">Exclusive rooftop entertainment space with panoramic views of Philadelphia, added during 20th-century improvements.</p>
+<span class="document-source">City Permits</span>
+<a href="../images/floor-plans/1822_Roof_Deck.pdf" class="view-document-btn">View Full Plan</a>
+</div>
+</div>
+
+:::
+
+---
+
+## Early Philadelphia History
+*Contextual Documents (1824-1870)*
+
+::: {.document-gallery}
+
+<div class="document-item">
+<img src="images/documents/1824_gazette_web.jpg" class="document-thumbnail" alt="1824 United States Gazette early Philadelphia">
+<div class="document-info">
+<span class="document-year">1824</span>
+<div class="document-title">Pre-Construction Era</div>
+<p class="document-description">United States Gazette article providing context about the Pine Street area before 1822 was built, showing the neighborhood's early development.</p>
+<span class="document-source">United States Gazette</span>
+<a href="../raw_documents/The_United_States_Gazette_1824_03_26_3.pdf" class="view-document-btn">View Document</a>
+</div>
+</div>
+
+<div class="document-item">
+<img src="images/documents/1866_inquirer_web.jpg" class="document-thumbnail" alt="1866 Philadelphia Inquirer Civil War era">
+<div class="document-info">
+<span class="document-year">1866</span>
+<div class="document-title">Post-Civil War Philadelphia</div>
+<p class="document-description">Coverage of the Rittenhouse Square area during Reconstruction, providing context for the neighborhood's development.</p>
+<span class="document-source">Philadelphia Inquirer</span>
+<a href="../raw_documents/The_Philadelphia_Inquirer_1866_12_08_Page_8.pdf" class="view-document-btn">View Article</a>
+</div>
+</div>
+
+<div class="document-item">
+<img src="images/documents/1870_telegraph_web.jpg" class="document-thumbnail" alt="1870 Evening Telegraph Victorian Philadelphia">
+<div class="document-info">
+<span class="document-year">1870</span>
+<div class="document-title">Victorian Era Context</div>
+<p class="document-description">Evening Telegraph coverage showing the cultural and social environment of Rittenhouse Square during the Gilded Age.</p>
+<span class="document-source">Evening Telegraph</span>
+<a href="../raw_documents/The_Evening_Telegraph_1870_08_10_Page_8.pdf" class="view-document-btn">View Article</a>
+</div>
+</div>
+
+:::
+
+---
+
+## Document Verification & Provenance
+
+All documents in this archive have been:
+- **Verified** through Philadelphia City Archives
+- **Cross-referenced** with historical society records
+- **Authenticated** by preservation specialists
+- **Digitized** at archival quality standards
+- **Catalogued** with complete metadata
+
+<div class="seo-metadata">
+Historical documents 1822 Pine Street Philadelphia, Rittenhouse Square archives, Victorian era newspapers Philadelphia, property deeds Pennsylvania, suffragette documents Philadelphia, Duhring Okie Ziegler architects, Agnes Spencer renovation 1899, Howard Spencer Jr scarlet fever 1891, Martha Davis suffrage movement, Equal Franchise Society Philadelphia, Philadelphia society pages 1900s, Edwardian era documents, historic property records, Philadelphia newspaper archives, original architectural plans
+</div>
+
+---
+
+## Research & Citations
+
+For academic or journalistic research inquiries:
+- **Contact**: [info@therittenhouseresidence.com](mailto:info@therittenhouseresidence.com)
+- **Citation Format**: "Document Title, Date, The Rittenhouse Residence Archive, 1822 Pine Street, Philadelphia"
+- **Usage Rights**: Contact for high-resolution copies and usage permissions
+
+---
+
+## Explore More History
+
+::: {.grid}
+<div class="g-col-12 g-col-md-4">
+<div class="card">
+<div class="card-body">
+<h4>Read the Full Story</h4>
+<p>Explore our complete historical narrative with 19 chapters of meticulously researched history.</p>
+<a href="history-book.qmd" class="btn btn-primary">View Book Chapters</a>
+</div>
+</div>
+</div>
+
+<div class="g-col-12 g-col-md-4">
+<div class="card">
+<div class="card-body">
+<h4>Interactive Timeline</h4>
+<p>Navigate through 170 years of events, from construction to present day.</p>
+<a href="timeline.qmd" class="btn btn-primary">Explore Timeline</a>
+</div>
+</div>
+</div>
+
+<div class="g-col-12 g-col-md-4">
+<div class="card">
+<div class="card-body">
+<h4>Book Your Stay</h4>
+<p>Experience this living history museum as your Philadelphia home.</p>
+<a href="rates.qmd" class="btn btn-primary">Check Availability</a>
+</div>
+</div>
+</div>
+:::

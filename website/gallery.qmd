@@ -1,154 +1,15 @@
 ---
-title: "Photo Gallery"
-subtitle: "Visual Tour of The Rittenhouse Residence"
+title: "Photo Gallery | 1822 Pine Street Historic Mansion"
+subtitle: "Professional Photography & Historical Documents"
+description: "Explore 170 years of history through professional photography, floor plans, and original documents from Philadelphia's premier historic rental property"
+keywords: ["1822 pine street photos", "rittenhouse square mansion", "philadelphia historic house", "luxury rental photos", "historic documents"]
 page-layout: full
+execute:
+  echo: false
 ---
 
-## Experience Every Detail
-
-Step inside 1822 Pine Street through our professional photography collection. Each image captures the careful balance of historic preservation and modern luxury that defines The Rittenhouse Residence.
-
----
-
-## Main Living Spaces
-
-::: {.gallery-grid}
-![The grand entry hall features original 1854 checkerboard marble floors and a stunning stained glass transom](images/property/DSC00066.jpg){.gallery-image group="main"}
-
-![Double parlors with 14-foot ceilings create an elegant gathering space](images/property/DSC00090.jpg){.gallery-image group="main"}
-
-![Period details preserved throughout the formal rooms](images/property/DSC00102.jpg){.gallery-image group="main"}
-
-![Elegant parlor with original millwork and crystal chandelier](images/property/DSC00100.jpg){.gallery-image group="main"}
-
-![Grand staircase with historic bannister](images/property/DSC00068.jpg){.gallery-image group="main"}
-
-![Formal sitting area with period furnishings](images/property/DSC00092.jpg){.gallery-image group="main"}
-:::
-
----
-
-## Bedroom Suites
-
-::: {.gallery-grid}
-![Primary suite with four-poster bed and crystal chandelier](images/property/DSC00084.jpg){.gallery-image group="bedrooms"}
-
-![Guest suite combining historic charm with modern comfort](images/property/DSC00088.jpg){.gallery-image group="bedrooms"}
-
-![Thoughtfully appointed bedroom with original architectural details](images/property/DSC00094.jpg){.gallery-image group="bedrooms"}
-
-![Luxurious bedroom with period furnishings](images/property/DSC00086.jpg){.gallery-image group="bedrooms"}
-
-![Comfortable guest room with historic character](images/property/DSC00116.jpg){.gallery-image group="bedrooms"}
-
-![Charming bedroom with original fireplace](images/property/DSC00118.jpg){.gallery-image group="bedrooms"}
-:::
-
----
-
-## Bathrooms & Modern Amenities
-
-::: {.gallery-grid}
-![Designer bathroom with dramatic wallpaper and pedestal sink](images/property/DSC00076.jpg){.gallery-image group="bathrooms"}
-
-![Luxuriously appointed bathroom facilities](images/property/DSC00078.jpg){.gallery-image group="bathrooms"}
-
-![Modern conveniences seamlessly integrated](images/property/DSC00080.jpg){.gallery-image group="bathrooms"}
-
-![Elegant bathroom with period fixtures](images/property/DSC00072.jpg){.gallery-image group="bathrooms"}
-
-![Spa-like bathroom amenities](images/property/DSC00074.jpg){.gallery-image group="bathrooms"}
-:::
-
----
-
-## Architectural Details
-
-::: {.gallery-grid}
-![Original millwork and crown molding from 1899 renovation](images/property/DSC00082.jpg){.gallery-image group="details"}
-
-![Historic hardware and fixtures preserved throughout](images/property/DSC00096.jpg){.gallery-image group="details"}
-
-![Marble mantels and period-appropriate lighting](images/property/DSC00104.jpg){.gallery-image group="details"}
-
-![Intricate ceiling medallions and plasterwork](images/property/DSC00064.jpg){.gallery-image group="details"}
-
-![Original hardwood floors and baseboards](images/property/DSC00122.jpg){.gallery-image group="details"}
-:::
-
----
-
-## Kitchen & Dining
-
-::: {.gallery-grid}
-![Chef's kitchen with professional appliances](images/property/DSC00106.jpg){.gallery-image group="kitchen"}
-
-![Formal dining room seats 12 comfortably](images/property/DSC00108.jpg){.gallery-image group="kitchen"}
-
-![Butler's pantry and service areas](images/property/DSC00110.jpg){.gallery-image group="kitchen"}
-:::
-
----
-
-## Additional Spaces
-
-::: {.gallery-grid}
-![Private garden courtyard](images/property/DSC00112.jpg){.gallery-image group="additional"}
-
-![Roof deck with city views](images/property/DSC00070.jpg){.gallery-image group="additional"}
-
-![Service entrance from Waverly Street](images/property/DSC00110.jpg){.gallery-image group="additional"}
-:::
-
----
-
-## Virtual Tour Features
-
-### What You'll Find in Each Space:
-
-**Entry Hall & Parlors**
-- Original 1854 marble threshold worn by 170 years of footsteps
-- Double parlors where suffragette meetings were held
-- 14-foot ceilings with original plaster medallions
-- Pocket doors with original hardware
-
-**Bedrooms**
-- 5 distinct suites, each with unique character
-- Mix of king and queen beds
-- Original fireplaces (decorative)
-- Period-appropriate furnishings
-
-**Modern Amenities**
-- High-speed WiFi throughout
-- Smart TVs in main areas
-- Central air conditioning
-- Professional kitchen equipment
-
-**Historic Features**
-- 1899 Duhring, Okie & Ziegler architectural elements
-- Original hardwood floors
-- Marble mantels in principal rooms
-- Stained glass transoms
-
----
-
-## Book Your Stay
-
-Ready to experience these spaces in person?
-
-::: {.booking-cta}
-[Check Availability](rates.qmd){.btn .btn-primary .btn-lg}
-[View Floor Plans](floor-plans-events.qmd){.btn .btn-outline-primary .btn-lg}
-[Read Guest Reviews](https://www.airbnb.com/rooms/6000930#reviews){.btn .btn-outline-primary .btn-lg}
-:::
-
----
-
-::: {.photo-notes}
-*Professional photography by [Photographer Name]. Images represent actual property conditions. Some furnishings and décor may vary seasonally.*
-:::
-
-<style>
+```{css}
+#| echo: false
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -162,7 +23,7 @@ Ready to experience these spaces in person?
   object-fit: cover;
   border-radius: 8px;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .gallery-image:hover {
@@ -170,31 +31,321 @@ Ready to experience these spaces in person?
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
+.room-badge {
+  display: inline-block;
+  background: #0066cc;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  margin: 0.25rem;
+}
+
+.floor-indicator {
+  color: #666;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.document-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.document-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.document-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.timeline-gallery {
+  position: relative;
+  margin: 3rem 0;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.timeline-item img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.seo-caption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+}
+
 .booking-cta {
   text-align: center;
   margin: 3rem 0;
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  color: white;
 }
 
 .booking-cta .btn {
   margin: 0.5rem;
+  background: white;
+  color: #667eea;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
-.photo-notes {
-  text-align: center;
-  color: #6c757d;
-  font-style: italic;
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid #dee2e6;
+.booking-cta .btn:hover {
+  transform: translateY(-2px);
 }
+```
 
-@media (max-width: 768px) {
-  .gallery-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .gallery-image {
-    height: 300px;
-  }
-}
-</style>
+## Experience Every Detail
+
+Step inside **1822 Pine Street** through our comprehensive visual collection. Each image captures the careful balance of **historic preservation** and **modern luxury** that defines The Rittenhouse Residence—from the original 1854 checkerboard marble floors to the panoramic city views from our roof deck.
+
+---
+
+## Grand Living Spaces
+*Where History Meets Luxury*
+
+::: {.gallery-grid}
+![The grand entry hall features original 1854 checkerboard marble floors and a stunning stained glass transom—the first impression that has welcomed guests for 170 years](images/property/DSC00066.jpg){.gallery-image alt="Historic entry hall with original 1854 checkerboard marble floors at 1822 Pine Street Philadelphia"}
+
+![Double parlors with 14-foot ceilings where Philadelphia suffragettes held meetings in 1915—these rooms have hosted society's most important conversations](images/property/DSC00090.jpg){.gallery-image alt="Elegant double parlors with pocket doors where suffragette meetings were held"}
+
+![Meticulously preserved architectural details including original 1899 Duhring, Okie & Ziegler millwork and period-appropriate furnishings throughout](images/property/DSC00102.jpg){.gallery-image alt="Period details and original millwork from 1899 renovation"}
+
+![Formal dining spaces perfect for entertaining, where the Davis family hosted their famous 'At Homes' in 1904](images/property/DSC00100.jpg){.gallery-image alt="Formal dining room with crystal chandelier and period furnishings"}
+
+![Grand staircase with original bannister, connecting five floors of Philadelphia history](images/property/DSC00068.jpg){.gallery-image alt="Historic staircase with original 1854 bannister and architectural details"}
+
+![Elegant sitting areas throughout the mansion provide intimate spaces for conversation and relaxation](images/property/DSC00092.jpg){.gallery-image alt="Victorian sitting room with period furniture and original fireplace"}
+:::
+
+---
+
+## Luxury Bedroom Suites
+*8 Bedrooms Across 5 Private Suites* <span class="floor-indicator">Accommodates 16-18 guests</span>
+
+::: {.gallery-grid}
+![Primary Suite (Bedroom 1) - Second Floor: King bed with four-poster frame, crystal chandelier, and en-suite bathroom](images/property/DSC00084.jpg){.gallery-image alt="Luxurious primary bedroom with four-poster bed on second floor of historic mansion"}
+
+![Library Suite (Bedroom 2) - Second Floor: Features wet bar, 70-inch 4K TV, and private bathroom](images/property/airbnb/airbnb_08.jpg){.gallery-image alt="Library suite bedroom with queen bed and private amenities"}
+
+![Third Floor Front (Bedroom 3) - Overlooks historic Pine Street with queen bed and period furnishings](images/property/airbnb/airbnb_13.jpg){.gallery-image alt="Third floor front bedroom with queen bed overlooking Pine Street"}
+
+![Third Floor Middle (Bedroom 4) - Queen bed with original architectural details and shared bathroom](images/property/airbnb/airbnb_12.jpg){.gallery-image alt="Third floor middle bedroom with queen bed and historic character"}
+
+![Third Floor Rear (Bedroom 5) - Private queen bedroom with garden views](images/property/airbnb/airbnb_11.jpg){.gallery-image alt="Third floor rear bedroom with queen bed and garden views"}
+
+![Fourth Floor Front (Bedroom 6) - Queen suite with panoramic city views](images/property/airbnb/airbnb_10.jpg){.gallery-image alt="Fourth floor front bedroom with queen bed and city skyline views"}
+
+![Fourth Floor Middle (Bedroom 7) - Cozy queen bedroom perfect for extended stays](images/property/airbnb/airbnb_14.jpg){.gallery-image alt="Fourth floor middle bedroom with queen bed in historic setting"}
+
+![Fourth Floor Rear (Bedroom 8) - Quiet queen bedroom retreat at the top of the house](images/property/airbnb/airbnb_09.jpg){.gallery-image alt="Fourth floor rear bedroom with queen bed offering privacy and comfort"}
+:::
+
+<div class="room-badge">7 Queen Beds</div>
+<div class="room-badge">1 King Bed</div>
+<div class="room-badge">5 Private Suites</div>
+<div class="room-badge">16-18 Guests</div>
+
+---
+
+## Designer Bathrooms & Modern Amenities
+*Historic Elegance with Contemporary Comfort*
+
+::: {.gallery-grid}
+![Designer bathroom featuring dramatic wallpaper, pedestal sink, and luxury fixtures](images/property/DSC00076.jpg){.gallery-image alt="Luxurious bathroom with designer wallpaper and pedestal sink"}
+
+![Spa-like bathroom amenities with modern conveniences in a historic setting](images/property/DSC00078.jpg){.gallery-image alt="Modern bathroom with luxury amenities in Victorian mansion"}
+
+![Beautifully appointed facilities combining period charm with modern functionality](images/property/DSC00080.jpg){.gallery-image alt="Elegant bathroom with period fixtures and modern updates"}
+
+![Classic Victorian-style bathroom with authentic period details](images/property/DSC00072.jpg){.gallery-image alt="Victorian bathroom with clawfoot tub and period fixtures"}
+
+![Contemporary updates seamlessly integrated with historic architecture](images/property/DSC00074.jpg){.gallery-image alt="Updated bathroom facilities with historic character preserved"}
+:::
+
+---
+
+## Architectural Heritage
+*170 Years of Preserved Details*
+
+::: {.gallery-grid}
+![Original 1899 millwork and crown molding by renowned architects Duhring, Okie & Ziegler](images/property/DSC00082.jpg){.gallery-image alt="Original millwork and crown molding from 1899 renovation"}
+
+![Historic hardware and fixtures preserved throughout, including original door handles and locks](images/property/DSC00096.jpg){.gallery-image alt="Original Victorian hardware and fixtures preserved since 1854"}
+
+![Marble mantels and period-appropriate lighting fixtures in every principal room](images/property/DSC00104.jpg){.gallery-image alt="Original marble fireplace mantels with period lighting"}
+
+![Intricate ceiling medallions and plasterwork details from the Victorian era](images/property/DSC00064.jpg){.gallery-image alt="Original plaster ceiling medallions and decorative moldings"}
+
+![Original hardwood floors maintained since 1854, showing beautiful patina of age](images/property/DSC00122.jpg){.gallery-image alt="Original 1854 hardwood floors with historic patina"}
+:::
+
+---
+
+## Kitchen & Entertainment Spaces
+*Designed for Gathering*
+
+::: {.gallery-grid}
+![Chef's kitchen with professional-grade appliances, gas range, and ample prep space](images/property/DSC00106.jpg){.gallery-image alt="Professional chef's kitchen with stainless steel appliances"}
+
+![Formal dining room comfortably seats 12-16 for elegant dinner parties](images/property/DSC00108.jpg){.gallery-image alt="Formal dining room for 16 guests with period details"}
+
+![Butler's pantry and service areas connecting to Waverly Street entrance](images/property/DSC00110.jpg){.gallery-image alt="Historic butler's pantry with service entrance"}
+:::
+
+---
+
+## Outdoor Spaces & City Views
+*Exclusive Rooftop Oasis*
+
+::: {.gallery-grid}
+![Private roof deck with panoramic views of Philadelphia skyline—perfect for sunset cocktails](images/property/DSC00070.jpg){.gallery-image alt="Rooftop deck with panoramic Philadelphia city views"}
+
+![Garden courtyard provides peaceful outdoor retreat in the heart of Center City](images/property/DSC00112.jpg){.gallery-image alt="Private garden courtyard at historic Rittenhouse Square mansion"}
+
+![Service entrance from historic Waverly Street maintains period character](images/property/DSC00110.jpg){.gallery-image alt="Historic Waverly Street service entrance preserved since 1854"}
+:::
+
+---
+
+## Historical Documents Collection
+*Original Artifacts from 1854-1915*
+
+### Key Historical Events
+
+::: {.timeline-gallery}
+
+<div class="timeline-item">
+<img src="images/documents/1854 Deed abstract (2)_web.jpg" alt="1854 original deed from John McCrea to John Roset">
+<div>
+<h4>1854: The Beginning</h4>
+<p>Original deed when builder John McCrea sold the newly constructed house to John Roset, establishing 170 years of continuous residential use.</p>
+<span class="seo-caption">This original 1854 deed marks the birth of one of Rittenhouse Square's most significant historic properties.</span>
+</div>
+</div>
+
+<div class="timeline-item">
+<img src="images/documents/1899 Deed abstract - 1_web.jpg" alt="1899 deed showing Agnes Spencer's inheritance">
+<div>
+<h4>1899: The Grand Renovation</h4>
+<p>Agnes Spencer inherits the property and commissions prestigious architects Duhring, Okie & Ziegler for a complete modernization, creating the elegant spaces we see today.</p>
+<span class="seo-caption">The 1899 renovation transformed 1822 Pine into one of Philadelphia's finest examples of turn-of-the-century architecture.</span>
+</div>
+</div>
+
+:::
+
+### Newspaper Archive
+*Society Pages & Historic Events*
+
+::: {.document-grid}
+
+<div class="document-card">
+<h4>1891: The Spencer Tragedy</h4>
+<img src="images/documents/1891_scarlet_fever_web.jpg" alt="1891 Philadelphia Inquirer article about Howard Spencer Jr." style="width:100%; height:150px; object-fit:cover;">
+<p class="seo-caption">Philadelphia Inquirer coverage of the scarlet fever tragedy that claimed Howard Spencer Jr. at age 7.</p>
+<a href="chapters/03-votes-in-the-parlor.qmd#1891-tragedy">Read the full story →</a>
+</div>
+
+<div class="document-card">
+<h4>1901: Society Wedding</h4>
+<img src="images/documents/1901_wedding_web.jpg" alt="1901 Rolin-Plumb wedding announcement" style="width:100%; height:150px; object-fit:cover;">
+<p class="seo-caption">The Rolin-Plumb wedding reception epitomized Edwardian elegance at 1822 Pine Street.</p>
+<a href="chapters/05-long-edwardian-afternoon.qmd#society-events">Explore society life →</a>
+</div>
+
+<div class="document-card">
+<h4>1915: Suffrage Movement</h4>
+<img src="images/documents/1915_suffrage_web.jpg" alt="1915 Equal Franchise Society announcement" style="width:100%; height:150px; object-fit:cover;">
+<p class="seo-caption">Martha Davis sells Equal Franchise Society tickets from 1822 Pine, making it a suffragette headquarters.</p>
+<a href="chapters/03-votes-in-the-parlor.qmd#suffrage">Learn about the movement →</a>
+</div>
+
+:::
+
+---
+
+## Floor Plans & Layouts
+*7,000 Square Feet Across 5 Floors*
+
+::: {.gallery-grid}
+![First Floor: Entry hall, double parlors, kitchen, powder room - accommodates 50 for cocktails](images/floor-plans/1822_1_Floor.jpg){.gallery-image alt="First floor architectural plan showing parlors and entry hall"}
+
+![Second Floor: Primary Suite and Library Suite with private bathrooms and wet bar](images/floor-plans/1822_2_Floor.jpg){.gallery-image alt="Second floor plan with two luxury suites"}
+
+![Third Floor: Three bedrooms in two suite configurations with shared bathroom](images/floor-plans/1822_3_Floor.jpg){.gallery-image alt="Third floor plan showing three bedroom configuration"}
+:::
+
+[View all floor plans →](floor-plans-events.qmd)
+
+---
+
+## Virtual Tour Features
+
+### What You'll Experience:
+
+**Entry Level & Parlors**
+- Original 1854 marble threshold worn smooth by 170 years of footsteps
+- Double parlors where suffragette meetings shaped women's rights
+- 14-foot ceilings with original plaster medallions
+- Pocket doors with functioning 1854 hardware
+
+**Bedroom Suites**
+- 8 distinct bedrooms across 5 private suites
+- Mix of king and queen beds with luxury linens
+- Original fireplaces (decorative) in principal rooms
+- Period-appropriate furnishings throughout
+
+**Modern Amenities**
+- High-speed WiFi (351 Mbps) throughout all floors
+- 70-inch 4K smart TVs with Netflix
+- Central air conditioning and heating
+- Two full kitchens with professional equipment
+- In-unit washer and dryer
+
+**Historic Preservation**
+- 1899 Duhring, Okie & Ziegler architectural elements intact
+- Original hardwood floors throughout
+- Marble mantels in all principal rooms
+- Stained glass transoms and period lighting
+
+---
+
+<div class="booking-cta">
+<h2>Ready to Experience History?</h2>
+<p>Stay in Philadelphia's most storied residence</p>
+<a href="rates.qmd" class="btn">Check Availability</a>
+<a href="https://www.airbnb.com/rooms/6000930" class="btn">Book on Airbnb</a>
+<a href="https://www.vrbo.com/757481" class="btn">Book on VRBO</a>
+</div>
+
+---
+
+::: {.photo-notes}
+*Professional photography showcases actual property conditions. Historical documents from Philadelphia archives and private collections. Some furnishings may vary seasonally. All images © The Rittenhouse Residence.*
+
+**SEO Tags**: 1822 Pine Street photos, Rittenhouse Square mansion photography, Philadelphia historic house pictures, luxury rental property images, Victorian mansion gallery, Philadelphia Airbnb photos, historic property documentation, original architectural details, period furnishing photography, Philadelphia history documents
+:::

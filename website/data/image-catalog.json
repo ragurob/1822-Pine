@@ -1,0 +1,283 @@
+{
+  "property_photos": {
+    "current": [
+      {
+        "id": "entry-hall",
+        "file": "DSC00066.jpg",
+        "title": "Grand Entry Hall - 1822 Pine Street",
+        "alt": "Historic entry hall with original 1854 checkerboard marble floors and stained glass transom at 1822 Pine Street Philadelphia",
+        "caption": "The grand entry features original 1854 checkerboard marble floors, worn by 170 years of footsteps",
+        "room": "Entry Hall",
+        "floor": 1,
+        "features": ["checkerboard marble", "stained glass", "original millwork"],
+        "historical_refs": ["1854-construction", "1899-renovation"],
+        "seo_keywords": ["historic entry hall", "1854 marble floors", "rittenhouse square mansion", "philadelphia historic home"]
+      },
+      {
+        "id": "primary-bedroom",
+        "file": "DSC00084.jpg",
+        "title": "Primary Bedroom Suite - Second Floor",
+        "alt": "Luxurious primary bedroom with four-poster bed and crystal chandelier in historic Rittenhouse Square mansion",
+        "caption": "The Primary Suite retains its 1899 Duhring, Okie & Ziegler architectural details",
+        "room": "Primary Bedroom",
+        "floor": 2,
+        "features": ["four-poster bed", "crystal chandelier", "period furnishings"],
+        "historical_refs": ["1899-renovation", "agnes-spencer"],
+        "seo_keywords": ["luxury bedroom philadelphia", "historic primary suite", "rittenhouse square lodging"]
+      },
+      {
+        "id": "double-parlors",
+        "file": "DSC00090.jpg",
+        "title": "Double Parlors - First Floor",
+        "alt": "Elegant double parlors with 14-foot ceilings where Philadelphia suffragettes held meetings in 1915",
+        "caption": "These parlors hosted suffragette meetings and society gatherings throughout the Progressive Era",
+        "room": "Double Parlors",
+        "floor": 1,
+        "features": ["14-foot ceilings", "pocket doors", "original plaster medallions"],
+        "historical_refs": ["1915-suffrage", "1904-davis-at-homes"],
+        "seo_keywords": ["historic parlors philadelphia", "suffragette meeting room", "gilded age parlor"]
+      },
+      {
+        "id": "designer-bathroom",
+        "file": "DSC00076.jpg",
+        "title": "Designer Bathroom - Victorian Elegance",
+        "alt": "Luxurious bathroom with dramatic wallpaper and pedestal sink in 1822 Pine Street historic mansion",
+        "caption": "Modern luxury meets Victorian elegance in the beautifully appointed bathrooms",
+        "room": "Bathroom",
+        "floor": 2,
+        "features": ["designer wallpaper", "pedestal sink", "period fixtures"],
+        "seo_keywords": ["luxury bathroom", "victorian bathroom", "historic philadelphia rental"]
+      }
+    ],
+    "airbnb": [
+      {
+        "id": "bedroom-1",
+        "file": "airbnb_07.jpg",
+        "source": "airbnb",
+        "title": "Bedroom 1 - Second Floor Primary Suite",
+        "alt": "Primary bedroom suite with elegant furnishings on second floor of 1822 Pine Street mansion",
+        "room": "Bedroom 1",
+        "floor": 2,
+        "capacity": "King bed",
+        "suite": "Primary Suite"
+      },
+      {
+        "id": "bedroom-2",
+        "file": "airbnb_08.jpg",
+        "source": "airbnb",
+        "title": "Bedroom 2 - Second Floor Guest Suite",
+        "alt": "Guest bedroom with queen bed on second floor of historic Rittenhouse Square mansion",
+        "room": "Bedroom 2",
+        "floor": 2,
+        "capacity": "Queen bed",
+        "suite": "Library Suite"
+      },
+      {
+        "id": "bedroom-3",
+        "file": "airbnb_13.jpg",
+        "source": "airbnb",
+        "title": "Bedroom 3 - Third Floor Front",
+        "alt": "Third floor front bedroom with queen bed overlooking Pine Street",
+        "room": "Bedroom 3",
+        "floor": 3,
+        "capacity": "Queen bed",
+        "suite": "Third Floor Suite A"
+      },
+      {
+        "id": "bedroom-4",
+        "file": "airbnb_12.jpg",
+        "source": "airbnb",
+        "title": "Bedroom 4 - Third Floor Middle",
+        "alt": "Third floor middle bedroom with queen bed and period furnishings",
+        "room": "Bedroom 4",
+        "floor": 3,
+        "capacity": "Queen bed",
+        "suite": "Third Floor Suite A"
+      },
+      {
+        "id": "bedroom-5",
+        "file": "airbnb_11.jpg",
+        "source": "airbnb",
+        "title": "Bedroom 5 - Third Floor Rear",
+        "alt": "Third floor rear bedroom with queen bed and garden views",
+        "room": "Bedroom 5",
+        "floor": 3,
+        "capacity": "Queen bed",
+        "suite": "Third Floor Suite B"
+      },
+      {
+        "id": "bedroom-6",
+        "file": "airbnb_10.jpg",
+        "source": "airbnb",
+        "title": "Bedroom 6 - Fourth Floor Front",
+        "alt": "Fourth floor front bedroom with queen bed and city views",
+        "room": "Bedroom 6",
+        "floor": 4,
+        "capacity": "Queen bed",
+        "suite": "Fourth Floor Suite A"
+      },
+      {
+        "id": "bedroom-7",
+        "file": "airbnb_14.jpg",
+        "source": "airbnb",
+        "title": "Bedroom 7 - Fourth Floor Middle",
+        "alt": "Fourth floor middle bedroom with queen bed in historic mansion",
+        "room": "Bedroom 7",
+        "floor": 4,
+        "capacity": "Queen bed",
+        "suite": "Fourth Floor Suite B"
+      },
+      {
+        "id": "bedroom-8",
+        "file": "airbnb_09.jpg",
+        "source": "airbnb",
+        "title": "Bedroom 8 - Fourth Floor Rear",
+        "alt": "Fourth floor rear bedroom with queen bed and private atmosphere",
+        "room": "Bedroom 8",
+        "floor": 4,
+        "capacity": "Queen bed",
+        "suite": "Fourth Floor Suite B"
+      }
+    ]
+  },
+  "historical_documents": {
+    "newspapers": [
+      {
+        "id": "1891-scarlet-fever",
+        "file": "The_Philadelphia_Inquirer_1891_11_28_Page_2.pdf",
+        "date": "1891-11-28",
+        "publication": "Philadelphia Inquirer",
+        "title": "Death of Howard Spencer Jr. from Scarlet Fever",
+        "alt": "Philadelphia Inquirer article from November 28, 1891 reporting scarlet fever death at 1822 Pine Street",
+        "event": "Howard Spencer Jr. dies at age 7",
+        "chapter_refs": ["03-votes-in-the-parlor", "10-provenance-dossier"],
+        "timeline_year": 1891,
+        "seo_keywords": ["1891 philadelphia tragedy", "howard spencer jr", "scarlet fever epidemic"]
+      },
+      {
+        "id": "1899-renovation",
+        "file": "The_Philadelphia_Times_1899_08_06_Page_10.pdf",
+        "date": "1899-08-06",
+        "publication": "Philadelphia Times",
+        "title": "Duhring, Okie & Ziegler Renovation Announcement",
+        "alt": "Philadelphia Times announcement of major renovation by prestigious architects Duhring, Okie & Ziegler",
+        "event": "Agnes Spencer commissions major renovation",
+        "chapter_refs": ["06-architecture-fabric", "10-provenance-dossier"],
+        "timeline_year": 1899,
+        "seo_keywords": ["duhring okie ziegler", "1899 renovation", "agnes spencer"]
+      },
+      {
+        "id": "1901-wedding",
+        "file": "The_Philadelphia_Inquirer_1901_10_27_Page_19.pdf",
+        "date": "1901-10-27",
+        "publication": "Philadelphia Inquirer",
+        "title": "Rolin-Plumb Society Wedding",
+        "alt": "Philadelphia Inquirer society page covering the Rolin-Plumb wedding at 1822 Pine Street",
+        "event": "High society wedding reception",
+        "chapter_refs": ["05-long-edwardian-afternoon", "10-provenance-dossier"],
+        "timeline_year": 1901,
+        "seo_keywords": ["philadelphia society wedding", "rolin plumb", "edwardian era"]
+      },
+      {
+        "id": "1904-at-homes",
+        "file": "The_Philadelphia_Inquirer_1904_12_11_Page_36.pdf",
+        "date": "1904-12-11",
+        "publication": "Philadelphia Inquirer",
+        "title": "Mrs. Davis 'At Homes' Society Events",
+        "alt": "Philadelphia Inquirer society column describing Martha Davis's regular At Home receptions",
+        "event": "Regular society gatherings hosted by Martha Davis",
+        "chapter_refs": ["05-long-edwardian-afternoon"],
+        "timeline_year": 1904,
+        "seo_keywords": ["edwardian society", "at homes philadelphia", "martha davis"]
+      },
+      {
+        "id": "1915-suffrage",
+        "file": "Evening_Public_Ledger_1915_01_08_Page_10.pdf",
+        "date": "1915-01-08",
+        "publication": "Evening Public Ledger",
+        "title": "Equal Franchise Society Tickets Sold",
+        "alt": "Evening Public Ledger notice of Martha Davis selling Equal Franchise Society tickets from 1822 Pine Street",
+        "event": "Suffragette movement headquarters",
+        "chapter_refs": ["03-votes-in-the-parlor", "10-provenance-dossier"],
+        "timeline_year": 1915,
+        "seo_keywords": ["suffragette philadelphia", "equal franchise society", "women's suffrage"]
+      }
+    ],
+    "deeds": [
+      {
+        "id": "1854-deed",
+        "file": "1854_Deed_abstract.jpg",
+        "date": "1854",
+        "title": "Original Deed - McCrea to Roset",
+        "alt": "1854 property deed transferring 1822 Pine Street from builder John McCrea to John Roset",
+        "event": "Original construction and sale",
+        "chapter_refs": ["01-before-the-threshold", "10-provenance-dossier"],
+        "seo_keywords": ["1854 deed", "john mccrea", "original construction"]
+      },
+      {
+        "id": "1893-deed",
+        "file": "1893_Deed_abstract.jpg",
+        "date": "1893",
+        "title": "Transfer to Howard Spencer",
+        "alt": "1893 deed transferring property to Howard Spencer family",
+        "event": "Spencer family acquisition",
+        "chapter_refs": ["03-votes-in-the-parlor", "10-provenance-dossier"]
+      },
+      {
+        "id": "1899-deed",
+        "file": "1899_Deed_abstract_1.jpg",
+        "date": "1899",
+        "title": "Agnes Spencer Inheritance",
+        "alt": "1899 deed showing Agnes Spencer's inheritance of the property",
+        "event": "Property passes to Agnes Spencer",
+        "chapter_refs": ["06-architecture-fabric", "10-provenance-dossier"]
+      }
+    ]
+  },
+  "floor_plans": [
+    {
+      "id": "first-floor",
+      "file": "1822_1_Floor.pdf",
+      "title": "First Floor Plan - Entry & Parlors",
+      "alt": "Architectural floor plan of first floor showing entry hall, double parlors, and service areas",
+      "features": ["Entry Hall", "Double Parlors", "Kitchen", "Powder Room"],
+      "capacity": "50 for cocktails",
+      "seo_keywords": ["floor plan", "event space", "parlor layout"]
+    },
+    {
+      "id": "second-floor",
+      "file": "1822_2_Floor.pdf",
+      "title": "Second Floor Plan - Primary Suites",
+      "alt": "Second floor plan showing Primary Suite and Library Suite with private bathrooms",
+      "features": ["Primary Suite", "Library Suite", "Wet Bar", "70-inch TV"],
+      "bedrooms": 2,
+      "bathrooms": 2
+    },
+    {
+      "id": "third-floor",
+      "file": "1822_3_Floor.pdf",
+      "title": "Third Floor Plan - Guest Suites",
+      "alt": "Third floor plan showing three bedrooms in two suite configurations",
+      "features": ["3 Bedrooms", "Shared Bathrooms", "Additional Kitchen"],
+      "bedrooms": 3,
+      "bathrooms": 1
+    },
+    {
+      "id": "fourth-floor",
+      "file": "1822_4_Floor.pdf",
+      "title": "Fourth Floor Plan - Upper Suites",
+      "alt": "Fourth floor plan showing three bedrooms with shared facilities",
+      "features": ["3 Bedrooms", "Shared Bathroom", "City Views"],
+      "bedrooms": 3,
+      "bathrooms": 1
+    },
+    {
+      "id": "roof-deck",
+      "file": "1822_Roof_Deck.pdf",
+      "title": "Roof Deck Plan",
+      "alt": "Roof deck plan showing outdoor entertainment space with panoramic city views",
+      "features": ["Panoramic Views", "Outdoor Seating", "Entertainment Space"],
+      "capacity": "20 for cocktails"
+    }
+  ]
+}
