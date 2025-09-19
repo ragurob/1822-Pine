@@ -1,0 +1,40 @@
+name: Render Quarto Website
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install System Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick poppler-utils tesseract-ocr python3-pip
+
+      - name: Install Python packages
+        run: |
+          pip3 install --user pillow pypdf2 pytesseract pyyaml pandas
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Install TinyTeX
+        run: |
+          quarto install tinytex --update-path
+
+      - name: Render Website
+        run: |
+          quarto render website
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: website
+          path: website/_site
