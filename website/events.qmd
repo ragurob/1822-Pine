@@ -1,0 +1,57 @@
+---
+title: "Events & Retreats"
+subtitle: "Host Your Unforgettable Event in a Historic Setting"
+page-layout: full
+---
+
+::: {.hero-full}
+![The elegant double parlors, perfect for gatherings](images/property/DSC00090.jpg){.hero-image}
+:::
+
+## Make Your Next Event a Part of History
+
+1822 Pine Street is more than just a venue; it's an experience. Imagine hosting your corporate retreat, family reunion, or intimate wedding in a space that has been at the heart of Philadelphia society for 170 years.
+
+Our home offers a unique blend of historic elegance and modern luxury, providing a memorable backdrop for any occasion.
+
+---
+
+### Why Host Your Event at 1822 Pine?
+
+::: {.feature-grid}
+::: {.feature-card}
+#### Historic Ambiance
+The grand double parlors, soaring ceilings, and original architectural details provide an atmosphere of timeless elegance that you won't find anywhere else.
+:::
+
+::: {.feature-card}
+#### Modern Amenities
+From a fully equipped chef's kitchen to high-speed Wi-Fi and state-of-the-art entertainment systems, we have everything you need to make your event a success.
+:::
+
+::: {.feature-card}
+#### Prime Location
+Located just two blocks from Rittenhouse Square, we are in the heart of Philadelphia's most vibrant neighborhood, with easy access to transportation, dining, and entertainment.
+:::
+:::
+
+---
+
+## Event Spaces & Capacity
+
+Our home can accommodate a variety of events, from small board meetings to cocktail receptions for up to 50 guests.
+
+*   **Double Parlors:** Ideal for receptions, presentations, and seated dinners.
+*   **Dining Room:** Perfect for intimate dinners and board meetings.
+*   **Roof Deck:** Offers stunning city views for outdoor gatherings.
+
+[View Floor Plans & Capacity Details](floor-plans-events.qmd){.btn .btn-outline-primary}
+[See the Photo Gallery](gallery.qmd){.btn .btn-outline-primary}
+
+---
+
+## Inquire About Your Event
+
+We would be delighted to help you plan your next event at 1822 Pine Street. Please contact us to discuss your needs, schedule a tour, or receive a custom quote.
+
+[Contact Us for Event Inquiries](contact.qmd){.btn .btn-primary .btn-lg}

@@ -22,188 +22,43 @@ website:
     logo: images/logo.png
     title: "The Rittenhouse Residence"
     left:
-      - text: "Book Now"
+      - text: "The Residence"
         menu:
-          - text: "View Rates & Availability"
-            href: rates.qmd
-            icon: calendar-check
-          - text: "House Rules & Policies"
-            href: house-rules.qmd
-            icon: info-circle
-          - text: "Book on Airbnb"
-            href: https://www.airbnb.com/rooms/6000930
-            icon: house
-          - text: "Book on VRBO"
-            href: https://www.vrbo.com/757481
-            icon: house-door
-          - text: "---"
-          - text: "Contact for Direct Booking"
-            href: contact.qmd
-            icon: envelope
-          
-      - text: "The Property"
-        menu:
-          - text: "Room Configuration"
-            href: current-configuration.qmd
-            icon: door-open
-          - text: "Floor Plans"
-            href: floor-plans-events.qmd
-            icon: map
           - text: "Photo Gallery"
             href: gallery.qmd
             icon: images
-          - text: "Document Archive"
-            href: document-gallery.qmd
-            icon: archive
-          - text: "---"
-          - text: "Architecture & Preservation"
-            href: architecture.qmd
-            icon: building
-          - text: "Neighborhood Guide"
+          - text: "Floor Plans & Amenities"
+            href: floor-plans-events.qmd
+            icon: map
+          - text: "The Neighborhood"
             href: neighborhood-guide.qmd
             icon: geo-alt
+
+      - href: story.qmd
+        text: "The Story"
+
+      - href: events.qmd
+        text: "Events & Retreats"
+
+      - text: "Plan Your Stay"
+        menu:
           - text: "Guest Guidebook"
-            href: ../guidebook/guest-guidebook-2024.qmd
+            href: guidebook.qmd
             icon: book
-            
-      - text: "The History"
-        menu:
-          - text: "Historical Timeline"
-            href: timeline.qmd
-            icon: clock-history
-          - text: "Verified Facts (Provenance)"
-            href: provenance.qmd
-            icon: patch-check
-          - text: "Document Archive"
-            href: documents.qmd
-            icon: archive
-          - text: "---"
-          - text: "Book Introduction"
-            href: history-book.qmd
-            icon: book-half
-          - text: "---"
-          - text: "00. Preamble"
-            href: ../chapters/00-preamble.qmd
-          - text: "01. Before the Threshold"
-            href: ../chapters/01-before-the-threshold.qmd
-          - text: "02. Between Mourning & Modernity"
-            href: ../chapters/02-between-mourning-and-modernity.qmd
-          - text: "03. Votes in the Parlor"
-            href: ../chapters/03-votes-in-the-parlor.qmd
-          - text: "04. Walk the Rooms"
-            href: ../chapters/04-walk-the-rooms.qmd
-          - text: "05. The Long Edwardian Afternoon"
-            href: ../chapters/05-long-edwardian-afternoon.qmd
-          - text: "06. Architecture & Fabric"
-            href: ../chapters/06-architecture-fabric.qmd
-          - text: "07. The Apartment House Years"
-            href: ../chapters/07-apartment-house-years.qmd
-          - text: "08. Back to Grande Dame"
-            href: ../chapters/08-back-to-grande-dame.qmd
-          - text: "---"
-          - text: "09. Room-by-Room Field Guide"
-            href: ../chapters/09-walk-rooms-field-guide.qmd
-          - text: "10. Provenance Dossier"
-            href: ../chapters/10-provenance-dossier.qmd
-          - text: "11. Events & Filming Playbook"
-            href: ../chapters/11-events-filming-playbook.qmd
-          - text: "12. The Seasonal House"
-            href: ../chapters/12-seasonal-house.qmd
-          - text: "13. Floor Plans Reference"
-            href: ../chapters/13-floor-plans.qmd
-          - text: "---"
-          - text: "Historical Timeline (Full)"
-            href: ../chapters/98-timeline.qmd
-          - text: "Document Gallery"
-            href: ../chapters/99-document-gallery.qmd
-          - text: "Conclusion"
-            href: ../chapters/99-conclusion.qmd
-                
-      - text: "Resources"
-        menu:
-          - text: "Guest Guidebook"
-            href: ../guidebook/guest-guidebook-2024.qmd
-            icon: journal-text
           - text: "FAQ"
             href: faq.qmd
             icon: question-circle
-          - text: "Neighborhood Guide"
-            href: neighborhood-guide.qmd
-            icon: map-fill
-          - text: "---"
-          - text: "Event Planning Guide"
-            href: ../chapters/11-events-filming-playbook.qmd
-            icon: camera-reels
-          - text: "Event Fact Sheet"
-            href: ../handouts/event-filming-fact-sheet.qmd
-            icon: file-text
-          - text: "Floor Plans & Capacity"
-            href: floor-plans-events.qmd
-            icon: diagram-3
-          - text: "---"
-          - text: "Document Archive"
-            href: documents.qmd
-            icon: archive
-          - text: "Provenance Dossier"
-            href: ../chapters/10-provenance-dossier.qmd
-            icon: file-earmark-text
-          - text: "Bibliography"
-            href: https://github.com/ragurob/1822-Pine/blob/main/refs/bibliography_complete.bib
-            icon: journal-bookmark
-          - text: "---"
-          - text: "Master Content Index"
-            href: https://github.com/ragurob/1822-Pine/blob/main/MASTER-CONTENT-INDEX.md
-            icon: list-nested
-          - text: "Content Directory Structure"
-            href: https://github.com/ragurob/1822-Pine/blob/main/CONTENT-DIRECTORY-STRUCTURE.md
-            icon: diagram-2
-          - text: "Deployment Guide"
-            href: https://github.com/ragurob/1822-Pine/blob/main/website/DEPLOYMENT.md
-            icon: rocket
-                
+          - text: "House Rules & Policies"
+            href: house-rules.qmd
+            icon: info-circle
+
     right:
-      - text: "Book on Airbnb"
-        href: https://www.airbnb.com/rooms/6000930
-        icon: house-heart-fill
-      - text: "Contact"
-        href: contact.qmd
+      - href: rates.qmd
+        text: "Book Now"
+        icon: calendar-check
+      - href: contact.qmd
+        text: "Contact"
         icon: envelope-fill
-  
-  sidebar:
-    - id: history-book
-      title: "Historical Chapters"
-      style: "floating"
-      collapse-level: 2
-      contents:
-        - section: "Introduction"
-          contents:
-            - ../chapters/00-preamble.qmd
-        - section: "Part I: The Victorian Era"
-          contents:
-            - ../chapters/01-before-the-threshold.qmd
-            - ../chapters/02-between-mourning-and-modernity.qmd
-            - ../chapters/03-votes-in-the-parlor.qmd
-        - section: "Part II: Architecture & Society"
-          contents:
-            - ../chapters/04-walk-the-rooms.qmd
-            - ../chapters/05-long-edwardian-afternoon.qmd
-            - ../chapters/06-architecture-fabric.qmd
-        - section: "Part III: 20th Century"
-          contents:
-            - ../chapters/07-apartment-house-years.qmd
-            - ../chapters/08-back-to-grande-dame.qmd
-        - section: "Part IV: Reference"
-          contents:
-            - ../chapters/09-walk-rooms-field-guide.qmd
-            - ../chapters/10-provenance-dossier.qmd
-            - ../chapters/11-events-filming-playbook.qmd
-            - ../chapters/12-seasonal-house.qmd
-            - ../chapters/13-floor-plans.qmd
-        - section: "Part V: Appendices"
-          contents:
-            - ../chapters/98-timeline.qmd
-            - ../chapters/99-document-gallery.qmd
-            - ../chapters/99-conclusion.qmd
   
   page-footer:
     background: light
@@ -216,9 +71,8 @@ website:
       [info@therittenhouseresidence.com](mailto:info@therittenhouseresidence.com)
     right: |
       [Terms](terms.qmd) | [Privacy](privacy.qmd)<br>
-      [Instagram](https://instagram.com/therittenhouseresidence) | [Facebook](https://facebook.com/therittenhouseresidence)<br>
-      [Site Index](https://github.com/ragurob/1822-Pine/blob/main/MASTER-CONTENT-INDEX.md)
-  
+      [Instagram](https://instagram.com/therittenhouseresidence) | [Facebook](https://facebook.com/therittenhouseresidence)
+
   search:
     location: navbar
     type: overlay
@@ -248,9 +102,9 @@ format:
       - text: |
           <!-- SEO Meta Tags -->
           <meta name="author" content="The Rittenhouse Residence">
-          <meta name="keywords" content="Philadelphia luxury lodging, Rittenhouse Square hotel, historic townhouse rental, 1822 Pine Street">
-          <meta property="og:title" content="The Rittenhouse Residence - Historic Luxury Lodging">
-          <meta property="og:description" content="Experience Philadelphia's history in a meticulously preserved 1854 townhouse. 16-18 guests, 5 suites, 2 blocks from Rittenhouse Square.">
+          <meta name="keywords" content="Philadelphia luxury lodging, Rittenhouse Square hotel, historic townhouse rental, 1822 Pine Street, corporate retreats, family reunions">
+          <meta property="og:title" content="The Rittenhouse Residence - Historic Luxury Lodging & Event Space">
+          <meta property="og:description" content="Experience Philadelphia's history in a meticulously preserved 1854 townhouse. Ideal for luxury stays, family reunions, and corporate retreats.">
           <meta property="og:image" content="https://therittenhouseresidence.com/images/property/DSC00084.jpg">
           <meta property="og:url" content="https://therittenhouseresidence.com">
           <meta property="og:type" content="website">
@@ -262,7 +116,7 @@ format:
             "@context": "https://schema.org",
             "@type": "LodgingBusiness",
             "name": "The Rittenhouse Residence",
-            "description": "Historic luxury lodging in a preserved 1854 townhouse",
+            "description": "Historic luxury lodging and event space in a preserved 1854 townhouse",
             "url": "https://therittenhouseresidence.com",
             "telephone": "+1-215-XXX-XXXX",
             "email": "info@therittenhouseresidence.com",
@@ -288,7 +142,8 @@ format:
               {"@type": "LocationFeatureSpecification", "name": "Historic Property"},
               {"@type": "LocationFeatureSpecification", "name": "Full Kitchen"},
               {"@type": "LocationFeatureSpecification", "name": "WiFi"},
-              {"@type": "LocationFeatureSpecification", "name": "Air Conditioning"}
+              {"@type": "LocationFeatureSpecification", "name": "Air Conditioning"},
+              {"@type": "LocationFeatureSpecification", "name": "Event Space"}
             ],
             "checkinTime": "16:00",
             "checkoutTime": "11:00",
@@ -308,6 +163,3 @@ csl: https://www.zotero.org/styles/chicago-fullnote-bibliography
 execute:
   echo: false
   warning: false
-  
-# metadata-files:
-#   - _metadata.yml
