@@ -53,21 +53,21 @@ From Rittenhouse
 
 ::: {.story-grid}
 ::: {.story-card}
-![Original 1854 entry with marble threshold worn by 170 years of arrivals](images/property/DSC00066.jpg)
+![The historic marble entryway of 1822 Pine Street, showing the original 1854 checkerboard floor.](images/property/DSC00066.jpg)
 **The Arrival**  
-Step through the same doorway that welcomed Victorian merchants, Gilded Age society, and suffragette leaders
+Step through the same doorway that welcomed Victorian merchants, Gilded Age society, and suffragette leaders.
 :::
 
 ::: {.story-card}
-![Double parlors where history happened](images/property/DSC00090.jpg)
+![The elegant double parlors at 1822 Pine, featuring high ceilings and historical decor, ready for a gathering.](images/property/DSC00090.jpg)
 **The Gathering**  
-Host your own gathering in parlors that have seen wedding breakfasts (1901), suffrage meetings (1915), and society teas
+Host your own event in parlors that have seen wedding breakfasts, society teas, and pivotal meetings of the suffrage movement.
 :::
 
 ::: {.story-card}
-![Primary suite with original architectural details](images/property/DSC00084.jpg)
+![The luxurious primary suite at 1822 Pine, with a four-poster bed and original architectural details.](images/property/DSC00084.jpg)
 **The Retreat**  
-Rest in rooms that blend museum-quality preservation with luxury comfort
+Rest in rooms that blend museum-quality preservation with five-star comfort.
 :::
 :::
 :::
@@ -128,8 +128,8 @@ Rest in rooms that blend museum-quality preservation with luxury comfort
 **July 18, 1899** — The Philadelphia Inquirer announces Duhring, Okie & Ziegler's commission for "alterations and additions" that would transform the house into its current glory.
 
 ::: {.story-cta}
-[Explore 170 Years of History](history-book.qmd){.btn .btn-outline-primary}
-[View Original Documents](documents.qmd){.btn .btn-outline-primary}
+[Discover the Full Story](story.qmd){.btn .btn-primary}
+[Host Your Own Historic Event](events.qmd){.btn .btn-outline-primary}
 :::
 :::
 

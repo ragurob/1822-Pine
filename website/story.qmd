@@ -1,0 +1,57 @@
+---
+title: "The Story of 1822 Pine"
+subtitle: "170 Years at the Edge of the Square"
+page-layout: full
+---
+
+::: {.hero-full}
+![The grand facade of 1822 Pine Street](images/property/DSC00064.jpg){.hero-image}
+:::
+
+## More Than a House, It's a Witness to History
+
+Since 1854, this house has stood sentinel, watching Philadelphia transform. It was born in the industrial fervor of the Victorian era, came of age during the fight for women's suffrage, and hosted the city's elite during the Gilded Age. It has been a home, a doctor's office, a society hub, and a silent witness to the intimate dramas of the families within its walls.
+
+This isn't just a rental; it's an invitation to become part of that story.
+
+---
+
+### Key Moments in Time
+
+::: {.story-timeline}
+::: {.timeline-item}
+#### 1854: The Foundation
+John McCrea, a prosperous builder, constructs the house in the fashionable Rittenhouse Square neighborhood. He sells it to John Roset, a merchant, beginning a long history of prominent ownership. [Read the original deed &raquo;](documents.qmd#deed-1854)
+:::
+
+::: {.timeline-item}
+#### 1899: The Gilded Age Makeover
+The Spencer family commissions the renowned architectural firm of Duhring, Okie & Ziegler to transform the house, adding the grand staircase, ornate plasterwork, and the elegant facade you see today. [See the architectural plans &raquo;](architecture.qmd)
+:::
+
+::: {.timeline-item}
+#### 1915: The Fight for the Vote
+The parlors of 1822 Pine become a hub for the women's suffrage movement. Martha Davis, a resident, sells tickets for the Equal Franchise Society from the front hall, playing a small but significant role in the fight for the 19th Amendment. [Learn more about the suffrage story &raquo;](../chapters/03-votes-in-the-parlor.qmd)
+:::
+
+::: {.timeline-item}
+#### 1932: The Apartment Years
+Like many grand homes during the Depression, 1822 Pine is converted into apartments, reflecting the changing fortunes of the city and the country. [See the floor plans from this era &raquo;](../chapters/07-apartment-house-years.qmd)
+:::
+
+::: {.timeline-item}
+#### 1952: Return to a Grande Dame
+The house is purchased by a new family committed to its restoration, beginning the process of returning it to its former glory as a single-family residence. [Read about the restoration &raquo;](../chapters/08-back-to-grande-dame.qmd)
+:::
+:::
+
+---
+
+## Dive Deeper into the Archives
+
+The stories above are just the beginning. Our historical archives contain over 65 original documents, from property deeds to personal letters and newspaper clippings.
+
+::: {.cta-buttons}
+[Explore the Full History Book](history-book.qmd){.btn .btn-primary .btn-lg}
+[View the Document Archive](document-gallery.qmd){.btn .btn-outline-primary .btn-lg}
+:::
