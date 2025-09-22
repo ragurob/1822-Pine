@@ -7,7 +7,8 @@ css: styles/homepage.css
 ---
 
 ::: {.hero-full}
-![](images/property/DSC00084.jpg){.hero-image}
+![The grand facade of 1822 Pine Street, a historic luxury rental in Philadelphia.](images/property/DSC00064.jpg){.hero-image}
+:::
 
 ::: {.hero-overlay}
 ::: {.hero-content}
@@ -74,46 +75,6 @@ Rest in rooms that blend museum-quality preservation with five-star comfort.
 
 ---
 
-::: {.trust-signals}
-## The Numbers That Matter
-
-::: {.metrics-grid}
-::: {.metric}
-### Proven Excellence
-- **4.92** Star Rating on Airbnb
-- **300+** Five-Star Reviews
-- **Superhost** Since 2021
-- **#1** Historic Rental in Rittenhouse
-:::
-
-::: {.metric}
-### Verified History
-- **1854** Original Construction
-- **1899** Duhring, Okie & Ziegler Renovation
-- **35+** Historical Documents
-- **17** Original Property Deeds
-:::
-
-::: {.metric}
-### Perfect Location
-- **2 min** walk to Rittenhouse Square
-- **30+** restaurants within 5 blocks
-- **4 blocks** to Whole Foods
-- **Walk Score** 99/100
-:::
-
-::: {.metric}
-### Space & Comfort
-- **16-18** guests comfortably
-- **5** bedroom suites
-- **5** full bathrooms
-- **2** kitchens
-:::
-:::
-:::
-
----
-
 ::: {.the-story}
 ## A House With Stories to Tell
 
@@ -141,21 +102,21 @@ Rest in rooms that blend museum-quality preservation with five-star comfort.
 ```{=html}
 <div class="room-carousel">
   <div class="room-slide active">
-    <img src="images/property/DSC00066.jpg" alt="Entry Hall">
+    <img src="images/property/DSC00066.jpg" alt="Entry Hall with original 1854 checkerboard marble floor.">
     <div class="room-info">
       <h3>The Entry Hall</h3>
       <p>Original 1854 checkerboard marble floor • Stained glass transom • Where calling cards were left</p>
     </div>
   </div>
   <div class="room-slide">
-    <img src="images/property/DSC00084.jpg" alt="Primary Suite">
+    <img src="images/property/DSC00084.jpg" alt="Primary Suite with four-poster bed and crystal chandelier.">
     <div class="room-info">
       <h3>The Primary Suite</h3>
       <p>Four-poster bed • Crystal chandelier • Crown molding from 1899 renovation</p>
     </div>
   </div>
   <div class="room-slide">
-    <img src="images/property/DSC00076.jpg" alt="Designer Bath">
+    <img src="images/property/DSC00076.jpg" alt="Modern designer bathroom with period-appropriate style.">
     <div class="room-info">
       <h3>Designer Bathrooms</h3>
       <p>Five full baths • Modern luxury • Period-appropriate style</p>

@@ -2,14 +2,11 @@ project:
   type: website
   output-dir: _site
   resources:
-    - "../chapters/*.qmd"
-    - "../chapters/*.html"
-    - "../guidebook/*.qmd"
-    - "../guidebook/*.html"
-    - "../handouts/*.qmd"
-    - "../handouts/*.html"
-    - "../raw_documents/*.pdf"
-    - "../images/**"
+    - "chapters/"
+    - "guidebook/"
+    - "handouts/"
+    - "images/"
+    - "raw_documents/"
 
 website:
   title: "The Rittenhouse Residence"
@@ -43,7 +40,7 @@ website:
       - text: "Plan Your Stay"
         menu:
           - text: "Guest Guidebook"
-            href: guidebook.qmd
+            href: guidebook/guest-guidebook-2024.qmd
             icon: book
           - text: "FAQ"
             href: faq.qmd
@@ -158,7 +155,7 @@ format:
           <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 bibliography: ../refs/bibliography_complete.bib
-csl: https://www.zotero.org/styles/chicago-fullnote-bibliography
+csl: styles/chicago-fullnote-bibliography.csl
 
 execute:
   echo: false
