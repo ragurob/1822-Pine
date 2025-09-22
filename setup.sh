@@ -40,8 +40,4 @@ fi
 echo "Installing Python dependencies..."
 pip3 install --user pillow pypdf2 pytesseract pyyaml pandas
 
-# Install Quarto PDF support
-echo "Installing TinyTeX for PDF support..."
-quarto install tinytex --update-path
-
-echo "Setup complete!"
+echo "Setup complete! Run 'quarto install tinytex' for PDF generation support."

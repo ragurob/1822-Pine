@@ -31,17 +31,17 @@ The Spencer family commissions the renowned architectural firm of Duhring, Okie 
 
 ::: {.timeline-item}
 #### 1915: The Fight for the Vote
-The parlors of 1822 Pine become a hub for the women's suffrage movement. Martha Davis, a resident, sells tickets for the Equal Franchise Society from the front hall, playing a small but significant role in the fight for the 19th Amendment. [Learn more about the suffrage story &raquo;](../chapters/03-votes-in-the-parlor.qmd)
+The parlors of 1822 Pine become a hub for the women's suffrage movement. Martha Davis, a resident, sells tickets for the Equal Franchise Society from the front hall, playing a small but significant role in the fight for the 19th Amendment. [Learn more about the suffrage story &raquo;](chapters/03-votes-in-the-parlor.qmd)
 :::
 
 ::: {.timeline-item}
 #### 1932: The Apartment Years
-Like many grand homes during the Depression, 1822 Pine is converted into apartments, reflecting the changing fortunes of the city and the country. [See the floor plans from this era &raquo;](../chapters/07-apartment-house-years.qmd)
+Like many grand homes during the Depression, 1822 Pine is converted into apartments, reflecting the changing fortunes of the city and the country. [See the floor plans from this era &raquo;](chapters/07-apartment-house-years.qmd)
 :::
 
 ::: {.timeline-item}
 #### 1952: Return to a Grande Dame
-The house is purchased by a new family committed to its restoration, beginning the process of returning it to its former glory as a single-family residence. [Read about the restoration &raquo;](../chapters/08-back-to-grande-dame.qmd)
+The house is purchased by a new family committed to its restoration, beginning the process of returning it to its former glory as a single-family residence. [Read about the restoration &raquo;](chapters/08-back-to-grande-dame.qmd)
 :::
 :::
 
