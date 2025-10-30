@@ -4,7 +4,12 @@ subtitle: "A Philadelphia Landmark Since 1854"
 description: "Book 1822 Pine Street - a meticulously preserved 1854 mansion near Rittenhouse Square. Perfect for family reunions, corporate retreats & weddings. Sleeps 16-18 guests. 300+ 5-star reviews."
 page-layout: custom
 toc: false
-css: styles/homepage.css
+css:
+  - styles/homepage.css
+  - styles/animations.css
+include-after-body:
+  - text: |
+      <script src="scripts/interactions.js"></script>
 ---
 
 ::: {.hero-full}

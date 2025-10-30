@@ -2,5 +2,106 @@
 // Custom theme styles for 1822 Pine Street website
 // Light theme customizations
 
+// Color variables
+$navy-primary: #1a2332;
+$navy-light: #2c3e50;
+$gold-accent: #c9a961;
+$gold-light: #d4b876;
+$cream-bg: #fafaf8;
+
+// Override Bootstrap/Quarto defaults
+$primary: $navy-primary;
+$secondary: $gold-accent;
+
 /*-- scss:rules --*/
 // Custom CSS rules for light theme
+
+// ========================================
+// NAVIGATION ENHANCEMENTS
+// ========================================
+
+.navbar {
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  font-size: 1.1rem;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: $gold-accent !important;
+}
+
+// Style the dropdown menus
+.dropdown-menu {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  padding: 0.5rem 0;
+}
+
+.dropdown-item {
+  padding: 0.6rem 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: $cream-bg;
+  color: $navy-primary;
+  padding-left: 2rem;
+}
+
+// ========================================
+// GLOBAL TYPOGRAPHY REFINEMENTS
+// ========================================
+
+body {
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+// ========================================
+// PAGE TRANSITIONS
+// ========================================
+
+.page-content {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+// ========================================
+// FOOTER ENHANCEMENTS
+// ========================================
+
+.page-footer {
+  padding: 3rem 2rem 2rem;
+  font-size: 0.9rem;
+}
+
+.page-footer a {
+  transition: color 0.3s ease;
+}
+
+.page-footer a:hover {
+  color: $gold-accent !important;
+}
