@@ -1,4 +1,4 @@
-name: Render Quarto Website
+name: Build and Deploy Website
 
 on:
   push:
@@ -11,6 +11,11 @@ permissions:
   pages: write
   id-token: write
 
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,25 +23,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install System Dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y imagemagick poppler-utils tesseract-ocr python3-pip
-
-      - name: Install Python packages
-        run: |
-          pip3 install --user pillow pypdf2 pytesseract pyyaml pandas
-
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.6.40
 
-      - name: Install TinyTeX
+      - name: Install Jupyter (needed for Python code cells)
         run: |
-          quarto install tinytex --update-path
+          python3 -m pip install jupyter nbformat nbclient
 
       - name: Render Website
         run: |
-          quarto render website
+          cd website
+          quarto render
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

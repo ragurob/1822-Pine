@@ -1,14 +1,7 @@
 [build]
-  base = "website"
-  command = """
-    curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
-    sudo dpkg -i quarto-linux-amd64.deb
-    quarto render
-  """
-  publish = "_site"
-
-[build.environment]
-  QUARTO_PRINT_PROGRESS = "false"
+  # GitHub Actions builds the site, Netlify just serves it
+  publish = "website/_site"
+  # No build command needed - files come pre-built from GitHub Actions
 
 # Domain redirects
 [[redirects]]
