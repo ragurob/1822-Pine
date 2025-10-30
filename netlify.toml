@@ -55,13 +55,5 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Form handling
-[[plugins]]
-  package = "@netlify/plugin-sitemap"
-
-  [plugins.inputs]
-    baseUrl = "https://therittenhouseresidence.com"
-    exclude = [
-      "./404.html",
-      "./admin/*"
-    ]
+# Note: Quarto automatically generates sitemap.xml
+# No need for separate Netlify plugin
