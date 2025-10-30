@@ -99,7 +99,7 @@ format:
     toc-title: "On This Page"
     number-sections: false
     link-external-icon: true
-    link-external-newwindow: true
+    link-external-newwindow: false
     smooth-scroll: true
     anchor-sections: true
     
