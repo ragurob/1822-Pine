@@ -39,6 +39,12 @@ website:
 
       - text: "Plan Your Stay"
         menu:
+          - text: "Guest Reviews"
+            href: testimonials.qmd
+            icon: star-fill
+          - text: "Why Choose Us"
+            href: compare.qmd
+            icon: graph-up
           - text: "Guest Guidebook"
             href: guidebook/guest-guidebook-2024.qmd
             icon: book
@@ -73,9 +79,10 @@ website:
   search:
     location: navbar
     type: overlay
-  
-  google-analytics: "G-XXXXXXXXXX"
-  
+
+  # TODO: Replace with your actual Google Analytics ID from https://analytics.google.com
+  # google-analytics: "G-XXXXXXXXXX"
+
   comments:
     hypothesis: false
 

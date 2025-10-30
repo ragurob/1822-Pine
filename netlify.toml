@@ -1,0 +1,67 @@
+[build]
+  base = "website"
+  command = "quarto render"
+  publish = "_site"
+
+[build.environment]
+  QUARTO_PRINT_PROGRESS = "false"
+
+# Domain redirects
+[[redirects]]
+  from = "https://1822pine.com/*"
+  to = "https://therittenhouseresidence.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://1822pine.com/*"
+  to = "https://therittenhouseresidence.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.1822pine.com/*"
+  to = "https://therittenhouseresidence.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.1822pine.com/*"
+  to = "https://therittenhouseresidence.com/:splat"
+  status = 301
+  force = true
+
+# Headers for security and performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Form handling
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+    baseUrl = "https://therittenhouseresidence.com"
+    exclude = [
+      "./404.html",
+      "./admin/*"
+    ]

@@ -1,6 +1,7 @@
 ---
-title: "Contact Us"
+title: "Contact | The Rittenhouse Residence | Book 1822 Pine Street Philadelphia"
 subtitle: "Inquire About Your Stay at The Rittenhouse Residence"
+description: "Contact The Rittenhouse Residence for direct booking inquiries, availability, and questions about 1822 Pine Street. Response within 4 hours. Located 2 blocks from Rittenhouse Square."
 ---
 
 ## Get in Touch
