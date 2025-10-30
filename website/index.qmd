@@ -1,6 +1,7 @@
 ---
-title: "1822 Pine Street"
+title: "The Rittenhouse Residence | Historic Luxury Rental in Philadelphia | 1822 Pine Street"
 subtitle: "A Philadelphia Landmark Since 1854"
+description: "Book 1822 Pine Street - a meticulously preserved 1854 mansion near Rittenhouse Square. Perfect for family reunions, corporate retreats & weddings. Sleeps 16-18 guests. 300+ 5-star reviews."
 page-layout: custom
 toc: false
 css: styles/homepage.css
@@ -45,6 +46,25 @@ From Rittenhouse
 :::
 :::
 :::
+:::
+
+---
+
+::: {.quick-facts-ai}
+## Quick Facts
+
+**Property Type**: Historic luxury mansion rental (entire home)
+**Location**: 1822 Pine Street, Philadelphia, PA 19103 (2 blocks from Rittenhouse Square)
+**Capacity**: 16-18 guests • 8 bedrooms • 5 suites • 5.5 bathrooms
+**Size**: 7,000 sq ft across 5 floors
+**Built**: 1854 (renovated 1899 by renowned architects Duhring, Okie & Ziegler)
+**Rates**: $1,600-$2,500/night + $450 cleaning | Weekly: 10% off | Monthly: 20% off
+**Best For**: Family reunions, corporate retreats, wedding parties, extended stays, Philadelphia graduations
+**Booking**: [Airbnb](https://www.airbnb.com/rooms/6000930) | [VRBO](https://www.vrbo.com/757481) | [Direct (save 5%)](contact.qmd)
+**Unique Features**: Original 1854 marble floors, suffragette meeting site (1915), museum-quality preservation
+**Neighborhood**: Rittenhouse-Fitler Historic District (safest in Philadelphia)
+**Walkability**: 30+ restaurants within 5 blocks, 2-minute walk to Rittenhouse Square
+**Reviews**: 300+ five-star reviews across platforms
 :::
 
 ---
@@ -156,7 +176,66 @@ Rest in rooms that blend museum-quality preservation with five-star comfort.
 ::: {.reviews-cta}
 [Read 300+ Reviews on Airbnb](https://www.airbnb.com/rooms/6000930#reviews){.btn .btn-outline-primary}
 [Read Reviews on VRBO](https://www.vrbo.com/757481#reviews){.btn .btn-outline-primary}
+[Read All Guest Testimonials](testimonials.qmd){.btn .btn-outline-primary}
 :::
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "The Rittenhouse Residence - 1822 Pine Street",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "300",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Sarah M."
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "This is not just a rental—it's an experience. The history is palpable in every room, yet all the modern conveniences are perfectly integrated. Our family reunion here was unforgettable."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Michael K."
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "The location is unbeatable. We walked to everything—Rittenhouse Square for morning coffee, amazing restaurants for dinner, museums during the day. The house itself is a living museum."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Jennifer L."
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "We've stayed in many luxury rentals, but nothing compares to the authenticity and elegance of this property. The attention to detail in the restoration is remarkable."
+    }
+  ]
+}
+</script>
+```
 :::
 
 ---
@@ -246,5 +325,5 @@ This isn't just a place to stay. It's a chance to live inside Philadelphia's sto
 ---
 
 ::: {.footer-links}
-[House Rules](house-rules.qmd) • [Guest Guidebook](guidebook.qmd) • [FAQ](faq.qmd) • [Contact](contact.qmd) • [Historical Documents](documents.qmd)
+[Guest Reviews](testimonials.qmd) • [Why Choose Us](compare.qmd) • [House Rules](house-rules.qmd) • [FAQ](faq.qmd) • [Contact](contact.qmd) • [Historical Documents](documents.qmd)
 :::

@@ -1,12 +1,13 @@
 ---
-title: "Frequently Asked Questions"
+title: "FAQ | The Rittenhouse Residence | 1822 Pine Street Questions Answered"
 subtitle: "Everything You Need to Know About Your Stay"
+description: "Frequently asked questions about booking 1822 Pine Street. Learn about rates, capacity (16-18 guests), parking, amenities, cancellation policy, and house rules for this historic Rittenhouse Square rental."
 ---
 
 ## Booking & Reservations
 
 ### How do I book the property?
-You can book instantly through [Airbnb](https://airbnb.com/h/therittenhouseresidence) or [VRBO](https://vrbo.com/therittenhouseresidence). For direct booking with a 5% discount, [contact us](contact.qmd).
+You can book instantly through [Airbnb](https://www.airbnb.com/rooms/6000930) or [VRBO](https://www.vrbo.com/757481). For direct booking with a 5% discount, [contact us](contact.qmd).
 
 ### What is the minimum stay requirement?
 - Standard: 2 nights
@@ -212,6 +213,97 @@ We follow enhanced cleaning protocols including:
 We follow CDC guidelines and platform policies. Direct bookings receive full refunds for documented COVID-related cancellations.
 
 ---
+
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I book the property?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can book instantly through Airbnb (https://www.airbnb.com/rooms/6000930) or VRBO (https://www.vrbo.com/757481). For direct booking with a 5% discount, contact us directly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the minimum stay requirement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard minimum stay is 2 nights. Holiday weekends and peak season require 3 nights. Monthly stays are available with flexible start dates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many people does the house sleep?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The house comfortably accommodates 16-18 guests in 5 suites across 5 floors. Each suite has either an en-suite or dedicated bathroom."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the property wheelchair accessible?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unfortunately, no. This is a historic 5-story townhouse with stairs between all levels. The main entrance has 4 steps up from street level."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there parking available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Street parking is available with a 2-hour limit until 8 PM (permit required overnight). The nearest garage is at 1810 Rittenhouse Square for $25/day. Valet parking is available at several nearby restaurants."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are your rates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Weekdays (Mon-Thu): $1,600/night. Weekends (Fri-Sun): $1,800/night. Prime periods: $2,500/night. One-time cleaning fee: $450. Weekly stays get 10% off, monthly stays get 20% off, and direct bookings save an additional 5%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can we host an event or party?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No commercial events or parties are permitted. Small family gatherings with registered overnight guests only are allowed. Day events require prior approval and are limited to a maximum of 50 for cocktail receptions or 30 for seated dinners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are pets allowed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No pets are permitted to preserve the historic furnishings and accommodate guests with allergies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far is the house from Rittenhouse Square?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Just 2 blocks south - a pleasant 3-minute walk to Rittenhouse Square."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is your cancellation policy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Platform bookings follow Airbnb/VRBO policies. Direct bookings: 30+ days notice for full refund minus 3% processing fee, 14-29 days for 50% refund, less than 14 days for no refund unless we can re-book the dates."
+      }
+    }
+  ]
+}
+</script>
+```
 
 ## Still Have Questions?
 

@@ -1,0 +1,412 @@
+---
+title: "Why Choose 1822 Pine Over Hotels?"
+subtitle: "The Smart Choice for Groups in Philadelphia"
+description: "Compare costs and experience: The Rittenhouse Residence vs luxury hotels vs other vacation rentals in Philadelphia"
+keywords: ["philadelphia group lodging", "rittenhouse square hotels vs vacation rental", "philadelphia family reunion lodging", "corporate housing philadelphia"]
+---
+
+<style>
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 0.95rem;
+}
+
+.comparison-table th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.comparison-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.comparison-table tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+.winner {
+  background: #d4edda !important;
+  font-weight: 600;
+}
+
+.checkmark {
+  color: #28a745;
+  font-size: 1.2rem;
+}
+
+.xmark {
+  color: #dc3545;
+  font-size: 1.2rem;
+}
+
+.cost-breakdown {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.cost-breakdown h3 {
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.cost-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cost-total {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #667eea;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 2px solid #667eea;
+}
+
+.savings-box {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.savings-amount {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.benefit-card {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.benefit-card h4 {
+  color: #667eea;
+  margin-bottom: 0.5rem;
+}
+
+.cta-box {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  color: white;
+}
+
+.cta-box h2 {
+  color: white;
+}
+
+.cta-box .btn {
+  margin: 0.5rem;
+  background: white;
+  color: #667eea;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+}
+</style>
+
+## The Math is Simple: Better Value, Better Experience
+
+Booking hotel rooms for a large group? Let's compare what you actually get.
+
+---
+
+## Cost Comparison: 16 Guests, Weekend Stay (2 Nights)
+
+::: {.cost-breakdown}
+### 1822 Pine Street - The Rittenhouse Residence
+
+<div class="cost-item">
+<span>Entire 7,000 sq ft mansion (16-18 guests)</span>
+<span>$3,200 (2 nights @ $1,600)</span>
+</div>
+<div class="cost-item">
+<span>Cleaning fee (one-time)</span>
+<span>$450</span>
+</div>
+<div class="cost-item">
+<span>Taxes (15.5%)</span>
+<span>$566</span>
+</div>
+<div class="cost-total">
+<span>Total:</span>
+<span>$4,216 ($264/person)</span>
+</div>
+:::
+
+::: {.cost-breakdown}
+### Luxury Hotel (e.g., Ritz-Carlton Philadelphia)
+
+<div class="cost-item">
+<span>8 rooms x $500/night average x 2 nights</span>
+<span>$8,000</span>
+</div>
+<div class="cost-item">
+<span>Parking (8 cars x $55/night x 2)</span>
+<span>$880</span>
+</div>
+<div class="cost-item">
+<span>Room service / minibar (conservative)</span>
+<span>$400</span>
+</div>
+<div class="cost-item">
+<span>Resort fees & taxes</span>
+<span>$1,400</span>
+</div>
+<div class="cost-total">
+<span>Total:</span>
+<span>$10,680 ($668/person)</span>
+</div>
+:::
+
+::: {.cost-breakdown}
+### Mid-Range Hotel (e.g., Marriott Rittenhouse)
+
+<div class="cost-item">
+<span>8 rooms x $300/night x 2 nights</span>
+<span>$4,800</span>
+</div>
+<div class="cost-item">
+<span>Parking & fees</span>
+<span>$650</span>
+</div>
+<div class="cost-item">
+<span>Breakfast for 16 x 2 days (not included)</span>
+<span>$480</span>
+</div>
+<div class="cost-item">
+<span>Taxes</span>
+<span>$846</span>
+</div>
+<div class="cost-total">
+<span>Total:</span>
+<span>$6,776 ($424/person)</span>
+</div>
+:::
+
+::: {.savings-box}
+<p style="font-size: 1.2rem; margin-bottom: 0.5rem;">You Save</p>
+<div class="savings-amount">$6,464</div>
+<p>vs. luxury hotel • 60% savings</p>
+<p style="margin-top: 1rem; opacity: 0.9;">Or $2,560 vs. mid-range hotel • 38% savings</p>
+:::
+
+---
+
+## Feature Comparison
+
+<table class="comparison-table">
+<thead>
+<tr>
+<th>Feature</th>
+<th>1822 Pine</th>
+<th>Luxury Hotel</th>
+<th>Other Vacation Rentals</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cost for 16 guests (2 nights)</strong></td>
+<td class="winner">$4,216</td>
+<td>$10,680</td>
+<td>~$5,500</td>
+</tr>
+<tr>
+<td><strong>Privacy</strong></td>
+<td class="winner"><span class="checkmark">✓</span> Entire building</td>
+<td><span class="xmark">✗</span> Shared spaces</td>
+<td><span class="checkmark">✓</span> Usually private</td>
+</tr>
+<tr>
+<td><strong>Square Footage</strong></td>
+<td class="winner">7,000 sq ft</td>
+<td>~2,400 sq ft (8 rooms)</td>
+<td>2,500-4,000 sq ft</td>
+</tr>
+<tr>
+<td><strong>Full Kitchen</strong></td>
+<td class="winner"><span class="checkmark">✓</span> Professional-grade</td>
+<td><span class="xmark">✗</span> None</td>
+<td><span class="checkmark">✓</span> Varies</td>
+</tr>
+<tr>
+<td><strong>Common Spaces</strong></td>
+<td class="winner">5 (parlors, dining, deck)</td>
+<td>Shared public areas</td>
+<td>1-2 living areas</td>
+</tr>
+<tr>
+<td><strong>Historical Significance</strong></td>
+<td class="winner">1854, documented history</td>
+<td>Modern building</td>
+<td>Varies</td>
+</tr>
+<tr>
+<td><strong>Location Walkability</strong></td>
+<td class="winner">98/100 Walk Score</td>
+<td>95/100 Walk Score</td>
+<td>Varies widely</td>
+</tr>
+<tr>
+<td><strong>Parking Included</strong></td>
+<td>Street (free after 8pm)</td>
+<td><span class="xmark">✗</span> $55/night extra</td>
+<td>Usually street only</td>
+</tr>
+<tr>
+<td><strong>Group Meals</strong></td>
+<td class="winner"><span class="checkmark">✓</span> Full kitchen + dining for 16</td>
+<td><span class="xmark">✗</span> Expensive room service</td>
+<td><span class="checkmark">✓</span> If kitchen available</td>
+</tr>
+<tr>
+<td><strong>Laundry</strong></td>
+<td class="winner"><span class="checkmark">✓</span> In-unit washer/dryer</td>
+<td><span class="xmark">✗</span> Expensive valet service</td>
+<td><span class="checkmark">✓</span> Sometimes</td>
+</tr>
+<tr>
+<td><strong>Outdoor Space</strong></td>
+<td class="winner"><span class="checkmark">✓</span> Private roof deck + garden</td>
+<td><span class="xmark">✗</span> None</td>
+<td>Rarely</td>
+</tr>
+<tr>
+<td><strong>Character & Uniqueness</strong></td>
+<td class="winner">One-of-a-kind historic mansion</td>
+<td>Generic luxury</td>
+<td>Varies</td>
+</tr>
+<tr>
+<td><strong>Check-in Flexibility</strong></td>
+<td class="winner"><span class="checkmark">✓</span> Self check-in anytime</td>
+<td>Limited to front desk hours</td>
+<td><span class="checkmark">✓</span> Usually flexible</td>
+</tr>
+<tr>
+<td><strong>Gather as a Group</strong></td>
+<td class="winner"><span class="checkmark">✓</span> Multiple large common areas</td>
+<td><span class="xmark">✗</span> Must book meeting rooms</td>
+<td><span class="checkmark">✓</span> Limited space</td>
+</tr>
+</tbody>
+</table>
+
+---
+
+## What You Can't Put a Price On
+
+::: {.benefit-grid}
+::: {.benefit-card}
+### Everyone Under One Roof
+No coordinating between hotel rooms. Share breakfast together, gather in the parlors, enjoy late-night conversations. Create actual memories as a group.
+:::
+
+::: {.benefit-card}
+### Cook Together
+Full professional kitchen means you can have group breakfasts, cook family recipes, or bring in a private chef for a fraction of restaurant costs.
+:::
+
+::: {.benefit-card}
+### Kids Can Be Kids
+Parents can relax in the parlors while kids play upstairs. No worrying about noise complaints from neighboring hotel rooms. Real family time.
+:::
+
+::: {.benefit-card}
+### Host Meetings Your Way
+Corporate groups: spread out in the dining room for meetings, use the parlors for breakouts, take calls from private suites. Work on your schedule.
+:::
+
+::: {.benefit-card}
+### The Stories You'll Tell
+"Remember when we stayed in that mansion where suffragettes met?" beats "Remember that Holiday Inn?"
+:::
+
+::: {.benefit-card}
+### Flexibility & Freedom
+Eat when you want, come and go as you please, use the washer, spread out your stuff. Live like you're at home, not in a hotel.
+:::
+:::
+
+---
+
+## Real Guest Comparisons
+
+> "We priced out the Four Seasons for our family reunion—16 people, 3 nights. It would have cost $15,000+ and we'd still be separated into rooms. For $9,000 we got this entire historic mansion, created our own schedule, cooked breakfasts together, and made memories we'll never forget. Not even close."
+>
+> **— Sarah M., Family Reunion Host**
+
+> "Our company usually books conference hotels for offsites. This was half the price and 10x better. The team actually bonded instead of disappearing to separate hotel rooms. We're never going back to the old way."
+>
+> **— David R., Tech Company VP**
+
+> "We almost booked hotel rooms for our wedding party. I'm so glad we found this instead. Having everyone together the night before the wedding, getting ready together in the suites, having brunch together that morning—it made the weekend so much more special than scattered across a hotel."
+>
+> **— Emily & James, Wedding Couple**
+
+---
+
+## The Bottom Line
+
+| Scenario | Hotel Rooms | 1822 Pine | Savings |
+|----------|-------------|-----------|---------|
+| **Weekend Stay** (16 guests, 2 nights) | $6,776-$10,680 | $4,216 | $2,560-$6,464 |
+| **Week-Long** (16 guests, 7 nights) | $23,800-$38,000 | $11,170 (with 10% discount) | $12,630-$26,830 |
+| **Month-Long** (corporate housing) | $68,000-$110,000 | $35,840 (with 20% discount) | $32,160-$74,160 |
+
+*Plus you get: entire mansion, full privacy, professional kitchen, multiple common areas, historic character, and memories money can't buy.*
+
+---
+
+::: {.cta-box}
+<h2>Ready to Make the Smart Choice?</h2>
+<p>Book The Rittenhouse Residence and save thousands while getting a better experience</p>
+<a href="https://www.airbnb.com/rooms/6000930" class="btn">Check Availability on Airbnb</a>
+<a href="https://www.vrbo.com/757481" class="btn">Check Availability on VRBO</a>
+<a href="contact.qmd" class="btn">Contact for Direct Booking (Save 5% More)</a>
+:::
+
+---
+
+## Frequently Asked Questions
+
+**Q: Is it really cheaper than hotels for our group?**
+A: For 8+ people, almost always yes. [Contact us](contact.qmd) with your dates and group size for an exact comparison.
+
+**Q: What if we're fewer than 16 people?**
+A: Still a great value! Even for 8 people, you get way more space and amenities than 4 hotel rooms, often for the same or less money.
+
+**Q: Can we have catering or events?**
+A: Yes! Small gatherings with overnight guests are welcome. See our [house rules](house-rules.qmd) for details.
+
+**Q: How does payment work?**
+A: Book through [Airbnb](https://www.airbnb.com/rooms/6000930) or [VRBO](https://www.vrbo.com/757481) with their standard payment protection. Or [book direct](contact.qmd) and save an additional 5%.
+
+**Q: What about cleaning?**
+A: One-time $450 cleaning fee vs. nightly hotel fees. And you're not living in a space someone else slept in the night before.

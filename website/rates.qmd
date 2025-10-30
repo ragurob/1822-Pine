@@ -1,6 +1,7 @@
 ---
-title: "Rates & Booking"
+title: "Rates & Booking | The Rittenhouse Residence | 1822 Pine Street Philadelphia"
 subtitle: "Reserve Your Stay at The Rittenhouse Residence"
+description: "Transparent pricing for 1822 Pine Street luxury rental. From $1,600/night. Weekly & monthly discounts. Book direct and save 5%. Sleeps 16-18 in 5 private suites."
 ---
 
 ## Current Rates

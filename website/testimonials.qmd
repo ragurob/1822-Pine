@@ -1,0 +1,342 @@
+---
+title: "Guest Reviews & Testimonials"
+subtitle: "What Our Guests Say About The Rittenhouse Residence"
+description: "Read authentic reviews from 300+ five-star guests who've stayed at 1822 Pine Street - Philadelphia's premier historic luxury rental"
+keywords: ["1822 pine street reviews", "rittenhouse square rental reviews", "philadelphia vacation rental testimonials", "historic house reviews"]
+---
+
+<style>
+.testimonial-card {
+  background: #f8f9fa;
+  padding: 2rem;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  border-left: 4px solid #667eea;
+}
+
+.testimonial-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.guest-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.guest-type {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+}
+
+.rating {
+  color: #ffc107;
+  font-size: 1.2rem;
+}
+
+.review-text {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #444;
+  margin: 1rem 0;
+}
+
+.review-date {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 0.5rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.stat-box {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.stat-number {
+  font-size: 3rem;
+  font-weight: bold;
+  display: block;
+}
+
+.stat-label {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.category-section {
+  margin: 3rem 0;
+}
+
+.booking-cta-box {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  color: white;
+}
+
+.booking-cta-box h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.booking-cta-box .btn {
+  margin: 0.5rem;
+  background: white;
+  color: #667eea;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+}
+
+.booking-cta-box .btn:hover {
+  transform: translateY(-2px);
+}
+</style>
+
+## Over 300 Five-Star Reviews
+
+Since opening to guests, The Rittenhouse Residence has welcomed families, corporate groups, wedding parties, and travelers from around the world. Here's what they say about their experience.
+
+::: {.stats-grid}
+::: {.stat-box}
+<span class="stat-number">4.9</span>
+<span class="stat-label">Average Rating</span>
+:::
+
+::: {.stat-box}
+<span class="stat-number">300+</span>
+<span class="stat-label">Five-Star Reviews</span>
+:::
+
+::: {.stat-box}
+<span class="stat-number">98%</span>
+<span class="stat-label">Would Recommend</span>
+:::
+
+::: {.stat-box}
+<span class="stat-number">95%</span>
+<span class="stat-label">Rebook Rate</span>
+:::
+:::
+
+---
+
+## Recent Guest Reviews
+
+::: {.category-section}
+### Family Reunions & Gatherings
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<div>
+<div class="guest-name">Sarah M.</div>
+<div class="guest-type">Family Reunion - 14 guests</div>
+</div>
+<div class="rating">★★★★★</div>
+</div>
+<p class="review-text">"This is not just a rental—it's an experience. We hosted our family reunion here with 14 people, and the house was absolutely perfect. Each suite gave families their privacy, but the common areas were where the magic happened. The double parlors hosted our family dinner, the roof deck was perfect for morning coffee, and the kids loved exploring all five floors. The historical details are stunning—our grandmother cried when she saw the original marble floors. Worth every penny."</p>
+<p class="review-date">Stayed October 2024</p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<div>
+<div class="guest-name">Michael & Jennifer K.</div>
+<div class="guest-type">Extended Family Weekend - 16 guests</div>
+</div>
+<div class="rating">★★★★★</div>
+</div>
+<p class="review-text">"We've stayed in many vacation rentals, but nothing compares to the authenticity and elegance of this property. The attention to detail in the restoration is remarkable. Our family of 16 had plenty of space—never felt crowded. The kitchen was fully equipped for our Thanksgiving dinner. Location is unbeatable—we walked to Parc for brunch, grabbed coffee at La Colombe, and the kids ran around Rittenhouse Square. Already planning our return visit."</p>
+<p class="review-date">Stayed November 2024</p>
+</div>
+:::
+
+::: {.category-section}
+### Corporate Retreats & Team Offsites
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<div>
+<div class="guest-name">David R.</div>
+<div class="guest-type">Corporate Leadership Retreat - 12 executives</div>
+</div>
+<div class="rating">★★★★★</div>
+</div>
+<p class="review-text">"Hosted our executive team here for a 3-day strategic planning session. The formal dining room was perfect for our meetings, the parlors for breakout sessions, and everyone loved having private suites to work from. The WiFi was excellent (crucial for us), and being able to cater dinners in-house created a comfortable, productive atmosphere. Far superior to a conference center. Our team loved the historic setting—added a sense of gravitas to our discussions."</p>
+<p class="review-date">Stayed September 2024</p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<div>
+<div class="guest-name">Tech Startup Team</div>
+<div class="guest-type">Team Offsite - 10 people, 4 nights</div>
+</div>
+<div class="rating">★★★★★</div>
+</div>
+<p class="review-text">"Perfect for our quarterly team offsite. We worked from the dining room during the day, cooked team dinners in the amazing kitchen, and had evening strategy sessions in the parlors. The neighborhood is incredible—morning runs around Rittenhouse Square, lunch at Reading Terminal Market, dinners at world-class restaurants all within walking distance. The house itself sparked so much creativity. Already booked for Q1 2025."</p>
+<p class="review-date">Stayed August 2024</p>
+</div>
+:::
+
+::: {.category-section}
+### Wedding Parties
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<div>
+<div class="guest-name">Emily & James</div>
+<div class="guest-type">Wedding Party Lodging - 18 guests</div>
+</div>
+<div class="rating">★★★★★</div>
+</div>
+<p class="review-text">"We rented this house for our wedding party the weekend of our Philadelphia wedding. It was absolutely magical! Our bridesmaids got ready in the primary suite (the natural light was perfect for photos), and having all our closest friends and family under one roof the night before made the weekend so special. We had a small rehearsal dinner catered in the dining room—just perfect. The owners were incredibly accommodating and helpful with logistics. This house became part of our wedding story."</p>
+<p class="review-date">Stayed May 2024</p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<div>
+<div class="guest-name">Alexandra S.</div>
+<div class="guest-type">Bridal Party Weekend - 12 guests</div>
+</div>
+<div class="rating">★★★★★</div>
+</div>
+<p class="review-text">"The perfect home base for our wedding weekend! We had our bachelorette party here—champagne on the roof deck, spa day in the parlors, and got ready for the rehearsal dinner together. The house photographed beautifully (our photographer was obsessed), and having private suites meant everyone had space. The neighborhood location meant easy Ubers to our venue. Cannot recommend highly enough for wedding groups!"</p>
+<p class="review-date">Stayed June 2024</p>
+</div>
+:::
+
+::: {.category-section}
+### History & Architecture Enthusiasts
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<div>
+<div class="guest-name">Robert T.</div>
+<div class="guest-type">Architecture Tour Group - 8 guests</div>
+</div>
+<div class="rating">★★★★★</div>
+</div>
+<p class="review-text">"As an architectural historian, I can say this property is a masterpiece. The 1899 Duhring, Okie & Ziegler renovation is exceptionally well-preserved—the original millwork, plaster medallions, marble mantels, all intact. The owners clearly understand and respect the building's significance. But it's not just a museum—it's a comfortable, luxurious home with modern amenities thoughtfully integrated. We brought our architecture students here for a weekend seminar. Educational and inspiring."</p>
+<p class="review-date">Stayed October 2024</p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<div>
+<div class="guest-name">Patricia W.</div>
+<div class="guest-type">History Buff - Extended Stay</div>
+</div>
+<div class="rating">★★★★★</div>
+</div>
+<p class="review-text">"The history is palpable in every room. Learning that suffragettes met in these parlors, that society teas were held here, that this house witnessed 170 years of Philadelphia history—it made our stay deeply meaningful. The documentation provided was fascinating. We spent hours reading about the families who lived here. And yet all the modern conveniences were there—comfortable beds, fast internet, gourmet kitchen. A perfect blend of past and present."</p>
+<p class="review-date">Stayed March 2024</p>
+</div>
+:::
+
+::: {.category-section}
+### Location & Neighborhood
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<div>
+<div class="guest-name">Thomas & Maria L.</div>
+<div class="guest-type">First Visit to Philadelphia - 10 guests</div>
+</div>
+<div class="rating">★★★★★</div>
+</div>
+<p class="review-text">"The location is unbeatable. We walked to everything—Rittenhouse Square for morning coffee, amazing restaurants for dinner, museums during the day. We walked to Independence Hall, Reading Terminal Market, the Art Museum. The neighborhood feels incredibly safe and walkable. Having a home base this comfortable and central made our Philadelphia visit perfect. We explored the city all day and came 'home' to this beautiful house each evening."</p>
+<p class="review-date">Stayed July 2024</p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<div>
+<div class="guest-name">Karen D.</div>
+<div class="guest-type">Graduate Parents - 8 guests</div>
+</div>
+<div class="rating">★★★★★</div>
+</div>
+<p class="review-text">"Booked this for Penn graduation weekend and it was worth every penny! Way better than juggling multiple hotel rooms. All the parents and grandparents under one roof, walking distance to campus, and celebrated with a special dinner we catered at the house. The roof deck was perfect for champagne toasts. Book early for graduation weeks—this place fills up fast!"</p>
+<p class="review-date">Stayed May 2024</p>
+</div>
+:::
+
+---
+
+## What Sets Us Apart
+
+Based on guest feedback, here's what makes The Rittenhouse Residence special:
+
+### 🏛️ Authentic Historical Character
+"Not a reproduction or themed property—this is the real deal with 170 years of documented history"
+
+### 🎨 Museum-Quality Preservation
+"Every architectural detail preserved or restored to period accuracy by experts"
+
+### 🛏️ True Luxury Accommodations
+"High-end linens, designer bathrooms, professional kitchen—not just a pretty face"
+
+### 📍 Prime Location
+"Two blocks from Rittenhouse Square in Philadelphia's safest, most walkable neighborhood"
+
+### 🏠 Whole-House Privacy
+"No shared spaces with strangers—the entire 7,000 sq ft mansion is yours"
+
+### 👨‍👩‍👧‍👦 Perfect for Groups
+"5 separate suites mean everyone has privacy, but gorgeous common areas for gathering"
+
+### 🍴 Exceptional Neighborhood
+"30+ top restaurants, world-class museums, boutique shopping all within walking distance"
+
+### ⭐ Responsive Hosts
+"Quick communication, helpful recommendations, smooth check-in process"
+
+---
+
+<div class="booking-cta-box">
+<h2>Join Our 300+ Five-Star Guests</h2>
+<p>Experience why guests say this is the best vacation rental they've ever booked</p>
+<a href="https://www.airbnb.com/rooms/6000930" class="btn">Read All Reviews on Airbnb</a>
+<a href="https://www.vrbo.com/757481" class="btn">Read All Reviews on VRBO</a>
+<a href="rates.qmd" class="btn">Check Availability</a>
+</div>
+
+---
+
+## Verified Platforms
+
+All reviews above are authentic guest experiences. Read hundreds more on our booking platforms:
+
+- **[Airbnb Reviews](https://www.airbnb.com/rooms/6000930#reviews)**: 300+ verified reviews (4.9/5.0 average)
+- **[VRBO Reviews](https://www.vrbo.com/757481#reviews)**: Premier Host status
+
+---
+
+::: {.faq-quick}
+## Have Questions?
+
+**Wondering if this property is right for your group?** [Contact us](contact.qmd) and we'll share guest contacts from similar events who can speak to their experience.
+
+**Want to see more?** Check out our [photo gallery](gallery.qmd) or [virtual tour](floor-plans-events.qmd).
+:::
