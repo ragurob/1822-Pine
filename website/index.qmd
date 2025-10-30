@@ -5,6 +5,7 @@ description: "Book 1822 Pine Street - a meticulously preserved 1854 mansion near
 page-layout: custom
 toc: false
 css:
+  - styles/main.css
   - styles/homepage.css
   - styles/animations.css
 include-after-body:
