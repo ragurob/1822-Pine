@@ -154,15 +154,23 @@
   function enhanceExternalLinks() {
     // Add visual indicator and security attributes to external links
     document.querySelectorAll('a[href^="http"]').forEach(link => {
-      // Skip if it's a link to the same domain
-      if (link.hostname === window.location.hostname) return;
+      // Skip if it's a link to the same domain (includes github.io subdomains)
+      const currentDomain = window.location.hostname;
+      const linkDomain = link.hostname;
 
+      // Check if it's truly external (not same domain or subdomain)
+      const isExternal = linkDomain !== currentDomain &&
+                         !linkDomain.endsWith(currentDomain);
+
+      if (!isExternal) return;
+
+      // For truly external links (Airbnb, VRBO, social media, etc.)
       // Add rel attributes for security
       if (!link.getAttribute('rel')) {
         link.setAttribute('rel', 'noopener noreferrer');
       }
 
-      // Add target blank if not already set
+      // Add target blank for external links only
       if (!link.getAttribute('target')) {
         link.setAttribute('target', '_blank');
       }
@@ -234,6 +242,130 @@
   }
 
   // ========================================
+  // IMAGE LIGHTBOX / GALLERY VIEWER
+  // ========================================
+  function initImageLightbox() {
+    // Create lightbox HTML structure
+    const lightbox = document.createElement('div');
+    lightbox.id = 'image-lightbox';
+    lightbox.className = 'lightbox';
+    lightbox.innerHTML = `
+      <div class="lightbox-content">
+        <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+        <button class="lightbox-prev" aria-label="Previous image">‹</button>
+        <button class="lightbox-next" aria-label="Next image">›</button>
+        <img src="" alt="" class="lightbox-image">
+        <div class="lightbox-caption"></div>
+        <div class="lightbox-counter"></div>
+      </div>
+    `;
+    document.body.appendChild(lightbox);
+
+    // Get all gallery images
+    const galleryImages = document.querySelectorAll('.gallery-image, img[src*="/images/"]');
+    let currentIndex = 0;
+    let imageArray = [];
+
+    // Build array of images with their data
+    galleryImages.forEach((img, index) => {
+      imageArray.push({
+        src: img.src,
+        alt: img.alt || '',
+        caption: img.alt || img.getAttribute('title') || ''
+      });
+
+      // Add click handler to open lightbox
+      img.addEventListener('click', (e) => {
+        e.preventDefault();
+        currentIndex = index;
+        openLightbox();
+      });
+
+      // Make images look clickable
+      img.style.cursor = 'pointer';
+    });
+
+    function openLightbox() {
+      if (imageArray.length === 0) return;
+
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden'; // Prevent background scroll
+      showImage(currentIndex);
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = ''; // Restore scroll
+    }
+
+    function showImage(index) {
+      if (index < 0) index = imageArray.length - 1;
+      if (index >= imageArray.length) index = 0;
+
+      currentIndex = index;
+
+      const imgData = imageArray[index];
+      const lightboxImg = lightbox.querySelector('.lightbox-image');
+      const caption = lightbox.querySelector('.lightbox-caption');
+      const counter = lightbox.querySelector('.lightbox-counter');
+
+      lightboxImg.src = imgData.src;
+      lightboxImg.alt = imgData.alt;
+      caption.textContent = imgData.caption;
+      counter.textContent = `${index + 1} / ${imageArray.length}`;
+
+      // Show/hide navigation buttons
+      const prevBtn = lightbox.querySelector('.lightbox-prev');
+      const nextBtn = lightbox.querySelector('.lightbox-next');
+
+      if (imageArray.length <= 1) {
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'none';
+      } else {
+        prevBtn.style.display = 'flex';
+        nextBtn.style.display = 'flex';
+      }
+    }
+
+    function nextImage() {
+      showImage(currentIndex + 1);
+    }
+
+    function prevImage() {
+      showImage(currentIndex - 1);
+    }
+
+    // Event listeners
+    lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+    lightbox.querySelector('.lightbox-next').addEventListener('click', nextImage);
+    lightbox.querySelector('.lightbox-prev').addEventListener('click', prevImage);
+
+    // Click outside image to close
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox || e.target.classList.contains('lightbox-content')) {
+        closeLightbox();
+      }
+    });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (!lightbox.classList.contains('active')) return;
+
+      switch(e.key) {
+        case 'Escape':
+          closeLightbox();
+          break;
+        case 'ArrowRight':
+          nextImage();
+          break;
+        case 'ArrowLeft':
+          prevImage();
+          break;
+      }
+    });
+  }
+
+  // ========================================
   // INITIALIZE ALL FEATURES
   // ========================================
   function init() {
@@ -251,10 +383,11 @@
     initSmoothScroll();
     enhanceExternalLinks();
     initParallaxHero();
+    initImageLightbox();
     trackCTAClicks();
     hideLoadingIndicator();
 
-    console.log('✨ Phase 3 interactions initialized');
+    console.log('✨ Phase 3 interactions initialized (with image lightbox)');
   }
 
   // Start the magic!
