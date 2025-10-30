@@ -17,54 +17,46 @@ css: styles/homepage.css
 
 ## You're Stepping Into Philadelphia History
 
-Where suffragettes planned their campaigns. Where society held its grandest gatherings.  
-Where 170 years of stories wait to be discovered.
-
-::: {.hero-stats}
-::: {.stat}
-**16-18**  
-Guests
-:::
-::: {.stat}
-**5**  
-Suites
-:::
-::: {.stat}
-**7,000**  
-Square Feet
-:::
-::: {.stat}
-**2 Blocks**  
-From Rittenhouse
-:::
-:::
-
 ::: {.hero-cta}
-[Book on Airbnb](https://www.airbnb.com/rooms/6000930){.btn .btn-primary .btn-lg}
-[Book on VRBO](https://www.vrbo.com/757481){.btn .btn-secondary .btn-lg}
-[Check Availability](#availability){.btn .btn-outline-light .btn-lg}
+[Check Availability](#availability){.btn .btn-primary .btn-hero}
+[Browse Photos](gallery.qmd){.btn-link .hero-link}
 :::
 :::
 :::
 :::
 
----
+::: {.trust-bar}
+★★★★★ **300+ five-star reviews** • Featured in Philadelphia Magazine • Historic District designation since 1995
+:::
 
-::: {.quick-facts-ai}
-## Quick Facts
+::: {.at-a-glance}
+## At a Glance
 
-**Property Type**: Historic luxury mansion rental (entire home)
-**Location**: 1822 Pine Street, Philadelphia, PA 19103 (2 blocks from Rittenhouse Square)
-**Capacity**: 16-18 guests • 8 bedrooms • 5 suites • 5.5 bathrooms
-**Size**: 7,000 sq ft across 5 floors
-**Built**: 1854 (renovated 1899 by renowned architects Duhring, Okie & Ziegler)
-**Rates**: $1,600-$2,500/night + $450 cleaning | Weekly: 10% off | Monthly: 20% off
-**Best For**: Family reunions, corporate retreats, wedding parties, extended stays, Philadelphia graduations
-**Booking**: [Airbnb](https://www.airbnb.com/rooms/6000930) | [VRBO](https://www.vrbo.com/757481) | [Direct (save 5%)](contact.qmd)
-**Unique Features**: Original 1854 marble floors, suffragette meeting site (1915), museum-quality preservation
-**Neighborhood**: Rittenhouse-Fitler Historic District (safest in Philadelphia)
-**Walkability**: 30+ restaurants within 5 blocks, 2-minute walk to Rittenhouse Square
-**Reviews**: 300+ five-star reviews across platforms
+::: {.glance-grid}
+::: {.glance-card}
+<div class="glance-icon">🏠</div>
+**16-18 Guests**
+8 bedrooms • 5 suites • 5.5 baths
+:::
+
+::: {.glance-card}
+<div class="glance-icon">📍</div>
+**Prime Location**
+2-minute walk to Rittenhouse Square
+:::
+
+::: {.glance-card}
+<div class="glance-icon">⭐</div>
+**4.9/5 Rating**
+300+ verified five-star reviews
+:::
+
+::: {.glance-card}
+<div class="glance-icon">🏛️</div>
+**Built 1854**
+Museum-quality historic preservation
+:::
+:::
 :::
 
 ---
@@ -98,19 +90,59 @@ Rest in rooms that blend museum-quality preservation with five-star comfort.
 ::: {.the-story}
 ## A House With Stories to Tell
 
-### From the Archives
+::: {.timeline}
+::: {.timeline-item}
+<div class="timeline-year">1854</div>
+<div class="timeline-content">
+**Built**
+John McCrea constructs this Greek Revival townhouse with white marble steps—a Philadelphia signature.
+</div>
+:::
 
-**April 23, 1891** — Seven-year-old Howard Spencer Jr. fights scarlet fever in an upstairs bedroom. The first documented personal tragedy at this address, preserved in newspaper archives.
+::: {.timeline-item}
+<div class="timeline-year">1891</div>
+<div class="timeline-content">
+**First Chronicle**
+Seven-year-old Howard Spencer Jr. fights scarlet fever in an upstairs bedroom—the first documented personal story.
+</div>
+:::
 
-**November 21, 1901** — The Rolin-Plumb wedding breakfast fills the double parlors. Society pages describe the elaborate floral arrangements and guest list.
+::: {.timeline-item}
+<div class="timeline-year">1899</div>
+<div class="timeline-content">
+**Grand Transformation**
+Renowned architects Duhring, Okie & Ziegler renovate the house into its current Gilded Age glory.
+</div>
+:::
 
-**January 8, 1915** — Martha Davis sells Equal Franchise Society tickets from the entry hall, part of the suffrage movement that would win women the vote.
+::: {.timeline-item}
+<div class="timeline-year">1901</div>
+<div class="timeline-content">
+**Society Wedding**
+The Rolin-Plumb wedding breakfast fills the double parlors with elaborate floral arrangements.
+</div>
+:::
 
-**July 18, 1899** — The Philadelphia Inquirer announces Duhring, Okie & Ziegler's commission for "alterations and additions" that would transform the house into its current glory.
+::: {.timeline-item}
+<div class="timeline-year">1915</div>
+<div class="timeline-content">
+**Suffragette Headquarters**
+Martha Davis sells Equal Franchise Society tickets from the entry hall—women's voices rising in these rooms.
+</div>
+:::
+
+::: {.timeline-item}
+<div class="timeline-year">2024</div>
+<div class="timeline-content">
+**Your Story**
+What history will you write in these rooms?
+</div>
+:::
+:::
 
 ::: {.story-cta}
-[Discover the Full Story](story.qmd){.btn .btn-primary}
-[Host Your Own Historic Event](events.qmd){.btn .btn-outline-primary}
+[Discover the Full Story](story.qmd){.btn .btn-accent}
+[Host Your Own Historic Event](events.qmd){.btn .btn-outline-accent}
 :::
 :::
 
