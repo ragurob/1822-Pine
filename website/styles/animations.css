@@ -1,0 +1,411 @@
+/* ========================================
+   PHASE 3: ANIMATIONS & MICRO-INTERACTIONS
+   ======================================== */
+
+/* ========================================
+   STICKY NAVIGATION ENHANCEMENTS
+   ======================================== */
+
+/* Enhanced navbar on scroll */
+.navbar {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(10px);
+}
+
+.navbar.scrolled {
+  background: rgba(26, 35, 50, 0.95) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+/* Enhance Book Now button in nav */
+.navbar-nav .nav-item:has(a[href*="rates"]) {
+  margin-left: 1rem;
+}
+
+.navbar-nav a[href*="rates"] {
+  background: var(--gold-accent, #c9a961) !important;
+  color: white !important;
+  padding: 0.6rem 1.5rem !important;
+  border-radius: 4px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.03em;
+  transition: all 0.3s ease !important;
+  border: 2px solid var(--gold-accent, #c9a961) !important;
+}
+
+.navbar-nav a[href*="rates"]:hover {
+  background: var(--gold-light, #d4b876) !important;
+  border-color: var(--gold-light, #d4b876) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(201, 169, 97, 0.4);
+}
+
+/* ========================================
+   FLOATING BOOKING BAR (appears on scroll)
+   ======================================== */
+#floating-book-bar {
+  position: fixed;
+  bottom: -100px;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, var(--navy-primary, #1a2332) 0%, var(--navy-light, #2c3e50) 100%);
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: bottom 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#floating-book-bar.visible {
+  bottom: 0;
+}
+
+#floating-book-bar .bar-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#floating-book-bar .bar-text {
+  flex: 1;
+}
+
+#floating-book-bar .bar-text strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+#floating-book-bar .bar-text small {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+}
+
+#floating-book-bar .bar-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+#floating-book-bar .btn {
+  padding: 0.75rem 2rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+#floating-book-bar .btn-gold {
+  background: var(--gold-accent, #c9a961);
+  border: 2px solid var(--gold-accent, #c9a961);
+  color: white;
+}
+
+#floating-book-bar .btn-gold:hover {
+  background: var(--gold-light, #d4b876);
+  border-color: var(--gold-light, #d4b876);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(201, 169, 97, 0.4);
+}
+
+#floating-book-bar .btn-outline {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+#floating-book-bar .btn-outline:hover {
+  background: white;
+  color: var(--navy-primary, #1a2332);
+}
+
+#floating-book-bar .close-bar {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+#floating-book-bar .close-bar:hover {
+  color: white;
+}
+
+/* ========================================
+   SCROLL ANIMATIONS - FADE IN
+   ======================================== */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger animation for cards */
+.glance-card,
+.story-card,
+.review {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glance-card.is-visible,
+.story-card.is-visible,
+.review.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger delay for cards */
+.glance-card:nth-child(1) { transition-delay: 0s; }
+.glance-card:nth-child(2) { transition-delay: 0.1s; }
+.glance-card:nth-child(3) { transition-delay: 0.2s; }
+.glance-card:nth-child(4) { transition-delay: 0.3s; }
+
+.story-card:nth-child(1) { transition-delay: 0s; }
+.story-card:nth-child(2) { transition-delay: 0.15s; }
+.story-card:nth-child(3) { transition-delay: 0.3s; }
+
+.review:nth-child(1) { transition-delay: 0s; }
+.review:nth-child(2) { transition-delay: 0.1s; }
+.review:nth-child(3) { transition-delay: 0.2s; }
+
+/* Timeline items fade in */
+.timeline-item {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.timeline-item:nth-child(even) {
+  transform: translateX(30px);
+}
+
+.timeline-item.is-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Stagger timeline items */
+.timeline-item:nth-child(1) { transition-delay: 0s; }
+.timeline-item:nth-child(2) { transition-delay: 0.1s; }
+.timeline-item:nth-child(3) { transition-delay: 0.2s; }
+.timeline-item:nth-child(4) { transition-delay: 0.3s; }
+.timeline-item:nth-child(5) { transition-delay: 0.4s; }
+.timeline-item:nth-child(6) { transition-delay: 0.5s; }
+
+/* ========================================
+   MICRO-INTERACTIONS
+   ======================================== */
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enhanced button interactions */
+.btn,
+a.btn {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn::before,
+a.btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease, height 0.6s ease;
+}
+
+.btn:hover::before,
+a.btn:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* Link hover effects */
+a:not(.btn):not(.navbar-brand) {
+  transition: color 0.3s ease;
+}
+
+/* Card shadow lift on hover */
+.glance-card,
+.story-card,
+.review,
+.location-feature {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Image zoom on hover */
+.story-card img,
+.room-slide img {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.story-card:hover img,
+.room-slide:hover img {
+  transform: scale(1.05);
+}
+
+.story-card,
+.room-slide {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* Trust bar fade in on load */
+.trust-bar {
+  animation: fadeInDown 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.5s both;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hero content fade in */
+.hero-content h1 {
+  animation: fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1) 0.3s both;
+}
+
+.hero-content h2 {
+  animation: fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1) 0.5s both;
+}
+
+.hero-cta {
+  animation: fadeInUp 1s cubic-bezier(0.4, 0, 0.2, 1) 0.7s both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Pulse animation for key CTAs */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(201, 169, 97, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(201, 169, 97, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(201, 169, 97, 0);
+  }
+}
+
+.btn-hero {
+  animation: pulse 2s infinite;
+}
+
+.btn-hero:hover {
+  animation: none;
+}
+
+/* ========================================
+   LOADING STATES
+   ======================================== */
+.page-content {
+  animation: fadeIn 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ========================================
+   RESPONSIVE ADJUSTMENTS
+   ======================================== */
+@media (max-width: 768px) {
+  #floating-book-bar {
+    padding: 1rem;
+  }
+
+  #floating-book-bar .bar-content {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  #floating-book-bar .bar-text strong {
+    font-size: 1rem;
+  }
+
+  #floating-book-bar .bar-buttons {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #floating-book-bar .btn {
+    width: 100%;
+  }
+
+  #floating-book-bar .close-bar {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  /* Disable some animations on mobile for performance */
+  .timeline-item {
+    transform: translateX(0);
+  }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}

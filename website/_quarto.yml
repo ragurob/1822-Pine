@@ -7,6 +7,7 @@ project:
     - "handouts/"
     - "images/"
     - "raw_documents/"
+    - "scripts/"
 
 website:
   title: "The Rittenhouse Residence"
