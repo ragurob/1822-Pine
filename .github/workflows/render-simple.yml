@@ -32,14 +32,10 @@ jobs:
         run: |
           python3 -m pip install jupyter nbformat nbclient
 
-      - name: Install TinyTeX (needed for PDF rendering)
-        run: |
-          quarto install tinytex
-
-      - name: Render Website
+      - name: Render Website (HTML only, skip PDFs)
         run: |
           cd website
-          quarto render
+          quarto render --to html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
