@@ -1,0 +1,73 @@
+/* ========================================
+   MAIN STYLESHEET - QUARTO OVERRIDES
+   Fix page layout and padding issues
+   ======================================== */
+
+/* Remove Quarto's default container padding for custom layouts */
+body.quarto-light,
+body.quarto-dark {
+  padding: 0;
+  margin: 0;
+}
+
+/* Force full-width for custom layout pages */
+.quarto-container {
+  padding: 0 !important;
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
+/* Remove padding from main content area on custom layout pages */
+main.content[style*="custom"] {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Ensure sections with custom classes get full width */
+.hero-full,
+.trust-bar,
+.at-a-glance,
+.photo-story,
+.the-story,
+.room-showcase,
+.reviews-section,
+.availability,
+.location-section,
+.final-cta {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+}
+
+/* Override Quarto's default content padding */
+#quarto-content {
+  padding: 0 !important;
+}
+
+#quarto-content main {
+  padding: 0 !important;
+}
+
+/* Ensure navbar doesn't overlap hero */
+.navbar-fixed-top {
+  position: relative;
+  z-index: 100;
+}
+
+/* Prevent Quarto from adding margins to paragraphs in custom sections */
+.hero-content p,
+.trust-bar p,
+.at-a-glance p {
+  margin: 0;
+}
+
+/* Fix any bootstrap container overrides */
+.container-fluid {
+  padding: 0 !important;
+}
+
+/* Ensure images load properly */
+img {
+  max-width: 100%;
+  height: auto;
+}
