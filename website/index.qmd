@@ -14,7 +14,6 @@ include-after-body:
 
 ::: {.hero-full}
 ![The grand facade of 1822 Pine Street, a historic luxury rental in Philadelphia.](images/property/DSC00064.jpg){.hero-image}
-:::
 
 ::: {.hero-overlay}
 ::: {.hero-content}
