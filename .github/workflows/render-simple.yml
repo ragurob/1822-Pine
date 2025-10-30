@@ -30,7 +30,7 @@ jobs:
 
       - name: Install Python packages (for timeline code)
         run: |
-          python3 -m pip install jupyter nbformat nbclient pandas pyyaml
+          python3 -m pip install jupyter nbformat nbclient pandas pyyaml matplotlib
 
       - name: Install TinyTeX (needed for PDF rendering)
         run: |
