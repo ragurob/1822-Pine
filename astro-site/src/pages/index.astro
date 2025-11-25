@@ -14,7 +14,7 @@ import {
 const homepage = await getHomepage();
 const testimonials = await getFeaturedTestimonials(3);
 const galleryImages = await getGalleryImages();
-const featuredImages = galleryImages?.filter(img => img.featured).slice(0, 12) || [];
+const featuredImages = galleryImages?.filter((img: any) => img.featured).slice(0, 12) || [];
 const timelineItems = await getFeaturedTimelineItems();
 const siteSettings = await getSiteSettings();
 

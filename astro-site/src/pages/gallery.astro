@@ -61,7 +61,6 @@ const metaDescription = 'Explore our historic 1870s mansion through 70+ professi
       <div class="container">
         <div class="gallery-grid" id="gallery-grid">
           {images.map((img: any, index: number) => {
-            const imageUrl = urlFor(img.image).width(800).quality(85).url();
             const thumbnailUrl = urlFor(img.image).width(400).quality(80).url();
 
             return (

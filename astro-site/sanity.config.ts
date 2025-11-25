@@ -1,7 +1,7 @@
 import { defineConfig } from 'sanity';
 import { structureTool } from 'sanity/structure';
-import { visionTool } from '@sanity/vision';
-import { media } from 'sanity-plugin-media';
+// import { visionTool } from '@sanity/vision'; // Optional plugin - install separately if needed
+// import { media } from 'sanity-plugin-media'; // Optional plugin - install separately if needed
 
 // Import schemas
 import { schemaTypes } from './sanity/schemas';
@@ -66,8 +66,8 @@ export default defineConfig({
               ),
           ]),
     }),
-    visionTool(),
-    media(),
+    // visionTool(), // Optional - install @sanity/vision package to enable
+    // media(), // Optional - install sanity-plugin-media package to enable
   ],
 
   schema: {

@@ -273,7 +273,7 @@ const metaDescription = seo?.metaDescription || `Contact us for booking inquirie
 
       // Close all other FAQs
       document.querySelectorAll('.faq-answer').forEach(a => {
-        a.style.maxHeight = null;
+        (a as HTMLElement).style.maxHeight = '';
       });
       document.querySelectorAll('.faq-toggle').forEach(t => {
         t.textContent = '+';
@@ -337,9 +337,10 @@ const metaDescription = seo?.metaDescription || `Contact us for booking inquirie
 
   // Smooth scroll for anchor links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
+    anchor.addEventListener('click', (e) => {
       e.preventDefault();
-      const target = document.querySelector((this as HTMLAnchorElement).getAttribute('href')!);
+      const href = (anchor as HTMLAnchorElement).getAttribute('href');
+      const target = href ? document.querySelector(href) : null;
       if (target) {
         target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
