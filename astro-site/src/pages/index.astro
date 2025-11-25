@@ -1,0 +1,650 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import {
+  getHomepage,
+  getFeaturedTestimonials,
+  getGalleryImages,
+  getFeaturedTimelineItems,
+  getSiteSettings,
+  urlFor
+} from '../lib/sanity';
+
+// Fetch all data
+const homepage = await getHomepage();
+const testimonials = await getFeaturedTestimonials(3);
+const galleryImages = await getGalleryImages();
+const featuredImages = galleryImages?.filter(img => img.featured).slice(0, 12) || [];
+const timelineItems = await getFeaturedTimelineItems();
+const siteSettings = await getSiteSettings();
+
+// Prepare meta tags
+const metaTitle = homepage?.seo?.metaTitle || homepage?.title;
+const metaDescription = homepage?.seo?.metaDescription;
+---
+
+<BaseLayout title={metaTitle} description={metaDescription}>
+  <!-- Hero Section -->
+  {homepage?.hero && (
+    <Hero
+      image={homepage.hero.image}
+      heading={homepage.hero.heading}
+      subheading={homepage.hero.subheading}
+      primaryCta={homepage.hero.primaryCta}
+      secondaryCta={homepage.hero.secondaryCta}
+      overlayOpacity={homepage.hero.overlayOpacity}
+    />
+  )}
+
+  <!-- Trust Bar -->
+  {homepage?.trustBar && (
+    <div class="trust-bar">
+      <div class="container">
+        <p>{homepage.trustBar.text}</p>
+      </div>
+    </div>
+  )}
+
+  <!-- At a Glance Cards -->
+  {homepage?.atAGlance && (
+    <section class="at-a-glance">
+      <div class="container">
+        <h2>At a Glance</h2>
+        <div class="glance-grid">
+          {homepage.atAGlance.map((card:any) => (
+            <div class="glance-card fade-in-section">
+              <div class="glance-icon">{card.icon}</div>
+              <strong>{card.heading}</strong>
+              <p>{card.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Photo Gallery Preview -->
+  {featuredImages.length > 0 && (
+    <section class="gallery-preview">
+      <div class="container">
+        <h2>See Inside</h2>
+        <div class="gallery-grid">
+          {featuredImages.map((photo: any) => {
+            const imageUrl = urlFor(photo.image).width(600).height(400).fit('crop').quality(85).url();
+            return (
+              <div class="gallery-item fade-in-section">
+                <img
+                  src={imageUrl}
+                  alt={photo.image?.alt || photo.title}
+                  loading="lazy"
+                />
+                {photo.title && <div class="gallery-caption">{photo.title}</div>}
+              </div>
+            );
+          })}
+        </div>
+        <div class="text-center mt-3">
+          <a href="/gallery" class="btn btn-primary">View All {galleryImages?.length || 50}+ Photos</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Testimonials Section -->
+  {testimonials && testimonials.length > 0 && (
+    <section class="reviews-section">
+      <div class="container">
+        <h2>What Guests Are Saying</h2>
+        <div class="reviews-grid">
+          {testimonials.map((review: any) => (
+            <div class="review fade-in-section">
+              <div class="review-rating">
+                {'⭐'.repeat(Math.round(review.rating))}
+              </div>
+              <blockquote>
+                <p>"{review.review}"</p>
+                <footer>
+                  <strong>{review.guestName}</strong>
+                  {review.platform && <span> via {review.platform}</span>}
+                </footer>
+              </blockquote>
+            </div>
+          ))}
+        </div>
+        <div class="reviews-cta text-center">
+          <a href="/testimonials" class="btn btn-outline-primary">Read All 300+ Reviews</a>
+          {siteSettings?.airbnbUrl && (
+            <a href={siteSettings.airbnbUrl} target="_blank" rel="noopener" class="btn btn-outline-primary">
+              See Airbnb Reviews
+            </a>
+          )}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Historical Timeline Preview -->
+  {timelineItems && timelineItems.length > 0 && (
+    <section class="timeline-section">
+      <div class="container-narrow">
+        <h2>A House With Stories to Tell</h2>
+        <div class="timeline">
+          {timelineItems.map((item: any) => (
+            <div class="timeline-item fade-in-section">
+              <div class="timeline-year">{item.year}</div>
+              <div class="timeline-content">
+                <strong>{item.title}</strong>
+                <p>{item.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div class="story-cta text-center">
+          <a href="/story" class="btn btn-accent">Discover the Full Story</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Booking CTA Section -->
+  {homepage?.bookingCta && (
+    <section class="final-cta" id="availability">
+      <div class="container">
+        <h2>{homepage.bookingCta.heading}</h2>
+        <p>{homepage.bookingCta.description}</p>
+
+        {homepage.bookingCta.startingRate && (
+          <div class="rate-display">
+            Starting at <strong>{homepage.bookingCta.startingRate}/night</strong>
+          </div>
+        )}
+
+        <div class="cta-buttons">
+          {homepage.bookingCta.airbnbUrl && (
+            <a href={homepage.bookingCta.airbnbUrl} target="_blank" rel="noopener" class="btn btn-primary btn-xl">
+              Book on Airbnb
+            </a>
+          )}
+          {homepage.bookingCta.vrboUrl && (
+            <a href={homepage.bookingCta.vrboUrl} target="_blank" rel="noopener" class="btn btn-secondary btn-xl">
+              Book on VRBO
+            </a>
+          )}
+          <a href="/contact" class="btn btn-outline-primary btn-xl">
+            Direct Inquiry
+          </a>
+        </div>
+
+        <div class="quick-facts">
+          Check-in: 4:00 PM | Check-out: 11:00 AM | Max Guests: 16-18 | Min Stay: 2 nights
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Footer Links -->
+  <div class="footer-links">
+    <div class="container">
+      <a href="/testimonials">Guest Reviews</a> •
+      <a href="/gallery">Photo Gallery</a> •
+      <a href="/rates">Rates & Booking</a> •
+      <a href="/story">The Story</a> •
+      <a href="/faq">FAQ</a> •
+      <a href="/contact">Contact</a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  /* Trust Bar */
+  .trust-bar {
+    background: var(--cream-bg);
+    padding: 1.5rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid #e9ecef;
+  }
+
+  .trust-bar p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+  }
+
+  .trust-bar strong {
+    color: var(--text-primary);
+    font-weight: 500;
+  }
+
+  /* At a Glance */
+  .at-a-glance {
+    padding: 6rem 2rem;
+    background: white;
+  }
+
+  .at-a-glance h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    color: var(--navy-primary);
+  }
+
+  .glance-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .glance-card {
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    background: var(--cream-bg);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .glance-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  }
+
+  .glance-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+  }
+
+  .glance-card strong {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 0.75rem;
+    color: var(--navy-primary);
+  }
+
+  .glance-card p {
+    margin: 0;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  /* Gallery Preview */
+  .gallery-preview {
+    padding: 6rem 2rem;
+    background: var(--cream-bg);
+  }
+
+  .gallery-preview h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    color: var(--navy-primary);
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .gallery-item:hover {
+    transform: scale(1.02);
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+    color: white;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+
+  /* Reviews */
+  .reviews-section {
+    padding: 6rem 2rem;
+    background: white;
+  }
+
+  .reviews-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    color: var(--navy-primary);
+  }
+
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .review {
+    background: white;
+    padding: 2rem;
+    border-left: 4px solid var(--gold-accent);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .review:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  }
+
+  .review-rating {
+    color: var(--gold-accent);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .review blockquote {
+    margin: 0;
+  }
+
+  .review blockquote p {
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .review blockquote footer {
+    font-style: normal;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+  }
+
+  .reviews-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Timeline */
+  .timeline-section {
+    padding: 6rem 2rem;
+    background: var(--cream-bg);
+  }
+
+  .timeline-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    color: var(--navy-primary);
+  }
+
+  .timeline {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+  }
+
+  .timeline-item {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .timeline-item:last-child {
+    border-bottom: none;
+  }
+
+  .timeline-year {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--gold-accent);
+    font-family: var(--font-serif);
+  }
+
+  .timeline-content strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--navy-primary);
+  }
+
+  .timeline-content p {
+    margin: 0;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  .story-cta {
+    margin-top: 3rem;
+  }
+
+  /* Final CTA */
+  .final-cta {
+    background: var(--navy-light);
+    color: white;
+    padding: 6rem 2rem;
+    text-align: center;
+  }
+
+  .final-cta h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+  }
+
+  .final-cta p {
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    font-size: 1.15rem;
+    line-height: 1.7;
+  }
+
+  .rate-display {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .rate-display strong {
+    font-size: 2rem;
+    color: var(--gold-accent);
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+
+  .quick-facts {
+    color: #95a5a6;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+  }
+
+  /* Footer Links */
+  .footer-links {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-top: 1px solid #e9ecef;
+  }
+
+  .footer-links a {
+    margin: 0 0.75rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer-links a:hover {
+    color: var(--navy-primary);
+  }
+
+  /* Utilities */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .container-narrow {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .mt-3 {
+    margin-top: 3rem;
+  }
+
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+
+  .btn-primary {
+    background: var(--gold-accent);
+    color: white;
+    border-color: var(--gold-accent);
+  }
+
+  .btn-primary:hover {
+    background: var(--gold-light);
+    border-color: var(--gold-light);
+    transform: translateY(-2px);
+  }
+
+  .btn-secondary {
+    background: var(--navy-light);
+    color: white;
+    border-color: var(--navy-light);
+  }
+
+  .btn-outline-primary {
+    background: transparent;
+    color: var(--navy-primary);
+    border-color: var(--navy-primary);
+  }
+
+  .btn-outline-primary:hover {
+    background: var(--navy-primary);
+    color: white;
+  }
+
+  .final-cta .btn-outline-primary {
+    color: white;
+    border-color: white;
+  }
+
+  .final-cta .btn-outline-primary:hover {
+    background: white;
+    color: var(--navy-primary);
+  }
+
+  .btn-accent {
+    background: var(--gold-accent);
+    color: white;
+    border-color: var(--gold-accent);
+  }
+
+  .btn-xl {
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+  }
+
+  /* Fade-in animation */
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .glance-grid,
+    .gallery-grid,
+    .reviews-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .timeline-item {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+
+    .cta-buttons {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .btn {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }
+</style>
+
+<script>
+  // Fade-in on scroll
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -100px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+      }
+    });
+  }, observerOptions);
+
+  document.querySelectorAll('.fade-in-section').forEach(el => {
+    observer.observe(el);
+  });
+</script>

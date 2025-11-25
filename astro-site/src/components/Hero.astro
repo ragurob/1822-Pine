@@ -1,0 +1,203 @@
+---
+import { urlFor } from '../lib/sanity';
+
+interface Props {
+  image: any;
+  heading: string;
+  subheading?: string;
+  primaryCta?: any;
+  secondaryCta?: any;
+  overlayOpacity?: number;
+}
+
+const {
+  image,
+  heading,
+  subheading,
+  primaryCta,
+  secondaryCta,
+  overlayOpacity = 25
+} = Astro.props;
+
+const imageUrl = image ? urlFor(image).width(2400).quality(90).url() : '';
+const overlayStyle = `rgba(0,0,0,${overlayOpacity / 100})`;
+---
+
+<section class="hero-full">
+  {imageUrl && (
+    <img
+      src={imageUrl}
+      alt={image?.alt || heading}
+      class="hero-image"
+      loading="eager"
+    />
+  )}
+
+  <div class="hero-overlay" style={`background: linear-gradient(to bottom, ${overlayStyle}, ${overlayStyle})`}>
+    <div class="hero-content">
+      <h1>{heading}</h1>
+      {subheading && <h2>{subheading}</h2>}
+
+      {(primaryCta || secondaryCta) && (
+        <div class="hero-cta">
+          {primaryCta && (
+            <a
+              href={primaryCta.url}
+              class={`btn btn-${primaryCta.style || 'primary'} btn-hero`}
+            >
+              {primaryCta.text}
+            </a>
+          )}
+          {secondaryCta && (
+            <a
+              href={secondaryCta.url}
+              class={`btn-link hero-link`}
+            >
+              {secondaryCta.text}
+            </a>
+          )}
+        </div>
+      )}
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero-full {
+    position: relative;
+    height: 90vh;
+    min-height: 600px;
+    max-height: 900px;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    padding: 2rem;
+  }
+
+  .hero-content {
+    text-align: center;
+    color: white;
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.02em;
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.7),
+                 4px 4px 24px rgba(0,0,0,0.5);
+    line-height: 1.2;
+  }
+
+  .hero-content h2 {
+    font-size: clamp(1.2rem, 3vw, 1.75rem);
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+    color: #f8f9fa;
+    letter-spacing: 0.03em;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+  }
+
+  .hero-cta {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .btn-hero {
+    padding: 1.25rem 4rem !important;
+    font-size: 1.1rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: var(--gold-accent) !important;
+    border: 2px solid var(--gold-accent) !important;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    animation: pulse 2s infinite;
+  }
+
+  .btn-hero:hover {
+    background: var(--gold-light) !important;
+    border-color: var(--gold-light) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(201, 169, 97, 0.4);
+    animation: none;
+  }
+
+  .hero-link {
+    color: white !important;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    padding-bottom: 4px;
+    transition: all 0.3s ease;
+  }
+
+  .hero-link:hover {
+    border-bottom-color: white;
+    opacity: 0.9;
+  }
+
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(201, 169, 97, 0.7);
+    }
+    70% {
+      box-shadow: 0 0 0 15px rgba(201, 169, 97, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(201, 169, 97, 0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero-full {
+      min-height: 500px;
+      height: 70vh;
+    }
+
+    .hero-content {
+      padding: 1.5rem;
+    }
+
+    .hero-cta {
+      gap: 1rem;
+    }
+
+    .btn-hero {
+      padding: 1rem 2.5rem !important;
+      font-size: 1rem !important;
+      width: 100%;
+      max-width: 320px;
+    }
+  }
+</style>
