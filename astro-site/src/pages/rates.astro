@@ -1,0 +1,885 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getRatesPage, getFeaturedTestimonials, getFaqsByCategory } from '../lib/sanity';
+
+const ratesData = await getRatesPage();
+const testimonials = await getFeaturedTestimonials(3);
+const bookingFaqs = await getFaqsByCategory('booking');
+
+const {
+  title,
+  weekdayRate,
+  weekendRate,
+  primeWeekendRate,
+  cleaningFee,
+  weeklyDiscount,
+  biweeklyDiscount,
+  monthlyDiscount,
+  directBookingDiscount,
+  minimumStay,
+  checkInTime,
+  checkOutTime,
+  airbnbUrl,
+  vrboUrl,
+  taxRate,
+  includedAmenities,
+  policies,
+  seo
+} = ratesData;
+
+const metaTitle = seo?.metaTitle || `${title} | The Rittenhouse Residence`;
+const metaDescription = seo?.metaDescription || `Transparent pricing for your historic Rittenhouse stay. Weekday from $${weekdayRate}/night. Weekly discounts available.`;
+---
+
+<BaseLayout title={metaTitle} description={metaDescription}>
+  <main class="rates-page">
+
+    <!-- Hero Section -->
+    <section class="rates-hero">
+      <div class="container">
+        <h1>Transparent Pricing</h1>
+        <p class="hero-subtitle">No hidden fees. No surprises. Book with confidence.</p>
+      </div>
+    </section>
+
+    <!-- Pricing Calculator -->
+    <section class="pricing-calculator">
+      <div class="container">
+        <div class="calculator-grid">
+
+          <!-- Calculator Input -->
+          <div class="calculator-input">
+            <h2>Calculate Your Stay</h2>
+
+            <div class="input-group">
+              <label for="nights">Number of Nights</label>
+              <input type="number" id="nights" min={minimumStay} value="3" />
+              <p class="input-note">Minimum {minimumStay} nights</p>
+            </div>
+
+            <div class="input-group">
+              <label for="stay-type">Stay Type</label>
+              <select id="stay-type">
+                <option value="weekday">Weekday (Mon-Thu)</option>
+                <option value="weekend" selected>Weekend (Fri-Sun)</option>
+                <option value="prime">Prime Weekend (Holidays)</option>
+              </select>
+            </div>
+
+            <div class="discount-badges">
+              <div class="badge">
+                <span class="badge-icon">📅</span>
+                <span>{weeklyDiscount}% off 7+ nights</span>
+              </div>
+              <div class="badge">
+                <span class="badge-icon">📅</span>
+                <span>{biweeklyDiscount}% off 14+ nights</span>
+              </div>
+              <div class="badge">
+                <span class="badge-icon">📅</span>
+                <span>{monthlyDiscount}% off 28+ nights</span>
+              </div>
+              <div class="badge badge-highlight">
+                <span class="badge-icon">💰</span>
+                <span>{directBookingDiscount}% off direct bookings</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price Breakdown -->
+          <div class="price-breakdown">
+            <h3>Your Total</h3>
+
+            <div class="breakdown-line">
+              <span class="breakdown-label">
+                <span id="nights-display">3</span> nights × <span id="rate-display">${weekendRate}</span>
+              </span>
+              <span class="breakdown-amount" id="subtotal">${weekendRate * 3}</span>
+            </div>
+
+            <div class="breakdown-line" id="discount-line" style="display: none;">
+              <span class="breakdown-label" id="discount-label"></span>
+              <span class="breakdown-amount discount" id="discount-amount"></span>
+            </div>
+
+            <div class="breakdown-line">
+              <span class="breakdown-label">Cleaning fee (one-time)</span>
+              <span class="breakdown-amount">${cleaningFee}</span>
+            </div>
+
+            <div class="breakdown-line subtotal-line">
+              <span class="breakdown-label">Subtotal</span>
+              <span class="breakdown-amount" id="subtotal-with-cleaning">${(weekendRate * 3) + cleaningFee}</span>
+            </div>
+
+            <div class="breakdown-line" id="tax-line">
+              <span class="breakdown-label">Taxes & fees ({taxRate}%)</span>
+              <span class="breakdown-amount" id="tax-amount">${Math.round(((weekendRate * 3) + cleaningFee) * (taxRate / 100))}</span>
+            </div>
+
+            <div class="breakdown-line total-line">
+              <span class="breakdown-label"><strong>Total</strong></span>
+              <span class="breakdown-amount"><strong id="total">${((weekendRate * 3) + cleaningFee) * (1 + taxRate / 100)}</strong></span>
+            </div>
+
+            <p class="tax-note">*Stays 30+ days are exempt from hotel tax</p>
+          </div>
+        </div>
+
+        <!-- Booking CTAs -->
+        <div class="booking-ctas">
+          <a href={airbnbUrl} target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
+            <span class="btn-icon">🏠</span>
+            Book on Airbnb
+          </a>
+          <a href={vrboUrl} target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-large">
+            <span class="btn-icon">🏘️</span>
+            Book on VRBO
+          </a>
+        </div>
+
+        <p class="direct-booking-note">
+          💡 <strong>Save {directBookingDiscount}%:</strong> Contact us directly for the best rate
+          <a href="/contact" class="text-link">Get in touch →</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- What's Included -->
+    <section class="whats-included">
+      <div class="container">
+        <h2>Everything You Need</h2>
+        <p class="section-subtitle">Your stay includes premium amenities at no extra charge</p>
+
+        <div class="amenities-grid">
+          {includedAmenities?.map((amenityGroup: any) => (
+            <div class="amenity-group">
+              <h3>{amenityGroup.category}</h3>
+              <ul>
+                {amenityGroup.items.map((item: string) => (
+                  <li>✓ {item}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="booking-trust">
+      <div class="container">
+        <h2>Join 500+ Happy Guests</h2>
+
+        <div class="testimonials-mini">
+          {testimonials.map((review: any) => (
+            <div class="testimonial-card-mini">
+              <div class="stars">{'⭐'.repeat(review.rating)}</div>
+              <p class="review-text">"{review.reviewText.substring(0, 120)}..."</p>
+              <p class="reviewer">— {review.guestName}</p>
+            </div>
+          ))}
+        </div>
+
+        <div class="trust-badges">
+          <div class="trust-badge">
+            <span class="trust-icon">✓</span>
+            <span>Verified Reviews</span>
+          </div>
+          <div class="trust-badge">
+            <span class="trust-icon">🏆</span>
+            <span>Superhost Status</span>
+          </div>
+          <div class="trust-badge">
+            <span class="trust-icon">🔒</span>
+            <span>Secure Booking</span>
+          </div>
+          <div class="trust-badge">
+            <span class="trust-icon">💯</span>
+            <span>5-Star Rated</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="booking-faqs">
+      <div class="container">
+        <h2>Booking Questions</h2>
+
+        <div class="faq-accordion">
+          {bookingFaqs.map((faq: any, index: number) => (
+            <div class="faq-item">
+              <button class="faq-question" data-faq={index}>
+                <span>{faq.question}</span>
+                <span class="faq-toggle">+</span>
+              </button>
+              <div class="faq-answer" id={`faq-${index}`}>
+                {faq.answer.map((block: any) => {
+                  if (block._type === 'block') {
+                    return <p>{block.children.map((child: any) => child.text).join('')}</p>;
+                  }
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div class="additional-questions">
+          <h3>Still have questions?</h3>
+          <p>We're here to help make your booking process smooth and stress-free.</p>
+          <a href="/contact" class="btn btn-secondary">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Policies -->
+    <section class="booking-policies">
+      <div class="container">
+        <h2>Good to Know</h2>
+
+        <div class="policies-grid">
+          <div class="policy-card">
+            <h3>⏰ Check-in & Check-out</h3>
+            <p><strong>Check-in:</strong> {checkInTime}</p>
+            <p><strong>Check-out:</strong> {checkOutTime}</p>
+            <p class="policy-note">Self check-in with smart lock. Instructions sent 24hrs before arrival.</p>
+          </div>
+
+          {policies?.map((policy: any) => (
+            <div class="policy-card">
+              <h3>{policy.title}</h3>
+              <p>{policy.content}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+      <div class="container">
+        <h2>Ready to Experience Philadelphia History?</h2>
+        <p>Book your stay at The Rittenhouse Residence today</p>
+        <div class="cta-buttons">
+          <a href={airbnbUrl} target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
+            Book on Airbnb
+          </a>
+          <a href={vrboUrl} target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-large">
+            Book on VRBO
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</BaseLayout>
+
+<script define:vars={{
+  weekdayRate,
+  weekendRate,
+  primeWeekendRate,
+  cleaningFee,
+  weeklyDiscount,
+  biweeklyDiscount,
+  monthlyDiscount,
+  directBookingDiscount,
+  taxRate,
+  minimumStay
+}}>
+  // Pricing Calculator Logic
+  const nightsInput = document.getElementById('nights');
+  const stayTypeSelect = document.getElementById('stay-type');
+  const nightsDisplay = document.getElementById('nights-display');
+  const rateDisplay = document.getElementById('rate-display');
+  const subtotalEl = document.getElementById('subtotal');
+  const discountLine = document.getElementById('discount-line');
+  const discountLabel = document.getElementById('discount-label');
+  const discountAmount = document.getElementById('discount-amount');
+  const subtotalWithCleaning = document.getElementById('subtotal-with-cleaning');
+  const taxLine = document.getElementById('tax-line');
+  const taxAmount = document.getElementById('tax-amount');
+  const totalEl = document.getElementById('total');
+
+  function calculatePrice() {
+    const nights = parseInt(nightsInput.value) || minimumStay;
+    const stayType = stayTypeSelect.value;
+
+    // Ensure minimum stay
+    if (nights < minimumStay) {
+      nightsInput.value = minimumStay;
+      return;
+    }
+
+    // Get base rate
+    let rate = weekdayRate;
+    if (stayType === 'weekend') rate = weekendRate;
+    if (stayType === 'prime') rate = primeWeekendRate;
+
+    // Calculate base subtotal
+    let subtotal = rate * nights;
+
+    // Apply length-of-stay discount
+    let discount = 0;
+    let discountPercent = 0;
+    let discountName = '';
+
+    if (nights >= 28) {
+      discountPercent = monthlyDiscount;
+      discountName = 'Monthly discount';
+    } else if (nights >= 14) {
+      discountPercent = biweeklyDiscount;
+      discountName = 'Bi-weekly discount';
+    } else if (nights >= 7) {
+      discountPercent = weeklyDiscount;
+      discountName = 'Weekly discount';
+    }
+
+    if (discountPercent > 0) {
+      discount = subtotal * (discountPercent / 100);
+      subtotal -= discount;
+      discountLine.style.display = 'flex';
+      discountLabel.textContent = `${discountName} (${discountPercent}%)`;
+      discountAmount.textContent = `-$${Math.round(discount)}`;
+    } else {
+      discountLine.style.display = 'none';
+    }
+
+    // Add cleaning fee
+    const subtotalWithFee = subtotal + cleaningFee;
+
+    // Calculate tax (exempt if 30+ days)
+    let tax = 0;
+    if (nights < 30) {
+      tax = subtotalWithFee * (taxRate / 100);
+      taxLine.style.display = 'flex';
+    } else {
+      taxLine.style.display = 'none';
+    }
+
+    const total = subtotalWithFee + tax;
+
+    // Update display
+    nightsDisplay.textContent = nights;
+    rateDisplay.textContent = `$${rate}`;
+    subtotalEl.textContent = `$${Math.round(rate * nights)}`;
+    subtotalWithCleaning.textContent = `$${Math.round(subtotalWithFee)}`;
+    taxAmount.textContent = `$${Math.round(tax)}`;
+    totalEl.textContent = `$${Math.round(total)}`;
+  }
+
+  nightsInput.addEventListener('input', calculatePrice);
+  stayTypeSelect.addEventListener('change', calculatePrice);
+
+  // FAQ Accordion
+  const faqButtons = document.querySelectorAll('.faq-question');
+  faqButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const faqIndex = button.getAttribute('data-faq');
+      const answer = document.getElementById(`faq-${faqIndex}`);
+      const toggle = button.querySelector('.faq-toggle');
+
+      const isOpen = answer.style.maxHeight;
+
+      // Close all other FAQs
+      document.querySelectorAll('.faq-answer').forEach(a => {
+        a.style.maxHeight = null;
+      });
+      document.querySelectorAll('.faq-toggle').forEach(t => {
+        t.textContent = '+';
+      });
+
+      // Toggle current FAQ
+      if (!isOpen) {
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+        toggle.textContent = '−';
+      }
+    });
+  });
+</script>
+
+<style>
+  /* Hero */
+  .rates-hero {
+    background: linear-gradient(135deg, var(--navy-primary) 0%, #2a3f5f 100%);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+  }
+
+  .rates-hero h1 {
+    font-family: var(--font-serif);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+    opacity: 0.9;
+  }
+
+  /* Pricing Calculator */
+  .pricing-calculator {
+    padding: 4rem 0;
+    background: #f8f9fa;
+  }
+
+  .calculator-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+
+  @media (max-width: 768px) {
+    .calculator-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .calculator-input h2,
+  .price-breakdown h3 {
+    font-family: var(--font-serif);
+    margin-bottom: 1.5rem;
+  }
+
+  .input-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .input-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--navy-primary);
+  }
+
+  .input-group input,
+  .input-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+
+  .input-group input:focus,
+  .input-group select:focus {
+    outline: none;
+    border-color: var(--gold-accent);
+  }
+
+  .input-note {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #666;
+  }
+
+  /* Discount Badges */
+  .discount-badges {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .badge {
+    background: #f0f7ff;
+    padding: 0.75rem;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .badge-highlight {
+    background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+    grid-column: 1 / -1;
+    font-weight: 600;
+  }
+
+  .badge-icon {
+    font-size: 1.25rem;
+  }
+
+  /* Price Breakdown */
+  .price-breakdown {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+  }
+
+  .breakdown-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .breakdown-line:last-child {
+    border-bottom: none;
+  }
+
+  .breakdown-label {
+    color: #555;
+  }
+
+  .breakdown-amount {
+    font-weight: 600;
+    color: var(--navy-primary);
+  }
+
+  .breakdown-amount.discount {
+    color: #28a745;
+  }
+
+  .subtotal-line {
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    border-top: 2px solid #ddd;
+  }
+
+  .total-line {
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    border-top: 3px solid var(--navy-primary);
+    font-size: 1.25rem;
+  }
+
+  .tax-note {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    color: #666;
+    text-align: center;
+  }
+
+  /* Booking CTAs */
+  .booking-ctas {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    .booking-ctas {
+      flex-direction: column;
+    }
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .btn-large {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.125rem;
+  }
+
+  .btn-primary {
+    background: var(--navy-primary);
+    color: white;
+  }
+
+  .btn-primary:hover {
+    background: #0f1823;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(26, 35, 50, 0.3);
+  }
+
+  .btn-secondary {
+    background: white;
+    color: var(--navy-primary);
+    border: 2px solid var(--navy-primary);
+  }
+
+  .btn-secondary:hover {
+    background: var(--navy-primary);
+    color: white;
+  }
+
+  .direct-booking-note {
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #fff3cd;
+    border-radius: 8px;
+  }
+
+  .text-link {
+    color: var(--navy-primary);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid var(--gold-accent);
+  }
+
+  /* What's Included */
+  .whats-included {
+    padding: 4rem 0;
+  }
+
+  .whats-included h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .section-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 3rem;
+    font-size: 1.125rem;
+  }
+
+  .amenities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+
+  .amenity-group h3 {
+    font-family: var(--font-serif);
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--gold-accent);
+  }
+
+  .amenity-group ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .amenity-group li {
+    padding: 0.5rem 0;
+    color: #555;
+  }
+
+  /* Social Proof */
+  .booking-trust {
+    padding: 4rem 0;
+    background: #f8f9fa;
+  }
+
+  .booking-trust h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .testimonials-mini {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .testimonial-card-mini {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+
+  .stars {
+    color: #ffd700;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+  }
+
+  .review-text {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+
+  .reviewer {
+    font-weight: 600;
+    color: var(--navy-primary);
+  }
+
+  .trust-badges {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .trust-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+
+  .trust-icon {
+    font-size: 1.5rem;
+  }
+
+  /* FAQs */
+  .booking-faqs {
+    padding: 4rem 0;
+  }
+
+  .booking-faqs h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .faq-accordion {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .faq-question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--navy-primary);
+    text-align: left;
+  }
+
+  .faq-question:hover {
+    color: var(--gold-accent);
+  }
+
+  .faq-toggle {
+    font-size: 2rem;
+    color: var(--gold-accent);
+    transition: transform 0.3s;
+  }
+
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0;
+  }
+
+  .faq-answer p {
+    padding-bottom: 1.5rem;
+    color: #555;
+    line-height: 1.8;
+  }
+
+  .additional-questions {
+    text-align: center;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+  }
+
+  .additional-questions h3 {
+    font-family: var(--font-serif);
+    margin-bottom: 1rem;
+  }
+
+  /* Policies */
+  .booking-policies {
+    padding: 4rem 0;
+    background: #f8f9fa;
+  }
+
+  .booking-policies h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .policies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .policy-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+
+  .policy-card h3 {
+    font-family: var(--font-serif);
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .policy-note {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e0e0e0;
+    color: #666;
+    font-size: 0.875rem;
+  }
+
+  /* Final CTA */
+  .final-cta {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, var(--navy-primary) 0%, #2a3f5f 100%);
+    color: white;
+    text-align: center;
+  }
+
+  .final-cta h2 {
+    font-family: var(--font-serif);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .final-cta p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    .cta-buttons {
+      flex-direction: column;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  }
+</style>

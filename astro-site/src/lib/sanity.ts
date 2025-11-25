@@ -154,3 +154,13 @@ export async function getSeoSettings() {
   }`;
   return await sanityClient.fetch(query);
 }
+
+export async function getFaqsByCategory(category: string) {
+  const query = `*[_type == "faqItem" && category == $category] | order(sortOrder asc)`;
+  return await sanityClient.fetch(query, { category });
+}
+
+export async function getAllFaqs() {
+  const query = `*[_type == "faqItem"] | order(category asc, sortOrder asc)`;
+  return await sanityClient.fetch(query);
+}
