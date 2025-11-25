@@ -1,0 +1,646 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import { getStoryPage, getHistoryTimeline, urlFor } from '../lib/sanity';
+
+const storyData = await getStoryPage();
+const timeline = await getHistoryTimeline();
+
+const metaTitle = storyData?.seo?.metaTitle || 'The Story of 1822 Pine | The Rittenhouse Residence';
+const metaDescription = storyData?.seo?.metaDescription || 'Discover 170 years of Philadelphia history at 1822 Pine Street. From 1854 Greek Revival to Gilded Age transformation to modern luxury residence.';
+---
+
+<BaseLayout title={metaTitle} description={metaDescription}>
+  <main class="story-page">
+
+    <!-- Hero -->
+    {storyData?.heroImage && (
+      <Hero
+        image={storyData.heroImage}
+        heading="170 Years of Philadelphia History"
+        subheading="From 1854 Greek Revival to Gilded Age Grande Dame"
+        primaryCta={{ text: 'Book Your Stay', url: '/rates' }}
+        secondaryCta={{ text: 'View Gallery', url: '/gallery' }}
+        overlayOpacity={0.3}
+      />
+    )}
+
+    <!-- Introduction -->
+    <section class="story-intro">
+      <div class="container">
+        <div class="intro-content">
+          <h2>A House at the Edge of the Square</h2>
+          <p class="lead">1822 Pine Street stands as one of Philadelphia's most remarkable historic residences—a testament to 170 years of architectural evolution, cultural significance, and continuous habitation.</p>
+
+          <div class="story-highlights">
+            <div class="highlight-card">
+              <span class="highlight-year">1854</span>
+              <h3>Original Construction</h3>
+              <p>Built by merchant John McCrea in Greek Revival style during Philadelphia's rapid expansion</p>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-year">1899</span>
+              <h3>Gilded Age Transformation</h3>
+              <p>Duhring, Okie & Ziegler renovation created the grand Italianate facade and luxurious interiors</p>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-year">2024</span>
+              <h3>Modern Luxury</h3>
+              <p>Restored to its original grandeur as Philadelphia's premier historic short-term residence</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Historical Timeline -->
+    <section class="historical-timeline">
+      <div class="container">
+        <h2>Historical Timeline</h2>
+        <p class="section-subtitle">Key moments in the life of 1822 Pine Street</p>
+
+        <div class="timeline-container">
+          {timeline.map((item: any, index: number) => (
+            <div class={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`}>
+              <div class="timeline-content">
+                <span class="timeline-year">{item.year}</span>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                {item.image && (
+                  <img
+                    src={urlFor(item.image).width(600).quality(85).url()}
+                    alt={item.image.alt || item.title}
+                    loading="lazy"
+                  />
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Architecture & Features -->
+    <section class="architecture-section">
+      <div class="container">
+        <h2>Architectural Significance</h2>
+        <p class="section-subtitle">A masterpiece of 19th-century Philadelphia architecture</p>
+
+        <div class="architecture-grid">
+          <div class="arch-feature">
+            <h3>🏛️ Original Structure (1854)</h3>
+            <ul>
+              <li>Greek Revival townhouse by John McCrea</li>
+              <li>4 stories plus cellar and roof deck</li>
+              <li>18-foot ceilings on first floor</li>
+              <li>Original marble mantels throughout</li>
+            </ul>
+          </div>
+
+          <div class="arch-feature">
+            <h3>✨ 1899 Transformation</h3>
+            <ul>
+              <li>Duhring, Okie & Ziegler architects</li>
+              <li>Italianate facade addition</li>
+              <li>Grand double parlors with pocket doors</li>
+              <li>Ornate plasterwork and ceiling medallions</li>
+            </ul>
+          </div>
+
+          <div class="arch-feature">
+            <h3>🎨 Historic Features</h3>
+            <ul>
+              <li>Original checkerboard marble entry floor</li>
+              <li>14 working fireplaces with period mantels</li>
+              <li>Gilded Age wallpapers and moldings</li>
+              <li>Period-appropriate chandeliers</li>
+            </ul>
+          </div>
+
+          <div class="arch-feature">
+            <h3>🏠 Modern Amenities</h3>
+            <ul>
+              <li>8 bedrooms across 5 luxury suites</li>
+              <li>6.5 beautifully appointed bathrooms</li>
+              <li>Chef's kitchen with modern appliances</li>
+              <li>Climate control throughout</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notable Residents & Events -->
+    <section class="notable-residents">
+      <div class="container">
+        <h2>Notable Residents & Events</h2>
+        <p class="section-subtitle">The people who shaped this house's history</p>
+
+        <div class="residents-timeline">
+          <div class="resident-card">
+            <h3>The Spencer Family (1891-1905)</h3>
+            <p>Commissioned the transformative 1899 renovation that created the grand Italianate facade we see today. The Spencer family's vision turned a modest Greek Revival townhouse into a Gilded Age showplace.</p>
+          </div>
+
+          <div class="resident-card">
+            <h3>Martha Davis & The Suffragettes (1911-1918)</h3>
+            <p>The double parlors hosted meetings of the Equal Franchise Society during the women's suffrage movement. Contemporary newspaper accounts document these important gatherings for social change.</p>
+          </div>
+
+          <div class="resident-card">
+            <h3>Apartment House Era (1930s-1950s)</h3>
+            <p>Like many Rittenhouse Square mansions, the house was divided into apartments during the Depression era, serving multiple families for over two decades before returning to single-family use.</p>
+          </div>
+
+          <div class="resident-card">
+            <h3>Modern Restoration (1995-Present)</h3>
+            <p>Meticulous restoration has returned the property to its Gilded Age grandeur while adding modern luxury amenities, creating Philadelphia's premier historic short-term residence.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Provenance & Documentation -->
+    <section class="provenance-section">
+      <div class="container">
+        <h2>Documented Provenance</h2>
+        <p class="section-subtitle">Every owner, every transfer—verified through primary sources</p>
+
+        <div class="provenance-intro">
+          <p>Unlike many historic properties, 1822 Pine Street maintains a complete, documented chain of ownership from 1854 to present. Through deed abstracts, newspaper archives, city directories, and census records, we can trace every resident and every transfer of this remarkable property.</p>
+        </div>
+
+        <div class="documentation-stats">
+          <div class="stat-box">
+            <div class="stat-number">65+</div>
+            <div class="stat-label">Primary Source Documents</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number">35+</div>
+            <div class="stat-label">Newspaper Articles (1824-1915)</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number">170</div>
+            <div class="stat-label">Years of Continuous History</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Verified Ownership Chain</div>
+          </div>
+        </div>
+
+        <div class="ownership-eras">
+          <div class="era-card">
+            <h3>19th Century (1854-1899)</h3>
+            <p><strong>Original Owners:</strong> John McCrea (merchant), Roset family, early Philadelphia merchants and their families during the city's rapid expansion westward.</p>
+          </div>
+
+          <div class="era-card">
+            <h3>Gilded Age (1891-1920)</h3>
+            <p><strong>Transformation Era:</strong> Spencer, Plumb, and Davis families. The 1899 renovation by Duhring, Okie & Ziegler created the grand facade and interiors that define the house today.</p>
+          </div>
+
+          <div class="era-card">
+            <h3>20th Century (1920-1995)</h3>
+            <p><strong>Apartment Years:</strong> Multiple ownership transitions, conversion to apartments during the Depression, gradual return to single-family use in the post-war era.</p>
+          </div>
+
+          <div class="era-card">
+            <h3>Modern Era (1995-Present)</h3>
+            <p><strong>Restoration:</strong> Meticulous restoration to Gilded Age grandeur with modern amenities, establishing the property as Philadelphia's premier historic residence.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="story-cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Experience History Yourself</h2>
+          <p>Book your stay at Philadelphia's most documented historic residence</p>
+          <div class="cta-buttons">
+            <a href="/rates" class="btn btn-primary btn-large">View Rates & Book</a>
+            <a href="/gallery" class="btn btn-secondary btn-large">Explore the Gallery</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</BaseLayout>
+
+<style>
+  /* Introduction */
+  .story-intro {
+    padding: 5rem 0;
+    background: white;
+  }
+
+  .intro-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .intro-content h2 {
+    font-family: var(--font-serif);
+    font-size: 3rem;
+    color: var(--navy-primary);
+    margin-bottom: 1.5rem;
+  }
+
+  .lead {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 4rem;
+  }
+
+  .story-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .highlight-card {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    border-left: 4px solid var(--gold-accent);
+  }
+
+  .highlight-year {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    color: var(--gold-accent);
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .highlight-card h3 {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    color: var(--navy-primary);
+    margin-bottom: 0.75rem;
+  }
+
+  .highlight-card p {
+    color: #666;
+    line-height: 1.6;
+  }
+
+  /* Historical Timeline */
+  .historical-timeline {
+    padding: 5rem 0;
+    background: linear-gradient(to bottom, #f8f9fa 0%, white 100%);
+  }
+
+  .historical-timeline h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .section-subtitle {
+    text-align: center;
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 4rem;
+  }
+
+  .timeline-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .timeline-container::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--gold-accent);
+    transform: translateX(-50%);
+  }
+
+  .timeline-item {
+    margin-bottom: 4rem;
+    position: relative;
+  }
+
+  .timeline-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    width: calc(50% - 2rem);
+  }
+
+  .timeline-item.left .timeline-content {
+    margin-right: auto;
+  }
+
+  .timeline-item.right .timeline-content {
+    margin-left: auto;
+  }
+
+  .timeline-year {
+    display: inline-block;
+    background: var(--gold-accent);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .timeline-content h3 {
+    font-family: var(--font-serif);
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .timeline-content p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+
+  .timeline-content img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .timeline-container::before {
+      left: 0;
+    }
+
+    .timeline-content {
+      width: calc(100% - 2rem);
+      margin-left: 2rem !important;
+    }
+  }
+
+  /* Architecture Section */
+  .architecture-section {
+    padding: 5rem 0;
+    background: white;
+  }
+
+  .architecture-section h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .architecture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .arch-feature {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+  }
+
+  .arch-feature h3 {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    color: var(--navy-primary);
+    margin-bottom: 1.5rem;
+  }
+
+  .arch-feature ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .arch-feature li {
+    padding: 0.75rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  .arch-feature li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--gold-accent);
+    font-weight: 700;
+  }
+
+  /* Notable Residents */
+  .notable-residents {
+    padding: 5rem 0;
+    background: #f8f9fa;
+  }
+
+  .notable-residents h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .residents-timeline {
+    max-width: 900px;
+    margin: 3rem auto 0;
+    display: grid;
+    gap: 2rem;
+  }
+
+  .resident-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--gold-accent);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+
+  .resident-card h3 {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .resident-card p {
+    color: #555;
+    line-height: 1.8;
+  }
+
+  /* Provenance Section */
+  .provenance-section {
+    padding: 5rem 0;
+    background: white;
+  }
+
+  .provenance-section h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .provenance-intro {
+    max-width: 800px;
+    margin: 3rem auto;
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #555;
+  }
+
+  .documentation-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 4rem auto;
+  }
+
+  .stat-box {
+    text-align: center;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 12px;
+  }
+
+  .stat-number {
+    font-family: var(--font-serif);
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--gold-accent);
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-label {
+    color: #666;
+    font-size: 1rem;
+  }
+
+  .ownership-eras {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .era-card {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    border-top: 4px solid var(--gold-accent);
+  }
+
+  .era-card h3 {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .era-card p {
+    color: #555;
+    line-height: 1.7;
+  }
+
+  .era-card strong {
+    color: var(--navy-primary);
+  }
+
+  /* CTA Section */
+  .story-cta {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, var(--navy-primary) 0%, #2a3f5f 100%);
+    color: white;
+  }
+
+  .story-cta .cta-content {
+    text-align: center;
+  }
+
+  .story-cta h2 {
+    font-family: var(--font-serif);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .story-cta p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    .cta-buttons {
+      flex-direction: column;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+  }
+
+  .btn-large {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.125rem;
+  }
+
+  .btn-primary {
+    background: var(--gold-accent);
+    color: var(--navy-primary);
+  }
+
+  .btn-primary:hover {
+    background: #b89850;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(201, 169, 97, 0.4);
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+
+  .btn-secondary:hover {
+    background: white;
+    color: var(--navy-primary);
+  }
+</style>

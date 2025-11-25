@@ -1,0 +1,986 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import { getSiteSettings } from '../lib/sanity';
+
+const siteSettings = await getSiteSettings();
+
+const metaTitle = 'Events & Retreats | The Rittenhouse Residence';
+const metaDescription = 'Host your corporate retreat, wedding, or special event at Philadelphia\'s premier historic venue. Accommodates up to 60 guests with overnight stays for 16.';
+---
+
+<BaseLayout title={metaTitle} description={metaDescription}>
+  <main class="events-page">
+
+    <!-- Hero -->
+    <section class="events-hero">
+      <div class="hero-content">
+        <h1>Events & Corporate Retreats</h1>
+        <p class="hero-subtitle">Philadelphia's Most Distinguished Private Event Venue</p>
+        <div class="hero-highlights">
+          <span>🏛️ Historic Mansion</span>
+          <span>👥 Up to 60 Guests</span>
+          <span>🛏️ Sleeps 16</span>
+          <span>📍 Rittenhouse Square</span>
+        </div>
+        <div class="hero-cta">
+          <a href="/contact" class="btn btn-primary btn-large">Request Event Proposal</a>
+          <a href="#venue-specs" class="btn btn-secondary btn-large">View Specifications</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Event Types -->
+    <section class="event-types">
+      <div class="container">
+        <h2>Perfect for Your Special Occasion</h2>
+        <p class="section-subtitle">A versatile venue for memorable events</p>
+
+        <div class="types-grid">
+          <div class="type-card">
+            <div class="type-icon">🏢</div>
+            <h3>Corporate Retreats</h3>
+            <p>Executive off-sites, board meetings, team building retreats with overnight accommodations and full-day use of elegant meeting spaces.</p>
+            <ul class="type-features">
+              <li>✓ Accommodates 8-16 overnight</li>
+              <li>✓ Multiple meeting spaces</li>
+              <li>✓ Catering-ready kitchen</li>
+              <li>✓ High-speed WiFi throughout</li>
+            </ul>
+          </div>
+
+          <div class="type-card">
+            <div class="type-icon">💍</div>
+            <h3>Weddings & Receptions</h3>
+            <p>Intimate wedding ceremonies and receptions in Gilded Age elegance. Exclusive use of the entire property for your celebration.</p>
+            <ul class="type-features">
+              <li>✓ Ceremony capacity: 60 guests</li>
+              <li>✓ Reception dinner: 40 seated</li>
+              <li>✓ Cocktail reception: 60 standing</li>
+              <li>✓ Bridal party overnight stays</li>
+            </ul>
+          </div>
+
+          <div class="type-card">
+            <div class="type-icon">🎬</div>
+            <h3>Film & Photography</h3>
+            <p>Historic interiors and architectural details provide stunning backdrops for commercial shoots, fashion photography, and film production.</p>
+            <ul class="type-features">
+              <li>✓ 14 working fireplaces</li>
+              <li>✓ Period Gilded Age interiors</li>
+              <li>✓ Natural light throughout</li>
+              <li>✓ Service entrance access</li>
+            </ul>
+          </div>
+
+          <div class="type-card">
+            <div class="type-icon">🎨</div>
+            <h3>Private Events</h3>
+            <p>Dinner parties, milestone celebrations, fundraisers, and intimate gatherings in an unparalleled historic setting.</p>
+            <ul class="type-features">
+              <li>✓ Seated dinner: 40 guests</li>
+              <li>✓ Cocktail party: 60 guests</li>
+              <li>✓ Exclusive venue buyout</li>
+              <li>✓ Professional catering allowed</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Venue Specifications -->
+    <section class="venue-specs" id="venue-specs">
+      <div class="container">
+        <h2>Venue Specifications</h2>
+        <p class="section-subtitle">Everything you need to plan your perfect event</p>
+
+        <div class="specs-grid">
+          <!-- Capacity -->
+          <div class="spec-card">
+            <h3>Event Capacity</h3>
+            <table class="capacity-table">
+              <tr>
+                <td>Seated Dinner</td>
+                <td><strong>40 guests</strong></td>
+              </tr>
+              <tr>
+                <td>Cocktail Reception</td>
+                <td><strong>60 guests</strong></td>
+              </tr>
+              <tr>
+                <td>Wedding Ceremony</td>
+                <td><strong>60 guests</strong></td>
+              </tr>
+              <tr>
+                <td>Conference/Meeting</td>
+                <td><strong>30 seated</strong></td>
+              </tr>
+              <tr>
+                <td>Overnight Guests</td>
+                <td><strong>16 adults</strong></td>
+              </tr>
+            </table>
+          </div>
+
+          <!-- Spaces -->
+          <div class="spec-card">
+            <h3>Event Spaces</h3>
+            <ul class="space-list">
+              <li><strong>Double Parlors (1st Floor)</strong><br/>40' × 18' combined • 18ft ceilings • Pocket doors • 2 marble fireplaces</li>
+              <li><strong>Dining Room (1st Floor)</strong><br/>Formal dining • Seats 12 • Adjacent to kitchen</li>
+              <li><strong>Entry Hall</strong><br/>Grand marble checkerboard floor • Dramatic first impression</li>
+              <li><strong>Roof Deck</strong><br/>Outdoor space • City views • Ceremony site</li>
+              <li><strong>5 Luxury Suites</strong><br/>8 bedrooms total • Overnight accommodations</li>
+            </ul>
+          </div>
+
+          <!-- Amenities -->
+          <div class="spec-card">
+            <h3>Amenities & Services</h3>
+            <ul class="amenity-list">
+              <li>✓ High-speed WiFi throughout</li>
+              <li>✓ Chef's kitchen (catering-ready)</li>
+              <li>✓ Professional sound system</li>
+              <li>✓ Climate control (all floors)</li>
+              <li>✓ 6.5 bathrooms</li>
+              <li>✓ Service entrance for vendors</li>
+              <li>✓ Street parking permits available</li>
+              <li>✓ Onsite event coordination</li>
+            </ul>
+          </div>
+
+          <!-- Logistics -->
+          <div class="spec-card">
+            <h3>Logistics & Access</h3>
+            <ul class="logistics-list">
+              <li><strong>Load-in:</strong> Service entrance + front door</li>
+              <li><strong>Parking:</strong> Metered street parking + nearby garages</li>
+              <li><strong>Location:</strong> 1 block from Rittenhouse Square</li>
+              <li><strong>Transportation:</strong> 10 min from 30th St Station, 20 min from PHL Airport</li>
+              <li><strong>Setup Time:</strong> Flexible based on event needs</li>
+              <li><strong>Noise Policy:</strong> Events must end by 10 PM</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Floor Plans -->
+    <section class="floor-plans">
+      <div class="container">
+        <h2>Floor Plans & Layouts</h2>
+        <p class="section-subtitle">Visualize your event setup</p>
+
+        <div class="floor-plan-info">
+          <p>Detailed floor plans with measurements are available upon request. Our team will work with you to create the perfect layout for your event, whether it's theater-style seating, banquet rounds, or cocktail flow.</p>
+
+          <div class="plan-features">
+            <div class="plan-feature">
+              <h4>First Floor</h4>
+              <p>Primary event space with double parlors, dining room, and kitchen. Ideal for ceremonies, receptions, and formal dinners.</p>
+            </div>
+            <div class="plan-feature">
+              <h4>Upper Floors</h4>
+              <p>Five luxury suites across three floors provide overnight accommodations for your guests or bridal party.</p>
+            </div>
+            <div class="plan-feature">
+              <h4>Roof Deck</h4>
+              <p>Outdoor ceremony space with city views. Perfect for cocktail hour or small outdoor gatherings.</p>
+            </div>
+          </div>
+
+          <a href="/contact" class="btn btn-primary">Request Detailed Floor Plans</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Historic Features -->
+    <section class="historic-features">
+      <div class="container">
+        <h2>Historic Features</h2>
+        <p class="section-subtitle">Unparalleled architectural details for your event</p>
+
+        <div class="features-grid">
+          <div class="feature-box">
+            <h3>🏛️ Architectural Significance</h3>
+            <p>1854 Greek Revival townhouse transformed in 1899 by renowned architects Duhring, Okie & Ziegler into a Gilded Age masterpiece.</p>
+          </div>
+
+          <div class="feature-box">
+            <h3>🔥 14 Working Fireplaces</h3>
+            <p>Original marble mantels throughout, each unique. Create intimate gathering spaces and dramatic focal points.</p>
+          </div>
+
+          <div class="feature-box">
+            <h3>✨ Ornate Plasterwork</h3>
+            <p>Gilded Age ceiling medallions, crown moldings, and decorative plaster details throughout the first floor.</p>
+          </div>
+
+          <div class="feature-box">
+            <h3>🎨 Period Wallpapers</h3>
+            <p>Historically appropriate wallpapers and finishes recreate the elegance of Philadelphia's Gilded Age.</p>
+          </div>
+
+          <div class="feature-box">
+            <h3>💎 Marble Entry</h3>
+            <p>Grand checkerboard marble floor in the entry hall makes an unforgettable first impression.</p>
+          </div>
+
+          <div class="feature-box">
+            <h3>📸 Natural Light</h3>
+            <p>Large windows on all floors provide beautiful natural light for photography and ambiance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catering & Services -->
+    <section class="catering-services">
+      <div class="container">
+        <h2>Catering & Vendor Services</h2>
+
+        <div class="services-content">
+          <div class="service-policy">
+            <h3>Catering Policy</h3>
+            <p>Professional licensed caterers are required for all events. Our chef's kitchen is fully equipped and ready for your catering team. We can provide recommendations for preferred local caterers familiar with our venue.</p>
+
+            <div class="requirements">
+              <h4>Catering Requirements:</h4>
+              <ul>
+                <li>✓ Licensed and insured catering company</li>
+                <li>✓ Proof of liability insurance ($1M minimum)</li>
+                <li>✓ Pre-event walkthrough recommended</li>
+                <li>✓ Full service kitchen access included</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="service-policy">
+            <h3>Vendor Services</h3>
+            <p>We welcome professional event vendors and can provide referrals for:</p>
+            <ul class="vendor-list">
+              <li>Event Planning & Coordination</li>
+              <li>Floral Design & Decor</li>
+              <li>Photography & Videography</li>
+              <li>Live Music & DJs</li>
+              <li>Rentals (tables, chairs, linens)</li>
+              <li>Valet Parking Services</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing & Booking -->
+    <section class="event-pricing">
+      <div class="container">
+        <h2>Event Pricing & Booking</h2>
+
+        <div class="pricing-content">
+          <div class="pricing-approach">
+            <h3>Customized Event Packages</h3>
+            <p>Each event is unique, and we create custom proposals based on your specific needs including:</p>
+            <ul>
+              <li>Event type and guest count</li>
+              <li>Day of week and season</li>
+              <li>Duration of event</li>
+              <li>Overnight accommodations needed</li>
+              <li>Setup and breakdown requirements</li>
+            </ul>
+          </div>
+
+          <div class="booking-process">
+            <h3>Booking Process</h3>
+            <ol class="process-steps">
+              <li><strong>Initial Inquiry:</strong> Contact us with your event details</li>
+              <li><strong>Site Visit:</strong> Schedule a private tour of the property</li>
+              <li><strong>Custom Proposal:</strong> Receive tailored pricing and terms</li>
+              <li><strong>Contract:</strong> Review and sign event agreement</li>
+              <li><strong>Planning:</strong> Work with our team to finalize details</li>
+              <li><strong>Your Event:</strong> Enjoy your unforgettable occasion</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="pricing-cta">
+          <h3>Request Your Custom Event Proposal</h3>
+          <p>Contact us today to discuss your event and receive a personalized quote</p>
+          <div class="cta-buttons">
+            <a href="/contact" class="btn btn-primary btn-large">Get Event Proposal</a>
+            {siteSettings?.email && (
+              <a href={`mailto:${siteSettings.email}?subject=Event Inquiry`} class="btn btn-secondary btn-large">Email Us Directly</a>
+            )}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Policies & Requirements -->
+    <section class="event-policies">
+      <div class="container">
+        <h2>Event Policies</h2>
+
+        <div class="policies-grid">
+          <div class="policy-card">
+            <h3>⚠️ Important Policies</h3>
+            <ul>
+              <li><strong>Noise Ordinance:</strong> Events must conclude by 10:00 PM</li>
+              <li><strong>No Party Policy:</strong> Strictly enforced - this is a historic property</li>
+              <li><strong>Maximum Capacity:</strong> 60 guests maximum</li>
+              <li><strong>No Smoking:</strong> Entire property is smoke-free</li>
+              <li><strong>Candles:</strong> Battery-operated only (fire safety)</li>
+            </ul>
+          </div>
+
+          <div class="policy-card">
+            <h3>📋 Insurance Requirements</h3>
+            <ul>
+              <li><strong>Event Insurance:</strong> Required for all events</li>
+              <li><strong>Caterer Insurance:</strong> $1M liability minimum</li>
+              <li><strong>Vendor Insurance:</strong> All vendors must be insured</li>
+              <li><strong>Damage Deposit:</strong> Refundable security deposit required</li>
+            </ul>
+          </div>
+
+          <div class="policy-card">
+            <h3>🏛️ Historic Property Care</h3>
+            <ul>
+              <li><strong>No Adhesives:</strong> No tape, nails, or damage to walls</li>
+              <li><strong>Protected Features:</strong> Marble mantels, plasterwork must not be altered</li>
+              <li><strong>Setup Guidelines:</strong> Furniture protection required</li>
+              <li><strong>Cleanup:</strong> Venue must be returned to original condition</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="events-final-cta">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Create an Unforgettable Event</h2>
+          <p>Host your next corporate retreat, wedding, or special occasion at Philadelphia's premier historic venue</p>
+          <div class="cta-stats">
+            <div class="stat">
+              <div class="stat-number">170</div>
+              <div class="stat-label">Years of History</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">60</div>
+              <div class="stat-label">Event Capacity</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">16</div>
+              <div class="stat-label">Overnight Guests</div>
+            </div>
+          </div>
+          <a href="/contact" class="btn btn-primary btn-large">Request Event Proposal</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</BaseLayout>
+
+<style>
+  /* Hero */
+  .events-hero {
+    background: linear-gradient(135deg, rgba(26, 35, 50, 0.9), rgba(42, 63, 95, 0.9)),
+                url('/images/property/DSC00090.jpg') center/cover;
+    color: white;
+    padding: 8rem 0 6rem;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .events-hero h1 {
+    font-family: var(--font-serif);
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+  }
+
+  .hero-highlights {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+    font-size: 1.125rem;
+  }
+
+  .hero-highlights span {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+  }
+
+  .hero-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Event Types */
+  .event-types {
+    padding: 5rem 0;
+    background: white;
+  }
+
+  .event-types h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .section-subtitle {
+    text-align: center;
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 4rem;
+  }
+
+  .types-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+
+  .type-card {
+    background: #f8f9fa;
+    padding: 2.5rem;
+    border-radius: 12px;
+    border-top: 4px solid var(--gold-accent);
+  }
+
+  .type-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .type-card h3 {
+    font-family: var(--font-serif);
+    font-size: 1.75rem;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .type-card p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+
+  .type-features {
+    list-style: none;
+    padding: 0;
+  }
+
+  .type-features li {
+    padding: 0.5rem 0;
+    color: #666;
+  }
+
+  /* Venue Specs */
+  .venue-specs {
+    padding: 5rem 0;
+    background: #f8f9fa;
+  }
+
+  .venue-specs h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .specs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .spec-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+
+  .spec-card h3 {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    color: var(--navy-primary);
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--gold-accent);
+  }
+
+  .capacity-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .capacity-table tr {
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .capacity-table td {
+    padding: 1rem 0;
+    color: #555;
+  }
+
+  .capacity-table td:last-child {
+    text-align: right;
+    color: var(--navy-primary);
+  }
+
+  .space-list, .amenity-list, .logistics-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .space-list li, .logistics-list li {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    color: #555;
+    line-height: 1.7;
+  }
+
+  .space-list li:last-child,
+  .logistics-list li:last-child {
+    border-bottom: none;
+  }
+
+  .amenity-list li {
+    padding: 0.5rem 0;
+    color: #555;
+  }
+
+  /* Other sections styling continued... */
+  .floor-plans, .historic-features, .catering-services, .event-pricing, .event-policies {
+    padding: 5rem 0;
+  }
+
+  .floor-plans {
+    background: white;
+  }
+
+  .floor-plan-info {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .floor-plan-info p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 3rem;
+  }
+
+  .plan-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .plan-feature {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+  }
+
+  .plan-feature h4 {
+    font-family: var(--font-serif);
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .plan-feature p {
+    color: #555;
+    line-height: 1.7;
+  }
+
+  /* Historic Features */
+  .historic-features {
+    background: #f8f9fa;
+  }
+
+  .historic-features h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .feature-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  .feature-box h3 {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .feature-box p {
+    color: #555;
+    line-height: 1.7;
+  }
+
+  /* Catering */
+  .catering-services {
+    background: white;
+  }
+
+  .catering-services h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--navy-primary);
+    margin-bottom: 3rem;
+  }
+
+  .services-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+  }
+
+  .service-policy h3 {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .service-policy p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+
+  .requirements {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+  }
+
+  .requirements h4 {
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .requirements ul, .vendor-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .requirements li, .vendor-list li {
+    padding: 0.5rem 0;
+    color: #555;
+  }
+
+  /* Event Pricing */
+  .event-pricing {
+    background: #f8f9fa;
+  }
+
+  .event-pricing h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--navy-primary);
+    margin-bottom: 3rem;
+  }
+
+  .pricing-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .pricing-approach h3, .booking-process h3 {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .pricing-approach p, .booking-process p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+
+  .pricing-approach ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .pricing-approach li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #555;
+  }
+
+  .pricing-approach li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--gold-accent);
+  }
+
+  .process-steps {
+    counter-reset: step-counter;
+    list-style: none;
+    padding: 0;
+  }
+
+  .process-steps li {
+    counter-increment: step-counter;
+    padding: 1rem 0;
+    padding-left: 3rem;
+    position: relative;
+    color: #555;
+    line-height: 1.7;
+  }
+
+  .process-steps li::before {
+    content: counter(step-counter);
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    width: 2rem;
+    height: 2rem;
+    background: var(--gold-accent);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+
+  .pricing-cta {
+    background: white;
+    padding: 3rem;
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  .pricing-cta h3 {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  .pricing-cta p {
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Event Policies */
+  .event-policies {
+    background: white;
+  }
+
+  .event-policies h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--navy-primary);
+    margin-bottom: 3rem;
+  }
+
+  .policies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .policy-card {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+  }
+
+  .policy-card h3 {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    color: var(--navy-primary);
+    margin-bottom: 1.5rem;
+  }
+
+  .policy-card ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .policy-card li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #555;
+    line-height: 1.7;
+  }
+
+  .policy-card li:last-child {
+    border-bottom: none;
+  }
+
+  .policy-card strong {
+    color: var(--navy-primary);
+  }
+
+  /* Final CTA */
+  .events-final-cta {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, var(--navy-primary) 0%, #2a3f5f 100%);
+    color: white;
+  }
+
+  .events-final-cta .cta-content {
+    text-align: center;
+  }
+
+  .events-final-cta h2 {
+    font-family: var(--font-serif);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .events-final-cta p {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+    opacity: 0.9;
+  }
+
+  .cta-stats {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: var(--font-serif);
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-label {
+    opacity: 0.9;
+  }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+  }
+
+  .btn-large {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.125rem;
+  }
+
+  .btn-primary {
+    background: var(--gold-accent);
+    color: var(--navy-primary);
+  }
+
+  .btn-primary:hover {
+    background: #b89850;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(201, 169, 97, 0.4);
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+
+  .btn-secondary:hover {
+    background: white;
+    color: var(--navy-primary);
+  }
+
+  @media (max-width: 768px) {
+    .events-hero h1 {
+      font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+      font-size: 1.25rem;
+    }
+
+    .hero-highlights {
+      font-size: 1rem;
+      gap: 1rem;
+    }
+
+    .hero-cta, .cta-buttons {
+      flex-direction: column;
+    }
+
+    .btn-large {
+      width: 100%;
+    }
+  }
+</style>
