@@ -1,0 +1,175 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const metaTitle = 'Terms of Service | The Rittenhouse Residence';
+const metaDescription = 'Terms of service for booking and using The Rittenhouse Residence at 1822 Pine Street, Philadelphia.';
+---
+
+<BaseLayout title={metaTitle} description={metaDescription}>
+  <main class="legal-page">
+    <div class="container">
+      <div class="legal-content">
+        <h1>Terms of Service</h1>
+        <p class="last-updated">Last Updated: November 25, 2024</p>
+
+        <section>
+          <h2>Booking Terms</h2>
+          <p>When you book a stay at The Rittenhouse Residence, you agree to the terms and conditions set forth by our booking platforms:</p>
+          <ul>
+            <li><strong>Airbnb Bookings:</strong> Subject to <a href="https://www.airbnb.com/help/article/2908" target="_blank" rel="noopener noreferrer">Airbnb's Terms of Service</a></li>
+            <li><strong>VRBO Bookings:</strong> Subject to <a href="https://www.vrbo.com/en-us/legal/website-terms-of-use" target="_blank" rel="noopener noreferrer">VRBO's Terms and Conditions</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Property Use</h2>
+          <p>By booking and staying at The Rittenhouse Residence, you agree to:</p>
+          <ul>
+            <li>Respect the historic nature of the property and all original features</li>
+            <li>Adhere to all house rules and policies provided upon booking</li>
+            <li>Maintain occupancy limits (maximum 16 adults)</li>
+            <li>Observe quiet hours (10:00 PM - 8:00 AM)</li>
+            <li>Comply with Philadelphia noise ordinances and local regulations</li>
+            <li>Accept responsibility for any damages caused during your stay</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Cancellation Policy</h2>
+          <p>Cancellation terms are determined by the platform through which you book:</p>
+          <ul>
+            <li>Airbnb bookings follow the cancellation policy specified in your reservation</li>
+            <li>VRBO bookings follow the cancellation policy specified in your reservation</li>
+            <li>Direct bookings are subject to cancellation terms agreed upon at time of booking</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Events & Corporate Bookings</h2>
+          <p>Special events and corporate retreats require separate event agreements that include:</p>
+          <ul>
+            <li>Event insurance requirements ($1M liability minimum)</li>
+            <li>Damage deposit</li>
+            <li>Catering and vendor insurance</li>
+            <li>Specific capacity limits and timing restrictions</li>
+            <li>Setup and cleanup requirements</li>
+          </ul>
+          <p>Contact us directly for event terms and custom proposals.</p>
+        </section>
+
+        <section>
+          <h2>Historic Property Care</h2>
+          <p>The Rittenhouse Residence is a historic property built in 1854. Special care requirements include:</p>
+          <ul>
+            <li><strong>No Smoking:</strong> Entire property is smoke-free (including outdoor areas)</li>
+            <li><strong>No Candles:</strong> Only battery-operated flameless candles permitted</li>
+            <li><strong>No Adhesives:</strong> No tape, nails, adhesive hooks, or wall damage</li>
+            <li><strong>Protected Features:</strong> Marble mantels, plasterwork, and original architectural details must not be altered</li>
+            <li><strong>Furniture Protection:</strong> Original furniture must be handled with care</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Liability</h2>
+          <p>Guests and event attendees use the property at their own risk. The Rittenhouse Residence and its owners are not liable for:</p>
+          <ul>
+            <li>Personal injury or property damage during your stay</li>
+            <li>Lost or stolen personal belongings</li>
+            <li>Service interruptions (utilities, internet, etc.)</li>
+            <li>Acts of nature or circumstances beyond our control</li>
+          </ul>
+          <p>Event bookings require proof of event insurance as outlined in event agreements.</p>
+        </section>
+
+        <section>
+          <h2>Contact Form</h2>
+          <p>By submitting our contact form, you agree to receive email communication from The Rittenhouse Residence regarding your inquiry. We do not share your information with third parties for marketing purposes.</p>
+        </section>
+
+        <section>
+          <h2>Modifications</h2>
+          <p>We reserve the right to modify these terms at any time. Continued use of our services constitutes acceptance of updated terms.</p>
+        </section>
+
+        <section>
+          <h2>Contact</h2>
+          <p>For questions about these terms, please contact:</p>
+          <p>
+            Email: <a href="mailto:info@therittenhouseresidence.com">info@therittenhouseresidence.com</a><br>
+            Address: 1822 Pine Street, Philadelphia, PA 19103
+          </p>
+        </section>
+      </div>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .legal-page {
+    padding: 4rem 0;
+    background: white;
+  }
+
+  .legal-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .legal-content h1 {
+    font-family: var(--font-serif);
+    font-size: 3rem;
+    color: var(--navy-primary);
+    margin-bottom: 0.5rem;
+  }
+
+  .last-updated {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #e0e0e0;
+  }
+
+  section {
+    margin-bottom: 3rem;
+  }
+
+  section h2 {
+    font-family: var(--font-serif);
+    font-size: 1.75rem;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+  }
+
+  section p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+
+  section ul {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+  }
+
+  section li {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 0.75rem;
+  }
+
+  section strong {
+    color: var(--navy-primary);
+  }
+
+  section a {
+    color: var(--navy-primary);
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold-accent);
+    transition: all 0.3s;
+  }
+
+  section a:hover {
+    color: var(--gold-accent);
+  }
+</style>
