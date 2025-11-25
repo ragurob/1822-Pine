@@ -1,0 +1,801 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getContactPage, getAllFaqs } from '../lib/sanity';
+
+const contactData = await getContactPage();
+const faqs = await getAllFaqs();
+
+// Group FAQs by category
+const faqsByCategory = faqs.reduce((acc: any, faq: any) => {
+  if (!acc[faq.category]) {
+    acc[faq.category] = [];
+  }
+  acc[faq.category].push(faq);
+  return acc;
+}, {});
+
+const categoryNames: any = {
+  booking: 'Booking & Cancellation',
+  property: 'Property Details',
+  amenities: 'Amenities & Services',
+  rules: 'House Rules & Policies',
+  location: 'Location & Transportation',
+  special: 'Special Requests',
+};
+
+const {
+  title,
+  email,
+  phone,
+  address,
+  responseTime,
+  socialLinks,
+  seo
+} = contactData;
+
+const metaTitle = seo?.metaTitle || `${title} | The Rittenhouse Residence`;
+const metaDescription = seo?.metaDescription || `Contact us for booking inquiries, questions, or special requests. ${responseTime}. Email: ${email}`;
+---
+
+<BaseLayout title={metaTitle} description={metaDescription}>
+  <main class="contact-page">
+
+    <!-- Hero Section -->
+    <section class="contact-hero">
+      <div class="container">
+        <h1>Get in Touch</h1>
+        <p class="hero-subtitle">We're here to make your stay unforgettable</p>
+        <div class="response-badge">
+          <span class="badge-icon">⚡</span>
+          <span>{responseTime}</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Grid -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Contact Form -->
+          <div class="contact-form-container">
+            <h2>Send Us a Message</h2>
+            <p class="form-subtitle">Have questions? We'd love to hear from you.</p>
+
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name *</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="phone-input">Phone Number</label>
+                <input type="tel" id="phone-input" name="phone" />
+              </div>
+
+              <div class="form-group">
+                <label for="inquiry-type">What can we help with? *</label>
+                <select id="inquiry-type" name="inquiry-type" required>
+                  <option value="">Select a topic...</option>
+                  <option value="booking">Booking Inquiry</option>
+                  <option value="availability">Check Availability</option>
+                  <option value="pricing">Pricing Questions</option>
+                  <option value="property">Property Questions</option>
+                  <option value="special">Special Requests</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="dates">Preferred Dates (optional)</label>
+                <input type="text" id="dates" name="dates" placeholder="e.g., Dec 20-25, 2024" />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message *</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-large">
+                <span>Send Message</span>
+                <span class="btn-icon">→</span>
+              </button>
+
+              <p class="form-note">
+                <span class="note-icon">🔒</span>
+                Your information is secure and will never be shared
+              </p>
+            </form>
+
+            <div id="form-success" class="form-message success" style="display: none;">
+              <span class="message-icon">✓</span>
+              <div>
+                <h3>Message Sent!</h3>
+                <p>We'll get back to you within 4 hours.</p>
+              </div>
+            </div>
+
+            <div id="form-error" class="form-message error" style="display: none;">
+              <span class="message-icon">✕</span>
+              <div>
+                <h3>Oops! Something went wrong.</h3>
+                <p>Please try emailing us directly at <a href={`mailto:${email}`}>{email}</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Info Sidebar -->
+          <div class="contact-sidebar">
+            <div class="contact-card">
+              <h3>Direct Contact</h3>
+
+              <div class="contact-method">
+                <div class="method-icon">📧</div>
+                <div class="method-info">
+                  <div class="method-label">Email</div>
+                  <a href={`mailto:${email}`} class="method-value">{email}</a>
+                </div>
+              </div>
+
+              {phone && (
+                <div class="contact-method">
+                  <div class="method-icon">📱</div>
+                  <div class="method-info">
+                    <div class="method-label">Phone</div>
+                    <a href={`tel:${phone}`} class="method-value">{phone}</a>
+                  </div>
+                </div>
+              )}
+
+              <div class="contact-method">
+                <div class="method-icon">📍</div>
+                <div class="method-info">
+                  <div class="method-label">Address</div>
+                  <div class="method-value">
+                    {address?.street}<br />
+                    {address?.city}, {address?.state} {address?.zip}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {socialLinks && (
+              <div class="contact-card">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                  {socialLinks.instagram && (
+                    <a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer" class="social-link">
+                      <span class="social-icon">📷</span>
+                      <span>Instagram</span>
+                    </a>
+                  )}
+                  {socialLinks.facebook && (
+                    <a href={socialLinks.facebook} target="_blank" rel="noopener noreferrer" class="social-link">
+                      <span class="social-icon">👥</span>
+                      <span>Facebook</span>
+                    </a>
+                  )}
+                </div>
+              </div>
+            )}
+
+            <div class="contact-card booking-card">
+              <h3>Ready to Book?</h3>
+              <p>Skip the wait and book directly on our platforms:</p>
+              <div class="booking-buttons">
+                <a href="/rates" class="btn btn-secondary">View Rates</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="faqs-section">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <p class="section-subtitle">Find quick answers to common questions</p>
+
+        <div class="faq-categories">
+          {Object.entries(faqsByCategory).map(([categoryKey, categoryFaqs]: [string, any]) => (
+            <div class="faq-category">
+              <h3 class="category-title">{categoryNames[categoryKey] || categoryKey}</h3>
+              <div class="faq-accordion">
+                {categoryFaqs.map((faq: any, index: number) => (
+                  <div class="faq-item">
+                    <button class="faq-question" data-faq={`${categoryKey}-${index}`}>
+                      <span>{faq.question}</span>
+                      <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer" id={`faq-${categoryKey}-${index}`}>
+                      {faq.answer.map((block: any) => {
+                        if (block._type === 'block') {
+                          return <p>{block.children.map((child: any) => child.text).join('')}</p>;
+                        }
+                      })}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div class="faq-cta">
+          <p>Didn't find what you're looking for?</p>
+          <a href="#contact-form" class="btn btn-primary">Ask Us Directly</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="contact-final-cta">
+      <div class="container">
+        <h2>Let's Make Your Stay Memorable</h2>
+        <p>We're passionate about providing exceptional hospitality</p>
+        <div class="cta-stats">
+          <div class="stat">
+            <div class="stat-number">4 hrs</div>
+            <div class="stat-label">Avg Response Time</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">500+</div>
+            <div class="stat-label">Happy Guests</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">4.9⭐</div>
+            <div class="stat-label">Average Rating</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</BaseLayout>
+
+<script>
+  // FAQ Accordion
+  const faqButtons = document.querySelectorAll('.faq-question');
+  faqButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const faqId = button.getAttribute('data-faq');
+      const answer = document.getElementById(`faq-${faqId}`);
+      const toggle = button.querySelector('.faq-toggle');
+
+      const isOpen = answer?.style.maxHeight;
+
+      // Close all other FAQs
+      document.querySelectorAll('.faq-answer').forEach(a => {
+        a.style.maxHeight = null;
+      });
+      document.querySelectorAll('.faq-toggle').forEach(t => {
+        t.textContent = '+';
+      });
+
+      // Toggle current FAQ
+      if (!isOpen && answer && toggle) {
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+        toggle.textContent = '−';
+      }
+    });
+  });
+
+  // Contact Form Handling
+  const contactForm = document.getElementById('contact-form');
+  const formSuccess = document.getElementById('form-success');
+  const formError = document.getElementById('form-error');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const formData = new FormData(contactForm as HTMLFormElement);
+      const data = Object.fromEntries(formData.entries());
+
+      try {
+        // For demo purposes, we'll just show success
+        // In production, this would submit to Netlify Forms or an API endpoint
+        console.log('Form data:', data);
+
+        // Hide form and show success message
+        if (contactForm && formSuccess) {
+          (contactForm as HTMLElement).style.display = 'none';
+          formSuccess.style.display = 'flex';
+        }
+
+        // In production, uncomment this:
+        /*
+        const response = await fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(data as any).toString()
+        });
+
+        if (response.ok) {
+          contactForm.style.display = 'none';
+          formSuccess.style.display = 'flex';
+        } else {
+          throw new Error('Form submission failed');
+        }
+        */
+      } catch (error) {
+        console.error('Form error:', error);
+        if (contactForm && formError) {
+          (contactForm as HTMLElement).style.display = 'none';
+          formError.style.display = 'flex';
+        }
+      }
+    });
+  }
+
+  // Smooth scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector((this as HTMLAnchorElement).getAttribute('href')!);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+</script>
+
+<style>
+  /* Hero */
+  .contact-hero {
+    background: linear-gradient(135deg, var(--navy-primary) 0%, #2a3f5f 100%);
+    color: white;
+    padding: 4rem 0 3rem;
+    text-align: center;
+  }
+
+  .contact-hero h1 {
+    font-family: var(--font-serif);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+  }
+
+  .response-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    font-weight: 600;
+    backdrop-filter: blur(10px);
+  }
+
+  .badge-icon {
+    font-size: 1.25rem;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    padding: 4rem 0;
+    background: #f8f9fa;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+  }
+
+  @media (max-width: 968px) {
+    .contact-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Contact Form */
+  .contact-form-container {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+
+  .contact-form-container h2 {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    color: var(--navy-primary);
+    margin-bottom: 0.5rem;
+  }
+
+  .form-subtitle {
+    color: #666;
+    margin-bottom: 2rem;
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--navy-primary);
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.3s;
+  }
+
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: var(--gold-accent);
+  }
+
+  .form-group textarea {
+    resize: vertical;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .btn-large {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.125rem;
+    width: 100%;
+  }
+
+  .btn-primary {
+    background: var(--navy-primary);
+    color: white;
+  }
+
+  .btn-primary:hover {
+    background: #0f1823;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(26, 35, 50, 0.3);
+  }
+
+  .btn-secondary {
+    background: white;
+    color: var(--navy-primary);
+    border: 2px solid var(--navy-primary);
+    width: 100%;
+  }
+
+  .btn-secondary:hover {
+    background: var(--navy-primary);
+    color: white;
+  }
+
+  .form-note {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .note-icon {
+    font-size: 1rem;
+  }
+
+  /* Form Messages */
+  .form-message {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+  }
+
+  .form-message.success {
+    background: #e8f5e9;
+    color: #2e7d32;
+  }
+
+  .form-message.error {
+    background: #ffebee;
+    color: #c62828;
+  }
+
+  .message-icon {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .form-message h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  /* Contact Sidebar */
+  .contact-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .contact-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+
+  .contact-card h3 {
+    font-family: var(--font-serif);
+    color: var(--navy-primary);
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-method {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-method:last-child {
+    margin-bottom: 0;
+  }
+
+  .method-icon {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f7ff;
+    border-radius: 8px;
+  }
+
+  .method-info {
+    flex: 1;
+  }
+
+  .method-label {
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 0.25rem;
+  }
+
+  .method-value {
+    color: var(--navy-primary);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .method-value:hover {
+    color: var(--gold-accent);
+  }
+
+  /* Social Links */
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--navy-primary);
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+
+  .social-link:hover {
+    background: var(--gold-accent);
+    color: white;
+    transform: translateX(4px);
+  }
+
+  .social-icon {
+    font-size: 1.5rem;
+  }
+
+  /* Booking Card */
+  .booking-card {
+    background: linear-gradient(135deg, var(--navy-primary) 0%, #2a3f5f 100%);
+    color: white;
+  }
+
+  .booking-card h3 {
+    color: white;
+  }
+
+  .booking-card p {
+    opacity: 0.9;
+    margin-bottom: 1.5rem;
+  }
+
+  .booking-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  /* FAQs Section */
+  .faqs-section {
+    padding: 4rem 0;
+    background: white;
+  }
+
+  .faqs-section h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .section-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 3rem;
+    font-size: 1.125rem;
+  }
+
+  .faq-categories {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .faq-category {
+    margin-bottom: 3rem;
+  }
+
+  .category-title {
+    font-family: var(--font-serif);
+    font-size: 1.75rem;
+    color: var(--navy-primary);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--gold-accent);
+  }
+
+  .faq-accordion {
+    background: white;
+    border-radius: 8px;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .faq-item:last-child {
+    border-bottom: none;
+  }
+
+  .faq-question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--navy-primary);
+    text-align: left;
+  }
+
+  .faq-question:hover {
+    color: var(--gold-accent);
+  }
+
+  .faq-toggle {
+    font-size: 2rem;
+    color: var(--gold-accent);
+    transition: transform 0.3s;
+  }
+
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .faq-answer p {
+    padding-bottom: 1.5rem;
+    color: #555;
+    line-height: 1.8;
+  }
+
+  .faq-cta {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+  }
+
+  .faq-cta p {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    color: #666;
+  }
+
+  /* Final CTA */
+  .contact-final-cta {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, var(--navy-primary) 0%, #2a3f5f 100%);
+    color: white;
+    text-align: center;
+  }
+
+  .contact-final-cta h2 {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-final-cta p {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+    opacity: 0.9;
+  }
+
+  .cta-stats {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: var(--font-serif);
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-label {
+    opacity: 0.9;
+  }
+</style>
