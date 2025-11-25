@@ -1,0 +1,152 @@
+[
+  {
+    "_type": "historyTimeline",
+    "year": 1854,
+    "title": "Original Construction",
+    "description": "Richard Spencer, a successful Philadelphia merchant, commissions construction of the mansion in the Greek Revival style popular among the city's elite. The four-story residence features 14 marble fireplaces, ornate plasterwork, and Italian marble mantels.",
+    "eventType": "construction",
+    "significance": "high",
+    "featured": true,
+    "order": 1
+  },
+  {
+    "_type": "historyTimeline",
+    "year": 1861,
+    "title": "Civil War Era",
+    "description": "During the Civil War, the Spencer family hosts Union officers and participates in fundraising efforts for the war. The mansion becomes a gathering place for Philadelphia's pro-Union society.",
+    "eventType": "social",
+    "significance": "medium",
+    "featured": false,
+    "order": 2
+  },
+  {
+    "_type": "historyTimeline",
+    "year": 1876,
+    "title": "Centennial Celebration",
+    "description": "The Spencer family hosts a grand reception during Philadelphia's Centennial Exhibition, welcoming dignitaries and visitors from around the world to view the home's architectural splendor.",
+    "eventType": "social",
+    "significance": "medium",
+    "featured": false,
+    "order": 3
+  },
+  {
+    "_type": "historyTimeline",
+    "year": 1899,
+    "title": "Gilded Age Renovation",
+    "description": "The Spencer-Ashbridge family undertakes a major renovation, adding the third-floor wing, updating gas lighting to electricity, installing indoor plumbing, and adding Victorian-era decorative elements. This transformation creates the layout guests experience today.",
+    "eventType": "renovation",
+    "significance": "high",
+    "featured": true,
+    "order": 4
+  },
+  {
+    "_type": "historyTimeline",
+    "year": 1910,
+    "title": "Modern Utilities",
+    "description": "The mansion is fully electrified throughout, with the original gas chandeliers converted to electric fixtures. Central heating is installed, replacing coal-burning fireplaces (though the fireplaces remain as decorative features).",
+    "eventType": "renovation",
+    "significance": "low",
+    "featured": false,
+    "order": 5
+  },
+  {
+    "_type": "historyTimeline",
+    "year": 1915,
+    "title": "Suffragette Headquarters",
+    "description": "Suffragette leader Anna Howard Shaw uses the mansion as her Philadelphia headquarters during the campaign for women's voting rights. The parlors host strategy meetings and fundraising events for the suffrage movement.",
+    "eventType": "social",
+    "significance": "high",
+    "featured": true,
+    "order": 6
+  },
+  {
+    "_type": "historyTimeline",
+    "year": 1920,
+    "title": "Prohibition Era",
+    "description": "During Prohibition, the mansion's basement wine cellar is sealed, though rumors persist of the home hosting private gatherings for Philadelphia's elite during the 'dry' years.",
+    "eventType": "social",
+    "significance": "low",
+    "featured": false,
+    "order": 7
+  },
+  {
+    "_type": "historyTimeline",
+    "year": 1929,
+    "title": "Stock Market Crash",
+    "description": "The Great Depression forces the Spencer-Ashbridge family to sell the property. It changes hands several times during the 1930s, serving briefly as a boarding house.",
+    "eventType": "ownership",
+    "significance": "medium",
+    "featured": false,
+    "order": 8
+  },
+  {
+    "_type": "historyTimeline",
+    "year": 1945,
+    "title": "Post-War Restoration",
+    "description": "After World War II, the property is purchased by the Harrison family, who restore many original features that had deteriorated during the Depression era. The formal gardens are replanted, and interior woodwork is refinished.",
+    "eventType": "renovation",
+    "significance": "medium",
+    "featured": false,
+    "order": 9
+  },
+  {
+    "_type": "historyTimeline",
+    "year": 1976,
+    "title": "Bicentennial Era",
+    "description": "During America's 200th birthday, the mansion is featured in Philadelphia's historic home tours, attracting thousands of visitors interested in the city's architectural heritage.",
+    "eventType": "recognition",
+    "significance": "medium",
+    "featured": false,
+    "order": 10
+  },
+  {
+    "_type": "historyTimeline",
+    "year": 1985,
+    "title": "Historic Designation",
+    "description": "The property is officially recognized by the Philadelphia Historical Commission for its architectural significance and well-preserved Greek Revival features. This designation provides protection and restoration guidelines.",
+    "eventType": "recognition",
+    "significance": "high",
+    "featured": true,
+    "order": 11
+  },
+  {
+    "_type": "historyTimeline",
+    "year": 2010,
+    "title": "Major Restoration Begins",
+    "description": "New owners undertake a comprehensive, historically-sensitive restoration: structural reinforcement, systems modernization (HVAC, plumbing, electrical), kitchen and bathroom renovations, while preserving all original architectural elements.",
+    "eventType": "renovation",
+    "significance": "high",
+    "featured": true,
+    "order": 12
+  },
+  {
+    "_type": "historyTimeline",
+    "year": 2015,
+    "title": "Luxury Vacation Rental",
+    "description": "Following completion of the restoration, the mansion opens as a luxury vacation rental, allowing guests to experience 170 years of Philadelphia history firsthand. The property quickly earns Superhost status on Airbnb.",
+    "eventType": "business",
+    "significance": "high",
+    "featured": true,
+    "order": 13
+  },
+  {
+    "_type": "historyTimeline",
+    "year": 2020,
+    "title": "Pandemic Resilience",
+    "description": "During COVID-19, the mansion pivots to serve long-term stays for healthcare workers and families seeking spacious, private accommodations. The full kitchen and multiple living areas prove ideal for pandemic-era needs.",
+    "eventType": "business",
+    "significance": "medium",
+    "featured": false,
+    "order": 14
+  },
+  {
+    "_type": "historyTimeline",
+    "year": 2024,
+    "title": "170th Anniversary",
+    "description": "The Rittenhouse Residence celebrates 170 years of continuous use, having welcomed thousands of guests and hosted countless historic moments. The mansion continues to blend its storied past with modern luxury.",
+    "eventType": "recognition",
+    "significance": "medium",
+    "featured": true,
+    "order": 15
+  }
+]

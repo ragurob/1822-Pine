@@ -46,7 +46,11 @@ export default defineConfig({
             S.documentTypeListItem('galleryImage').title('Photo Gallery'),
             S.documentTypeListItem('testimonial').title('Guest Reviews'),
             S.documentTypeListItem('historyTimeline').title('Historical Timeline'),
+            S.documentTypeListItem('historyChapter').title('Historical Chapters'),
             S.documentTypeListItem('room').title('Rooms & Suites'),
+            S.documentTypeListItem('faqItem').title('FAQs'),
+            S.documentTypeListItem('neighborhoodLocation').title('Neighborhood Guide'),
+            S.documentTypeListItem('historicalDocument').title('Historical Documents'),
 
             // Settings
             S.divider(),

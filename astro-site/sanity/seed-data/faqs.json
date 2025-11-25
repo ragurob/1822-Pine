@@ -1,0 +1,194 @@
+[
+  {
+    "_type": "faqItem",
+    "category": "Booking & Rates",
+    "question": "What is included in the nightly rate?",
+    "answer": "Your nightly rate includes: accommodation for up to 16 guests, all utilities (electric, gas, water), high-speed Wi-Fi, premium linens and towels, full kitchen access, toiletries, and professional cleaning after your stay. Parking is not included but nearby garage and street parking are available.",
+    "order": 1,
+    "featured": true
+  },
+  {
+    "_type": "faqItem",
+    "category": "Booking & Rates",
+    "question": "What is the minimum stay requirement?",
+    "answer": "Our minimum stay is 3 nights for most dates. During major holidays (Thanksgiving, Christmas, New Year's) and peak summer season, we require a 5-night minimum. For special events (corporate retreats, weddings), we may accommodate 2-night stays - please inquire directly.",
+    "order": 2,
+    "featured": true
+  },
+  {
+    "_type": "faqItem",
+    "category": "Booking & Rates",
+    "question": "How do I book the property?",
+    "answer": "You can book through Airbnb (instant booking for Superhosts), VRBO, or contact us directly for the best rates and personalized service. Direct bookings can be made via our contact form or by emailing stay@therittenhouseresidence.com. We'll send you a rental agreement and payment link.",
+    "order": 3,
+    "featured": true
+  },
+  {
+    "_type": "faqItem",
+    "category": "Booking & Rates",
+    "question": "What is your cancellation policy?",
+    "answer": "We offer a flexible cancellation policy: Full refund if you cancel 30+ days before check-in. 50% refund for cancellations 14-30 days before check-in. No refund for cancellations within 14 days of check-in. Extenuating circumstances (medical emergencies, natural disasters) are reviewed case-by-case.",
+    "order": 4,
+    "featured": false
+  },
+  {
+    "_type": "faqItem",
+    "category": "Booking & Rates",
+    "question": "Do you charge a security deposit?",
+    "answer": "Yes, we hold a $1,000 refundable security deposit. For Airbnb/VRBO bookings, this is handled through the platform. For direct bookings, we process it via credit card authorization. The deposit is fully refunded within 7 days of check-out if no damages occur.",
+    "order": 5,
+    "featured": false
+  },
+  {
+    "_type": "faqItem",
+    "category": "Property Details",
+    "question": "How many people can the property accommodate?",
+    "answer": "The Rittenhouse Residence sleeps up to 16 guests comfortably across 8 bedrooms. We have 1 King bed (Spencer Suite), 4 Queen beds (Garden, Parlor, and 2 in Tower Rooms), and 4 additional beds in the Heritage Quarters. All beds are real mattresses (no sofa beds). Please note: maximum occupancy of 16 includes all overnight guests.",
+    "order": 6,
+    "featured": true
+  },
+  {
+    "_type": "faqItem",
+    "category": "Property Details",
+    "question": "Are all bedrooms private or do some share bathrooms?",
+    "answer": "The Spencer Suite, Garden Suite, and Parlor Suite each have private en-suite bathrooms. The Tower Rooms (2 bedrooms) share one bathroom between them. The Heritage Quarters (3 bedrooms) share two bathrooms. All bathrooms are private to each suite group - never shared between different guest parties.",
+    "order": 7,
+    "featured": true
+  },
+  {
+    "_type": "faqItem",
+    "category": "Property Details",
+    "question": "Is the property accessible for guests with mobility issues?",
+    "answer": "The property has four floors with stairs and no elevator, which makes it challenging for guests with mobility limitations. The Garden Suite on the first floor may work for guests who can manage a few entrance steps. Unfortunately, we cannot accommodate wheelchairs. Please contact us to discuss specific accessibility needs.",
+    "order": 8,
+    "featured": false
+  },
+  {
+    "_type": "faqItem",
+    "category": "Property Details",
+    "question": "What is included in the kitchen?",
+    "answer": "The professional chef's kitchen includes: 6-burner gas range, double wall ovens, microwave, dishwasher, French-door refrigerator with ice maker, wine refrigerator, coffee maker (drip + espresso), cookware and serveware for 16+, dishes, glassware, and all cooking utensils. We provide basic spices, cooking oil, coffee, tea, and dish soap.",
+    "order": 9,
+    "featured": false
+  },
+  {
+    "_type": "faqItem",
+    "category": "Property Details",
+    "question": "Is parking included?",
+    "answer": "Parking is not included but readily available. Options include: (1) On-street metered parking on Pine Street (free after 6pm and Sundays), (2) Icon Parking garage at 18th & Walnut (5-minute walk, ~$25-35/day), (3) Parkway Corp garage at 19th & Walnut (~$30-40/day). Many guests find one car sufficient since the neighborhood is highly walkable.",
+    "order": 10,
+    "featured": true
+  },
+  {
+    "_type": "faqItem",
+    "category": "Location & Neighborhood",
+    "question": "What is within walking distance?",
+    "answer": "You're in the heart of Rittenhouse Square! Within 5-10 minute walk: 100+ restaurants (Parc, Vernick, Barclay Prime), Rittenhouse Square Park, Whole Foods, CVS pharmacy, boutique shopping on Walnut Street, and multiple coffee shops. Within 15 minutes: Liberty Place, Reading Terminal Market, Independence Hall, and multiple museums. The location is unbeatable.",
+    "order": 11,
+    "featured": true
+  },
+  {
+    "_type": "faqItem",
+    "category": "Location & Neighborhood",
+    "question": "Is the neighborhood safe?",
+    "answer": "Yes! Rittenhouse Square is consistently rated as one of Philadelphia's safest, most desirable neighborhoods. It's well-lit, heavily foot-trafficked, and patrolled regularly. The property has exterior security cameras at entrances (capturing public areas only, never interiors), and we've never had security issues. Guests regularly comment on feeling very safe walking day and night.",
+    "order": 12,
+    "featured": false
+  },
+  {
+    "_type": "faqItem",
+    "category": "Location & Neighborhood",
+    "question": "How do we get from the airport?",
+    "answer": "From Philadelphia International Airport (PHL): (1) Uber/Lyft is easiest (~25 minutes, $25-40 depending on time), (2) Regional Rail to Jefferson Station + short Uber ($10 train + $10 Uber), or (3) taxi (~$30-45). We'll send detailed directions with check-in instructions. Airport to Rittenhouse typically takes 25-35 minutes depending on traffic.",
+    "order": 13,
+    "featured": false
+  },
+  {
+    "_type": "faqItem",
+    "category": "House Rules & Policies",
+    "question": "Are pets allowed?",
+    "answer": "Unfortunately, no. Due to guest allergies and the historic nature of the property, we maintain a strict no-pets policy. This includes emotional support animals. Service animals for guests with disabilities are permitted with advance notice (ADA requirement).",
+    "order": 14,
+    "featured": true
+  },
+  {
+    "_type": "faqItem",
+    "category": "House Rules & Policies",
+    "question": "Can we smoke inside?",
+    "answer": "The entire property is smoke-free (including cigarettes, cigars, vaping, and marijuana). Smoking is only permitted outside in the courtyard, and we ask that cigarette butts be disposed of properly. A $500 cleaning fee applies if smoke odor is detected inside.",
+    "order": 15,
+    "featured": false
+  },
+  {
+    "_type": "faqItem",
+    "category": "House Rules & Policies",
+    "question": "Can we host events or parties?",
+    "answer": "Yes! We welcome events with prior approval. Corporate meetings, small weddings, rehearsal dinners, birthday parties, and photo shoots are all possibilities. Events require a separate event agreement and may incur additional fees depending on guest count and setup needs. Standard vacation rentals can include up to 16 guests; events with 17+ day visitors require event booking. Contact us to discuss your plans!",
+    "order": 16,
+    "featured": true
+  },
+  {
+    "_type": "faqItem",
+    "category": "House Rules & Policies",
+    "question": "What are the quiet hours?",
+    "answer": "Out of respect for neighbors, quiet hours are 10:00 PM to 8:00 AM. This means keeping doors/windows closed if playing music, lowering voices in the courtyard, and generally being mindful of noise. We're on a residential block with neighbors who've been very accommodating of our guests. Excessive noise complaints may result in immediate eviction without refund.",
+    "order": 17,
+    "featured": false
+  },
+  {
+    "_type": "faqItem",
+    "category": "House Rules & Policies",
+    "question": "What should we know about caring for the historic property?",
+    "answer": "This 170-year-old home requires special care: (1) No tape, nails, adhesives, or command hooks on walls, (2) Only battery-operated flameless candles (never real flames), (3) Report any damages immediately, (4) Be gentle with antique furniture and fixtures, (5) Don't lean or place objects on marble fireplaces. We provide a detailed house guide with care instructions. Most guests find these rules very reasonable!",
+    "order": 18,
+    "featured": false
+  },
+  {
+    "_type": "faqItem",
+    "category": "Check-in & Logistics",
+    "question": "What time is check-in and check-out?",
+    "answer": "Check-in: 4:00 PM | Check-out: 11:00 AM. Early check-in or late check-out may be available if no guests are checking in/out the same day - please ask! We'll send detailed check-in instructions (door codes, parking, house guide) 48 hours before arrival. Check-in is contactless via smart lock, though we're available by phone/text 24/7.",
+    "order": 19,
+    "featured": true
+  },
+  {
+    "_type": "faqItem",
+    "category": "Check-in & Logistics",
+    "question": "Will someone be there to greet us?",
+    "answer": "Check-in is self-service via smart lock with a unique code sent before arrival. This allows flexible arrival times! However, if you'd like an in-person greeting and property tour, we're happy to arrange that - just let us know your arrival time. We're also available 24/7 by phone/text for any questions or issues during your stay.",
+    "order": 20,
+    "featured": false
+  },
+  {
+    "_type": "faqItem",
+    "category": "Check-in & Logistics",
+    "question": "What happens if something breaks or we have an issue?",
+    "answer": "We have 24/7 emergency support and a local team for urgent issues (heat/AC, plumbing, locks). For emergencies, call the number provided in your check-in instructions. For non-urgent issues (lightbulb out, need extra towels), text or email and we'll respond same-day. We also have a house manual with troubleshooting tips. Our goal is to resolve any issue within hours, not days!",
+    "order": 21,
+    "featured": false
+  },
+  {
+    "_type": "faqItem",
+    "category": "Special Requests",
+    "question": "Can you help arrange catering or services?",
+    "answer": "Yes! We have relationships with excellent local vendors: caterers, private chefs, event planners, photographers, florists, and transportation services. While we don't handle bookings directly, we're happy to provide recommendations and contact information. Many of our vendors offer discounts for our guests!",
+    "order": 22,
+    "featured": false
+  },
+  {
+    "_type": "faqItem",
+    "category": "Special Requests",
+    "question": "Can we have groceries delivered before arrival?",
+    "answer": "Absolutely! We'll accept grocery deliveries (Instacart, Amazon Fresh, etc.) on your check-in day if you coordinate timing with us. Fresh Direct, Whole Foods, and Trader Joe's all deliver to the area. We're also happy to provide a shopping list of nearby grocery stores if you prefer to shop after arrival.",
+    "order": 23,
+    "featured": false
+  },
+  {
+    "_type": "faqItem",
+    "category": "Special Requests",
+    "question": "Do you provide any welcome amenities?",
+    "answer": "Yes! We provide: starter supply of coffee and tea, basic spices and cooking oil, dish soap and dishwasher pods, hand soap and toiletries in all bathrooms, and a welcome binder with local recommendations. For longer stays (7+ nights) or special occasions, we often include a welcome gift (wine, flowers, or local treats). Just let us know if you're celebrating something special!",
+    "order": 24,
+    "featured": false
+  }
+]

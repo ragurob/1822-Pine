@@ -1,0 +1,163 @@
+{
+  "_id": "homepage",
+  "_type": "homepage",
+  "title": "The Rittenhouse Residence - Historic Philadelphia Mansion",
+  "hero": {
+    "_type": "heroSection",
+    "heading": "Historic Elegance in the Heart of Rittenhouse Square",
+    "subheading": "1854 Greek Revival Mansion • 8 Bedrooms • Sleeps 16",
+    "image": {
+      "_type": "image",
+      "alt": "Historic Rittenhouse Residence exterior facade with Greek Revival columns"
+    },
+    "primaryCta": {
+      "_type": "ctaButton",
+      "text": "View Rates & Book",
+      "url": "/rates",
+      "style": "primary"
+    },
+    "secondaryCta": {
+      "_type": "ctaButton",
+      "text": "Explore the Story",
+      "url": "/story",
+      "style": "secondary"
+    },
+    "overlayOpacity": 0.3
+  },
+  "trustBar": {
+    "_type": "object",
+    "rating": 4.9,
+    "reviewCount": 500,
+    "superhost": true,
+    "verified": true,
+    "badges": ["Superhost Since 2019", "5-Star Historic Property", "Verified Listing"]
+  },
+  "introSection": {
+    "_type": "object",
+    "heading": "Experience 170 Years of Philadelphia History",
+    "description": "Step into an 1854 Greek Revival masterpiece where history meets luxury. Originally built for prominent Philadelphia merchant Richard Spencer, this magnificent residence has hosted suffragettes, Civil War officers, and Gilded Age society.",
+    "highlights": [
+      {
+        "icon": "bed",
+        "title": "8 Bedrooms",
+        "description": "Sleeps up to 16 guests"
+      },
+      {
+        "icon": "home",
+        "title": "7,000 sq ft",
+        "description": "Four floors of elegant space"
+      },
+      {
+        "icon": "landmark",
+        "title": "Est. 1854",
+        "description": "170 years of history"
+      },
+      {
+        "icon": "location",
+        "title": "Prime Location",
+        "description": "Steps from Rittenhouse Square"
+      }
+    ]
+  },
+  "featuresSection": {
+    "_type": "object",
+    "heading": "Unparalleled Historic Features",
+    "features": [
+      {
+        "title": "Architectural Grandeur",
+        "description": "14 original marble fireplaces, ornate plasterwork medallions, 12-foot ceilings with crown molding, and Italian marble mantels throughout.",
+        "image": {
+          "_type": "image",
+          "alt": "Ornate ceiling medallion and chandelier"
+        }
+      },
+      {
+        "title": "Modern Luxury Amenities",
+        "description": "Professional chef's kitchen, spa bathrooms, climate control, high-speed Wi-Fi, smart TVs, washer/dryer, and premium linens.",
+        "image": {
+          "_type": "image",
+          "alt": "Modern chef's kitchen with marble countertops"
+        }
+      },
+      {
+        "title": "Flexible Living Spaces",
+        "description": "Formal dining for 16, two parlors, library/study, breakfast room, private courtyard garden, and multiple seating areas.",
+        "image": {
+          "_type": "image",
+          "alt": "Formal dining room with chandelier"
+        }
+      },
+      {
+        "title": "Prime Rittenhouse Location",
+        "description": "Walk to 100+ restaurants, museums, shopping, and parks. Center City convenience with private mansion tranquility.",
+        "image": {
+          "_type": "image",
+          "alt": "View of Rittenhouse Square park"
+        }
+      }
+    ]
+  },
+  "roomsPreview": {
+    "_type": "object",
+    "heading": "Elegant Accommodations",
+    "description": "Five distinct suites, each with unique character and modern comfort",
+    "cta": {
+      "_type": "ctaButton",
+      "text": "Explore All Rooms",
+      "url": "/gallery",
+      "style": "secondary"
+    }
+  },
+  "reviewsPreview": {
+    "_type": "object",
+    "heading": "Guest Experiences",
+    "description": "Over 500 five-star reviews from guests who've made memories here",
+    "cta": {
+      "_type": "ctaButton",
+      "text": "Read All Reviews",
+      "url": "/reviews",
+      "style": "secondary"
+    }
+  },
+  "bookingSection": {
+    "_type": "object",
+    "heading": "Ready to Experience Historic Philadelphia?",
+    "description": "Book your stay at The Rittenhouse Residence and become part of 170 years of history.",
+    "bookingOptions": [
+      {
+        "platform": "Airbnb",
+        "description": "Instant booking & Superhost benefits",
+        "url": "https://airbnb.com/rooms/example",
+        "featured": true
+      },
+      {
+        "platform": "VRBO",
+        "description": "Family-friendly booking platform",
+        "url": "https://vrbo.com/example",
+        "featured": false
+      },
+      {
+        "platform": "Direct",
+        "description": "Best rates & personalized service",
+        "url": "/contact",
+        "featured": true
+      }
+    ],
+    "cta": {
+      "_type": "ctaButton",
+      "text": "Check Availability & Rates",
+      "url": "/rates",
+      "style": "primary"
+    }
+  },
+  "seo": {
+    "_type": "seoMeta",
+    "metaTitle": "The Rittenhouse Residence | Historic 1854 Mansion Rental in Philadelphia",
+    "metaDescription": "Experience luxury in an 1854 Greek Revival mansion in Rittenhouse Square. 8 bedrooms, sleeps 16. Original architectural details meet modern amenities. Book your historic Philadelphia stay.",
+    "keywords": ["historic mansion rental", "Rittenhouse Square", "Philadelphia vacation rental", "luxury historic home", "8 bedroom rental", "Greek Revival architecture"],
+    "ogImage": {
+      "_type": "image",
+      "alt": "The Rittenhouse Residence exterior"
+    }
+  }
+}

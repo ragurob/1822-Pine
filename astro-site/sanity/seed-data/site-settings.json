@@ -1,0 +1,134 @@
+{
+  "_id": "siteSettings",
+  "_type": "siteSettings",
+  "siteName": "The Rittenhouse Residence",
+  "tagline": "Historic 1854 Mansion in Rittenhouse Square",
+  "description": "Luxury vacation rental in a meticulously restored Greek Revival mansion. Experience 170 years of Philadelphia history with modern amenities.",
+  "contact": {
+    "email": "stay@therittenhouseresidence.com",
+    "phone": "+1 (215) 555-1854",
+    "address": {
+      "street": "1822 Pine Street",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip": "19103",
+      "country": "United States"
+    }
+  },
+  "social": {
+    "instagram": "https://instagram.com/rittenhouseresidence",
+    "facebook": "https://facebook.com/rittenhouseresidence",
+    "twitter": "https://twitter.com/rittenhouse1854",
+    "pinterest": "https://pinterest.com/rittenhouseresidence"
+  },
+  "bookingPlatforms": {
+    "airbnb": {
+      "url": "https://airbnb.com/rooms/example",
+      "propertyId": "AIRBNB_ID",
+      "superhost": true,
+      "rating": 4.95,
+      "reviewCount": 342
+    },
+    "vrbo": {
+      "url": "https://vrbo.com/example",
+      "propertyId": "VRBO_ID",
+      "premierHost": true,
+      "rating": 4.9,
+      "reviewCount": 158
+    }
+  },
+  "propertyInfo": {
+    "builtYear": 1854,
+    "architecturalStyle": "Greek Revival",
+    "squareFeet": 7000,
+    "floors": 4,
+    "bedrooms": 8,
+    "bathrooms": 5.5,
+    "maxGuests": 16,
+    "checkIn": "4:00 PM",
+    "checkOut": "11:00 AM",
+    "minimumStay": {
+      "regular": 3,
+      "holidays": 5,
+      "events": 2
+    }
+  },
+  "amenities": {
+    "kitchen": [
+      "Professional gas range with 6 burners",
+      "Double wall ovens",
+      "Built-in microwave",
+      "Dishwasher",
+      "French-door refrigerator with ice maker",
+      "Wine refrigerator",
+      "Coffee maker (drip and espresso)",
+      "Toaster",
+      "Blender",
+      "Full cookware and serveware for 16+"
+    ],
+    "entertainment": [
+      "Smart TVs in living rooms and bedrooms",
+      "High-speed Wi-Fi (1 Gbps fiber)",
+      "Bluetooth speakers",
+      "Board games and books",
+      "Piano (tuned quarterly)"
+    ],
+    "comfort": [
+      "Central air conditioning",
+      "Gas heating with zoned control",
+      "Luxury linens (300+ thread count)",
+      "Premium towels",
+      "Hair dryers in all bathrooms",
+      "Iron and ironing board",
+      "Washer and dryer"
+    ],
+    "outdoor": [
+      "Private courtyard garden",
+      "Outdoor seating for 8",
+      "String lights",
+      "Gas grill (seasonal)"
+    ],
+    "safety": [
+      "Smoke detectors (interconnected)",
+      "Carbon monoxide detectors",
+      "Fire extinguishers on each floor",
+      "First aid kit",
+      "Security system",
+      "Exterior security cameras (public areas only)",
+      "Well-lit entrances"
+    ]
+  },
+  "houseRules": {
+    "noSmoking": true,
+    "noPets": true,
+    "noParties": false,
+    "eventsAllowed": true,
+    "quietHours": {
+      "start": "10:00 PM",
+      "end": "8:00 AM"
+    },
+    "additionalRules": [
+      "Respect historic property - no nails, tape, or adhesives on walls",
+      "Use only battery-operated flameless candles",
+      "Report any damages immediately",
+      "Take trash to designated bins",
+      "Turn off all lights and adjust thermostat when leaving",
+      "Lock all doors and windows when departing"
+    ]
+  },
+  "policies": {
+    "cancellation": "Flexible: Full refund 30 days before check-in. 50% refund 14-30 days before. No refund within 14 days.",
+    "damage": "Security deposit of $1,000 held and returned within 7 days of check-out if no damages.",
+    "cleaning": "Professional cleaning fee included in rate.",
+    "additionalGuests": "Maximum 16 overnight guests. Day visitors require prior approval.",
+    "events": "Special events (weddings, corporate functions) require event agreement and additional fees."
+  },
+  "logo": {
+    "_type": "image",
+    "alt": "The Rittenhouse Residence Logo"
+  },
+  "favicon": {
+    "_type": "image",
+    "alt": "The Rittenhouse Residence Favicon"
+  }
+}

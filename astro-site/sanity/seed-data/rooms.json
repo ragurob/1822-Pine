@@ -1,0 +1,192 @@
+[
+  {
+    "_type": "room",
+    "name": "The Spencer Suite",
+    "slug": {
+      "_type": "slug",
+      "current": "spencer-suite"
+    },
+    "floor": 2,
+    "roomType": "Master Suite",
+    "bedConfiguration": "King bed",
+    "maxGuests": 2,
+    "squareFeet": 450,
+    "bathroomType": "En-suite with soaking tub and separate shower",
+    "description": "Named after Richard Spencer, the original owner, this grand master suite occupies the entire front of the second floor. Original 1854 architectural details include an ornate ceiling medallion, Italian marble fireplace, and floor-to-ceiling windows overlooking Pine Street. The renovated spa bathroom features a clawfoot soaking tub, walk-in shower with rain head, heated floors, and double vanity.",
+    "featuredImage": {
+      "_type": "image",
+      "alt": "The Spencer Suite master bedroom with king bed and marble fireplace"
+    },
+    "features": [
+      "King-size bed with luxury linens",
+      "Original Italian marble fireplace (decorative)",
+      "Ornate plasterwork ceiling medallion",
+      "Floor-to-ceiling windows with blackout curtains",
+      "Sitting area with period furniture",
+      "Smart TV with streaming services",
+      "Walk-in closet",
+      "Spa bathroom with soaking tub and rain shower",
+      "Heated bathroom floors",
+      "Hair dryer and premium toiletries",
+      "Individual climate control"
+    ],
+    "viewDescription": "Tree-lined Pine Street and neighboring historic homes",
+    "historicalNote": "This room served as the master bedroom for the Spencer family from 1854-1899, and later as the private quarters of suffragette leader Anna Howard Shaw during her 1915 visit to Philadelphia.",
+    "gallery": [],
+    "featured": true,
+    "available": true,
+    "order": 1
+  },
+  {
+    "_type": "room",
+    "name": "The Garden Suite",
+    "slug": {
+      "_type": "slug",
+      "current": "garden-suite"
+    },
+    "floor": 1,
+    "roomType": "Suite with Private Entrance",
+    "bedConfiguration": "Queen bed",
+    "maxGuests": 2,
+    "squareFeet": 380,
+    "bathroomType": "En-suite with walk-in shower",
+    "description": "A ground-floor sanctuary with direct access to the private courtyard garden. This suite combines the intimacy of a boutique hotel with the charm of a historic home. Originally the library and morning room, it features original hardwood floors, built-in bookshelves, and French doors opening to the garden terrace.",
+    "featuredImage": {
+      "_type": "image",
+      "alt": "The Garden Suite with French doors to courtyard"
+    },
+    "features": [
+      "Queen-size bed with premium bedding",
+      "French doors to private courtyard",
+      "Original built-in bookshelves",
+      "Writing desk with antique chair",
+      "Smart TV",
+      "Coffee and tea station",
+      "En-suite bathroom with walk-in shower",
+      "Garden view windows",
+      "Original hardwood floors",
+      "Private entrance from garden",
+      "Mini-refrigerator"
+    ],
+    "viewDescription": "Private courtyard garden with fountain and seating area",
+    "historicalNote": "This space served as the gentlemen's library and smoking room in the Victorian era. The built-in bookshelves still contain some original leather-bound volumes from the 1890s.",
+    "gallery": [],
+    "featured": true,
+    "available": true,
+    "order": 2
+  },
+  {
+    "_type": "room",
+    "name": "The Parlor Suite",
+    "slug": {
+      "_type": "slug",
+      "current": "parlor-suite"
+    },
+    "floor": 2,
+    "roomType": "Two-Room Suite",
+    "bedConfiguration": "King bed + Sitting room",
+    "maxGuests": 2,
+    "squareFeet": 420,
+    "bathroomType": "En-suite with shower/tub combo",
+    "description": "A two-room suite offering the grandeur of a historic parlor combined with modern bedroom comfort. The bedroom features a king bed and original fireplace, while the adjoining sitting room provides a separate space for relaxation or remote work. Tall windows flood both rooms with natural light.",
+    "featuredImage": {
+      "_type": "image",
+      "alt": "The Parlor Suite sitting room with chandelier"
+    },
+    "features": [
+      "King-size bed in separate bedroom",
+      "Adjoining sitting room with period furniture",
+      "Two marble fireplaces (decorative)",
+      "Crystal chandelier",
+      "Large windows with city views",
+      "Smart TV in bedroom",
+      "Writing desk suitable for remote work",
+      "En-suite bathroom with vintage fixtures",
+      "Restored original hardwood floors",
+      "High ceilings with crown molding",
+      "Blackout curtains"
+    ],
+    "viewDescription": "Historic Rittenhouse neighborhood architecture and tree-lined streets",
+    "historicalNote": "Originally the ladies' parlor where afternoon tea and social calls took place. The crystal chandelier dates to 1875 and was electrified in 1910.",
+    "gallery": [],
+    "featured": false,
+    "available": true,
+    "order": 3
+  },
+  {
+    "_type": "room",
+    "name": "The Tower Rooms",
+    "slug": {
+      "_type": "slug",
+      "current": "tower-rooms"
+    },
+    "floor": 3,
+    "roomType": "Connected Suite (2 bedrooms)",
+    "bedConfiguration": "2 Queen beds (in separate rooms)",
+    "maxGuests": 4,
+    "squareFeet": 520,
+    "bathroomType": "Shared bathroom (private to suite)",
+    "description": "Perfect for families or friends traveling together, this third-floor suite consists of two connected bedrooms sharing a renovated bathroom. Both rooms feature original dormer windows and charming architectural details. The shared bathroom includes both a soaking tub and separate shower.",
+    "featuredImage": {
+      "_type": "image",
+      "alt": "The Tower Rooms with dormer windows"
+    },
+    "features": [
+      "Two separate bedrooms, each with queen bed",
+      "Dormer windows with window seats",
+      "Shared bathroom with tub and shower",
+      "Original exposed ceiling beams",
+      "Smart TVs in both bedrooms",
+      "Shared sitting area between rooms",
+      "Ample closet space in each room",
+      "Skylights providing natural light",
+      "Cozy sloped ceilings",
+      "Hair dryer and toiletries",
+      "Individual reading lights"
+    ],
+    "viewDescription": "Rooftop views of Rittenhouse Square neighborhood",
+    "historicalNote": "These rooms housed the Spencer family children in the 1850s-1880s. Later served as servants' quarters during the Gilded Age.",
+    "gallery": [],
+    "featured": false,
+    "available": true,
+    "order": 4
+  },
+  {
+    "_type": "room",
+    "name": "The Heritage Quarters",
+    "slug": {
+      "_type": "slug",
+      "current": "heritage-quarters"
+    },
+    "floor": 3,
+    "roomType": "Multi-room Suite (3 bedrooms)",
+    "bedConfiguration": "2 Queen beds + 2 Twin beds",
+    "maxGuests": 6,
+    "squareFeet": 680,
+    "bathroomType": "Two shared bathrooms (private to suite)",
+    "description": "The largest suite in the residence, ideal for multi-generational families or groups. Three bedrooms share two fully renovated bathrooms on the third floor. This suite offers the most flexibility for sleeping arrangements and provides a semi-private wing for your group.",
+    "featuredImage": {
+      "_type": "image",
+      "alt": "The Heritage Quarters family suite"
+    },
+    "features": [
+      "Three connected bedrooms",
+      "Two full bathrooms (one with tub, one with shower)",
+      "Flexible sleeping: 2 queens + 2 twins",
+      "Common sitting area with seating for 6",
+      "Smart TVs in each bedroom",
+      "Original hardwood floors throughout",
+      "Multiple closets and storage",
+      "Mini-refrigerator in common area",
+      "Coffee/tea station",
+      "Sloped ceilings with architectural character",
+      "Multiple windows for cross-ventilation"
+    ],
+    "viewDescription": "Neighborhood views and distant city skyline",
+    "historicalNote": "This entire wing was added during the 1899 renovation for the growing Spencer-Ashbridge family. It represents the expansion of Philadelphia's wealthy families during the Gilded Age.",
+    "gallery": [],
+    "featured": false,
+    "available": true,
+    "order": 5
+  }
+]
