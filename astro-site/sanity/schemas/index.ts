@@ -9,6 +9,11 @@ import historyTimeline from './historyTimeline';
 import room from './room';
 import siteSettings from './siteSettings';
 import seoSettings from './seoSettings';
+import faqItem from './faqItem';
+import neighborhoodLocation from './neighborhoodLocation';
+import historyChapter from './historyChapter';
+import historicalDocument from './historicalDocument';
+import flexiblePage from './flexiblePage';
 
 // Object types
 import heroSection from './objects/heroSection';
@@ -17,15 +22,24 @@ import seoMeta from './objects/seoMeta';
 import rateTable from './objects/rateTable';
 
 export const schemaTypes = [
-  // Document types
+  // Page types
   homepage,
   storyPage,
   ratesPage,
   contactPage,
+  flexiblePage,
+
+  // Collection types
   galleryImage,
   testimonial,
   historyTimeline,
   room,
+  faqItem,
+  neighborhoodLocation,
+  historyChapter,
+  historicalDocument,
+
+  // Settings
   siteSettings,
   seoSettings,
 

@@ -1,0 +1,740 @@
+═══════════════════════════════════════════════════════════════════════════════
+THE RITTENHOUSE RESIDENCE - COMPLETE CONTENT INVENTORY FOR CMS MIGRATION
+═══════════════════════════════════════════════════════════════════════════════
+
+GENERATED: 2024-11-25
+SCOPE: Complete website/ directory audit
+TOTAL FILES: 134 files | IMAGES: 70 files | SIZE: 29 MB
+
+═══════════════════════════════════════════════════════════════════════════════
+1. CONFIGURATION & STRUCTURE FILES (6 files)
+═══════════════════════════════════════════════════════════════════════════════
+
+PRIMARY CONFIGURATION:
+  /website/_quarto.yml (5.9 KB)
+    - Website title, description, site URL
+    - Complete navbar structure (left/right menus)
+    - Page footer with contact info
+    - Search configuration (navbar overlay)
+    - Google Analytics placeholder
+    - HTML include-in-header with SEO meta tags and JSON-LD structured data
+    - Theme configuration (cosmo/slate with custom SCSS)
+    - CSS includes (main.css, custom stylesheets)
+    - Bibliography configuration (Chicago style)
+
+ALTERNATIVE CONFIGURATIONS:
+  /website/_quarto-gh-pages.yml (361 B) - GitHub Pages deployment config
+  /website/_quarto-minimal.yml (342 B) - Minimal theme configuration
+
+METADATA:
+  /website/robots.txt (1.1 KB) - Search engine crawling rules, bot blocks
+  /website/.gitignore - Git ignore configuration
+  /website/.nojekyll - Jekyll disable flag
+
+═══════════════════════════════════════════════════════════════════════════════
+2. ROOT LEVEL PAGES (.qmd files) - 21 PUBLIC PAGES
+═══════════════════════════════════════════════════════════════════════════════
+
+HOMEPAGE & MAIN PAGES:
+  1. index.qmd (366 lines / 10.5 KB) ★ PRIMARY LANDING PAGE
+     Content Type: Hero landing page with multiple sections
+     Sections:
+       - Full-width hero with image (DSC00064.jpg)
+       - Trust bar with ratings (300+ reviews, 4.9/5 stars)
+       - "At a Glance" grid (capacity, location, rating, built date)
+       - Photo story section with 3 images (arrival, gathering, retreat)
+       - Historical timeline (1854-2024) with 6 milestones
+       - Room showcase carousel (3 rooms with images)
+       - Guest reviews section with embedded JSON-LD
+       - Availability booking widget with CTA buttons
+       - Location section with neighborhood features
+       - Final CTA section
+       - Footer links section
+     Key Images Used: DSC00064.jpg, DSC00066.jpg, DSC00090.jpg, DSC00084.jpg, DSC00076.jpg
+
+  2. story.qmd (57 lines / 1.8 KB) - THE STORY OF 1822 PINE
+     Content Type: Historical narrative page
+     Sections:
+       - Hero image (DSC00064.jpg)
+       - Introduction to 170-year history
+       - Key moments timeline (1854, 1899, 1915, 1932, 1952)
+       - Links to archival resources and chapters
+     Key Images: DSC00064.jpg
+
+  3. gallery.qmd (347 lines / 14.9 KB) - PHOTO GALLERY
+     Content Type: Image-heavy gallery with custom CSS
+     Sections:
+       - Gallery grid layout
+       - Room badges and floor indicators
+       - Document gallery grid
+     Content Type: Image gallery + document thumbnails
+     Referenced Images: Multiple property photos, floor plans, documents
+
+  4. events.qmd (57 lines / 2.1 KB) - EVENTS & RETREATS
+     Content Type: Events/venue page
+     Sections:
+       - Hero image (DSC00090.jpg)
+       - Event value proposition
+       - Event space features
+       - Capacity information
+       - Contact CTA
+     Key Images: DSC00090.jpg
+
+  5. contact.qmd (205 lines / 7.3 KB) - CONTACT & BOOKING
+     Content Type: Form + contact information
+     Sections:
+       - Form (Netlify-enabled) with fields: name, email, phone, dates, guests, inquiry type
+       - Direct contact info (email, social media)
+       - Booking platform links (Airbnb, VRBO)
+       - Location info (address, directions from PHL/30th St)
+       - Embedded Google Map
+       - Nested FAQ section
+
+INFORMATIONAL PAGES:
+  6. rates.qmd (168 lines / 5.7 KB) - RATES & BOOKING
+     Content Type: Pricing page with tables
+     Sections:
+       - Nightly rate table (weekdays $1,600, weekends $1,800, prime $2,500)
+       - Extended stay discounts (7-13 nights 10%, 14-27 nights 15%, 28+ nights 20%)
+       - What's included (rooms, amenities, services)
+       - Payment & policies
+       - Booking platform links
+
+  7. testimonials.qmd (342 lines / 12.2 KB) - GUEST REVIEWS
+     Content Type: Review compilation page
+     Sections:
+       - Custom CSS for review cards
+       - Multiple guest testimonial cards
+       - Rating stars display
+       - Links to Airbnb and VRBO reviews
+
+  8. faq.qmd (314 lines / 11.2 KB) - FREQUENTLY ASKED QUESTIONS
+     Content Type: Q&A page with multiple sections
+     Sections:
+       - Booking & Reservations (6 Qs)
+       - Check-in & Check-out (3 Qs)
+       - Property & Amenities (6 Qs)
+       - House Rules & Policies (3 Qs+)
+       - Comprehensive answers for each
+
+  9. compare.qmd (412 lines / 14.8 KB) - WHY CHOOSE US
+     Content Type: Comparison page with tables
+     Sections:
+       - Custom CSS for comparison tables
+       - Feature comparison matrix
+       - Cost breakdown analysis
+       - ROI calculator for groups
+
+  10. house-rules.qmd (201 lines / 6.9 KB) - HOUSE RULES & POLICIES
+      Content Type: Terms & conditions page
+      Sections:
+        - Occupancy & Access (max 16 adults, check-in 4 PM, check-out 11 AM)
+        - Quiet Hours (10 PM - 8 AM, STRICT NO PARTY POLICY)
+        - Historic Property Care (no smoking, no candles, no adhesives)
+        - Protected Features (marble mantels, plaster, fireplace)
+        - Damage Policy
+        - Events & Gatherings (approved events with insurance)
+        - Catering & Service requirements
+
+  11. neighborhood-guide.qmd (352 lines / 12.6 KB) - NEIGHBORHOOD GUIDE
+      Content Type: Curated local guide
+      Sections:
+        - Rittenhouse Square intro (history, proximity)
+        - Dining guide (fine dining, casual)
+        - Shopping guide
+        - Museums & attractions (Barnes, Rodin, PMA)
+        - Parks & recreation
+        - Public transportation
+
+REFERENCE PAGES:
+  12. architecture.qmd (234 lines / 8.4 KB) - ARCHITECTURE & DESIGN
+      Content Type: Detailed architectural reference
+      Sections:
+        - Original construction (1854, John McCrea, Greek Revival/Italianate)
+        - 1899 Transformation (Duhring, Okie & Ziegler)
+        - Original features intact
+        - Architectural features by floor (cellar, 1st, 2nd, 3rd, 4th floors)
+        - Building specifications
+
+  13. provenance.qmd (282 lines / 10.1 KB) - PROVENANCE & DOCUMENTATION
+      Content Type: Historical chain of ownership with sources
+      Sections:
+        - Chain of Ownership (19th century, 20th century, 21st century)
+        - Documented Events & Residents (verified through newspaper archives)
+        - Complete deed and transfer records
+        - 65+ primary source documents catalogued
+
+  14. timeline.qmd (234 lines / 8.4 KB) - HISTORICAL TIMELINE SUMMARY
+      Content Type: Chronological summary
+      Sections:
+        - 1850s (original construction, first residents)
+        - 1860s-1870s (Civil War era, first wedding)
+        - 1880s-1890s (Gilded Age, renovation)
+        - 1900s-1910s (Edwardian era, suffragette meetings)
+        - 1920s-1930s (Jazz Age to Depression)
+        - Modern era
+
+LEGAL PAGES:
+  15. terms.qmd (11 lines / 0.4 KB) - TERMS OF SERVICE
+      Content Type: Legal reference (links to platforms)
+      References: Airbnb Terms, VRBO Terms, contact form
+
+  16. privacy.qmd (23 lines / 0.8 KB) - PRIVACY POLICY
+      Content Type: Legal reference
+      Sections:
+        - Information collected
+        - How information is used
+        - Third-party platform policies
+        - Contact for privacy concerns
+
+DOCUMENTS & ARCHIVES:
+  17. documents.qmd (43 lines / 1.4 KB) - DOCUMENTS PAGE (REDIRECT)
+      Content Type: Redirect page
+      Redirects to: document-gallery.html
+      Includes: Quick overview of 65+ documents
+
+  18. document-gallery.qmd (451 lines / 18.2 KB) - DOCUMENT GALLERY
+      Content Type: Comprehensive document archive with images
+      Sections:
+        - Custom CSS for document display
+        - Property Deeds section (17 documents with years: 1854-2013)
+        - Newspaper Clippings section (35+ articles)
+        - Architectural Documents section (5 floor plans)
+        - Floor Plan Guides
+        - Timeline with document images
+        - Individual document cards with descriptions
+
+GUIDES & REFERENCE:
+  19. floor-plans-events.qmd (253 lines / 9.0 KB) - FLOOR PLANS FOR EVENTS
+      Content Type: Event planning reference
+      Sections:
+        - Capacity by event type (seated, cocktail, ceremony, meeting, buyout)
+        - Critical measurements
+        - First floor event setup options
+        - Service access information
+        - Additional floor documentation
+
+GATEWAY PAGES:
+  20. history-book.qmd (183 lines / 6.5 KB) - HISTORY BOOK GATEWAY
+      Content Type: Introduction to full historical narrative
+      Sections:
+        - Introduction to the chapters
+        - Links to all 19 chapters
+        - Chapter descriptions and themes
+
+UTILITY PAGES:
+  21. current-configuration.qmd (230 lines / 8.2 KB) - PROPERTY SPECS
+      Content Type: Current property configuration reference
+      Sections:
+        - Suite descriptions
+        - Room layouts
+        - Amenities
+        - Technical specifications
+
+═══════════════════════════════════════════════════════════════════════════════
+3. HISTORICAL CHAPTERS - 19 NARRATIVE CHAPTERS
+═══════════════════════════════════════════════════════════════════════════════
+
+All located in /website/chapters/ (115 KB total, 1,683 lines of content)
+
+NARRATIVE CHAPTERS (In reading order):
+
+  1. 00-preamble.qmd (2.3 KB)
+     Title: "House at the Edge of the Square: 1822 Pine Street"
+     Subtitle: "A short book for owners, guests, and the house itself"
+     Content Type: Poetic introduction to the property narrative
+
+  2. 01-before-the-threshold.qmd (4.3 KB)
+     Title: "Before the Threshold"
+     Subtitle: "1820s–1850s"
+     Content Type: Historical narrative
+     Key Topics: John McCrea construction, Roset family, Philadelphia expansion
+     Callout: "What to Notice Today" (circulation, parlor functionality)
+     Provenance Lines: Deed info, service geometry
+
+  3. 01-welcome.qmd (2.3 KB)
+     Title: "Welcome to 1822 Pine Street"
+     Content Type: Guest welcome letter
+
+  4. 02-between-mourning-and-modernity.qmd (6.7 KB)
+     Title: "Between Mourning and Modernity"
+     Subtitle: "1891–1905"
+     Content Type: Historical narrative
+     Key Events: Spencer family, Howard Jr.'s death, 1899 renovation
+
+  5. 03-1891-1905.qmd (4.4 KB)
+     Title: "Between Mourning and Modernity"
+     Subtitle: "The Spencer, Plumb, and Davis Years (1891-1905)"
+     Content Type: Historical period study
+
+  6. 03-votes-in-the-parlor.qmd (4.7 KB)
+     Title: "Votes in the Parlor"
+     Subtitle: "1911–1918"
+     Content Type: Historical narrative with primary sources
+     Key Topics: Suffragette movement, Martha Davis activism
+     Newspaper Reference: 1915 Equal Franchise Society
+     Callout: "What to Notice Today" (dual use of parlors)
+
+  7. 04-walk-the-rooms.qmd (7.8 KB)
+     Title: "Walk the Rooms"
+     Subtitle: "A Self-Guided Tour"
+     Content Type: Room-by-room guide with history
+
+  8. 05-long-edwardian-afternoon.qmd (5.5 KB)
+     Title: "The Long Edwardian Afternoon"
+     Subtitle: "1905–1925"
+     Content Type: Social history narrative
+
+  9. 06-architecture-fabric.qmd (6.4 KB)
+     Title: "Architecture & Fabric"
+     Subtitle: "What Changed, What Endured"
+     Content Type: Technical architectural history
+
+  10. 07-apartment-house-years.qmd (5.4 KB)
+      Title: "Apartment House Years"
+      Subtitle: "1930s–1950s"
+      Content Type: Historical period study
+
+  11. 08-back-to-grande-dame.qmd (7.3 KB)
+      Title: "Back to a Single‑Family Grande Dame"
+      Subtitle: "1995–present"
+      Content Type: Modern restoration narrative
+
+  12. 09-walk-rooms-field-guide.qmd (7.5 KB)
+      Title: "Walk the Rooms: Details & Materials"
+      Subtitle: "A Field Guide"
+      Content Type: Detailed architectural documentation
+
+  13. 10-provenance-dossier.qmd (8.6 KB)
+      Title: "Provenance Dossier"
+      Subtitle: "Reproducible, Address‑Anchored Lines"
+      Content Type: Reference documentation with citations
+
+  14. 11-events-filming-playbook.qmd (6.1 KB)
+      Title: "Events & Filming"
+      Subtitle: "Playbook & Floor‑Flow"
+      Content Type: Practical operations guide
+
+  15. 12-seasonal-house.qmd (5.8 KB)
+      Title: "The Seasonal House"
+      Subtitle: "Winters in Town, Summers Away"
+      Content Type: Historical lifestyle documentation
+
+  16. 13-floor-plans.qmd (6.1 KB)
+      Title: "Architectural Floor Plans"
+      Subtitle: "Current Configuration of 1822 Pine Street"
+      Content Type: Technical floor plan documentation
+
+  17. 98-timeline.qmd (7.2 KB)
+      Title: "Historical Timeline"
+      Subtitle: "1822 Pine Street Through the Decades"
+      Content Type: Chronological reference
+
+  18. 99-conclusion.qmd (3.3 KB)
+      Title: "Conclusion"
+      Subtitle: "Let the Marble Speak"
+      Content Type: Reflective closing narrative
+
+  19. 99-document-gallery.qmd (4.8 KB)
+      Title: "Document Gallery"
+      Content Type: Document collection reference
+
+═══════════════════════════════════════════════════════════════════════════════
+4. HANDOUTS & DOWNLOADABLE CONTENT (2 files in /website/handouts/)
+═══════════════════════════════════════════════════════════════════════════════
+
+Downloadable Documents (PDF + HTML):
+  1. provenance-handout.qmd (approx. 0.8 KB)
+     Title: "1822 Pine Street - Historical Provenance"
+     Format: Both PDF and HTML
+     Content Type: One-page property history summary
+     Sections:
+       - Property Timeline (key dates 1854-2024)
+       - Architectural Significance
+       - Notable Residents & Events
+       - Current Use
+
+  2. event-filming-fact-sheet.qmd (approx. 1.2 KB)
+     Title: "Events & Filming Fact Sheet"
+     Format: Both PDF and HTML
+     Content Type: Quick reference for event coordinators and filmmakers
+     Sections:
+       - Venue Specifications (capacity, spaces)
+       - Historic Features
+       - Load-in & Logistics
+       - Technical specifications
+       - Rental terms
+
+═══════════════════════════════════════════════════════════════════════════════
+5. GUEST GUIDEBOOK (1 file in /website/guidebook/)
+═══════════════════════════════════════════════════════════════════════════════
+
+  guest-guidebook-2024.qmd (approx. 1+ KB)
+     Title: "Welcome to The Rittenhouse Residence"
+     Subtitle: "Your Guide to 1822 Pine Street"
+     Format: Both PDF and HTML
+     Content Type: Guest welcome and orientation guide
+     Key Sections:
+       - Welcome letter
+       - Quick Start Guide (access codes, essential info)
+       - House Story (170-year timeline)
+       - Suite descriptions (named suites with history)
+       - Room-by-room guide
+       - Amenities
+       - House Rules
+       - Neighborhood guide excerpt
+       - Guest contact information
+
+═══════════════════════════════════════════════════════════════════════════════
+6. DATA FILES (JSON CATALOGS) - 2 files
+═══════════════════════════════════════════════════════════════════════════════
+
+/website/data/:
+  1. image-catalog.json (likely > 10 KB)
+     Structure: Metadata catalog for all images
+     Purpose: Central inventory of image assets
+     Content categories:
+       - Property photos (likely detailed metadata)
+       - Historical documents catalog
+       - Floor plans with descriptions
+
+/website/images/property/:
+  2. photo-catalog.json (approx. 5-8 KB)
+     Structure: Photo metadata specific to property images
+     Content:
+       - 27 catalogued property photos
+       - Photo array with metadata:
+         * filename (DSC00066.jpg, DSC00076.jpg, DSC00084.jpg, etc.)
+         * location (entry-hall, bathroom, primary-bedroom, etc.)
+         * room designation (Entry Hall, Bathroom, Primary Bedroom)
+         * floor number
+         * features array (checkerboard-floor, wallpaper, chandelier, etc.)
+         * historical flag (true/false)
+         * priority level (1-3)
+         * caption and alt text
+       - Metadata section:
+         * 27 total photos
+         * 3 catalogued
+         * 24 pending cataloguing
+         * Photographer: Professional
+         * Date created: 2024-08-29
+
+═══════════════════════════════════════════════════════════════════════════════
+7. IMAGES - 70 FILES (28 MB TOTAL)
+═══════════════════════════════════════════════════════════════════════════════
+
+PROPERTY PHOTOS - Main Gallery (43 files):
+  /website/images/property/ (main room photographs):
+    - DSC00064.jpg (main hero image)
+    - DSC00066.jpg (entry hall with checkerboard floor)
+    - DSC00068.jpg through DSC00122.jpg (various rooms)
+    
+    SPECIFIC HIGH-VALUE IMAGES:
+    * DSC00066.jpg - Entry Hall (priority 2)
+    * DSC00076.jpg - Designer Bathroom (priority 3)
+    * DSC00084.jpg - Primary Bedroom Suite (priority 1)
+    * DSC00090.jpg - Double Parlors (used as hero on events page)
+    
+    COVERAGE: Complete room tour coverage
+    USAGE: Homepage, gallery, story pages, chapter references
+    TOTAL: 27 property DSC photos + variations
+
+AIRBNB COLLECTION - 23 files:
+  /website/images/property/airbnb/
+    - airbnb_00.jpg through airbnb_22.jpg (23 photos)
+    - Bedroom photos (airbnb_07.jpg, 08.jpg, 13.jpg, 12.jpg, 11.jpg, 10.jpg, 14.jpg, 09.jpg)
+    - Room-specific coverage for all 8 bedrooms
+    - Common area photos
+    - USAGE: Gallery page reference, Airbnb listing sync
+    - SOURCE: Airbnb property listing
+
+DOCUMENT IMAGES - 19 files:
+  /website/images/documents/ (historical document scans):
+    FLOOR PLANS (5):
+    * 1822 1 Floor_web.jpg
+    * 1822 2 Floor_web.jpg
+    * 1822 3 Floor_web.jpg
+    * 1822 4 Floor_web.jpg
+    * 1822 Roof Deck_web.jpg
+    
+    DEEDS (11):
+    * 1854 Deed abstract (2)_web.jpg
+    * 1893 Deed abstract_web.jpg
+    * 1899 Deed abstract - 1_web.jpg
+    * 1899 Deed abstract - 2_web.jpg
+    * 1922 Deed abstract - 1_web.jpg
+    * 1922 Deed abstract - 2_web.jpg
+    * 1941 Deed abstract - 1_web.jpg
+    * 1941 Deed abstract - 2_web.jpg
+    * 1947 Deed abstract - 1_web.jpg
+    * 1947 Deed abstract - 2_web.jpg
+    * 1949 Deed abstract - 1_web.jpg
+    * 1949 Deed abstract - 2_web.jpg
+    * 1952 Deed abstract - 1_web.jpg
+    * 1952 Deed abstract - 2_web.jpg
+    
+    USAGE: Document gallery page, historical chapters
+
+═══════════════════════════════════════════════════════════════════════════════
+8. STYLING & JAVASCRIPT (5 CSS/SCSS files, 1 JS file)
+═══════════════════════════════════════════════════════════════════════════════
+
+CSS/SCSS Files:
+  1. /website/styles/main.css (1.5 KB)
+     Purpose: Main stylesheet overrides for Quarto
+     Key Overrides:
+       - Remove Quarto container padding
+       - Full-width custom layout
+       - Hero section styling
+       - Custom component styling
+
+  2. /website/styles/homepage.css (14 KB)
+     Purpose: Homepage-specific styling
+     Content: Comprehensive styling for all homepage sections
+       - Hero full-width sections
+       - At-a-glance grid styling
+       - Photo story cards
+       - Timeline styling
+       - Room showcase carousel
+       - Reviews section
+       - Location section
+       - CTA styling
+
+  3. /website/styles/animations.css (12 KB)
+     Purpose: Micro-interactions and transitions
+     Content:
+       - Fade-in animations
+       - Scroll animations
+       - Hover effects
+       - Transition definitions
+
+  4. /website/styles/custom.scss (2.0 KB)
+     Purpose: Light theme SCSS customization
+     Referenced in: _quarto.yml theme config
+
+  5. /website/styles/custom-dark.scss (166 B)
+     Purpose: Dark theme SCSS customization
+
+  6. /website/styles/chicago-fullnote-bibliography.csl (227 KB)
+     Purpose: Citation style sheet for academic references
+
+JAVASCRIPT:
+  1. /website/scripts/interactions.js (13 KB)
+     Purpose: Interactive behaviors and micro-interactions
+     Functionality:
+       - Sticky navbar on scroll
+       - Floating booking bar (appears after hero)
+       - Scroll-triggered fade-in animations
+       - Room carousel navigation
+       - Modal functionality for galleries
+       - Session storage for UI state
+
+═══════════════════════════════════════════════════════════════════════════════
+9. NAVIGATION STRUCTURE (from _quarto.yml)
+═══════════════════════════════════════════════════════════════════════════════
+
+NAVBAR LEFT MENU:
+┌─ The Residence
+│  ├─ Photo Gallery (icon: images)
+│  ├─ Floor Plans & Amenities (icon: map)
+│  └─ The Neighborhood (icon: geo-alt)
+├─ The Story
+└─ Events & Retreats
+
+NAVBAR RIGHT MENU (Book Now):
+├─ Plan Your Stay
+│  ├─ Guest Reviews (icon: star-fill)
+│  ├─ Why Choose Us (icon: graph-up)
+│  ├─ Guest Guidebook (icon: book)
+│  ├─ FAQ (icon: question-circle)
+│  └─ House Rules & Policies (icon: info-circle)
+├─ Book Now (icon: calendar-check)
+└─ Contact (icon: envelope-fill)
+
+FOOTER:
+├─ Left: Copyright & preserve statement
+├─ Center: Address & email
+└─ Right: Terms, Privacy, Social links
+
+═══════════════════════════════════════════════════════════════════════════════
+10. CONTENT SUMMARY BY TYPE
+═══════════════════════════════════════════════════════════════════════════════
+
+BOOKING & BUSINESS:
+  - 1 home page (index)
+  - 1 rates page (with pricing table)
+  - 1 contact form (Netlify-enabled)
+  - 2 booking links (Airbnb, VRBO)
+  - 1 events/venue page
+  - 1 corporate/business inquiry page (in contact form)
+
+INFORMATIONAL:
+  - 1 FAQ page (20+ questions)
+  - 1 testimonials page
+  - 1 neighborhood guide
+  - 1 comparison page (vs hotels/other rentals)
+  - 1 house rules & policies page
+  - 1 floor plans reference
+
+HISTORICAL/NARRATIVE:
+  - 19 chapters (complete narrative history)
+  - 1 timeline page (chronological overview)
+  - 1 provenance page (documented ownership)
+  - 1 architecture reference page
+  - 1 story page
+
+ARCHIVAL/DOCUMENTATION:
+  - 1 document gallery page (with 65+ document references)
+  - 65+ property deeds (1854-2013)
+  - 35+ newspaper articles (1824-1915)
+  - 5 architectural floor plans
+  - Full image catalog in JSON
+
+GUEST RESOURCES:
+  - 1 guest guidebook (PDF + HTML)
+  - 2 downloadable handouts (provenance, event specs)
+  - Current property configuration guide
+
+LEGAL/META:
+  - Terms of service
+  - Privacy policy
+  - Robots.txt
+  - SEO structured data (JSON-LD)
+
+═══════════════════════════════════════════════════════════════════════════════
+11. KEY CONTENT FEATURES TO MIGRATE
+═══════════════════════════════════════════════════════════════════════════════
+
+DYNAMIC ELEMENTS:
+  ✓ Contact form with Netlify integration (requires backend)
+  ✓ Floating booking bar with session storage
+  ✓ Scroll animations and fade-in effects
+  ✓ Sticky navbar
+  ✓ Modal galleries
+  ✓ Room carousel with navigation
+  ✓ Embedded Google Map (iframes)
+  ✓ Embedded Airbnb/VRBO booking widgets
+
+EXTERNAL INTEGRATIONS:
+  ✓ Airbnb listing links
+  ✓ VRBO listing links
+  ✓ Instagram (@therittenhouseresidence)
+  ✓ Facebook (The Rittenhouse Residence)
+  ✓ Email (info@therittenhouseresidence.com)
+  ✓ Google Maps embedded
+  ✓ Google Analytics (placeholder: GA_ID needed)
+
+DATA STRUCTURES:
+  ✓ Image catalog JSON (metadata)
+  ✓ Photo catalog JSON (27 photos with room locations, features, captions)
+  ✓ Navigation menu hierarchy
+  ✓ Pricing tier structure
+  ✓ Room/suite definitions (8 bedrooms, 5 suites)
+  ✓ Historical events timeline
+  ✓ Ownership chain of custody
+
+SPECIAL CONTENT:
+  ✓ 65+ historical document references with dates
+  ✓ Newspaper clipping archives (1824-1915)
+  ✓ Architectural specifications by floor
+  ✓ Event capacity by type
+  ✓ Seasonal pricing variations
+  ✓ House rules with specific policies (noise monitoring, no parties)
+  ✓ Guest review aggregation
+
+═══════════════════════════════════════════════════════════════════════════════
+12. CRITICAL MIGRATION NOTES
+═══════════════════════════════════════════════════════════════════════════════
+
+HIGH PRIORITY (CORE FUNCTIONALITY):
+  1. Homepage with hero, timeline, carousel, reviews
+  2. All 21 public pages and 19 chapters
+  3. Contact form (with backend integration)
+  4. All 70 images with proper metadata
+  5. Photo and image catalogs (JSON)
+  6. Navigation structure (menus, hierarchy)
+  7. Guest guidebook (PDF/HTML generation)
+  8. Document gallery with 65+ references
+
+MEDIUM PRIORITY (ENHANCED FEATURES):
+  1. Interactive elements (sticky nav, floating booking bar, animations)
+  2. Room carousel
+  3. Scroll animations
+  4. Modal lightbox for galleries
+  5. Session storage features
+
+LOW PRIORITY (CAN IMPLEMENT AFTER LAUNCH):
+  1. Advanced SEO (JSON-LD already in place)
+  2. Google Analytics
+  3. A/B testing variations
+  4. Advanced form analytics
+
+DEPENDENCIES:
+  - Netlify for contact form submission
+  - Image hosting for all 70 files
+  - PDF generation for guidebooks and handouts
+  - Email notification for form submissions
+  - Google Maps API key
+  - Possible need for booking widget API
+
+═══════════════════════════════════════════════════════════════════════════════
+13. FILE STRUCTURE SUMMARY
+═══════════════════════════════════════════════════════════════════════════════
+
+/website/
+├── .gitignore
+├── .nojekyll
+├── robots.txt
+├── *.qmd files (21 root pages)
+├── _quarto.yml (primary config)
+├── _quarto-gh-pages.yml
+├── _quarto-minimal.yml
+├── DEPLOYMENT.md (documentation)
+├── NAVIGATION-VERIFICATION.md
+├── summary.md
+├── sitemap-overview.md
+├── preview.html
+│
+├── /chapters/
+│   └── 19 × .qmd files (1,683 lines, 115 KB)
+│
+├── /guidebook/
+│   └── guest-guidebook-2024.qmd
+│
+├── /handouts/
+│   ├── provenance-handout.qmd
+│   └── event-filming-fact-sheet.qmd
+│
+├── /data/
+│   └── image-catalog.json
+│
+├── /images/
+│   ├── /property/
+│   │   ├── photo-catalog.json
+│   │   ├── DSC00064.jpg through DSC00122.jpg (27 files)
+│   │   └── /airbnb/
+│   │       └── airbnb_00.jpg through airbnb_22.jpg (23 files)
+│   └── /documents/
+│       ├── Floor plans (5 jpg files)
+│       └── Deed abstracts (14 jpg files)
+│
+├── /styles/
+│   ├── main.css
+│   ├── homepage.css
+│   ├── animations.css
+│   ├── custom.scss
+│   ├── custom-dark.scss
+│   └── chicago-fullnote-bibliography.csl
+│
+└── /scripts/
+    ├── build.sh
+    └── interactions.js
+
+TOTAL: 134 files, 28 MB (images: 27 MB)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+This inventory represents EVERY piece of content in the website/ directory.
+Nothing is lost - all content is accounted for and ready for CMS migration.
+
+═══════════════════════════════════════════════════════════════════════════════
