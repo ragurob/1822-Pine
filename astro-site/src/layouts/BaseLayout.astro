@@ -72,7 +72,203 @@ const currentUrl = new URL(Astro.url.pathname, siteUrl);
     )}
   </head>
   <body>
+    <!-- Navigation Header -->
+    <header class="site-header">
+      <div class="container">
+        <nav class="main-nav">
+          <a href="/" class="logo">
+            {siteSettings?.siteName || 'The Rittenhouse Residence'}
+          </a>
+          <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/rates">Rates</a>
+            <a href="/gallery">Gallery</a>
+            <a href="/reviews">Reviews</a>
+            <a href="/contact">Contact</a>
+            <a href="/rates" class="btn-book-now">Book Now</a>
+          </div>
+          <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <a href="/">Home</a>
+      <a href="/rates">Rates</a>
+      <a href="/gallery">Gallery</a>
+      <a href="/reviews">Reviews</a>
+      <a href="/contact">Contact</a>
+      <a href="/rates" class="mobile-book-btn">Book Now</a>
+    </div>
+
+    <!-- Main Content -->
     <slot />
+
+    <!-- Sticky Booking Bar (shows on scroll) -->
+    <div class="sticky-booking-bar" id="sticky-booking-bar">
+      <div class="container">
+        <div class="booking-bar-content">
+          <div class="booking-bar-text">
+            <strong>Ready to book your historic stay?</strong>
+            <span>Best rates from $1,600/night</span>
+          </div>
+          <div class="booking-bar-actions">
+            <a href="/rates" class="btn btn-primary">Check Availability</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WhatsApp Chat Button -->
+    {siteSettings?.phone && (
+      <a
+        href={`https://wa.me/${siteSettings.phone.replace(/[^0-9]/g, '')}`}
+        class="whatsapp-button"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat on WhatsApp"
+      >
+        <svg viewBox="0 0 32 32" fill="currentColor">
+          <path d="M16 0C7.164 0 0 7.164 0 16c0 2.828.74 5.484 2.032 7.78L0 32l8.44-2.016A15.886 15.886 0 0016 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm8.132 22.68c-.352.992-2.084 1.816-2.872 1.936-.748.104-1.728.16-2.788-.172-.644-.208-1.472-.484-2.528-.948-4.424-1.936-7.308-6.396-7.532-6.692-.22-.296-1.82-2.424-1.82-4.628 0-2.204 1.148-3.288 1.56-3.736.412-.448.896-.556 1.196-.556.296 0 .596.004.856.016.276.012.644-.104.996.752.352.872 1.196 2.92 1.304 3.132.104.212.176.46.036.748-.14.288-.208.464-.416.716-.208.252-.436.564-.624.756-.208.208-.424.436-.184.852.24.412 1.068 1.768 2.296 2.864 1.576 1.404 2.904 1.84 3.316 2.052.412.208.652.176.892-.104.24-.288.996-1.16 1.26-1.56.268-.4.536-.336.904-.204.372.132 2.348 1.108 2.752 1.308.412.204.68.3.78.464.1.164.1.948-.252 1.94z"/>
+        </svg>
+      </a>
+    )}
+
+    <!-- Trust Bar (shows at top of page) -->
+    <div class="trust-bar">
+      <div class="container">
+        <div class="trust-items">
+          <div class="trust-item">
+            <span class="trust-icon">⭐</span>
+            <span>4.9 Rating</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon">✓</span>
+            <span>500+ Reviews</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon">🏆</span>
+            <span>Superhost</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon">🔒</span>
+            <span>Secure Booking</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>The Rittenhouse Residence</h3>
+            <p>Historic 1870s mansion in the heart of Philadelphia's most prestigious neighborhood.</p>
+            {siteSettings?.email && (
+              <p><a href={`mailto:${siteSettings.email}`}>{siteSettings.email}</a></p>
+            )}
+            {siteSettings?.phone && (
+              <p><a href={`tel:${siteSettings.phone}`}>{siteSettings.phone}</a></p>
+            )}
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/rates">Rates & Booking</a></li>
+              <li><a href="/gallery">Photo Gallery</a></li>
+              <li><a href="/reviews">Guest Reviews</a></li>
+              <li><a href="/contact">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Book Direct</h4>
+            <ul>
+              <li><a href="/rates">Check Availability</a></li>
+              <li><a href="/contact">Special Requests</a></li>
+              <li><a href="/contact">FAQs</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              {siteSettings?.socialLinks?.instagram && (
+                <a href={siteSettings.socialLinks.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
+              )}
+              {siteSettings?.socialLinks?.facebook && (
+                <a href={siteSettings.socialLinks.facebook} target="_blank" rel="noopener noreferrer">Facebook</a>
+              )}
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; {new Date().getFullYear()} The Rittenhouse Residence. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Global Scripts -->
+    <script>
+      // Mobile menu toggle
+      const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+      const mobileMenu = document.querySelector('.mobile-menu');
+      const body = document.body;
+
+      if (mobileMenuToggle && mobileMenu) {
+        mobileMenuToggle.addEventListener('click', () => {
+          mobileMenuToggle.classList.toggle('active');
+          mobileMenu.classList.toggle('active');
+          body.classList.toggle('menu-open');
+        });
+
+        // Close mobile menu when clicking a link
+        mobileMenu.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
+            mobileMenuToggle.classList.remove('active');
+            mobileMenu.classList.remove('active');
+            body.classList.remove('menu-open');
+          });
+        });
+      }
+
+      // Sticky booking bar (shows after scrolling)
+      const stickyBar = document.getElementById('sticky-booking-bar');
+      let lastScroll = 0;
+
+      window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+
+        if (currentScroll > 600 && currentScroll < lastScroll) {
+          // Scrolling up and past 600px - show bar
+          stickyBar?.classList.add('visible');
+        } else {
+          // Scrolling down or at top - hide bar
+          stickyBar?.classList.remove('visible');
+        }
+
+        lastScroll = currentScroll;
+      });
+
+      // Header shadow on scroll
+      const header = document.querySelector('.site-header');
+      window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 50) {
+          header?.classList.add('scrolled');
+        } else {
+          header?.classList.remove('scrolled');
+        }
+      });
+    </script>
   </body>
 </html>
 
@@ -110,5 +306,385 @@ const currentUrl = new URL(Astro.url.pathname, siteUrl);
     font-family: var(--font-serif);
     font-weight: 400;
     line-height: 1.2;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  body.menu-open {
+    overflow: hidden;
+  }
+
+  /* ===== HEADER ===== */
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: white;
+    transition: box-shadow 0.3s;
+  }
+
+  .site-header.scrolled {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 0;
+  }
+
+  .logo {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--navy-primary);
+    text-decoration: none;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: var(--gold-accent);
+  }
+
+  .btn-book-now {
+    background: var(--navy-primary) !important;
+    color: white !important;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+
+  .btn-book-now:hover {
+    background: var(--gold-accent) !important;
+    color: var(--navy-primary) !important;
+  }
+
+  .mobile-menu-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+
+  .mobile-menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: var(--navy-primary);
+    transition: all 0.3s;
+  }
+
+  .mobile-menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .mobile-menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobile-menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
+
+  /* Mobile Menu */
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+  }
+
+  .mobile-menu.active {
+    transform: translateX(0);
+  }
+
+  .mobile-menu a {
+    font-size: 1.5rem;
+    color: var(--navy-primary);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .mobile-book-btn {
+    background: var(--navy-primary);
+    color: white !important;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+  }
+
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+
+    .mobile-menu-toggle {
+      display: flex;
+    }
+  }
+
+  /* ===== TRUST BAR ===== */
+  .trust-bar {
+    background: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0.75rem 0;
+  }
+
+  .trust-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .trust-icon {
+    font-size: 1.25rem;
+  }
+
+  @media (max-width: 768px) {
+    .trust-items {
+      gap: 1rem;
+    }
+
+    .trust-item {
+      font-size: 0.8rem;
+    }
+  }
+
+  /* ===== STICKY BOOKING BAR ===== */
+  .sticky-booking-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--navy-primary);
+    color: white;
+    z-index: 900;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.2);
+  }
+
+  .sticky-booking-bar.visible {
+    transform: translateY(0);
+  }
+
+  .booking-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  .booking-bar-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .booking-bar-text strong {
+    font-size: 1.125rem;
+  }
+
+  .booking-bar-text span {
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+
+  .booking-bar-actions .btn {
+    background: var(--gold-accent);
+    color: var(--navy-primary);
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+  }
+
+  .booking-bar-actions .btn:hover {
+    background: var(--gold-light);
+  }
+
+  @media (max-width: 768px) {
+    .booking-bar-content {
+      flex-direction: column;
+      gap: 1rem;
+      text-align: center;
+    }
+
+    .booking-bar-text strong {
+      font-size: 1rem;
+    }
+  }
+
+  /* ===== WHATSAPP BUTTON ===== */
+  .whatsapp-button {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 800;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    transition: all 0.3s;
+  }
+
+  .whatsapp-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 30px rgba(37, 211, 102, 0.6);
+  }
+
+  .whatsapp-button svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  /* ===== FOOTER ===== */
+  .site-footer {
+    background: var(--navy-primary);
+    color: white;
+    padding: 4rem 0 2rem;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  @media (max-width: 968px) {
+    .footer-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+  }
+
+  @media (max-width: 568px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .footer-col h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--gold-accent);
+  }
+
+  .footer-col h4 {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    color: var(--gold-accent);
+  }
+
+  .footer-col p {
+    margin-bottom: 0.75rem;
+    opacity: 0.9;
+    line-height: 1.7;
+  }
+
+  .footer-col a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .footer-col a:hover {
+    color: var(--gold-accent);
+  }
+
+  .footer-col ul {
+    list-style: none;
+  }
+
+  .footer-col ul li {
+    margin-bottom: 0.75rem;
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .footer-bottom {
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+    opacity: 0.8;
+  }
+
+  /* ===== UTILITY CLASSES ===== */
+  .fade-in {
+    animation: fadeIn 0.6s ease-in;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .pulse {
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
   }
 </style>
