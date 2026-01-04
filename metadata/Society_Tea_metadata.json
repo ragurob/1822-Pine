@@ -2,7 +2,7 @@
   "filename": "Society_Tea.pdf",
   "type": "clipping",
   "file_hash": "f550a03be1899a28984a677af2749802",
-  "processed_date": "2025-08-29T13:51:52.568513",
+  "processed_date": "2026-01-04T12:53:34.322480",
   "pages": 1,
   "text": "https://www.newspapers.com/ image/52185424/The Philadelphia Times (Philadelphia, Pennsylvania) \u00b7 Sun, Dec 9, 1883 \n\u00b7 Page 4\nDownloaded on Aug 23, 2025\n  \n  \nSociety TeaClipped By:\nrobprice9\nAug 23, 2025\n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
   "extracted_date": "1883-12-09",
@@ -15,6 +15,11 @@
     "addresses": [],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/Society_Tea_page_1_print.png",
+      "web": "images/web/Society_Tea_page_1_web.jpg"
+    }
+  ]
 }

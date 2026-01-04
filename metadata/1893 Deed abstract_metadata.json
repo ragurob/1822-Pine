@@ -2,11 +2,20 @@
   "filename": "1893 Deed abstract.jpg",
   "type": "deed",
   "file_hash": "51ce32c551bc5e14e098ef7fdb4dc86e",
-  "processed_date": "2025-08-29T13:51:58.640047",
+  "processed_date": "2026-01-04T12:53:53.557770",
   "dimensions": "4032x3024",
-  "text": "",
+  "text": "\u2018qvVaHGOOM \u201cHd\n\n\u201cYAISNVuL\n\n",
   "extracted_date": null,
-  "entities": {},
-  "images": [],
-  "error": "tesseract is not installed or it's not in your PATH. See README file for more information."
+  "entities": {
+    "people": [],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [
+    {
+      "print": "images/print/1893 Deed abstract_print.png",
+      "web": "images/web/1893 Deed abstract_web.jpg"
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "filename": "The_Philadelphia_Inquirer_1901_10_27_Page_19.pdf",
   "type": "clipping",
   "file_hash": "ac260bed24c9828afdf1fc250cd66bbd",
-  "processed_date": "2025-08-29T13:52:13.368268",
+  "processed_date": "2026-01-04T12:54:08.413157",
   "pages": 1,
   "text": "https://www.newspapers.com/ image/168066687/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Sun, Oct 27, \n1901 \u00b7 Page 19\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
   "extracted_date": "1901-10-27",
@@ -15,6 +15,11 @@
     "addresses": [],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/The_Philadelphia_Inquirer_1901_10_27_Page_19_page_1_print.png",
+      "web": "images/web/The_Philadelphia_Inquirer_1901_10_27_Page_19_page_1_web.jpg"
+    }
+  ]
 }

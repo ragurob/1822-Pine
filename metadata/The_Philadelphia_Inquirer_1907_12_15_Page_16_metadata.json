@@ -2,7 +2,7 @@
   "filename": "The_Philadelphia_Inquirer_1907_12_15_Page_16.pdf",
   "type": "clipping",
   "file_hash": "bc29a9069cf892ca4f5c816e2c07543f",
-  "processed_date": "2025-08-29T13:51:58.617762",
+  "processed_date": "2026-01-04T12:53:52.626130",
   "pages": 1,
   "text": "https://www.newspapers.com/ image/168358807/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Sun, Dec 15, \n1907 \u00b7 Page 16\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
   "extracted_date": "1907-12-15",
@@ -15,6 +15,11 @@
     "addresses": [],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/The_Philadelphia_Inquirer_1907_12_15_Page_16_page_1_print.png",
+      "web": "images/web/The_Philadelphia_Inquirer_1907_12_15_Page_16_page_1_web.jpg"
+    }
+  ]
 }

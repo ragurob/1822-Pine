@@ -2,7 +2,7 @@
   "filename": "The_Philadelphia_Inquirer_1893_07_01_Page_1.pdf",
   "type": "clipping",
   "file_hash": "76bc8e1b2ccd151a2b5d3c75b654dd29",
-  "processed_date": "2025-08-29T13:51:58.438608",
+  "processed_date": "2026-01-04T12:53:46.521185",
   "pages": 1,
   "text": "https://www.newspapers.com/ image/168381449/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Sat, Jul 1, 1893 \n\u00b7 Page 1\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
   "extracted_date": "1893-07-01",
@@ -15,6 +15,11 @@
     "addresses": [],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/The_Philadelphia_Inquirer_1893_07_01_Page_1_page_1_print.png",
+      "web": "images/web/The_Philadelphia_Inquirer_1893_07_01_Page_1_page_1_web.jpg"
+    }
+  ]
 }

@@ -2,11 +2,25 @@
   "filename": "1822 3 Floor.jpg",
   "type": "clipping",
   "file_hash": "d29be70b9a249efc07b88938052b5c46",
-  "processed_date": "2025-08-29T13:52:07.663685",
+  "processed_date": "2026-01-04T12:53:59.104560",
   "dimensions": "612x792",
-  "text": "",
+  "text": "seorcom \u2014 fA\nwerxiaeo [i\n\nnon\nmo\ndl!\nwrreHen\n\nENTERTAINMENT.\nROOM\n10x\n22\"\n\nTHIRD FLOOR. 1822 PINE ST\n\n",
   "extracted_date": null,
-  "entities": {},
-  "images": [],
-  "error": "tesseract is not installed or it's not in your PATH. See README file for more information."
+  "entities": {
+    "people": [],
+    "organizations": [],
+    "addresses": [
+      [
+        "1822",
+        "PINE ST"
+      ]
+    ],
+    "monetary_amounts": []
+  },
+  "images": [
+    {
+      "print": "images/print/1822 3 Floor_print.png",
+      "web": "images/web/1822 3 Floor_web.jpg"
+    }
+  ]
 }

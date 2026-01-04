@@ -2,11 +2,25 @@
   "filename": "1822 2 Floor.jpg",
   "type": "clipping",
   "file_hash": "d40a3bb4455aec89bd70f5398234308e",
-  "processed_date": "2025-08-29T13:51:58.448991",
+  "processed_date": "2026-01-04T12:53:47.059265",
   "dimensions": "612x792",
-  "text": "",
+  "text": "SECOND FLOOR\n\norrice\n187x163\"\n\nMASTER SUITE\n13-0\" 17\n\n1822 PINE ST\n\n",
   "extracted_date": null,
-  "entities": {},
-  "images": [],
-  "error": "tesseract is not installed or it's not in your PATH. See README file for more information."
+  "entities": {
+    "people": [],
+    "organizations": [],
+    "addresses": [
+      [
+        "17",
+        "1822 PINE ST"
+      ]
+    ],
+    "monetary_amounts": []
+  },
+  "images": [
+    {
+      "print": "images/print/1822 2 Floor_print.png",
+      "web": "images/web/1822 2 Floor_web.jpg"
+    }
+  ]
 }

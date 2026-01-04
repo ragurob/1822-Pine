@@ -2,7 +2,7 @@
   "filename": "The_Philadelphia_Inquirer_1899_07_18_Page_12.pdf",
   "type": "clipping",
   "file_hash": "2c33df3a51c474c56731611f459d7572",
-  "processed_date": "2025-08-29T13:52:30.650564",
+  "processed_date": "2026-01-04T12:54:26.609530",
   "pages": 1,
   "text": "https://www.newspapers.com/ image/168342170/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Tue, Jul 18, \n1899 \u00b7 Page 12\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
   "extracted_date": "1899-07-18",
@@ -15,6 +15,11 @@
     "addresses": [],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/The_Philadelphia_Inquirer_1899_07_18_Page_12_page_1_print.png",
+      "web": "images/web/The_Philadelphia_Inquirer_1899_07_18_Page_12_page_1_web.jpg"
+    }
+  ]
 }

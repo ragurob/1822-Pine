@@ -2,16 +2,92 @@
   "filename": "1822 Pine - 1979 Deed.pdf",
   "type": "deed",
   "file_hash": "70a78c695002831c00c85d53ef5487ff",
-  "processed_date": "2025-08-29T13:51:46.425855",
+  "processed_date": "2026-01-04T12:53:17.595684",
   "pages": 8,
-  "text": "\n\n\n\n\n\n\n",
-  "extracted_date": null,
+  "text": "\n\n\n\n\n\n\n\n\n[OCR Page 1]:\nMs eee fet itine digg ate 5.5\n\nFee Simple, Deed No 598 a BO Printed for ind Sold by fohn'C. Glark Co., 1986 Walaut St, Phila. if\n\n2 _ \u201c\nThis Indenture \u2018sane the | a day ot |\"\n\n(Oe4- in the year of our Lord. one thousand nine hundred and seventy-nine ~ (1979 )\n\nhare -\n\nSait\n\na\nmet age?\n\nsiteiy he\n\nes,\nre\n\nTS TE Re MOR ete ee\n\n\u00a5\n\nBehueren\u2014 BENJAMIN SEROTA and SHIRLEY W, SEROTA, hie wife... 00...\n\nW.\na\n\n. (hereinafter called the Grantors ), of the one part, and\n\nco, \u00bb Ghereinafter called the Grantee ), of the other part,\n\nWitneaseth \u201cThat the said Grantor8\n\nceeetee eos i ee ett pp ppp \u2018for and in consideration of the eum of\n\n\u201cQNE HUNDRED FORTY-FOUR. THOUSAND, DOLLARS ($144, 000. 00) . testa\n\nmoney of the United States. \u2018of America, unto them .. |. well and truly paid by the said Grantee ,\nat or before the sealing and delivery hereof, the receipt whereof is hereby acknowledged, have _\u2014 -\ngranted, bargained and sold, released and confirmed, and by these presents do ___grant , bargain and\n\nsell, release and confirm unto the said Granteo , his heirs ...:._.... . and assigns, 0 |...\nA\n\nALL, THAT CERTAIN lot or piece of ground with the buildings and improvements\n\nthereon erected,\n\nSITUATE on the South side of Pine Street, BEGINNING at the distance of Two Hundred #\nThirty feet Westward from the West side of Eighteenth Street in the 6 Bighth Ward of :\nthe City of Philadelphia. dee cceustn untae senenn nee winewanites seamen tsetse uni tent a\n\nin front or breadth on the said Pine Street Twenty-two feet and\nextending of that width in length or depth Southward Ninety feet to Waverly \u00a7 Street.\nO, 1822 Pine St. eee Gente tenes ne\n\nBEING the same premises which Mary G. Sharpe Wilkes, widow by Deed dated\n\n\u201cMay 1, 1967 and recorded at Philadelphia, in the Office for the Recording of Deeds\nin Deed Book C. A.D, #972 page 304 &c, granted end.conveyed unto Benjamin Serota |\nand Shirley W. Serota, his wife, in fee.\n\nwe ee ne ee ee mere ee ee Regen ee Sante te ah eS ar A Ry Met Tae nd Oe Ha\n\n/\n\nEE: TRESS ES Se te St Ro: SS a Se RARER at Pea kate Sapmerve Set\n\n",
+  "extracted_date": "1967-05-01",
   "entities": {
-    "people": [],
+    "people": [
+      "Fee Simple",
+      "Deed No",
+      "Glark Co",
+      "Walaut St",
+      "This Indenture",
+      "United States",
+      "Two Hundred",
+      "Eighteenth Street",
+      "Bighth Ward",
+      "Pine Street Twenty",
+      "Southward Ninety",
+      "Pine St",
+      "Mary G. Sharpe Wilkes",
+      "Deed Book",
+      "Benjamin Serota",
+      "Shirley W. Serota",
+      "Ry Met Tae",
+      "Oe Ha",
+      "St Ro",
+      "Sapmerve Set"
+    ],
     "organizations": [],
-    "addresses": [],
-    "monetary_amounts": []
+    "addresses": [
+      [
+        "1986",
+        "Walaut St"
+      ],
+      [
+        "6",
+        "Bighth Ward"
+      ],
+      [
+        "1822",
+        "Pine St"
+      ]
+    ],
+    "monetary_amounts": [
+      "144"
+    ]
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/1822 Pine - 1979 Deed_page_1_print.png",
+      "web": "images/web/1822 Pine - 1979 Deed_page_1_web.jpg"
+    },
+    {
+      "page": 2,
+      "print": "images/print/1822 Pine - 1979 Deed_page_2_print.png",
+      "web": "images/web/1822 Pine - 1979 Deed_page_2_web.jpg"
+    },
+    {
+      "page": 3,
+      "print": "images/print/1822 Pine - 1979 Deed_page_3_print.png",
+      "web": "images/web/1822 Pine - 1979 Deed_page_3_web.jpg"
+    },
+    {
+      "page": 4,
+      "print": "images/print/1822 Pine - 1979 Deed_page_4_print.png",
+      "web": "images/web/1822 Pine - 1979 Deed_page_4_web.jpg"
+    },
+    {
+      "page": 5,
+      "print": "images/print/1822 Pine - 1979 Deed_page_5_print.png",
+      "web": "images/web/1822 Pine - 1979 Deed_page_5_web.jpg"
+    },
+    {
+      "page": 6,
+      "print": "images/print/1822 Pine - 1979 Deed_page_6_print.png",
+      "web": "images/web/1822 Pine - 1979 Deed_page_6_web.jpg"
+    },
+    {
+      "page": 7,
+      "print": "images/print/1822 Pine - 1979 Deed_page_7_print.png",
+      "web": "images/web/1822 Pine - 1979 Deed_page_7_web.jpg"
+    },
+    {
+      "page": 8,
+      "print": "images/print/1822 Pine - 1979 Deed_page_8_print.png",
+      "web": "images/web/1822 Pine - 1979 Deed_page_8_web.jpg"
+    }
+  ]
 }

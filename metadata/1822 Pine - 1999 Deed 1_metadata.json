@@ -2,16 +2,56 @@
   "filename": "1822 Pine - 1999 Deed 1.pdf",
   "type": "deed",
   "file_hash": "9dde12c8eb70588b316ab45efb13939d",
-  "processed_date": "2025-08-29T13:51:58.434670",
+  "processed_date": "2026-01-04T12:53:43.209115",
   "pages": 4,
-  "text": "\n\n\n",
-  "extracted_date": null,
+  "text": "\n\n\n\n\n[OCR Page 1]:\nThis Indenture, Made the second day of June in the year of our |\n\nLord one thousand nine hundred and ninety-nine (1999)\n\nBetween\n\nThomas Jay Bushyager, Deceased, Date of Death April 26, 1991, John R.S. Bushyager, Administrator\n(hereinafter called the Grantor), of the one part, and\n\ndohn R.S. Bushyager (hereinafter called the Grantee), of the other part,\n\nWhereas,\n\nALL THAT CERTAIN lot or piece of ground with the buildings and improvements thereon erected\n\nSITUATE on the South side of Pine Street.\n\nBEGINNING at the distance of Two hundred Thirty feet Westward from the West side of Eighteeyy i\n\nStreet in the Eighth Ward of the City of Philadelphia\n\nCONTAINING in front or breadth on the said Pine Street Twenty-two feet and extending of that width\nin length or depth Southward Ninety feet to Waverly Street.\n\nBEING NO. 1822 Pine Street.\n\nwo |\nBEING the same premises Kosmin and Stango Partnership, A Pennsylvania General partnership an |\n\nIndenture date June 26, 1987 and recorded in the Office for the Recording of Deeds in and for the C\nof Philadelphia,\n\nin fee.\n\nAND the said Thomas Jay Bushyager, departed this life on April 26, 1991 wherein John R.S. Bushyaget\nwas appointed Administrator with the Register of Wills Office of Philadelphia County - file no. 51-985\nW2738. ,\n\nTHIS transfer of property is a tax exempt transfer passing from father to son.\n\ng 22288\na q\n\n6LT#\n\nbISZHLOO WHTDSTT 64/92/60\n\n/\n\nwn wn\nB8SSSA SHR\nSSERSSSSeesssy\n\nin Deed Book No. 0828, page 429 granted and conveyed unto Thomas Jay Bushyag\u00e9?\n\nBEST DOCUMENT AVAILABLE\n\n",
+  "extracted_date": "1991-04-26",
   "entities": {
-    "people": [],
+    "people": [
+      "This Indenture",
+      "Between\n\nThomas Jay Bushyager",
+      "Death April",
+      "Eighth Ward",
+      "Pine Street Twenty",
+      "Southward Ninety",
+      "Waverly Street",
+      "Stango Partnership",
+      "Pennsylvania General",
+      "Thomas Jay Bushyager",
+      "Wills Office",
+      "Philadelphia County",
+      "Deed Book No",
+      "Thomas Jay"
+    ],
     "organizations": [],
-    "addresses": [],
+    "addresses": [
+      [
+        "1822",
+        "Pine Street"
+      ]
+    ],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/1822 Pine - 1999 Deed 1_page_1_print.png",
+      "web": "images/web/1822 Pine - 1999 Deed 1_page_1_web.jpg"
+    },
+    {
+      "page": 2,
+      "print": "images/print/1822 Pine - 1999 Deed 1_page_2_print.png",
+      "web": "images/web/1822 Pine - 1999 Deed 1_page_2_web.jpg"
+    },
+    {
+      "page": 3,
+      "print": "images/print/1822 Pine - 1999 Deed 1_page_3_print.png",
+      "web": "images/web/1822 Pine - 1999 Deed 1_page_3_web.jpg"
+    },
+    {
+      "page": 4,
+      "print": "images/print/1822 Pine - 1999 Deed 1_page_4_print.png",
+      "web": "images/web/1822 Pine - 1999 Deed 1_page_4_web.jpg"
+    }
+  ]
 }

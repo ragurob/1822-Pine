@@ -2,11 +2,23 @@
   "filename": "1899 Deed abstract - 1.jpg",
   "type": "deed",
   "file_hash": "0f820708f59d035c3eefe75521340630",
-  "processed_date": "2025-08-29T13:52:10.368730",
+  "processed_date": "2026-01-04T12:54:06.422953",
   "dimensions": "4032x3024",
-  "text": "",
+  "text": "| AF 772 BP GO\na =o HE\n\n\u2014_ tril > esse Le\n\npunoie {d-Praig 40 jo] Umvjsa2 204) 11\n\ni: @ Lf) a | wok af Life ome , ) ae\n\n\u201c66-I[-G\u2014_ IPT W10g\n\n_\u2014\n\nasnon | (aad dOaLVa YANMO UAWHO!\n\n\u2018SAQ][S PUB SPBOI \u2018sjoers JO esn Oj seed puv s}qsiI Te Bure.\npue serepunog Suyals \u2018peep ey} JO Surpiom eyy Jo Adoo yoexe uv oq YSNUI sery1edoid Jo uomdrioseq\n\n=) Mateesresnee a\n",
   "extracted_date": null,
-  "entities": {},
-  "images": [],
-  "error": "tesseract is not installed or it's not in your PATH. See README file for more information."
+  "entities": {
+    "people": [
+      "Te Bure",
+      "Jo Adoo"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [
+    {
+      "print": "images/print/1899 Deed abstract - 1_print.png",
+      "web": "images/web/1899 Deed abstract - 1_web.jpg"
+    }
+  ]
 }

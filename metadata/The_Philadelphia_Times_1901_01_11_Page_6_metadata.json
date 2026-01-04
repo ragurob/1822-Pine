@@ -2,7 +2,7 @@
   "filename": "The_Philadelphia_Times_1901_01_11_Page_6.pdf",
   "type": "clipping",
   "file_hash": "138119222436315b7347e198f698a3c7",
-  "processed_date": "2025-08-29T13:52:26.878968",
+  "processed_date": "2026-01-04T12:54:20.289897",
   "pages": 1,
   "text": "https://www.newspapers.com/ image/53400433/The Philadelphia Times (Philadelphia, Pennsylvania) \u00b7 Fri, Jan 11, 1901 \n\u00b7 Page 6\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
   "extracted_date": "1901-01-11",
@@ -15,6 +15,11 @@
     "addresses": [],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/The_Philadelphia_Times_1901_01_11_Page_6_page_1_print.png",
+      "web": "images/web/The_Philadelphia_Times_1901_01_11_Page_6_page_1_web.jpg"
+    }
+  ]
 }

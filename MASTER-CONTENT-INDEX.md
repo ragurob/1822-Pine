@@ -3,6 +3,12 @@
 
 ---
 
+## Project Intent (2026-01-04)
+- **Website reimagination:** Start from scratch with a modern, reimagined website design and information architecture.
+- **Archive continuity:** Keep the full historical archive and verified research in this repo as the factual backbone.
+
+---
+
 ## I. BOOK MANUSCRIPT - "House at the Edge of the Square"
 
 ### Part I: Foundation & Context
@@ -134,6 +140,33 @@
 - **Purpose**: Display of all historical documents
 - **Content**: 65+ documents with metadata
 - **Status**: Complete - AUTO-GENERATED
+
+#### Chapter 99-B: Historical Image Catalog
+- **File**: `HISTORICAL-IMAGE-CATALOG.md`
+- **Purpose**: Inventory of visual assets and search strategy
+- **Content**: Catalog of scans and missing photo targets
+- **Status**: Complete
+
+#### Chapter 99-C: External Image Sources
+- **File**: `EXTERNAL_IMAGE_SOURCES.md`
+- **Purpose**: Direct links to external archives
+- **Content**: Clickable search queries for missing assets
+- **Status**: Complete
+
+#### Chapter 99-D: Verified Research Artifacts (New)
+- **File**: `research/facts-verified.md`
+- **Purpose**: OCR-backed facts with citations and snippets
+- **Status**: In progress (expand with manual transcription)
+
+#### Chapter 99-E: OCR Transcriptions (Draft)
+- **File**: `research/transcriptions-ocr.md`
+- **Purpose**: Draft OCR text for high-value clippings
+- **Status**: In progress (manual cleanup required)
+
+#### Chapter 99-F: Narrative Draft (Verified)
+- **File**: `research/narrative-draft.md`
+- **Purpose**: Source-only narrative based on verified facts
+- **Status**: In progress
 
 #### Chapter 99-ALT: Conclusion
 - **File**: `chapters/99-conclusion.qmd`

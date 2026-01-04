@@ -2,16 +2,86 @@
   "filename": "1822 Pine - 2013 Deed.pdf",
   "type": "deed",
   "file_hash": "1dc75084eb65aec7aab4323ea0be8f57",
-  "processed_date": "2025-08-29T13:52:13.378793",
+  "processed_date": "2026-01-04T12:54:09.267393",
   "pages": 6,
-  "text": "\n\n\n\n\n",
-  "extracted_date": null,
+  "text": "\n\n\n\n\n\n\n[OCR Page 1]:\neRecorded in Philadelphia PA Doc Id: 52683090\n\n08/19/2013 08:46AM Receipt#: 1279856\nPage 1 of 6 Rec Fee: $230.00\nCommissioner of Records Doc Code: D\n\nState RTT: $15,550.00 Local RTT: $46,650.00\n\n501302040\nTax Parcel: 08-1-0791-00\n\nPrepared by:\nTitle Services\n485 St, Johns Church Road\n\nShiremanstown, PA 17011\n(717) 901-8342\n\nTHIS DEED,\n\nMADE THE / a day of\n\nBETWEEN Roland K. Bullard, it and Sally S. Bullard, Adult Individuats, Grantor(s}\n\n___, inthe year Two Thousand Thirteen (2013)\n\nand\nRobertson J Price, Adult Individual, Grantee(s):\nWITNESSETH, that in consideration of the sum of One Milllon Five Hundred Fifty-Five Thousand and\n00/100 Dollars ($1,565,000.00), in hand paid, the recelpt whereof Is hereby acknowledged, the said\ngrantors do hereby grant and convey to the said grantee(s),\n\nEXHIBIT \u201cA\u201d\n\nALL THAT CERTAIN lot or piece of ground with the buildings and improvements thereon erected,\nSITUATE on the South side of Pine Street.\n\nBEGINNING at the distance of 230 feet Westward from the West side of Eighteenth Street In the Eighth\nWard of the City of Philadelphia.\n\nCONTAINING in front or breadth on the said Pine Street 22 feet and extending of that width in length or\ndepth Southward 90 feet to Waverly Street.\n\nUNDER AND SUBJECT TO the same tights, privileges, agreements, rights-of-way, easements,\nconditions, exceptions, restrictions, and reservations as exist by virtue of prior recorded instruments,\nplans, Deeds of Conveyances, or visible on ground.\n\nBEING No. 1822 Pine Street, Philadelphia, Pennsylvania.\nBEING the same premises which, Stephen A. Mione and Tralan Muntean, by Deed dated 08/08/2002 and\n\nrecorded 08/14/2002 in the County of Philadelphia jn. Document No. 50510515 granted and conveyed\nunto Roland K. Bullard, i and Sally S. Bullard, as Tenants by the Entireties, grantors herein.\n",
+  "extracted_date": "2013-08-19",
   "entities": {
-    "people": [],
+    "people": [
+      "Doc Id",
+      "Rec Fee",
+      "Records Doc Code",
+      "Tax Parcel",
+      "Title Services",
+      "Johns Church Road\n\nShiremanstown",
+      "Roland K. Bullard",
+      "Sally S. Bullard",
+      "Adult Individuats",
+      "Two Thousand Thirteen",
+      "Adult Individual",
+      "One Milllon Five Hundred Fifty",
+      "Five Thousand",
+      "Eighteenth Street In",
+      "Eighth\nWard",
+      "Waverly Street",
+      "Stephen A. Mione",
+      "Tralan Muntean",
+      "Document No",
+      "Roland K. Bullard",
+      "Sally S. Bullard"
+    ],
     "organizations": [],
-    "addresses": [],
-    "monetary_amounts": []
+    "addresses": [
+      [
+        "230",
+        "feet Westward from the West side of Eighteenth Street In the Eighth\nWard"
+      ],
+      [
+        "22",
+        "feet and extending of that width in length or\ndepth Southward 90 feet to Waverly Street"
+      ],
+      [
+        "1822",
+        "Pine Street"
+      ]
+    ],
+    "monetary_amounts": [
+      "230.00",
+      "15,550.00",
+      "46,650.00",
+      "1,565,000.00"
+    ]
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/1822 Pine - 2013 Deed_page_1_print.png",
+      "web": "images/web/1822 Pine - 2013 Deed_page_1_web.jpg"
+    },
+    {
+      "page": 2,
+      "print": "images/print/1822 Pine - 2013 Deed_page_2_print.png",
+      "web": "images/web/1822 Pine - 2013 Deed_page_2_web.jpg"
+    },
+    {
+      "page": 3,
+      "print": "images/print/1822 Pine - 2013 Deed_page_3_print.png",
+      "web": "images/web/1822 Pine - 2013 Deed_page_3_web.jpg"
+    },
+    {
+      "page": 4,
+      "print": "images/print/1822 Pine - 2013 Deed_page_4_print.png",
+      "web": "images/web/1822 Pine - 2013 Deed_page_4_web.jpg"
+    },
+    {
+      "page": 5,
+      "print": "images/print/1822 Pine - 2013 Deed_page_5_print.png",
+      "web": "images/web/1822 Pine - 2013 Deed_page_5_web.jpg"
+    },
+    {
+      "page": 6,
+      "print": "images/print/1822 Pine - 2013 Deed_page_6_print.png",
+      "web": "images/web/1822 Pine - 2013 Deed_page_6_web.jpg"
+    }
+  ]
 }

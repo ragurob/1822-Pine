@@ -232,6 +232,77 @@ timeline:
   people:
   - Evening Public Ledger
   - All Rights Reserved
+- date: '1941-09-11'
+  type: deed
+  description: 'Document: 1941 Deed abstract - 2.jpg'
+  source: 1941 Deed abstract - 2.jpg
+- date: '1967-05-01'
+  type: deed
+  description: 'Document: 1822 Pine - 1979 Deed.pdf'
+  source: 1822 Pine - 1979 Deed.pdf
+  people:
+  - Fee Simple
+  - Deed No
+  - Glark Co
+  amounts:
+  - '144'
+- date: '1979-10-17'
+  type: deed
+  description: 'Document: 1822 Pine - 1985 Deed.pdf'
+  source: 1822 Pine - 1985 Deed.pdf
+  people:
+  - Fee Simple Weed No
+  - Clark Co
+  - Watnnt St
+  amounts:
+  - 73,000.00
+- date: '1985-03-15'
+  type: deed
+  description: 'Document: 1822 Pine - Deed 1987.pdf'
+  source: 1822 Pine - Deed 1987.pdf
+  people:
+  - Fee Stepte Deed Ne
+  - This Bndenture
+  - 'Pennsylvania General
+
+    Partnership'
+  amounts:
+  - 443,000.00
+- date: '1991-04-26'
+  type: deed
+  description: 'Document: 1822 Pine - 1999 Deed 1.pdf'
+  source: 1822 Pine - 1999 Deed 1.pdf
+  people:
+  - This Indenture
+  - 'Between
+
+
+    Thomas Jay Bushyager'
+  - Death April
+- date: '2002-08-14'
+  type: deed
+  description: 'Document: 1822 Pine - 2002 Deed.pdf'
+  source: 1822 Pine - 2002 Deed.pdf
+  people:
+  - Philadelphia Department
+  - 'Trident Land Transfer Compan
+
+
+    Address'
+  - John F. Kennedy Boulevard
+- date: '2013-08-19'
+  type: deed
+  description: 'Document: 1822 Pine - 2013 Deed.pdf'
+  source: 1822 Pine - 2013 Deed.pdf
+  people:
+  - Doc Id
+  - Rec Fee
+  - Records Doc Code
+  amounts:
+  - '230.00'
+  - 15,550.00
+  - 46,650.00
+  - 1,565,000.00
 - date: '2022-03-30'
   type: clipping
   description: 'Document: 1822 Pine - Property Cert.pdf'
@@ -244,4 +315,4 @@ timeline:
 
     Ste'
   - Pritzker Law Group
-generated: '2025-08-29T13:52:30.826999'
+generated: '2026-01-04T12:54:27.269184'

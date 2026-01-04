@@ -2,7 +2,7 @@
   "filename": "The_Philadelphia_Times_1893_02_01_Page_6.pdf",
   "type": "clipping",
   "file_hash": "3c4fe32ea55e5a7c5461bf3f0f4586cc",
-  "processed_date": "2025-08-29T13:52:30.383466",
+  "processed_date": "2026-01-04T12:54:22.008309",
   "pages": 1,
   "text": "https://www.newspapers.com/ image/53789568/The Philadelphia Times (Philadelphia, Pennsylvania) \u00b7 Wed, Feb 1, 1893 \n\u00b7 Page 6\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
   "extracted_date": "1893-02-01",
@@ -15,6 +15,11 @@
     "addresses": [],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/The_Philadelphia_Times_1893_02_01_Page_6_page_1_print.png",
+      "web": "images/web/The_Philadelphia_Times_1893_02_01_Page_6_page_1_web.jpg"
+    }
+  ]
 }

@@ -2,11 +2,24 @@
   "filename": "1949 Deed abstract - 1.jpg",
   "type": "deed",
   "file_hash": "c497756f451d4bd6fa7d1553f7a813ad",
-  "processed_date": "2025-08-29T13:51:52.584107",
+  "processed_date": "2026-01-04T12:53:34.950066",
   "dimensions": "4032x3024",
-  "text": "",
+  "text": "peeeeeesnetenseeceuseeneeeaeeses peereceeeeeseanecseceeeenenneeeneeeeeetneeeeneennenenseoneeenen peeeseees mers omen scene CY NS 6 10 IIUMO jo 91njeUusig\n\nPrrrtri rs\n\nNIdSHVOL\n\n94\n\n=a, oh Ke Oe\n\nOa\n\nHYSANMO LNSS3ud 30 ssayaav\n\nLp\nCc\n\nYANMO LN3SSud\n\nqgasq 30 3iva\n\nYANMO YHAWHOA\n\n*sAQT[e pue speod \u2018sjo01}s jo 9sn 0} sesopiaud pue s}ysi1 IIe BSuljyisa1 pue\nseliepunod Sutais \u2018poep 24} jo SuIpioM 2y} Jo Adod jJoexe ue oq snul saijiadoid jo uonjdiisseq\n\u201csPO|q Sures ey? UI Io snonSyuUOD ore sensedoid ssayun \u2018yue[q sy} UC Pequosep eq oO} Aj1odoid suo ATUO\n\nSNINOZ GNV SASAUNS \u2018ONINSSNIDNA AO NVAHNA\n\n",
   "extracted_date": null,
-  "entities": {},
-  "images": [],
-  "error": "tesseract is not installed or it's not in your PATH. See README file for more information."
+  "entities": {
+    "people": [
+      "Ke Oe\n\nOa",
+      "Lp\nCc",
+      "Jo Adod"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [
+    {
+      "print": "images/print/1949 Deed abstract - 1_print.png",
+      "web": "images/web/1949 Deed abstract - 1_web.jpg"
+    }
+  ]
 }

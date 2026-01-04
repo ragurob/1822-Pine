@@ -2,7 +2,7 @@
   "filename": "1822_Sold_for_14_000.pdf",
   "type": "clipping",
   "file_hash": "558475edd451860fb4ee074c86b75f6a",
-  "processed_date": "2025-08-29T13:51:58.443901",
+  "processed_date": "2026-01-04T12:53:46.796402",
   "pages": 1,
   "text": "https://www.newspapers.com/ image/168242757/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Thu, May 11, \n1893 \u00b7 Page 5\nDownloaded on Aug 23, 2025\n  \n  \n1822 Sold for $14,000Clipped By:\nrobprice9\nAug 23, 2025\n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
   "extracted_date": "1893-05-11",
@@ -17,6 +17,11 @@
       "14,000"
     ]
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/1822_Sold_for_14_000_page_1_print.png",
+      "web": "images/web/1822_Sold_for_14_000_page_1_web.jpg"
+    }
+  ]
 }

@@ -2,11 +2,22 @@
   "filename": "1952 Deed abstract - 1.jpg",
   "type": "deed",
   "file_hash": "a898d98cfa3c81905ec8a2dc7ac0591b",
-  "processed_date": "2025-08-29T13:52:16.359818",
+  "processed_date": "2026-01-04T12:54:14.258522",
   "dimensions": "4032x3024",
-  "text": "",
+  "text": "sncceetsptiabavesentanspacvonnconstscanscaveatinesssalucgonsatacbalstvans seagssyc4s tiuscen  atsisekss ra ecdeesesenagansnenzauh aac sthet ciate \u2018S82 oo QUaBY 10 I2UMO jo a1nqeusls\n\n,\n\nav ob (ly, tl\n\nmt 21 fa,08e 7) \u201cff\n\nGNNOUD 4O S3ogld HO LOT Nivlywad LVHL 1V /)\n\nIO? Vesa (ly Ta 79 fh of be\n\nNSNMO LNSS3ud 4O ssaudav nt TV,\nVN) re DIY jams mela AY\n\nVO\n2947 7/\nPe A ee\nqaugzaq 3j3o 31vda YSBNMO YHSAWHOSA\n\nYSNMO LNASAad\n\nasnoOH\ndO \u2018ON\n\n\u2018shaj[e pues speol *$]391}S JO 9sN 03 saZatAjad puke s2ysit [Ie Buys puew\nsot1epunog Burals \u2018peep ey} JO Zulpiom aya jo Adod yowxa ue aq ysnur saqjzsdoid jo uopdiioseq\n*yDO)q Sues 94} UT IO snon#i3U0d 238 satjiedoid ssayun \u2018yuelq sty? uo paqiiosep eq 03 Ajy1adoid suo AjUO\n\n2NINOZ GNV SASAUNS \u2018ONINASNIDNA 40 nvayna\n\n",
   "extracted_date": null,
-  "entities": {},
-  "images": [],
-  "error": "tesseract is not installed or it's not in your PATH. See README file for more information."
+  "entities": {
+    "people": [
+      "Ie Buys"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [
+    {
+      "print": "images/print/1952 Deed abstract - 1_print.png",
+      "web": "images/web/1952 Deed abstract - 1_web.jpg"
+    }
+  ]
 }

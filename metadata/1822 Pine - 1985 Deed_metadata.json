@@ -2,16 +2,61 @@
   "filename": "1822 Pine - 1985 Deed.pdf",
   "type": "deed",
   "file_hash": "673cedf808eb74d4da93e27031662406",
-  "processed_date": "2025-08-29T13:52:30.614210",
+  "processed_date": "2026-01-04T12:54:23.530265",
   "pages": 3,
-  "text": "\n\n",
-  "extracted_date": null,
+  "text": "\n\n\n\n[OCR Page 1]:\n| Fee Simple Weed No. 753-8 Printed for and Sokd hy John C, Clark Co, 1328 Watnnt St, Phila. |\n\nThis Indenture made the poh\n\nfll me in the year of our Lord one thousand nine hundred and eighty-five (1985 )\n\nBetween MICHAEL KOSMIN and ROD GOODWIN, and PINE ASSOCIATES, A (-\n| PARTNERSHIP | ,\n\n| (hereinafter called the Grantor s ), ef the one part, ond\n\nPARTNERSHIP,\nKOSMIN and STANGO, A PENNSYLVANIA GENERAL PARTNERSHIP\nt\n|\n\nWlitrreasethy Tae the oaid Cranters\nfor and in consideration of the cum of\n\noie & SEVENTY-THREE THOUSAND DOLLARS ($73,000.00) lawful\n\nmoney of the United States of America, unto them well and truly paid by the said Grantee \u2019\nat or before the sealing and delivery hereof, the receipt whereof is hereby acknowledged, have\ngranted, bargained and cold, released and confirmed, and by these presents dograat , bergain and\n\n_ | (hereinafter called the Grantee ), of the ether part,\n\ncell, release and confirm unto the said Grantee , its successors and ascigne, purchased\nwith partnership funds, to be held as a partnership property, in fee.\n\nALL THAT CERTAIN lot or piece of ground with the buildings and improvements thereon erected.\n\nSITUATE on the South side of Pine Street, BEGINNING at the distance of Two Hundred Thirty feet\nWestward from the West side of Eighteenth Street in the Eight Ward of the City of Philadelphia.\n\nCONTAINING in front or breadth on the said Pine Street Twenty-two feet and extending of that\nwidth in length or depth Southward Ninety feet to Waverly Street.\n\nBEING No. 1822 Pine Street.\nBEING the same premises which Benjamin Serota and Shirley W. Serota, his wife, by Deed dated\nOctober 17, 1979 and recorded in the Office for the Recording of Deeds in and for the City of\n\nPhiladelphia, Commonwealth of Pennsylvania in Deed Book DCC 2130 page 196, granted and\nconveyed unto Rod Goodwin, in fee.\n\nMichael Kosmin and Pine Associates are joining in this deed to agrant and\n\nterminate whatever: interest which they may have in this property.\n\n",
+  "extracted_date": "1979-10-17",
   "entities": {
-    "people": [],
+    "people": [
+      "Fee Simple Weed No",
+      "Clark Co",
+      "Watnnt St",
+      "This Indenture",
+      "Wlitrreasethy Tae",
+      "United States",
+      "Two Hundred Thirty",
+      "Eighteenth Street",
+      "Eight Ward",
+      "Pine Street Twenty",
+      "Southward Ninety",
+      "Waverly Street",
+      "Benjamin Serota",
+      "Shirley W. Serota",
+      "Deed Book",
+      "Rod Goodwin",
+      "Michael Kosmin",
+      "Pine Associates"
+    ],
     "organizations": [],
-    "addresses": [],
-    "monetary_amounts": []
+    "addresses": [
+      [
+        "1328",
+        "Watnnt St"
+      ],
+      [
+        "1822",
+        "Pine Street"
+      ]
+    ],
+    "monetary_amounts": [
+      "73,000.00"
+    ]
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/1822 Pine - 1985 Deed_page_1_print.png",
+      "web": "images/web/1822 Pine - 1985 Deed_page_1_web.jpg"
+    },
+    {
+      "page": 2,
+      "print": "images/print/1822 Pine - 1985 Deed_page_2_print.png",
+      "web": "images/web/1822 Pine - 1985 Deed_page_2_web.jpg"
+    },
+    {
+      "page": 3,
+      "print": "images/print/1822 Pine - 1985 Deed_page_3_print.png",
+      "web": "images/web/1822 Pine - 1985 Deed_page_3_web.jpg"
+    }
+  ]
 }

@@ -2,11 +2,22 @@
   "filename": "1922 Deed abstract - 1.jpg",
   "type": "deed",
   "file_hash": "0ec28ba9728299d104dedbe9dfabc673",
-  "processed_date": "2025-08-29T13:52:23.532986",
+  "processed_date": "2026-01-04T12:54:18.591639",
   "dimensions": "4032x3024",
-  "text": "",
+  "text": "\u20186 oe OSB JO JOUMO JO 2ANJBUTTS\n\n5 \u201caaa gnc Nr As ot ett ac a aex ae\n\nE ig ae mye ee (133 ae.\n\nat :\n) - 5 98 ATzeauy 04 4F 06 S U9ded\n: 45 22 98 CUT FUOTE BON\n2 ; i ErEE TOL OPTS Wort p\n\nprey, Uh\n\n\\ Re\ne36L PLE ABT Zeouedg weysipn 4 |pus texsstesz, gq uouUEd\n\noFTM STY\nwBeyuINg SUTIBYyy et\n\nnl\n\nASNOH AO \u201cON qQaad AO ALVG AANMO AAWAOA\n\n=\nYANMO LNASHAd\n\n000\u20180S-1Z61-\u00a3\n\u2018sAo[e pue speoi \u2018s}901}3S Jo esn 0} sadopatid pue S}4slI [je surjzfoo1\npue seliepunog Sutlais \u2018psep sy} jo Surpsom sy} jo Ado yoexe ue oq JSNUI SeHiedoid jo uoNd}IOseq\n*AD0[G SUES 94} Ut IO SnONnsHUOS sie seniedoid ssayun \u2018quURIq si} UO Peqlosep eq 0} Ajisdoid suo AjuO\n\nVNin~e ~~ |\n",
   "extracted_date": null,
-  "entities": {},
-  "images": [],
-  "error": "tesseract is not installed or it's not in your PATH. See README file for more information."
+  "entities": {
+    "people": [
+      "Nr As"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [
+    {
+      "print": "images/print/1922 Deed abstract - 1_print.png",
+      "web": "images/web/1922 Deed abstract - 1_web.jpg"
+    }
+  ]
 }

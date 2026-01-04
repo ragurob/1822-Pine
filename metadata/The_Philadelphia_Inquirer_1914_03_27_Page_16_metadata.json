@@ -2,7 +2,7 @@
   "filename": "The_Philadelphia_Inquirer_1914_03_27_Page_16.pdf",
   "type": "clipping",
   "file_hash": "cef1091d2fb0ad816fb8f0aca06effbf",
-  "processed_date": "2025-08-29T13:52:07.706605",
+  "processed_date": "2026-01-04T12:53:59.621014",
   "pages": 1,
   "text": "https://www.newspapers.com/ image/169076305/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Fri, Mar 27, \n1914 \u00b7 Page 16\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
   "extracted_date": "1914-03-27",
@@ -15,6 +15,11 @@
     "addresses": [],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/The_Philadelphia_Inquirer_1914_03_27_Page_16_page_1_print.png",
+      "web": "images/web/The_Philadelphia_Inquirer_1914_03_27_Page_16_page_1_web.jpg"
+    }
+  ]
 }

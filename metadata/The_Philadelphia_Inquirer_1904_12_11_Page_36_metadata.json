@@ -2,7 +2,7 @@
   "filename": "The_Philadelphia_Inquirer_1904_12_11_Page_36.pdf",
   "type": "clipping",
   "file_hash": "e82eaa252dcb08ce27569f620726c757",
-  "processed_date": "2025-08-29T13:52:07.701423",
+  "processed_date": "2026-01-04T12:53:59.232755",
   "pages": 1,
   "text": "https://www.newspapers.com/ image/169003334/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Sun, Dec 11, \n1904 \u00b7 Page 36\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
   "extracted_date": "1904-12-11",
@@ -15,6 +15,11 @@
     "addresses": [],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/The_Philadelphia_Inquirer_1904_12_11_Page_36_page_1_print.png",
+      "web": "images/web/The_Philadelphia_Inquirer_1904_12_11_Page_36_page_1_web.jpg"
+    }
+  ]
 }

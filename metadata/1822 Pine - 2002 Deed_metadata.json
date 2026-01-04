@@ -2,16 +2,100 @@
   "filename": "1822 Pine - 2002 Deed.pdf",
   "type": "deed",
   "file_hash": "cd713f6f4f073aaeac2fc95f554ce6c2",
-  "processed_date": "2025-08-29T13:52:07.712202",
+  "processed_date": "2026-01-04T12:53:59.842153",
   "pages": 6,
-  "text": "\n\n\n\n\n",
-  "extracted_date": null,
+  "text": "\n\n\n\n\n\n\n[OCR Page 1]:\nCity of Philadelphia Department of Records\nRECORDING INFORMATION SUMMARY (RIS)\n\nRETURN DOCUMENT TO:\n\nName: Trident Land Transfer Compan\n\nAddress: 1800 John F. Kennedy Boulevard, 14th Floor\nPhiladelphia, Pa. 19103\n\n(215)564-2300\n\nThe information provided by you will be relied upon\nby the Department of Records for examination and\nindexing purposes. If there is any conflict between the\nRIS and the attached document, the information on the\nRIS shall prevail for examination and indexing\npurposes.\n\nTelephone:\n\n1.\n\nType of Document:\n\n] Deed Cl] Mortgage [-} Lease/Memorandum of Lease\n[J _ Sheriff's Deed [] Release of Mortgage [] Assignment of Lease & Rent\n(] Deed of Condemnation [] Assignment of Mortgage LJ _ Easement\n\n[] Other Deed [] Satisfaction of Mortgage [] Other\n\n2. Date of Document: 9g / 08 / 9002\n\nmonth\n\nday year\n\n3. Grantor/Mortgagor/Assignor/Lessor/ (a.) MIONE, STEPHEN A.\nOther:\n(Last Name, First Name, Middle Initial) (b.) MUNTEAN, TRAIAN\n(1 Additional names on Continuation Page of RIS\nBULLARD, ROLAND K.\n\n4. Grantee/Mortgagee/Assignee/Lessee/ \u2014(a.)\nBULLARD, SALLY S.\n\nOther:\n1 Additional names on Continuation Page of RIS\n\nIl\n\n(Last Name, First Name, Middle Initial) (b.}\n\n5. Property Address:\n\n(a.) House No. & Street Name: 1822 PINE STREET\n\nCondo Name(if applicable): Unit # Philadelphia, PA Zip Code:\n\n19103\n\nBRT Account # (optional): Parcel Identification Number (PIN) (optional):\n(1 _ Additional addresses on Continuation Page of RIS\n\n6. Grantee\u2019s Mailing Address (Deed Only):\n(If Grantee is at a different address than the Property Address listed in Section 5, complete this section.)\n\nROLAND K. BULLARD, II and SALLY S. BULLARD\n1822 PINE STREET\nCity. PHILADELPHIA State: PA Zip Code: _ 19103\n\n7. Recording Information to be Referenced. Mortgage to be released/satisfied/assigned/modified:\n\nGrantee or Designee Name:\n\nHouse No. & Street Name:\n\nRecorder\u2019s Index Information\n(a.) Name of Original Mortgagee: of Original Mortgage:\n\nRecording Date of Original Mortgage: / /\nmonth day year Initials, Book and Page or Doc. ID#\n\n[] Additional references on Continuation Page of RIS\n\n8. Optional Information\n[ ] Consolidation { ] Subdivision\n\n| FOR DEPT USE ONLY\n\n50510515 4]\n9 \u00abhoes 8 43PM\n\nSTEPHEN A. MIONE\n\nFEOF OR Nan rm li NEL\n\nEE or \u2018OR Telephone Number This Document Recorded Doc Id: 50510618\n08/14/2002 State RTT: 12,000.00 Receipt #: 190258\n12:13PM Local RTT: 36,000.20 Rec Fee: 49.50\nBoo Code: D Commissioner of Records, City of Philadalphia\n\n\u2018EE or \u2018OR Signature\n\noF 7277 \\\n",
+  "extracted_date": "2002-08-14",
   "entities": {
-    "people": [],
+    "people": [
+      "Philadelphia Department",
+      "Trident Land Transfer Compan\n\nAddress",
+      "John F. Kennedy Boulevard",
+      "Floor\nPhiladelphia",
+      "Deed Cl",
+      "Other Deed",
+      "Last Name",
+      "First Name",
+      "Middle Initial",
+      "Continuation Page",
+      "Continuation Page",
+      "Last Name",
+      "First Name",
+      "Middle Initial",
+      "Property Address",
+      "House No",
+      "Street Name",
+      "Condo Name",
+      "Zip Code",
+      "Parcel Identification Number",
+      "Continuation Page",
+      "Mailing Address",
+      "Deed Only",
+      "If Grantee",
+      "Property Address",
+      "Zip Code",
+      "Recording Information",
+      "Designee Name",
+      "House No",
+      "Street Name",
+      "Index Information",
+      "Original Mortgagee",
+      "Original Mortgage",
+      "Recording Date",
+      "Original Mortgage",
+      "Continuation Page",
+      "Optional Information",
+      "Telephone Number This Document Recorded Doc Id",
+      "Rec Fee",
+      "Boo Code"
+    ],
     "organizations": [],
-    "addresses": [],
+    "addresses": [
+      [
+        "1",
+        "Additional names on Continuation Page of RIS\nBULLARD"
+      ],
+      [
+        "1822",
+        "PINE STREET"
+      ],
+      [
+        "1822",
+        "PINE STREET"
+      ]
+    ],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/1822 Pine - 2002 Deed_page_1_print.png",
+      "web": "images/web/1822 Pine - 2002 Deed_page_1_web.jpg"
+    },
+    {
+      "page": 2,
+      "print": "images/print/1822 Pine - 2002 Deed_page_2_print.png",
+      "web": "images/web/1822 Pine - 2002 Deed_page_2_web.jpg"
+    },
+    {
+      "page": 3,
+      "print": "images/print/1822 Pine - 2002 Deed_page_3_print.png",
+      "web": "images/web/1822 Pine - 2002 Deed_page_3_web.jpg"
+    },
+    {
+      "page": 4,
+      "print": "images/print/1822 Pine - 2002 Deed_page_4_print.png",
+      "web": "images/web/1822 Pine - 2002 Deed_page_4_web.jpg"
+    },
+    {
+      "page": 5,
+      "print": "images/print/1822 Pine - 2002 Deed_page_5_print.png",
+      "web": "images/web/1822 Pine - 2002 Deed_page_5_web.jpg"
+    },
+    {
+      "page": 6,
+      "print": "images/print/1822 Pine - 2002 Deed_page_6_print.png",
+      "web": "images/web/1822 Pine - 2002 Deed_page_6_web.jpg"
+    }
+  ]
 }

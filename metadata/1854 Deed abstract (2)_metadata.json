@@ -2,11 +2,23 @@
   "filename": "1854 Deed abstract (2).jpg",
   "type": "deed",
   "file_hash": "6a88a6c118e0ea4d09685019fcdae6dc",
-  "processed_date": "2025-08-29T13:52:26.917586",
+  "processed_date": "2026-01-04T12:54:20.617675",
   "dimensions": "4032x3024",
-  "text": "",
+  "text": "juabpy wo waung fo aangoubis'\n\neee nace su -sthyeil\n\nCEE 727 er ~ ee 70 JY WinyI@ PUP YS\n\n\u201cpeed, eu) Jo Surpazom ouf ut \u2018Adoo Jowxo ue oq Janu TOI MA\n\nALAA dO d O\u00b0 OMe Eo ee\n\n. YQ id, Cpesropus oq ken qI Ve) \u201cSIU WIM \u00absSievat Suttg )\n|\n\u2018ASQOH JO \u2018ON \u2018cada JO ALVa ge \u201cYANO rceneeceytl | \u2018UAINMO ENUSHUd r\n\n",
   "extracted_date": null,
-  "entities": {},
-  "images": [],
-  "error": "tesseract is not installed or it's not in your PATH. See README file for more information."
+  "entities": {
+    "people": [
+      "Jo Surpazom",
+      "Adoo Jowxo"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [
+    {
+      "print": "images/print/1854 Deed abstract (2)_print.png",
+      "web": "images/web/1854 Deed abstract (2)_web.jpg"
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "filename": "The_Philadelphia_Inquirer_1900_10_03_Page_5.pdf",
   "type": "clipping",
   "file_hash": "a7b45d3a8246dab63504e7495925664a",
-  "processed_date": "2025-08-29T13:52:07.758723",
+  "processed_date": "2026-01-04T12:54:03.877476",
   "pages": 1,
   "text": "https://www.newspapers.com/ image/168086532/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Wed, Oct 3, \n1900 \u00b7 Page 5\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
   "extracted_date": "1900-10-03",
@@ -15,6 +15,11 @@
     "addresses": [],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/The_Philadelphia_Inquirer_1900_10_03_Page_5_page_1_print.png",
+      "web": "images/web/The_Philadelphia_Inquirer_1900_10_03_Page_5_page_1_web.jpg"
+    }
+  ]
 }

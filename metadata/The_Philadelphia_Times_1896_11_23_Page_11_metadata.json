@@ -2,7 +2,7 @@
   "filename": "The_Philadelphia_Times_1896_11_23_Page_11.pdf",
   "type": "clipping",
   "file_hash": "2ce6afd8e175da335ebcd3cc8dc04c69",
-  "processed_date": "2025-08-29T13:51:58.600748",
+  "processed_date": "2026-01-04T12:53:51.649865",
   "pages": 1,
   "text": "https://www.newspapers.com/ image/53387473/The Philadelphia Times (Philadelphia, Pennsylvania) \u00b7 Mon, Nov 23, \n1896 \u00b7 Page 11\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
   "extracted_date": "1896-11-23",
@@ -15,6 +15,11 @@
     "addresses": [],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/The_Philadelphia_Times_1896_11_23_Page_11_page_1_print.png",
+      "web": "images/web/The_Philadelphia_Times_1896_11_23_Page_11_page_1_web.jpg"
+    }
+  ]
 }

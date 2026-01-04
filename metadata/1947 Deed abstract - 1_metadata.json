@@ -2,11 +2,22 @@
   "filename": "1947 Deed abstract - 1.jpg",
   "type": "deed",
   "file_hash": "12dab22d96ef6734a573994d70e424e3",
-  "processed_date": "2025-08-29T13:52:04.749007",
+  "processed_date": "2026-01-04T12:53:56.953637",
   "dimensions": "4032x3024",
-  "text": "",
+  "text": "\u2014\n\nsuvsoneesessnsannngevunannccnnanossunnnnecennenuannnnnensonnnnsnoneneonsnnnncceeoosssseeeeeeeeg UT BVT 10 I3sUMO jo dinjeUusig\n\neovnsensnsennnsnescsneenscsnacssvocsnnsooonensenenenee\n\n(pend aie Ee oa dees SN enae 9, 0 *()\n\nGNNOYD SO B30kId HO LOT NIVLYS9 LVHL 11V\n\ni=\n\nGEA TI G\n\nYANMO LNSSSuYd 30 SSSHHaaY\n\nsf ee\n\nsaith) WTR) OPIN\n\nqgaaq 30 3iva YSBNMO YSWHOSG YSNMO LN3AS3AYd\n\n\u2018shal[e pue speor \u2018s}9eI}s Jo osn 0} seZartatid pue s7y43it [[e Suyfoer pue\nsellepunog SuUIAIs \u2018pssp oy} jo SurpioM 9y} Jo Adoo joexe ue eq ysnul soniedoid jo uondiioseq\nPC| eules Sy} Ul to snonZiuUO. o1e soijiedoid ssoyun \u2018yuLT[q sy} UO PEqHosep qd OF Ayitadoid suo A[UD\n\nSNINOZ ANY SASAUNS \u2018ONINSSANIONA AO NvaHNa\nW WOC\u2014Li-1\n\n\u2018\n\n",
   "extracted_date": null,
-  "entities": {},
-  "images": [],
-  "error": "tesseract is not installed or it's not in your PATH. See README file for more information."
+  "entities": {
+    "people": [
+      "Jo Adoo"
+    ],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [
+    {
+      "print": "images/print/1947 Deed abstract - 1_print.png",
+      "web": "images/web/1947 Deed abstract - 1_web.jpg"
+    }
+  ]
 }

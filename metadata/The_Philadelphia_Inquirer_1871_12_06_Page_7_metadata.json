@@ -2,7 +2,7 @@
   "filename": "The_Philadelphia_Inquirer_1871_12_06_Page_7.pdf",
   "type": "clipping",
   "file_hash": "2f5f638ed343b768bffcba49e0b9ea0a",
-  "processed_date": "2025-08-29T13:52:07.764009",
+  "processed_date": "2026-01-04T12:54:04.195470",
   "pages": 1,
   "text": "https://www.newspapers.com/ image/167872840/The Philadelphia Inquirer (Philadelphia, Pennsylvania) \u00b7 Wed, Dec 6, \n1871 \u00b7 Page 7\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
   "extracted_date": "1871-12-06",
@@ -15,6 +15,11 @@
     "addresses": [],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/The_Philadelphia_Inquirer_1871_12_06_Page_7_page_1_print.png",
+      "web": "images/web/The_Philadelphia_Inquirer_1871_12_06_Page_7_page_1_web.jpg"
+    }
+  ]
 }

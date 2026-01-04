@@ -2,16 +2,59 @@
   "filename": "1822 Pine - Deed 1987.pdf",
   "type": "deed",
   "file_hash": "9ae0148be852b759b74a57f3e982a2e3",
-  "processed_date": "2025-08-29T13:51:58.597039",
+  "processed_date": "2026-01-04T12:53:48.276168",
   "pages": 4,
-  "text": "\n\n\n",
-  "extracted_date": null,
+  "text": "\n\n\n\n\n[OCR Page 1]:\nTES osecegnenes. . :\n\n. Fee Stepte Deed Ne. 753-8\n\n_ | : DO\nThis Bndenture tare the were %\n\nJune in the year of our Lord one thousand nine hundred and Eighty-seven (1987)\n\nBetween xosmrn and STANGO PARTNERSHIP, A Pennsylvania General\nPartnership\n\n(hereinafter called the Grantor ), of the one part, cad\nTHOMAS JAY BUSEYAGER\n\n(bereinafter called the Grantee ), of the other part,\n\nWitwesaeth, Tea te seid Grentor\n\nfor and in consideration of the sum of\n\nFOUR HUNDRED FORTY-THREE THOUSAND DOLLARS ($443,000.00) lawful\n\nmoney of the United States of America, unto it well and truly paid by the said Grantee .\nat or before the sealing and delivery hereof, the receipt whersof is hereby acknowledged, has\ngranted, bargained and sold, released and confirmed, and by these presents does grant, bargain aad\nsell, release and confirm unto the said Grantee , his beirs and assigns,\n\nALL THAT CERTAIN lot or piece of ground with the buildings and improve-\nments thereon erected.\n\nSITUATE on the South side of Pine Street.\n\nBEGINNING at the distance of Two-hundred Thirty feet Westward from the\nWest side of Eighteenth Street in the Eighth Ward of the City of Phila.\nCONTAINING in front or breadth on the said Pine Street Twenty-two feet\nand extending of that width in elngth or depth Southward Ninety feet\nto Waverly Street\n\nBEING NO. 1822 PINE STREET\n\nBEING the same premises which Michael Kosmin and Rod Goodwin and Pine\nAssociates, a Partnership by Deed dated 3/15/1985 and recorded 3/18/1985\nin the County of Philadelphia in Deed Book FHS 100 page 326 conveyed unto \u00a7\nKosmin and Stango Partnership, a Pennsylvania General Partnership, in fee.|\n\n",
+  "extracted_date": "1985-03-15",
   "entities": {
-    "people": [],
+    "people": [
+      "Fee Stepte Deed Ne",
+      "This Bndenture",
+      "Pennsylvania General\nPartnership",
+      "United States",
+      "Eighteenth Street",
+      "Eighth Ward",
+      "Pine Street Twenty",
+      "Southward Ninety",
+      "Waverly Street",
+      "Michael Kosmin",
+      "Rod Goodwin",
+      "Pine\nAssociates",
+      "Deed Book",
+      "Stango Partnership",
+      "Pennsylvania General Partnership"
+    ],
     "organizations": [],
-    "addresses": [],
-    "monetary_amounts": []
+    "addresses": [
+      [
+        "1822",
+        "PINE STREET"
+      ]
+    ],
+    "monetary_amounts": [
+      "443,000.00"
+    ]
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/1822 Pine - Deed 1987_page_1_print.png",
+      "web": "images/web/1822 Pine - Deed 1987_page_1_web.jpg"
+    },
+    {
+      "page": 2,
+      "print": "images/print/1822 Pine - Deed 1987_page_2_print.png",
+      "web": "images/web/1822 Pine - Deed 1987_page_2_web.jpg"
+    },
+    {
+      "page": 3,
+      "print": "images/print/1822 Pine - Deed 1987_page_3_print.png",
+      "web": "images/web/1822 Pine - Deed 1987_page_3_web.jpg"
+    },
+    {
+      "page": 4,
+      "print": "images/print/1822 Pine - Deed 1987_page_4_print.png",
+      "web": "images/web/1822 Pine - Deed 1987_page_4_web.jpg"
+    }
+  ]
 }

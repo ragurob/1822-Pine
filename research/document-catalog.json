@@ -1,0 +1,525 @@
+{
+  "total": 65,
+  "items": [
+    {
+      "filename": "1822 1 Floor.jpg",
+      "path": "raw_documents/1822 1 Floor.jpg",
+      "doc_type": "clipping",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "612x792"
+    },
+    {
+      "filename": "1822 1 Floor.pdf",
+      "path": "raw_documents/1822 1 Floor.pdf",
+      "doc_type": "clipping",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "612x792"
+    },
+    {
+      "filename": "1822 2 Floor.jpg",
+      "path": "raw_documents/1822 2 Floor.jpg",
+      "doc_type": "clipping",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "612x792"
+    },
+    {
+      "filename": "1822 2 Floor.pdf",
+      "path": "raw_documents/1822 2 Floor.pdf",
+      "doc_type": "clipping",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "612x792"
+    },
+    {
+      "filename": "1822 3 Floor.jpg",
+      "path": "raw_documents/1822 3 Floor.jpg",
+      "doc_type": "clipping",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "612x792"
+    },
+    {
+      "filename": "1822 3 Floor.pdf",
+      "path": "raw_documents/1822 3 Floor.pdf",
+      "doc_type": "clipping",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "612x792"
+    },
+    {
+      "filename": "1822 4 Floor.jpg",
+      "path": "raw_documents/1822 4 Floor.jpg",
+      "doc_type": "clipping",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "612x792"
+    },
+    {
+      "filename": "1822 4 Floor.pdf",
+      "path": "raw_documents/1822 4 Floor.pdf",
+      "doc_type": "clipping",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "612x792"
+    },
+    {
+      "filename": "1822 Pine - 1979 Deed.pdf",
+      "path": "raw_documents/1822 Pine - 1979 Deed.pdf",
+      "doc_type": "deed",
+      "extracted_date": "1967-05-01",
+      "pages": 8,
+      "dimensions": null
+    },
+    {
+      "filename": "1822 Pine - 1985 Deed.pdf",
+      "path": "raw_documents/1822 Pine - 1985 Deed.pdf",
+      "doc_type": "deed",
+      "extracted_date": "1979-10-17",
+      "pages": 3,
+      "dimensions": null
+    },
+    {
+      "filename": "1822 Pine - 1999 Deed 1.pdf",
+      "path": "raw_documents/1822 Pine - 1999 Deed 1.pdf",
+      "doc_type": "deed",
+      "extracted_date": "1991-04-26",
+      "pages": 4,
+      "dimensions": null
+    },
+    {
+      "filename": "1822 Pine - 1999 Deed 2.pdf",
+      "path": "raw_documents/1822 Pine - 1999 Deed 2.pdf",
+      "doc_type": "deed",
+      "extracted_date": null,
+      "pages": 5,
+      "dimensions": null
+    },
+    {
+      "filename": "1822 Pine - 2002 Deed.pdf",
+      "path": "raw_documents/1822 Pine - 2002 Deed.pdf",
+      "doc_type": "deed",
+      "extracted_date": "2002-08-14",
+      "pages": 6,
+      "dimensions": null
+    },
+    {
+      "filename": "1822 Pine - 2013 Deed.pdf",
+      "path": "raw_documents/1822 Pine - 2013 Deed.pdf",
+      "doc_type": "deed",
+      "extracted_date": "2013-08-19",
+      "pages": 6,
+      "dimensions": null
+    },
+    {
+      "filename": "1822 Pine - Deed 1987.pdf",
+      "path": "raw_documents/1822 Pine - Deed 1987.pdf",
+      "doc_type": "deed",
+      "extracted_date": "1985-03-15",
+      "pages": 4,
+      "dimensions": null
+    },
+    {
+      "filename": "1822 Pine - Property Cert.pdf",
+      "path": "raw_documents/1822 Pine - Property Cert.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "2022-03-30",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "1822 Roof Deck.jpg",
+      "path": "raw_documents/1822 Roof Deck.jpg",
+      "doc_type": "clipping",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "612x792"
+    },
+    {
+      "filename": "1822 Roof Deck.pdf",
+      "path": "raw_documents/1822 Roof Deck.pdf",
+      "doc_type": "clipping",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "612x792"
+    },
+    {
+      "filename": "1822_Sold_for_14_000.pdf",
+      "path": "raw_documents/1822_Sold_for_14_000.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1893-05-11",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "1854 Deed abstract (2).jpg",
+      "path": "raw_documents/1854 Deed abstract (2).jpg",
+      "doc_type": "deed",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "4032x3024"
+    },
+    {
+      "filename": "1893 Deed abstract.jpg",
+      "path": "raw_documents/1893 Deed abstract.jpg",
+      "doc_type": "deed",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "4032x3024"
+    },
+    {
+      "filename": "1899 Deed abstract - 1.jpg",
+      "path": "raw_documents/1899 Deed abstract - 1.jpg",
+      "doc_type": "deed",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "4032x3024"
+    },
+    {
+      "filename": "1899 Deed abstract - 2.jpg",
+      "path": "raw_documents/1899 Deed abstract - 2.jpg",
+      "doc_type": "deed",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "4032x3024"
+    },
+    {
+      "filename": "1922 Deed abstract - 1.jpg",
+      "path": "raw_documents/1922 Deed abstract - 1.jpg",
+      "doc_type": "deed",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "4032x3024"
+    },
+    {
+      "filename": "1922 Deed abstract - 2.jpg",
+      "path": "raw_documents/1922 Deed abstract - 2.jpg",
+      "doc_type": "deed",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "4032x3024"
+    },
+    {
+      "filename": "1941 Deed abstract - 1.jpg",
+      "path": "raw_documents/1941 Deed abstract - 1.jpg",
+      "doc_type": "deed",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "4032x3024"
+    },
+    {
+      "filename": "1941 Deed abstract - 2.jpg",
+      "path": "raw_documents/1941 Deed abstract - 2.jpg",
+      "doc_type": "deed",
+      "extracted_date": "1941-09-11",
+      "pages": null,
+      "dimensions": "4032x3024"
+    },
+    {
+      "filename": "1947 Deed abstract - 1.jpg",
+      "path": "raw_documents/1947 Deed abstract - 1.jpg",
+      "doc_type": "deed",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "4032x3024"
+    },
+    {
+      "filename": "1947 Deed abstract - 2.jpg",
+      "path": "raw_documents/1947 Deed abstract - 2.jpg",
+      "doc_type": "deed",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "4032x3024"
+    },
+    {
+      "filename": "1949 Deed abstract - 1.jpg",
+      "path": "raw_documents/1949 Deed abstract - 1.jpg",
+      "doc_type": "deed",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "4032x3024"
+    },
+    {
+      "filename": "1949 Deed abstract - 2.jpg",
+      "path": "raw_documents/1949 Deed abstract - 2.jpg",
+      "doc_type": "deed",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "4032x3024"
+    },
+    {
+      "filename": "1952 Deed abstract - 1.jpg",
+      "path": "raw_documents/1952 Deed abstract - 1.jpg",
+      "doc_type": "deed",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "4032x3024"
+    },
+    {
+      "filename": "1952 Deed abstract - 2.jpg",
+      "path": "raw_documents/1952 Deed abstract - 2.jpg",
+      "doc_type": "deed",
+      "extracted_date": null,
+      "pages": null,
+      "dimensions": "4032x3024"
+    },
+    {
+      "filename": "Evening_Public_Ledger_1915_01_08_Page_10.pdf",
+      "path": "raw_documents/Evening_Public_Ledger_1915_01_08_Page_10.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1915-01-08",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "Society_Tea.pdf",
+      "path": "raw_documents/Society_Tea.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1883-12-09",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Evening_Telegraph_1867_04_08_Page_3.pdf",
+      "path": "raw_documents/The_Evening_Telegraph_1867_04_08_Page_3.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1867-04-08",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Evening_Telegraph_1870_08_10_Page_8.pdf",
+      "path": "raw_documents/The_Evening_Telegraph_1870_08_10_Page_8.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1870-08-10",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1866_12_08_Page_8.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1866_12_08_Page_8.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1866-12-08",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1871_01_14_Page_6.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1871_01_14_Page_6.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1871-01-14",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1871_12_06_Page_7.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1871_12_06_Page_7.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1871-12-06",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1891_11_28_Page_2.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1891_11_28_Page_2.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1891-11-28",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1893_07_01_Page_1.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1893_07_01_Page_1.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1893-07-01",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1899_04_06_Page_7.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1899_04_06_Page_7.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1899-04-06",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1899_07_18_Page_12.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1899_07_18_Page_12.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1899-07-18",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1900_10_03_Page_5.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1900_10_03_Page_5.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1900-10-03",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1901_10_27_Page_19.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1901_10_27_Page_19.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1901-10-27",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1901_11_21_Page_16.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1901_11_21_Page_16.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1901-11-21",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1904_12_11_Page_36.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1904_12_11_Page_36.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1904-12-11",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1905_08_04_Page_6.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1905_08_04_Page_6.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1905-08-04",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1906_12_30_Page_11.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1906_12_30_Page_11.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1906-12-30",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1907_12_15_Page_16.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1907_12_15_Page_16.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1907-12-15",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1908_01_06_Page_14.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1908_01_06_Page_14.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1908-01-06",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1912_09_29_Page_26.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1912_09_29_Page_26.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1912-09-29",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1913_02_09_Page_38.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1913_02_09_Page_38.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1913-02-09",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1913_03_10_Page_12.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1913_03_10_Page_12.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1913-03-10",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Inquirer_1914_03_27_Page_16.pdf",
+      "path": "raw_documents/The_Philadelphia_Inquirer_1914_03_27_Page_16.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1914-03-27",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Times_1883_12_09_Page_4.pdf",
+      "path": "raw_documents/The_Philadelphia_Times_1883_12_09_Page_4.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1883-12-09",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Times_1893_02_01_Page_6.pdf",
+      "path": "raw_documents/The_Philadelphia_Times_1893_02_01_Page_6.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1893-02-01",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Times_1893_07_01_Page_2.pdf",
+      "path": "raw_documents/The_Philadelphia_Times_1893_07_01_Page_2.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1893-07-01",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Times_1896_06_29_Page_5.pdf",
+      "path": "raw_documents/The_Philadelphia_Times_1896_06_29_Page_5.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1896-06-29",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Times_1896_11_23_Page_11.pdf",
+      "path": "raw_documents/The_Philadelphia_Times_1896_11_23_Page_11.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1896-11-23",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Times_1899_08_06_Page_10.pdf",
+      "path": "raw_documents/The_Philadelphia_Times_1899_08_06_Page_10.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1899-08-06",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_Philadelphia_Times_1901_01_11_Page_6.pdf",
+      "path": "raw_documents/The_Philadelphia_Times_1901_01_11_Page_6.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1901-01-11",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "The_United_States_Gazette_1824_03_26_3.pdf",
+      "path": "raw_documents/The_United_States_Gazette_1824_03_26_3.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1824-03-26",
+      "pages": 1,
+      "dimensions": null
+    },
+    {
+      "filename": "Thu_Apr_23_1891_Page_3_Scarlet_Fever.pdf",
+      "path": "raw_documents/Thu_Apr_23_1891_Page_3_Scarlet_Fever.pdf",
+      "doc_type": "clipping",
+      "extracted_date": "1891-04-23",
+      "pages": 1,
+      "dimensions": null
+    }
+  ]
+}

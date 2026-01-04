@@ -1,332 +1,184 @@
-# 1822 Pine Street - Complete Asset Audit
+# 1822 Pine Street - Asset Audit (Updated)
 
-**Property:** 1822 Pine Street, Philadelphia, PA 19103
+**Property:** 1822 Pine Street, Philadelphia, PA
 **Marketing Name:** The Rittenhouse Residence
-**Audit Date:** January 4, 2026
+**Audit Date:** 2026-01-04
 **Source Repository:** 1822-Pine
 
 ---
 
-## EXECUTIVE SUMMARY
+## Executive Summary
 
-This audit catalogs **149 images**, **65 primary documents**, and **198 years of documented history** (1824-2022) for the historic property at 1822 Pine Street, Philadelphia. The property is a 5-story townhouse in the Rittenhouse Square Historic District, currently operating as a luxury short-term rental.
+This audit reflects the full on-disk archive plus the latest OCR pass and verified research outputs. New evidence and narratives are stored in `research/` and are based on OCR-backed sources.
 
----
-
-## I. PROPERTY IDENTITY
-
-| Attribute | Value |
-|-----------|-------|
-| Address | 1822 Pine Street, Philadelphia, PA 19103-6602 |
-| Current Owner | Price Robertson (as of March 30, 2022) |
-| Zoning | RM1 (Residential Multi-Family) |
-| Dwelling Units | 5 registered units |
-| Historic Status | HISTORICAL (Rittenhouse-Fitler Historic District, 1995) |
-| Construction Date | 1854 |
-| Original Builder | John McCrea |
+**Current inventory totals**
+- **Primary documents:** 65 files in `raw_documents/`
+- **OCR/metadata:** 65 JSON records in `metadata/` with refreshed `processing_results.json`
+- **Derived document images:** 117 web images + 94 print images in `images/`
+- **Property photos:** 27 professional photos in `website/images/property/`
+- **Airbnb photos:** 23 images in `website/images/property/airbnb/`
+- **Floor plan PDFs:** 5 PDFs in `images/floor-plans/`
 
 ---
 
-## II. IMAGE ASSETS (149 Total)
+## I. Repository Structure
 
-### A. Professional Property Photography (27 images)
-**Location:** `raw_documents/` → processed to `website/images/property/`
-
-| Filename | Description | Status |
-|----------|-------------|--------|
-| DSC00064.jpg | Property exterior/interior | Pending catalog |
-| DSC00066.jpg | Entry hall with checkerboard marble floor | Catalogued |
-| DSC00068-DSC00122.jpg | 25 additional professional shots | Pending catalog |
-
-**Notes:** Original 1854 checkerboard marble floor, stained glass transom, crystal chandeliers, crown molding, four-poster beds documented.
-
-### B. Airbnb Listing Photos (23 images)
-**Location:** `images/web/airbnb/`
-
-| Range | Format | Resolution | Purpose |
-|-------|--------|------------|---------|
-| airbnb_00.jpg - airbnb_22.jpg | JPG/PNG mixed | 180px - 1200px | Listing showcase |
-
-### C. Floor Plans (15 files across 3 formats)
-
-| Floor | PDF | JPG (web) | PNG (print) |
-|-------|-----|-----------|-------------|
-| 1st Floor | 1822 1 Floor.pdf | 1822 1 Floor_web.jpg | 1822 1 Floor_print.png |
-| 2nd Floor | 1822 2 Floor.pdf | 1822 2 Floor_web.jpg | 1822 2 Floor_print.png |
-| 3rd Floor | 1822 3 Floor.pdf | 1822 3 Floor_web.jpg | 1822 3 Floor_print.png |
-| 4th Floor | 1822 4 Floor.pdf | 1822 4 Floor_web.jpg | 1822 4 Floor_print.png |
-| Roof Deck | 1822 Roof Deck.pdf | 1822 Roof Deck_web.jpg | 1822 Roof Deck_print.png |
-
-### D. Historical Deed Abstract Scans (14 documents × 2 formats = 28 images)
-
-| Year | Document | Web (1200×900) | Print (4032×3024) |
-|------|----------|----------------|-------------------|
-| 1854 | Deed abstract | ✓ | ✓ |
-| 1893 | Deed abstract | ✓ | ✓ |
-| 1899 | Deed abstract (2 parts) | ✓ | ✓ |
-| 1922 | Deed abstract (2 parts) | ✓ | ✓ |
-| 1941 | Deed abstract (2 parts) | ✓ | ✓ |
-| 1947 | Deed abstract (2 parts) | ✓ | ✓ |
-| 1949 | Deed abstract (2 parts) | ✓ | ✓ |
-| 1952 | Deed abstract (2 parts) | ✓ | ✓ |
+- `raw_documents/` — source deeds, clippings, floor plans, certificates
+- `metadata/` — OCR output per file + `processing_results.json`
+- `images/` — web/print derivatives created by OCR pipeline
+- `data/` — regenerated timeline data (`data/timeline.yml`)
+- `refs/` — regenerated bibliography (`refs/bibliography.bib`)
+- `research/` — verified facts, OCR transcriptions, and narrative drafts
+- `website/` — existing site content and images
 
 ---
 
-## III. LEGAL DOCUMENTS - DEEDS (21 Documents)
+## II. Primary Source Documents (raw_documents/)
 
-### Modern Era Deeds (PDF)
+**Total files:** 65
 
-| Year | Document | Pages | Size |
-|------|----------|-------|------|
-| 1979 | 1822 Pine - 1979 Deed.pdf | 8 | 514 KB |
-| 1985 | 1822 Pine - 1985 Deed.pdf | 3 | 210 KB |
-| 1987 | 1822 Pine - Deed 1987.pdf | 4 | 227 KB |
-| 1999 | 1822 Pine - 1999 Deed 1.pdf | 4 | 167 KB |
-| 1999 | 1822 Pine - 1999 Deed 2.pdf | 5 | 170 KB |
-| 2002 | 1822 Pine - 2002 Deed.pdf | 6 | 159 KB |
-| 2013 | 1822 Pine - 2013 Deed.pdf | 6 | 201 KB |
+### A. Deeds (21)
+- 1822 Pine - 1979 Deed.pdf
+- 1822 Pine - 1985 Deed.pdf
+- 1822 Pine - 1999 Deed 1.pdf
+- 1822 Pine - 1999 Deed 2.pdf
+- 1822 Pine - 2002 Deed.pdf
+- 1822 Pine - 2013 Deed.pdf
+- 1822 Pine - Deed 1987.pdf
+- 1854 Deed abstract (2).jpg
+- 1893 Deed abstract.jpg
+- 1899 Deed abstract - 1.jpg
+- 1899 Deed abstract - 2.jpg
+- 1922 Deed abstract - 1.jpg
+- 1922 Deed abstract - 2.jpg
+- 1941 Deed abstract - 1.jpg
+- 1941 Deed abstract - 2.jpg
+- 1947 Deed abstract - 1.jpg
+- 1947 Deed abstract - 2.jpg
+- 1949 Deed abstract - 1.jpg
+- 1949 Deed abstract - 2.jpg
+- 1952 Deed abstract - 1.jpg
+- 1952 Deed abstract - 2.jpg
 
-### Historical Deed Abstracts (Scanned Images)
+### B. Floor Plans (10)
+- 1822 1 Floor.jpg
+- 1822 1 Floor.pdf
+- 1822 2 Floor.jpg
+- 1822 2 Floor.pdf
+- 1822 3 Floor.jpg
+- 1822 3 Floor.pdf
+- 1822 4 Floor.jpg
+- 1822 4 Floor.pdf
+- 1822 Roof Deck.jpg
+- 1822 Roof Deck.pdf
 
-| Year | Files | Format |
-|------|-------|--------|
-| 1854 | 1854 Deed abstract (2).jpg | High-res scan |
-| 1893 | 1893 Deed abstract.jpg | High-res scan |
-| 1899 | 1899 Deed abstract - 1.jpg, 1899 Deed abstract - 2.jpg | High-res scan |
-| 1922 | 1922 Deed abstract - 1.jpg, 1922 Deed abstract - 2.jpg | High-res scan |
-| 1941 | 1941 Deed abstract - 1.jpg, 1941 Deed abstract - 2.jpg | High-res scan |
-| 1947 | 1947 Deed abstract - 1.jpg, 1947 Deed abstract - 2.jpg | High-res scan |
-| 1949 | 1949 Deed abstract - 1.jpg, 1949 Deed abstract - 2.jpg | High-res scan |
-| 1952 | 1952 Deed abstract - 1.jpg, 1952 Deed abstract - 2.jpg | High-res scan |
+### C. Property Certificate (1)
+- 1822 Pine - Property Cert.pdf
 
----
+### D. Sale Clipping (1)
+- 1822_Sold_for_14_000.pdf
 
-## IV. NEWSPAPER CLIPPINGS (38 Documents)
-
-### The Philadelphia Inquirer (19 articles)
-
-| Date | Filename | Notable Content |
-|------|----------|-----------------|
-| Dec 8, 1866 | The_Philadelphia_Inquirer_1866_12_08_Page_8.pdf | Early property reference |
-| Jan 14, 1871 | The_Philadelphia_Inquirer_1871_01_14_Page_6.pdf | Property/area news |
-| Dec 6, 1871 | The_Philadelphia_Inquirer_1871_12_06_Page_7.pdf | Property/area news |
-| Nov 28, 1891 | The_Philadelphia_Inquirer_1891_11_28_Page_2.pdf | Post-scarlet fever period |
-| Jul 1, 1893 | The_Philadelphia_Inquirer_1893_07_01_Page_1.pdf | Property sale $14,000 |
-| Apr 6, 1899 | The_Philadelphia_Inquirer_1899_04_06_Page_7.pdf | Pre-renovation period |
-| Jul 18, 1899 | The_Philadelphia_Inquirer_1899_07_18_Page_12.pdf | DO&Z renovation announcement |
-| Oct 3, 1900 | The_Philadelphia_Inquirer_1900_10_03_Page_5.pdf | Post-renovation |
-| Oct 27, 1901 | The_Philadelphia_Inquirer_1901_10_27_Page_19.pdf | Rolin-Plumb wedding |
-| Nov 21, 1901 | The_Philadelphia_Inquirer_1901_11_21_Page_16.pdf | Society news |
-| Dec 11, 1904 | The_Philadelphia_Inquirer_1904_12_11_Page_36.pdf | Davis family "At Homes" |
-| Aug 4, 1905 | The_Philadelphia_Inquirer_1905_08_04_Page_6.pdf | Fireplace installation |
-| Dec 30, 1906 | The_Philadelphia_Inquirer_1906_12_30_Page_11.pdf | Society news |
-| Dec 15, 1907 | The_Philadelphia_Inquirer_1907_12_15_Page_16.pdf | Property reference |
-| Jan 6, 1908 | The_Philadelphia_Inquirer_1908_01_06_Page_14.pdf | Property reference |
-| Sep 29, 1912 | The_Philadelphia_Inquirer_1912_09_29_Page_26.pdf | Property reference |
-| Feb 9, 1913 | The_Philadelphia_Inquirer_1913_02_09_Page_38.pdf | Property reference |
-| Mar 10, 1913 | The_Philadelphia_Inquirer_1913_03_10_Page_12.pdf | Property reference |
-| Mar 27, 1914 | The_Philadelphia_Inquirer_1914_03_27_Page_16.pdf | Property reference |
-
-### The Philadelphia Times (7 articles)
-
-| Date | Filename |
-|------|----------|
-| Dec 9, 1883 | The_Philadelphia_Times_1883_12_09_Page_4.pdf |
-| Feb 1, 1893 | The_Philadelphia_Times_1893_02_01_Page_6.pdf |
-| Jul 1, 1893 | The_Philadelphia_Times_1893_07_01_Page_2.pdf |
-| Jun 29, 1896 | The_Philadelphia_Times_1896_06_29_Page_5.pdf |
-| Nov 23, 1896 | The_Philadelphia_Times_1896_11_23_Page_11.pdf |
-| Aug 6, 1899 | The_Philadelphia_Times_1899_08_06_Page_10.pdf |
-| Jan 11, 1901 | The_Philadelphia_Times_1901_01_11_Page_6.pdf |
-
-### Other Philadelphia Publications (4 articles)
-
-| Date | Publication | Filename |
-|------|-------------|----------|
-| Mar 26, 1824 | The United States Gazette | The_United_States_Gazette_1824_03_26_3.pdf |
-| Apr 8, 1867 | The Evening Telegraph | The_Evening_Telegraph_1867_04_08_Page_3.pdf |
-| Aug 10, 1870 | The Evening Telegraph | The_Evening_Telegraph_1870_08_10_Page_8.pdf |
-| Jan 8, 1915 | Evening Public Ledger | Evening_Public_Ledger_1915_01_08_Page_10.pdf |
-
-### Special Interest Articles
-
-| Date | Topic | Filename |
-|------|-------|----------|
-| Apr 23, 1891 | Scarlet Fever (Howard Spencer Jr. death) | Thu_Apr_23_1891_Page_3_Scarlet_Fever.pdf |
-| Unknown | Society Tea Event | Society_Tea.pdf |
+### E. Newspaper Clippings (32)
+- Evening_Public_Ledger_1915_01_08_Page_10.pdf
+- Society_Tea.pdf
+- The_Evening_Telegraph_1867_04_08_Page_3.pdf
+- The_Evening_Telegraph_1870_08_10_Page_8.pdf
+- The_Philadelphia_Inquirer_1866_12_08_Page_8.pdf
+- The_Philadelphia_Inquirer_1871_01_14_Page_6.pdf
+- The_Philadelphia_Inquirer_1871_12_06_Page_7.pdf
+- The_Philadelphia_Inquirer_1891_11_28_Page_2.pdf
+- The_Philadelphia_Inquirer_1893_07_01_Page_1.pdf
+- The_Philadelphia_Inquirer_1899_04_06_Page_7.pdf
+- The_Philadelphia_Inquirer_1899_07_18_Page_12.pdf
+- The_Philadelphia_Inquirer_1900_10_03_Page_5.pdf
+- The_Philadelphia_Inquirer_1901_10_27_Page_19.pdf
+- The_Philadelphia_Inquirer_1901_11_21_Page_16.pdf
+- The_Philadelphia_Inquirer_1904_12_11_Page_36.pdf
+- The_Philadelphia_Inquirer_1905_08_04_Page_6.pdf
+- The_Philadelphia_Inquirer_1906_12_30_Page_11.pdf
+- The_Philadelphia_Inquirer_1907_12_15_Page_16.pdf
+- The_Philadelphia_Inquirer_1908_01_06_Page_14.pdf
+- The_Philadelphia_Inquirer_1912_09_29_Page_26.pdf
+- The_Philadelphia_Inquirer_1913_02_09_Page_38.pdf
+- The_Philadelphia_Inquirer_1913_03_10_Page_12.pdf
+- The_Philadelphia_Inquirer_1914_03_27_Page_16.pdf
+- The_Philadelphia_Times_1883_12_09_Page_4.pdf
+- The_Philadelphia_Times_1893_02_01_Page_6.pdf
+- The_Philadelphia_Times_1893_07_01_Page_2.pdf
+- The_Philadelphia_Times_1896_06_29_Page_5.pdf
+- The_Philadelphia_Times_1896_11_23_Page_11.pdf
+- The_Philadelphia_Times_1899_08_06_Page_10.pdf
+- The_Philadelphia_Times_1901_01_11_Page_6.pdf
+- The_United_States_Gazette_1824_03_26_3.pdf
+- Thu_Apr_23_1891_Page_3_Scarlet_Fever.pdf
 
 ---
 
-## V. VERIFIED CHAIN OF OWNERSHIP
+## III. Image Assets
 
-| Period | Owner(s) | Documentation |
-|--------|----------|---------------|
-| 1854 | John McCrea (builder) → John Roset | 1854 Deed abstract |
-| 1854-1880 | John & Mary Ann Roset | Deed abstracts, newspapers |
-| 1880-1893 | Pennsylvania Company (trustee) | Trust records |
-| 1893-1896 | Howard Spencer | 1893 Deed abstract, newspapers |
-| 1896-1899 | Spencer Estate (executors) | Estate records |
-| 1899-1920s | Agnes M. Spencer → Davis family | 1899 Deed, newspapers |
-| 1922-1952 | Multiple apartment-era owners | 1922, 1941, 1947, 1949, 1952 deeds |
-| 1952-1979 | Restoration period owners | Deed records |
-| 1979-2022 | Modern era owners | 1979, 1985, 1987, 1999, 2002, 2013 deeds |
-| 2022-Present | Price Robertson | Property Certificate PC-2022-009391 |
+### A. Derived Document Images
+- `images/web/` — 117 images (web-optimized pages)
+- `images/print/` — 94 images (print-ready pages)
+- `images/floor-plans/` — 5 floor plan PDFs
+
+### B. Property Photography
+- `website/images/property/` — 27 professional photos (DSC00064.jpg–DSC00122.jpg)
+- `website/images/property/airbnb/` — 23 listing images (airbnb_00.jpg–airbnb_22.jpg)
 
 ---
 
-## VI. VERIFIED HISTORICAL FACTS
+## IV. OCR Processing Status
 
-### Construction & Early History
-- **1854**: Built by John McCrea, sold to merchant John Roset
-- **Architecture**: Late Greek Revival transitioning to Italianate
-- **Original features**: Red brick, brownstone trim, white marble steps, high ceilings, marble mantels, side-hall plan
+OCR pipeline completed against all 65 documents.
 
-### Key Historical Events
-
-| Date | Event | Source |
-|------|-------|--------|
-| Apr 20, 1891 | Howard Spencer Jr. (age 7) dies of scarlet fever | Philadelphia Inquirer |
-| Jun 1893 | Property sold for $14,000 | Philadelphia Inquirer |
-| Jun 28, 1896 | Howard Spencer dies | Estate records |
-| Apr 3, 1899 | Deed passes to Agnes M. Spencer | 1899 Deed abstract |
-| Aug 2, 1899 | Duhring, Okie & Ziegler commissioned for renovations | Philadelphia Inquirer |
-| 1901 | Rolin-Plumb wedding breakfast (5,000 roses) | Philadelphia Inquirer |
-| 1904-1908 | Davis family "At Home" receptions | Philadelphia Inquirer |
-| 1911 | Mrs. Henry C. Davis: tax resistance/suffrage | Newspapers |
-| Jan 8, 1915 | Martha Davis sells Equal Franchise tickets | Evening Public Ledger |
-| May 21, 1918 | Naomi Lawton Davis dies at 1822 Pine | Death records |
-| 1915-1916 | Dr. Damon B. Pfeiffer medical practice | Professional directories |
-| 1922 | Converted to apartments | Deed records |
-| 1952 | Restored to single-family | Deed records |
-| 1995 | Historic District inclusion | Philadelphia Register |
-
-### Notable Residents
-
-| Era | Residents | Significance |
-|-----|-----------|--------------|
-| 1854-1880 | John & Mary Ann Roset | First owners; daughter Ellen married Anthony J. Drexel |
-| 1893-1899 | Howard Spencer family | Tragedy of son's death |
-| 1899-1905 | Agnes M. Spencer | Major renovation commissioner |
-| 1904-1918 | Davis family (Henry, Naomi, Martha) | Suffragette activism |
-| 1915-1916 | Dr. Damon B. Pfeiffer | Medical practice |
-
-### Architectural Improvements Timeline
-
-| Year | Improvement | Source |
-|------|-------------|--------|
-| 1854 | Original construction | Deed |
-| 1885 | Gas lighting installed | Records |
-| 1899 | Major DO&Z renovation (~$25,000) | Newspapers |
-| 1902 | Electric lighting added | Records |
-| 1905 | Fireplace installation ($130) | Newspaper |
-| 1908 | Modern plumbing, 3 bathrooms | Records |
-| 1916 | Telephone (RIttenhouse 1822) | Directories |
+From `metadata/processing_results.json`:
+- Total documents processed: 65
+- PDFs processed: 46
+- Images processed: 19
+- Deeds detected: 21
+- Clippings detected: 44
+- Dates extracted: 41
 
 ---
 
-## VII. EXISTING WEBSITE CONTENT
+## V. Verified Facts (OCR-Backed)
 
-### Chapter Structure (19 files)
-1. 00-preamble.qmd - Introduction
-2. 01-before-the-threshold.qmd - 1854 origins
-3. 02-between-mourning-and-modernity.qmd - 1891-1905
-4. 03-votes-in-the-parlor.qmd - Suffrage era 1911-1918
-5. 04-walk-the-rooms.qmd - Room-by-room tour
-6. 05-long-edwardian-afternoon.qmd - 1905-1925
-7. 06-architecture-fabric.qmd - Architectural analysis
-8. 07-apartment-house-years.qmd - 1930s-1950s
-9. 08-back-to-grande-dame.qmd - Restoration & modern era
-10-19. Additional chapters and appendices
+All verified facts with OCR snippets live in `research/facts-verified.md`.
 
-### Website Pages
-- index.qmd - Homepage
-- history-book.qmd - Master historical index
-- provenance.qmd - Documented ownership chain
-- timeline.qmd - Chronological summary
-- architecture.qmd - Architectural details
-- gallery.qmd - Photo gallery
-- rates.qmd - Booking information
+Examples:
+- Property certificate shows **address 1822 Pine St, Philadelphia, PA 19103-6602**, **zoning classification RM1**, **issue date 03/30/2022**, and **five (5) dwelling units**.
+  - Source: `raw_documents/1822 Pine - Property Cert.pdf`
+- 2013 deed legal description places the lot on the **south side of Pine Street**, with **22-foot frontage** and **90-foot depth to Waverly Street**, and identifies the property as **1822 Pine Street, Philadelphia, Pennsylvania**.
+  - Source: `raw_documents/1822 Pine - 2013 Deed.pdf`
+- **Duhring, Okie & Ziegler** finished plans for alterations and additions to **Mrs. Graham Spencer's** residence at **1822 Pine Street** (1899).
+  - Source: `raw_documents/The_Philadelphia_Inquirer_1899_07_18_Page_12.pdf`
+- **Equal Franchise Society** luncheon tickets were available from **Miss Martha Davis, 1822 Pine Street** (1915).
+  - Source: `raw_documents/Evening_Public_Ledger_1915_01_08_Page_10.pdf`
 
 ---
 
-## VIII. METADATA & PROCESSING
+## VI. Research Artifacts (New)
 
-### Processed Metadata (60+ JSON files)
-- OCR extractions from documents
-- Date entity extraction
-- Person/organization entity extraction
-- Document classification
-
-### Master Files
-- `metadata/processing_results.json` - Complete processing log
-- `website/images/property/photo-catalog.json` - Photo catalog
-- `data/timeline.yml` - Structured timeline data
+- `research/facts-verified.md` — OCR-backed facts with citations
+- `research/transcriptions-ocr.md` — draft OCR text from key clippings
+- `research/narrative-draft.md` — verified narrative (OCR-backed)
+- `research/document-gallery.md` — document index
+- `research/document-catalog.json` — machine-readable catalog
+- `research/unverified-claims.md` — catalog claims needing verification
 
 ---
 
-## IX. CURRENT OPERATIONS
+## VII. Research Backlog (Not Yet Verified by OCR)
 
-### Booking Information
-| Platform | Listing ID |
-|----------|------------|
-| Airbnb | #6000930 |
-| VRBO | #757481 |
-
-### Capacity
-- **Overnight guests**: 16-18
-- **Event capacity**: 50 cocktail / 30 seated dinner
-- **Suites**: Emily Drexel, Library, Mansion, Pine Street, Waverly Street
-
-### Rates
-- **Nightly**: $1,600-$2,500
-- **Minimum stay**: 2 nights
+These items appear in historical narratives but are **not OCR-verified** in this repo and should remain provisional until manual transcription or improved OCR confirms them:
+- 1854 deed abstract details (names, consideration, construction claims)
+- Remaining named residents and society events from clippings not yet OCR-transcribed
+- Architectural attribution beyond the 1899 notices
+- Catalog copy and captions flagged in `research/unverified-claims.md`
 
 ---
 
-## X. ASSET GAPS & RESEARCH OPPORTUNITIES
+## VIII. Notes on Duplication
 
-### Missing Documentation
-1. Original 1899 DO&Z architectural drawings
-2. Sanborn fire insurance maps (for stable/coach house verification)
-3. Apartment era individual owner details (1922-1952)
-4. Post-1952 to 1979 ownership chain
-5. Original construction permits
+The repo currently includes duplicate asset copies in `website/images/` and `images/`. This was preserved for backward compatibility with the existing site, but canonical sources are the originals in `raw_documents/` and `images/` plus the verified research in `research/`.
 
-### Images Needed
-1. Historical exterior photographs (pre-1950)
-2. Interior photographs from renovation eras
-3. Newspaper advertisement scans
-4. Period photographs of residents
-
-### Research Priorities
-1. Philadelphia Historical Commission records
-2. Athenaeum of Philadelphia architectural archives
-3. Historical Society of Pennsylvania collections
-4. Philadelphia City Archives building permits
-
----
-
-## APPENDIX: FILE LOCATIONS
-
-```
-1822-Pine/
-├── raw_documents/          # 65 original documents
-│   ├── *.pdf              # Deeds, newspapers, certificates
-│   └── *.jpg              # Deed abstracts, floor plans
-├── images/
-│   ├── web/               # Web-optimized (44 files)
-│   ├── print/             # High-res print (19 files)
-│   └── floor-plans/       # PDF sources (5 files)
-├── website/
-│   ├── images/
-│   │   ├── property/      # Professional photos (27+23 files)
-│   │   └── documents/     # Web document copies (19 files)
-│   ├── chapters/          # Historical narrative (19 files)
-│   └── *.qmd              # Website pages
-├── metadata/              # 60+ JSON processing files
-└── data/                  # Timeline and catalog data
-```
-
----
-
-*This audit serves as the foundation for the new Rittenhouse-Residence website project.*

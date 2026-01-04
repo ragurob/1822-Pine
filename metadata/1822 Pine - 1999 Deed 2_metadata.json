@@ -2,16 +2,49 @@
   "filename": "1822 Pine - 1999 Deed 2.pdf",
   "type": "deed",
   "file_hash": "6c7df171472d78aebecf213c766b9c27",
-  "processed_date": "2025-08-29T13:51:58.411915",
+  "processed_date": "2026-01-04T12:53:38.688983",
   "pages": 5,
-  "text": "\n\n\n\n",
+  "text": "\n\n\n\n\n\n[OCR Page 1]:\nBs2) -76\n\n* Fee SimplerTrustees \u2014 | | 2 | 3 5 7 l,\n\u2018This Indenture maze this /9#A day of ( Salil 1999.\n\nBetween\nJOHN R.S. BUSHYAGER\n\n(hereinafter called the Grantor),\n\nSTEPHEN A. MIONE and TRAIAN MUNTEAN SS ~\n\u2018\n\n(hereinafter called the Grantees) ow\n\nWitnesseth that the said Grant di ideration of f:\njitmessethh tua se said Grantor pf and Pad OOD (329,000.00)\n\ndotiars lawful money of the United States of America, unto the Grantor well and truly paid by\nthe said Grantees, at or before the sealing and delivery hereof, the receipt whereof is hereby\nacknowledged, has granted, bargained and sold, released and confirmed, and by these presents\ndoes grant, bargain and sell, release and confirm unto the said Grantees, their heirs and\nassigns, as joint tenants with the right of survivorship.\n\nFile # D310077\nPlease See Exhibit \"A\" Attached For Legal Description.\n\nSuperior Abstract LGI, Inc.\n1800 John F. Kenneay Boulevard\n14th Floor\nPhiladelphia, PA 19103\n(216) 684.2300\n\nergo\n\nLE :01nY I~ AON 66\n\n\u201ca:\n\nayes\nbonnes,\n\nSe\nrt\n\nf\n\u2014\n\naint\ntHASCS wt\n\nba\n\n3)\n\nqpqyoote +\n\nprem\n\ncece ute Ah I ee neal ae cap cet Date age ER At ee These\n\ntet ete\n\n",
   "extracted_date": null,
   "entities": {
-    "people": [],
+    "people": [
+      "This Indenture",
+      "United States",
+      "Please See Exhibit",
+      "Attached For Legal Description",
+      "Superior Abstract",
+      "John F. Kenneay Boulevard",
+      "Floor\nPhiladelphia"
+    ],
     "organizations": [],
     "addresses": [],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/1822 Pine - 1999 Deed 2_page_1_print.png",
+      "web": "images/web/1822 Pine - 1999 Deed 2_page_1_web.jpg"
+    },
+    {
+      "page": 2,
+      "print": "images/print/1822 Pine - 1999 Deed 2_page_2_print.png",
+      "web": "images/web/1822 Pine - 1999 Deed 2_page_2_web.jpg"
+    },
+    {
+      "page": 3,
+      "print": "images/print/1822 Pine - 1999 Deed 2_page_3_print.png",
+      "web": "images/web/1822 Pine - 1999 Deed 2_page_3_web.jpg"
+    },
+    {
+      "page": 4,
+      "print": "images/print/1822 Pine - 1999 Deed 2_page_4_print.png",
+      "web": "images/web/1822 Pine - 1999 Deed 2_page_4_web.jpg"
+    },
+    {
+      "page": 5,
+      "print": "images/print/1822 Pine - 1999 Deed 2_page_5_print.png",
+      "web": "images/web/1822 Pine - 1999 Deed 2_page_5_web.jpg"
+    }
+  ]
 }

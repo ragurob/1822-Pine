@@ -2,7 +2,7 @@
   "filename": "The_Evening_Telegraph_1867_04_08_Page_3.pdf",
   "type": "clipping",
   "file_hash": "b8414327c513e6252f6d871ac218893b",
-  "processed_date": "2025-08-29T13:52:30.818514",
+  "processed_date": "2026-01-04T12:54:27.004568",
   "pages": 1,
   "text": "https://www.newspapers.com/ image/78650918/The Evening Telegraph (Philadelphia, Pennsylvania) \u00b7 Mon, Apr 8, 1867 \u00b7 \nPage 3\nDownloaded on Aug 23, 2025\n  \n  Copyright \u00a9 2025 Newspapers.com. All Rights Reserved.",
   "extracted_date": "1867-04-08",
@@ -15,6 +15,11 @@
     "addresses": [],
     "monetary_amounts": []
   },
-  "images": [],
-  "error": "Unable to get page count. Is poppler installed and in PATH?"
+  "images": [
+    {
+      "page": 1,
+      "print": "images/print/The_Evening_Telegraph_1867_04_08_Page_3_page_1_print.png",
+      "web": "images/web/The_Evening_Telegraph_1867_04_08_Page_3_page_1_web.jpg"
+    }
+  ]
 }

@@ -2,11 +2,20 @@
   "filename": "1941 Deed abstract - 1.jpg",
   "type": "deed",
   "file_hash": "0b0d7c2fd7b514d80873e8b6fbc4a4ec",
-  "processed_date": "2025-08-29T13:51:49.478624",
+  "processed_date": "2026-01-04T12:53:32.664150",
   "dimensions": "4032x3024",
-  "text": "",
+  "text": "qua8y 10 JUNE jo aunjeusig\n\na\n\na\n\njptocinabrhbstior minaret\n\noN) SIR\n\na\n\nfe <C\n\nf\nq\nme\n\nie Nic ORAS EE\n\nAba N\n\n3\n=\n\nowe\n5\n\n: Wy, 3 ( at MA ee OT |\n\naNNOUD JO 323ld HO 107 NiviuaD LVHL T1V\n\nra O iS\n\u00a5, Ch \u00ab ( .'\nFV OTH \\y Woo\nasno\n40 oi qa3d 3o a1vad YSNMO YSEWHOS YAINMO LNASAYd\n\n\u2018shoyje pue speol \u2018g}001]8 JO OSN O} saZopiAud pue s}y3u1 |? Suyioo1 pue\nsauepunog SuralZ \u2018poop 243 jo Bulpiom ei jo fdoo yoexa ue oq 3sNut saqiedoid yo uondiiosaq\n\u201cyoo|q sules ou} ul 10 snon3yu0s sie sojiedoid ssoyun \u2018yuelq spy UO peqieseP eq 93 Aytadoid suo A4[UO\n\n\u00a9NINOZ ONY SASAUNS \u2018DNIHSSNIDNA AO nvayuna\n\nWins \u2014 |\n\n= \u2014\u2014\u2014\u2014\u2014l\n",
   "extracted_date": null,
-  "entities": {},
-  "images": [],
-  "error": "tesseract is not installed or it's not in your PATH. See README file for more information."
+  "entities": {
+    "people": [],
+    "organizations": [],
+    "addresses": [],
+    "monetary_amounts": []
+  },
+  "images": [
+    {
+      "print": "images/print/1941 Deed abstract - 1_print.png",
+      "web": "images/web/1941 Deed abstract - 1_web.jpg"
+    }
+  ]
 }
