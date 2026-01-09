@@ -16,6 +16,14 @@ This plan defines the complete technical implementation for a premium vacation r
 
 The result: a fully automated, SEO-optimized booking engine that reduces OTA dependence while showcasing one of Philadelphia's most documented historic homes.
 
+**Historical Content Depth:**
+- **19 book chapters** with rich narratives spanning 1820s-present
+- **65 primary source documents** (deeds, newspaper clippings, certificates)
+- **198 years of documented history** (1824-2022)
+- **OCR-verified facts** with traceable citations
+- **Verified Drexel dynasty connection** (Ellen Roset → Anthony J. Drexel, 1850)
+- **Documented suffrage activism** (Davis family, 1911-1915)
+
 ---
 
 ## I. Technical Architecture
@@ -59,10 +67,15 @@ rittenhouse-residence/
 │   │   │   ├── floor-plans/
 │   │   │   └── [room]/
 │   │   ├── history/
-│   │   │   ├── page.tsx       # Timeline landing
-│   │   │   ├── timeline/
-│   │   │   ├── documents/
-│   │   │   └── provenance/
+│   │   │   ├── page.tsx           # History landing (gateway to all)
+│   │   │   ├── timeline/          # Interactive timeline
+│   │   │   ├── documents/         # 65-document archive
+│   │   │   │   └── [slug]/        # Individual document viewer
+│   │   │   ├── provenance/        # Verified facts dossier
+│   │   │   ├── people/            # Historical figures
+│   │   │   │   └── [person]/      # Individual profiles
+│   │   │   └── chapters/          # Full book chapters
+│   │   │       └── [chapter]/     # 19 narrative chapters
 │   │   ├── gallery/
 │   │   ├── neighborhood/
 │   │   ├── events/
@@ -357,53 +370,283 @@ Guest Selects Dates
 - PDF download option
 
 #### 4. History Landing (`/history`)
-**Sections:**
-- Interactive timeline (1854-present)
-- Featured stories:
-  - "The Drexel Connection" (Ellen Roset → Anthony J. Drexel)
-  - "Votes in the Parlor" (Davis family suffrage)
-  - "The 1899 Renovation" (Duhring, Okie & Ziegler)
-- Document gallery teaser
-- "Explore 65 Historical Documents" CTA
+**Purpose:** Gateway to the deepest historical documentation of any Philadelphia residence
 
-#### 5. Timeline (`/history/timeline`)
-- Interactive chronological visualization
-- Filter by: Ownership, Architecture, Events, Society
-- Each entry links to source documents
-- Data from `data/timeline.yml`
+**Hero Section:**
+- "198 Years of Documented History"
+- "65 Primary Source Documents • 19 Narrative Chapters • Verified by OCR"
 
-#### 6. Document Gallery (`/history/documents`)
-- Filterable grid of 65 documents
-- Categories: Deeds, Newspaper Clippings, Floor Plans, Certificates
-- Lightbox viewer with OCR text overlay
-- Download options for researchers
+**Navigation Cards:**
+1. **The Full Story** → `/history/chapters` (19 chapters)
+2. **Interactive Timeline** → `/history/timeline`
+3. **Document Archive** → `/history/documents` (65 docs)
+4. **Verified Provenance** → `/history/provenance`
+5. **Historical Figures** → `/history/people`
 
-#### 7. Provenance (`/history/provenance`)
-- "Every fact backed by primary sources"
-- Clean presentation of verified facts from `docs/facts-verified.md`
-- Interactive ownership chain visualization
-- Citation links to documents
+**Featured Stories (rotating highlights):**
+- "The Drexel Connection" - How Ellen Roset's 1850 marriage links this house to the Drexel banking dynasty
+- "Votes in the Parlor" - The Davis family's suffrage activism (1911-1915)
+- "The 1899 Transformation" - Duhring, Okie & Ziegler's documented renovation
+- "A Child Lost" - The 1891 scarlet fever tragedy at 1822 Pine
 
-#### 8. Photo Gallery (`/gallery`)
+**Quick Facts Panel:**
+- Built: c. 1845, first sale 1854
+- Builder: John McCrea (prolific Rittenhouse developer)
+- Ownership spans: 8 distinct family eras
+- Historic District: Rittenhouse-Fitler (1995)
+
+---
+
+### HISTORY SECTION DEEP DIVE
+
+#### 5. Book Chapters Hub (`/history/chapters`)
+**Purpose:** Full access to all 19 narrative chapters - the complete "House at the Edge of the Square" manuscript
+
+**Chapter Index:**
+
+| # | Chapter | Period | Key Content | Source File |
+|---|---------|--------|-------------|-------------|
+| 00 | Preamble | - | Introduction, proof standards | `00-preamble.qmd` |
+| 01 | Before the Threshold | 1820s-1850s | McCrea builds, Rosets arrive, Drexel connection | `01-before-the-threshold.qmd` |
+| 01-ALT | Welcome | - | Alternative opening | `01-welcome.qmd` |
+| 02 | Between Mourning & Modernity | 1860s-1880s | Civil War era, estate transitions | `02-between-mourning-and-modernity.qmd` |
+| 03 | Votes in the Parlor | 1890s-1920 | Suffrage activism, tax resistance, Equal Franchise tickets | `03-votes-in-the-parlor.qmd` |
+| 03-ALT | 1891-1905 | 1891-1905 | Spencer scarlet fever death, DO&Z renovation | `03-1891-1905.qmd` |
+| 04 | Walk the Rooms | - | Room-by-room architectural tour | `04-walk-the-rooms.qmd` |
+| 05 | Long Edwardian Afternoon | 1900-1920 | Society life, weddings, medical practice | `05-long-edwardian-afternoon.qmd` |
+| 06 | Architecture & Fabric | - | Construction, materials, craftsmanship | `06-architecture-fabric.qmd` |
+| 07 | Apartment House Years | 1932-1950 | Depression conversion, WWII | `07-apartment-house-years.qmd` |
+| 08 | Back to Grande Dame | 1950-1952 | Restoration to single-family | `08-back-to-grande-dame.qmd` |
+| 09 | Walk the Rooms Field Guide | - | Practical visitor guide | `09-walk-rooms-field-guide.qmd` |
+| 10 | Provenance Dossier | - | Copy-ready facts with citations | `10-provenance-dossier.qmd` |
+| 11 | Events & Filming Playbook | - | Modern event logistics | `11-events-filming-playbook.qmd` |
+| 12 | The Seasonal House | - | Year-round property guide | `12-seasonal-house.qmd` |
+| 13 | Floor Plans | - | All 5 floors + roof deck | `13-floor-plans.qmd` |
+| 98 | Timeline | 1824-2022 | Chronological listing (auto-generated) | `98-timeline.qmd` |
+| 99 | Document Gallery | - | All 65 documents displayed | `99-document-gallery.qmd` |
+| 99-C | Conclusion | - | Book closing | `99-conclusion.qmd` |
+
+**Chapter Page Template (`/history/chapters/[slug]`):**
+- Full narrative content (converted from QMD to MDX)
+- Inline document references with hover previews
+- "What to Notice Today" callout boxes
+- Related documents sidebar
+- Previous/Next chapter navigation
+- "Book Your Stay" CTA
+
+#### 6. Interactive Timeline (`/history/timeline`)
+**Purpose:** Visual journey through 198 years
+
+**Timeline Visualization:**
+```
+1824 ─────────────────────────────────────────────────────────── 2022
+  │                                                                │
+  ├─ 1854: McCrea sells to Roset                                   │
+  ├─ 1850: Ellen Roset marries Anthony J. Drexel                  │
+  ├─ 1891: Howard Spencer Jr. dies of scarlet fever               │
+  ├─ 1893: Property sold for $14,000                              │
+  ├─ 1899: DO&Z renovation commissioned                           │
+  ├─ 1901: Rolin-Plumb wedding breakfast                          │
+  ├─ 1904: Davis family "At Homes"                                │
+  ├─ 1905: $130 fireplace installation                            │
+  ├─ 1911: Tax resistance activism                                │
+  ├─ 1915: Martha Davis sells suffrage tickets                    │
+  ├─ 1918: Naomi Lawton Davis dies at 1822 Pine                   │
+  ├─ 1922-1952: Apartment era (5 transfers)                       │
+  ├─ 1995: Historic district designation                          │
+  └─ 2013: Luxury rental revival                                  │
+```
+
+**Features:**
+- Zoomable timeline (decade, year, month views)
+- Filter by: Ownership | Architecture | Society | Events | Tragedy
+- Click any event → modal with source document preview
+- "Explore This Era" → links to relevant chapter
+- Data source: `data/timeline.yml`
+
+#### 7. Document Archive (`/history/documents`)
+**Purpose:** Searchable archive of all 65 primary source documents
+
+**Document Categories:**
+
+| Category | Count | Examples |
+|----------|-------|----------|
+| **Deeds** | 21 | 1854 McCrea→Roset, 1893 sale, 1899 Spencer, 1979-2013 modern |
+| **Newspaper Clippings** | 32 | Suffrage coverage, society pages, death notices, renovation news |
+| **Floor Plans** | 10 | All 5 floors (JPG + PDF) |
+| **Certificates** | 1 | Property certificate (2022) |
+| **Sale Records** | 1 | "1822 Sold for $14,000" (1893) |
+
+**Archive Features:**
+- Grid view with thumbnail previews
+- List view with metadata
+- Search by: keyword, date range, person name, document type
+- Sort by: date (oldest/newest), relevance, type
+- OCR text overlay toggle
+- Download options (web/print resolution)
+- Citation generator (Chicago, MLA, BibTeX)
+
+**Individual Document Page (`/history/documents/[slug]`):**
+- High-resolution zoomable viewer
+- OCR text panel (searchable, selectable)
+- Metadata:
+  - Publication/Source
+  - Date
+  - People mentioned
+  - Addresses mentioned
+  - Related documents
+- "Appears in Chapters" links
+- Share/cite buttons
+
+#### 8. Verified Provenance (`/history/provenance`)
+**Purpose:** Marketing-safe, citation-backed facts
+
+**Content from `10-provenance-dossier.qmd`:**
+
+**Chain of Title Visualization:**
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    OWNERSHIP CHAIN (1854-Present)                │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│  1854 ──► JOHN McCREA (builder) sells to JOHN ROSET             │
+│           │                                                      │
+│  1854-1880 JOHN & MARY ANN ROSET                                │
+│           │ (daughter Ellen married Anthony J. Drexel, 1850)    │
+│           │                                                      │
+│  1880-1893 PENNSYLVANIA COMPANY (trustee)                       │
+│           │                                                      │
+│  1893-1896 GRAHAM SPENCER                                       │
+│           │ (son Howard Jr. died here of scarlet fever, 1891)   │
+│           │                                                      │
+│  1896-1899 SPENCER ESTATE                                       │
+│           │                                                      │
+│  1899-1920s AGNES SPENCER → DAVIS FAMILY                        │
+│           │ (DO&Z renovation 1899, suffrage activism 1911-1915) │
+│           │                                                      │
+│  1922-1952 APARTMENT ERA (5 transfers)                          │
+│           │                                                      │
+│  1952-1995 RESTORATION ERA                                      │
+│           │                                                      │
+│  1995     HISTORIC DISTRICT DESIGNATION                         │
+│           │                                                      │
+│  2013-NOW LUXURY RENTAL/EVENT VENUE                             │
+│                                                                  │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Verified Facts (each with source link):**
+- ✓ Built c. 1845, first documented sale April 1854
+- ✓ Builder: John McCrea, prolific Rittenhouse developer
+- ✓ Drexel connection: Ellen Roset married Anthony J. Drexel (August 13, 1850)
+- ✓ 1899 renovation by Duhring, Okie & Ziegler
+- ✓ 1905 fireplace installation ($130)
+- ✓ 1911 tax resistance activism (Mrs. Henry C. Davis)
+- ✓ 1915 suffrage ticket sales (Miss Martha Davis)
+- ✓ 1918 death of Naomi Lawton Davis at this address
+- ✓ 1995 Rittenhouse-Fitler Historic District inclusion
+
+**Download Options:**
+- Provenance Handout (PDF)
+- Full Citation List (BibTeX)
+- Marketing Fact Sheet
+
+#### 9. Historical Figures (`/history/people`)
+**Purpose:** Profiles of people connected to 1822 Pine Street
+
+**Featured Profiles:**
+
+| Person | Connection | Period |
+|--------|------------|--------|
+| **John McCrea** | Builder/developer | 1854 |
+| **John Roset** | First owner | 1854-1870 |
+| **Mary Ann Laning Roset** | Owner | 1854-1880 |
+| **Ellen Roset Drexel** | Daughter, married Anthony J. Drexel | 1850 |
+| **Anthony J. Drexel** | Son-in-law, Drexel University founder | 1850+ |
+| **Graham Spencer** | Owner | 1893-1896 |
+| **Agnes M. Spencer** | Heir, commissioned DO&Z renovation | 1899 |
+| **Howard Spencer Jr.** | Died of scarlet fever at age 7 | 1891 |
+| **Henry C. Davis** | Owner | 1900s-1918 |
+| **Naomi Lawton Davis** | Suffragist, tax resister | 1911-1918 |
+| **Martha Davis** | Suffragist, sold Equal Franchise tickets | 1915 |
+| **Duhring, Okie & Ziegler** | Architects (1899 renovation) | 1899 |
+| **Dr. Damon B. Pfeiffer** | Physician at 1822 Pine | 1915 |
+
+**Person Page Template (`/history/people/[slug]`):**
+- Portrait (if available) or era-appropriate illustration
+- Biographical summary
+- Connection to 1822 Pine Street
+- Source documents mentioning this person
+- Related chapters
+- External links (Find a Grave, WikiTree, etc.)
+
+---
+
+### DOCUMENT VIEWER SPECIFICATION
+
+**High-Resolution Document Viewer Component:**
+
+```typescript
+interface DocumentViewerProps {
+  document: {
+    id: string;
+    title: string;
+    date: string;
+    type: 'deed' | 'clipping' | 'floorplan' | 'certificate';
+    imageUrl: string;
+    thumbnailUrl: string;
+    ocrText: string;
+    metadata: {
+      source: string;
+      publication?: string;
+      page?: number;
+      people: string[];
+      addresses: string[];
+      dates: string[];
+    };
+    relatedDocuments: string[];
+    appearsInChapters: string[];
+  };
+}
+
+// Features:
+// - Pinch-to-zoom on mobile
+// - Pan navigation
+// - OCR text overlay toggle
+// - Full-screen mode
+// - Download (web/print resolution)
+// - Share with deep link
+// - Citation copy (multiple formats)
+```
+
+**OCR Text Panel:**
+- Side-by-side or overlay mode
+- Highlight search terms
+- Select and copy text
+- Report OCR errors (for future correction)
+
+---
+
+#### 10. Photo Gallery (`/gallery`)
 - Tabs: Modern | Historic
 - Masonry grid layout
 - Lightbox with captions
 - Filter by: Room, Era, Feature
 
-#### 9. Neighborhood (`/neighborhood`)
+#### 11. Neighborhood (`/neighborhood`)
 - Interactive map (Mapbox or Google Maps)
 - Walking distances to attractions
 - Restaurant recommendations
 - Transportation guide
 - Local tips from guidebook
 
-#### 10. Events & Filming (`/events`)
+#### 12. Events & Filming (`/events`)
 - Event capacity info
 - Floor plan for event layout
 - Inquiry form
 - Past events/productions (if applicable)
 
-#### 11. FAQ (`/faq`)
+#### 13. FAQ (`/faq`)
 - Accordion sections:
   - Booking & Payment
   - Check-in & Access
@@ -412,7 +655,7 @@ Guest Selects Dates
   - Neighborhood & Location
   - Historical Questions
 
-#### 12. Contact (`/contact`)
+#### 14. Contact (`/contact`)
 - Contact form (Netlify Forms)
 - Direct phone (OpenPhone)
 - Email
@@ -475,6 +718,22 @@ Guest Selects Dates
   - Neighborhood Guide
   - Emergency Contacts
   - Checkout Procedures
+  - **House History** (integrated from chapters)
+
+#### 18b. Guest History Experience (`/portal/history`)
+**Purpose:** Give guests exclusive access to the house's story during their stay
+
+**Features:**
+- "Your Room's History" - personalized content based on which bedroom they're in
+- "What Happened Here" - events that occurred in the rooms they're using
+- Room-by-room historical pins (from Chapter 09 Field Guide):
+  - Hall table: "At Homes" card tray (1904)
+  - Parlors: 1899 DO&Z renovation, 1905 fireplace
+  - Stair landing: Naomi Lawton Davis (1918)
+- Audio tour option (text-to-speech from chapter content)
+- "Explore More" links to full history section
+- Printable "History Highlights" one-pager for guests to take home
+- QR codes placed throughout the house linking to room-specific history
 
 #### 19. Check-in Instructions (`/portal/checkin`)
 - Step-by-step arrival guide
