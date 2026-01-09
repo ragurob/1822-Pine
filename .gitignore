@@ -1,71 +1,41 @@
-# macOS
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
 .DS_Store
-.AppleDouble
-.LSOverride
+*.pem
 
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-
-# Quarto
-/.quarto/
-_site/
-_book/
-*.html
-!website/*.html
-
-# R
-.Rhistory
-.RData
-.Rproj.user
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-
-# Node
-node_modules/
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log*
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# env files (can opt-in for committing if needed)
+.env*
 
-# Logs
-*.log
+# vercel
+.vercel
 
-# Temporary files
-*.tmp
-*.temp
-*.cache
-
-# Build outputs
-dist/
-build/
-out/
-
-# Local env files
-.env
-.env.local
-.env.*.local
-
-# Preview files (keeping website/preview.html for now)
-preview-*.html
+# typescript
+*.tsbuildinfo
+next-env.d.ts
