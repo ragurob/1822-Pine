@@ -9,8 +9,21 @@
 
 ## Website Reimagination Plan
 - **File**: `WEBSITE_REIMAGINATION_PLAN.md`
-- **Purpose**: Detailed plan for the new `rittenhouseresidence.com` site, including tech stack and insurance alignment.
-- **Status**: Draft for review
+- **Purpose**: High-level strategy for the new `rittenhouseresidence.com` site, including tech stack and insurance alignment.
+- **Status**: Complete - strategic overview
+
+## Website Build Plan (Technical Implementation)
+- **File**: `WEBSITE_BUILD_PLAN.md`
+- **Purpose**: Complete technical implementation plan including:
+  - Next.js 14+ architecture with App Router
+  - Full Guesty booking integration
+  - Guest portal with Touch Stay/guidebook
+  - Staff operations hub (Breezeway, MaintainX)
+  - All 27 page specifications
+  - AI automation workflows
+  - SEO strategy
+  - 10-week implementation roadmap
+- **Status**: Ready for implementation
 
 ---
 
