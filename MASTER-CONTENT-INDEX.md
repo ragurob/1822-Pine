@@ -7,6 +7,11 @@
 - **Website reimagination:** Start from scratch with a modern, reimagined website design and information architecture.
 - **Archive continuity:** Keep the full historical archive and verified research in this repo as the factual backbone.
 
+## Website Reimagination Plan
+- **File**: `WEBSITE_REIMAGINATION_PLAN.md`
+- **Purpose**: Detailed plan for the new `rittenhouseresidence.com` site, including tech stack and insurance alignment.
+- **Status**: Draft for review
+
 ---
 
 ## I. BOOK MANUSCRIPT - "House at the Edge of the Square"
