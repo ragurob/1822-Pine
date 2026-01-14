@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "predev": "node scripts/prepare-archive-assets.mjs",
+    "dev": "next dev --webpack",
+    "prebuild": "node scripts/prepare-archive-assets.mjs",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint"
   },

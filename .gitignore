@@ -36,6 +36,11 @@ yarn-error.log*
 # vercel
 .vercel
 
+# generated public archive (synced from Rittenhouse-Residence/)
+/public/archive/raw_documents/
+/public/archive/images/web/
+/public/archive/refs/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
