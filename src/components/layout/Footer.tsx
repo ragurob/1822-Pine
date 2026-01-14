@@ -62,7 +62,7 @@ export function Footer() {
 
             {/* Secondary: OTA options */}
             <div className="mt-8 pt-6 border-t border-gray-700">
-              <p className="text-gray-400 text-sm mb-4">Also available on:</p>
+              <p className="text-gray-400 text-sm mb-4">The Rittenhouse Residence is also available to book on:</p>
               <div className="flex flex-row gap-4 justify-center">
                 <a
                   href="https://www.airbnb.com/rooms/6000930"
