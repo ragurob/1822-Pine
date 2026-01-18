@@ -83,9 +83,9 @@ function FAQSchema() {
 }
 
 export const metadata: Metadata = {
-  title: "FAQ | Rittenhouse Residence",
+  title: "FAQ",
   description:
-    "Frequently asked questions about booking, check-in, amenities, parking, house rules, and cancellation policies for the Rittenhouse Residence.",
+    "Frequently asked questions about booking, check-in, amenities, parking, house rules, and cancellation policies for The Rittenhouse Residence.",
 };
 
 export default function FaqPage() {

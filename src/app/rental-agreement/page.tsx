@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Rental Agreement | Rittenhouse Residence",
+  title: "Rental Agreement",
   description:
-    "High-level rental agreement information for the Rittenhouse Residence.",
+    "High-level rental agreement information for The Rittenhouse Residence.",
 };
 
 export default function RentalAgreementPage() {

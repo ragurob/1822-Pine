@@ -3,9 +3,9 @@ import Link from "next/link";
 import { Calendar, Info } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Rates | Rittenhouse Residence",
+  title: "Rates & Pricing",
   description:
-    "Typical nightly rates and policies for the Rittenhouse Residence. Final pricing depends on dates and availability.",
+    "Typical nightly rates and policies for The Rittenhouse Residence. Final pricing depends on dates and availability. From $1,600/night.",
 };
 
 export default function RatesPage() {

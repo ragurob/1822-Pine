@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Floor Plans | Rittenhouse Residence",
+  title: "Floor Plans",
   description:
-    "Floor plans for the Rittenhouse Residence, organized by level.",
+    "Floor plans for The Rittenhouse Residence, organized by level across five floors.",
 };
 
 const plans = [

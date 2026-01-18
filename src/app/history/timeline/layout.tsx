@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Story | 1822 Pine Street Philadelphia",
+  title: "Timeline",
   description:
-    "Explore 170 years of history at 1822 Pine Street, a historic Rittenhouse Square mansion. Victorian elegance, original fireplaces, and remarkable stories await.",
+    "Explore 170 years of history at The Rittenhouse Residence, 1822 Pine Street — a historic Rittenhouse Square mansion. Victorian elegance, original fireplaces, and remarkable stories await.",
   keywords: [
     "Philadelphia historic home",
     "Rittenhouse Square rental",

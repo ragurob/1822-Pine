@@ -3,9 +3,10 @@ export function VacationRentalSchema() {
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
     "@id": "https://rittenhouseresidence.com/#lodging",
-    name: "Rittenhouse Residence",
+    name: "The Rittenhouse Residence",
+    alternateName: "Rittenhouse Residence",
     description:
-      "Philadelphia's premier whole-home rental for groups. Historic 1854 mansion with 8 bedrooms, 6 bathrooms. Steps from Rittenhouse Square.",
+      "The Rittenhouse Residence — Philadelphia's premier whole-home rental for groups. Historic 1854 mansion with 8 bedrooms, 6 bathrooms. Steps from Rittenhouse Square.",
     url: "https://rittenhouseresidence.com",
     address: {
       "@type": "PostalAddress",
@@ -116,9 +117,10 @@ export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "VacationRental",
-    name: "Rittenhouse Residence - Historic Philadelphia Mansion",
+    name: "The Rittenhouse Residence",
+    alternateName: "Rittenhouse Residence - Historic Philadelphia Mansion",
     description:
-      "Whole-home vacation rental for groups in Philadelphia. 8 bedrooms, 6 bathrooms across five floors. Historic 1854 mansion steps from Rittenhouse Square.",
+      "The Rittenhouse Residence — whole-home vacation rental for groups in Philadelphia. 8 bedrooms, 6 bathrooms across five floors. Historic 1854 mansion steps from Rittenhouse Square.",
     url: "https://rittenhouseresidence.com",
     image: "https://rittenhouseresidence.com/images/airbnb/airbnb_03.jpg",
     address: {

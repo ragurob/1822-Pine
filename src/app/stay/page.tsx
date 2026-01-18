@@ -19,10 +19,11 @@ import {
 import { GuestyBookingWidget } from "@/components/GuestyBookingWidget";
 
 export const metadata: Metadata = {
-  title: "Stay at Rittenhouse Residence | 8-Bedroom Historic Mansion Philadelphia",
+  title: "The Property",
   description:
-    "Book the entire Rittenhouse Residence - a historic 1854 mansion with 8 bedrooms across 5 floors. Features 3 VIP suites with 22ft Pine Street frontage, master suite with sitting room, 2 family bedrooms, 2 full kitchens, and private roof deck. Steps from Rittenhouse Square, Philadelphia.",
+    "Tour The Rittenhouse Residence — a historic 1854 mansion with 8 bedrooms across 5 floors. Features 3 VIP suites, master suite with sitting room, 2 full kitchens, and private roof deck. Steps from Rittenhouse Square, Philadelphia.",
   keywords: [
+    "The Rittenhouse Residence",
     "Philadelphia mansion rental",
     "Rittenhouse Square vacation home",
     "large group accommodation Philadelphia",

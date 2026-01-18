@@ -6,9 +6,9 @@ import { BookOpen, Calendar, FileText, ArrowRight, ChevronRight } from "lucide-r
 import storyData from "@/data/story-chapters.json";
 
 export const metadata: Metadata = {
-  title: "The Story of 1822 Pine Street | A Philadelphia Historic Novel",
+  title: "The Story of 1822 Pine Street",
   description:
-    "Explore 170 years of Philadelphia history through the story of 1822 Pine Street. From Victorian society to women's suffrage, discover the documented narrative of Rittenhouse Square's most storied residence.",
+    "Explore 170 years of Philadelphia history through the story of The Rittenhouse Residence at 1822 Pine Street. From Victorian society to women's suffrage, discover the documented narrative of Rittenhouse Square's most storied residence.",
   keywords: [
     "Philadelphia history",
     "Rittenhouse Square history",

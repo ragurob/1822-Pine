@@ -22,9 +22,9 @@ type DecadeGroup = {
 };
 
 export const metadata: Metadata = {
-  title: "Document Archive | Rittenhouse Residence",
+  title: "Document Archive",
   description:
-    "A chronological archive of primary-source documents tied to 1822 Pine Street - deeds, newspaper clippings, and floor plans that document the Rittenhouse Residence.",
+    "A chronological archive of primary-source documents tied to 1822 Pine Street — deeds, newspaper clippings, and floor plans that document The Rittenhouse Residence.",
   keywords: [
     "Rittenhouse Residence history",
     "Philadelphia historic documents",

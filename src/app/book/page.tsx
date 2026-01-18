@@ -5,9 +5,9 @@ import { Mail, Shield, Clock, Users } from "lucide-react";
 import { GuestyBookingWidget } from "@/components/GuestyBookingWidget";
 
 export const metadata: Metadata = {
-  title: "Book Your Stay | Rittenhouse Residence",
+  title: "Book Your Stay",
   description:
-    "Book the Rittenhouse Residence - a whole-home 8-bedroom, 6-bathroom rental for groups. Historic 1854 mansion steps from Rittenhouse Square, Philadelphia. From $1,600/night.",
+    "Book The Rittenhouse Residence — a whole-home 8-bedroom, 6-bathroom rental for groups. Historic 1854 mansion steps from Rittenhouse Square, Philadelphia. From $1,600/night.",
 };
 
 const highlights = [

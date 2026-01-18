@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms | Rittenhouse Residence",
+  title: "Terms of Use",
   description:
-    "Terms and important information for bookings and use of the Rittenhouse Residence website.",
+    "Terms and important information for bookings and use of The Rittenhouse Residence website.",
 };
 
 export default function TermsPage() {

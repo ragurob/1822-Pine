@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Rittenhouse Residence",
+  title: "Privacy Policy",
   description:
-    "Privacy policy for the Rittenhouse Residence website and booking inquiries.",
+    "Privacy policy for The Rittenhouse Residence website and booking inquiries.",
 };
 
 export default function PrivacyPage() {

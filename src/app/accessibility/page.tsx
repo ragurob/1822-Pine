@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Accessibility | Rittenhouse Residence",
+  title: "Accessibility",
   description:
-    "Accessibility information for the Rittenhouse Residence website and property.",
+    "Accessibility information for The Rittenhouse Residence website and property.",
 };
 
 export default function AccessibilityPage() {

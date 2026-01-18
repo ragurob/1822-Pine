@@ -15,9 +15,9 @@ type ArchiveDocument = {
 };
 
 export const metadata: Metadata = {
-  title: "Provenance | Rittenhouse Residence",
+  title: "Provenance",
   description:
-    "How the history of 1822 Pine Street is verified and documented using primary sources.",
+    "How the history of The Rittenhouse Residence at 1822 Pine Street is verified and documented using primary sources.",
 };
 
 const docsByFilename = new Map(
