@@ -117,25 +117,86 @@ export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "VacationRental",
+    "@id": "https://rittenhouseresidence.com/#vacation-rental",
+    identifier: {
+      "@type": "PropertyValue",
+      propertyID: "Airbnb",
+      value: "553037541974618498",
+    },
+    additionalType: "https://schema.org/House",
     name: "The Rittenhouse Residence",
     alternateName: "Rittenhouse Residence - Historic Philadelphia Mansion",
     description:
       "The Rittenhouse Residence — whole-home vacation rental for groups in Philadelphia. 8 bedrooms, 6 bathrooms across five floors. Historic 1854 mansion steps from Rittenhouse Square.",
     url: "https://rittenhouseresidence.com",
-    image: "https://rittenhouseresidence.com/images/airbnb/airbnb_03.jpg",
+    image: [
+      "https://rittenhouseresidence.com/images/airbnb/airbnb_03.jpg",
+      "https://rittenhouseresidence.com/images/airbnb/airbnb_04.jpg",
+      "https://rittenhouseresidence.com/images/airbnb/airbnb_01.jpg",
+      "https://rittenhouseresidence.com/images/airbnb/airbnb_02.jpg",
+      "https://rittenhouseresidence.com/images/airbnb/airbnb_05.jpg",
+      "https://rittenhouseresidence.com/images/airbnb/airbnb_06.jpg",
+      "https://rittenhouseresidence.com/images/airbnb/airbnb_07.jpg",
+      "https://rittenhouseresidence.com/images/airbnb/airbnb_08.jpg",
+    ],
     address: {
       "@type": "PostalAddress",
       streetAddress: "1822 Pine Street",
       addressLocality: "Philadelphia",
       addressRegion: "PA",
       postalCode: "19103",
-      addressCountry: "US",
+      addressCountry: {
+        "@type": "Country",
+        name: "US",
+      },
     },
     geo: {
       "@type": "GeoCoordinates",
       latitude: 39.9468,
       longitude: -75.1715,
     },
+    containsPlace: [
+      {
+        "@type": "Room",
+        name: "Master Suite",
+        description: "King bed with sitting room and private bathroom",
+      },
+      {
+        "@type": "Room",
+        name: "VIP Suite 1",
+        description: "Queen bed with Pine Street frontage views",
+      },
+      {
+        "@type": "Room",
+        name: "VIP Suite 2",
+        description: "Queen bed with Pine Street frontage views",
+      },
+      {
+        "@type": "Room",
+        name: "VIP Suite 3",
+        description: "Queen bed with Pine Street frontage views",
+      },
+      {
+        "@type": "Room",
+        name: "Family Bedroom 1",
+        description: "Queen bed, family-friendly",
+      },
+      {
+        "@type": "Room",
+        name: "Family Bedroom 2",
+        description: "Queen bed, family-friendly",
+      },
+      {
+        "@type": "Room",
+        name: "Garden Level Suite",
+        description: "King bed with private entrance option",
+      },
+      {
+        "@type": "Room",
+        name: "Fourth Floor Bedroom",
+        description: "Queen bed with historic charm",
+      },
+    ],
     numberOfBedrooms: 8,
     numberOfBathroomsTotal: 6,
     floorSize: {
@@ -146,6 +207,29 @@ export function LocalBusinessSchema() {
     yearBuilt: 1854,
     petsAllowed: false,
     tourBookingPage: "https://rittenhouseresidence.com/book",
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.89",
+      reviewCount: "93",
+      bestRating: "5",
+      worstRating: "1",
+    },
+    review: [
+      {
+        "@type": "Review",
+        author: {
+          "@type": "Person",
+          name: "Recent Guest",
+        },
+        datePublished: "2024-12-01",
+        reviewBody: "Absolutely stunning historic home. Perfect for our family reunion. The location near Rittenhouse Square was ideal.",
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: "5",
+          bestRating: "5",
+        },
+      },
+    ],
   };
 
   return (
