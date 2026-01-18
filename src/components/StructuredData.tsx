@@ -118,12 +118,7 @@ export function LocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "VacationRental",
     "@id": "https://rittenhouseresidence.com/#vacation-rental",
-    identifier: {
-      "@type": "PropertyValue",
-      propertyID: "Airbnb",
-      value: "553037541974618498",
-    },
-    additionalType: "https://schema.org/House",
+    identifier: "airbnb-553037541974618498",
     name: "The Rittenhouse Residence",
     alternateName: "Rittenhouse Residence - Historic Philadelphia Mansion",
     description:
@@ -145,10 +140,7 @@ export function LocalBusinessSchema() {
       addressLocality: "Philadelphia",
       addressRegion: "PA",
       postalCode: "19103",
-      addressCountry: {
-        "@type": "Country",
-        name: "US",
-      },
+      addressCountry: "US",
     },
     geo: {
       "@type": "GeoCoordinates",
@@ -160,41 +152,113 @@ export function LocalBusinessSchema() {
         "@type": "Room",
         name: "Master Suite",
         description: "King bed with sitting room and private bathroom",
+        occupancy: {
+          "@type": "QuantitativeValue",
+          value: 2,
+        },
+        bed: {
+          "@type": "BedDetails",
+          typeOfBed: "King",
+          numberOfBeds: 1,
+        },
       },
       {
         "@type": "Room",
         name: "VIP Suite 1",
         description: "Queen bed with Pine Street frontage views",
+        occupancy: {
+          "@type": "QuantitativeValue",
+          value: 2,
+        },
+        bed: {
+          "@type": "BedDetails",
+          typeOfBed: "Queen",
+          numberOfBeds: 1,
+        },
       },
       {
         "@type": "Room",
         name: "VIP Suite 2",
         description: "Queen bed with Pine Street frontage views",
+        occupancy: {
+          "@type": "QuantitativeValue",
+          value: 2,
+        },
+        bed: {
+          "@type": "BedDetails",
+          typeOfBed: "Queen",
+          numberOfBeds: 1,
+        },
       },
       {
         "@type": "Room",
         name: "VIP Suite 3",
         description: "Queen bed with Pine Street frontage views",
+        occupancy: {
+          "@type": "QuantitativeValue",
+          value: 2,
+        },
+        bed: {
+          "@type": "BedDetails",
+          typeOfBed: "Queen",
+          numberOfBeds: 1,
+        },
       },
       {
         "@type": "Room",
         name: "Family Bedroom 1",
         description: "Queen bed, family-friendly",
+        occupancy: {
+          "@type": "QuantitativeValue",
+          value: 2,
+        },
+        bed: {
+          "@type": "BedDetails",
+          typeOfBed: "Queen",
+          numberOfBeds: 1,
+        },
       },
       {
         "@type": "Room",
         name: "Family Bedroom 2",
         description: "Queen bed, family-friendly",
+        occupancy: {
+          "@type": "QuantitativeValue",
+          value: 2,
+        },
+        bed: {
+          "@type": "BedDetails",
+          typeOfBed: "Queen",
+          numberOfBeds: 1,
+        },
       },
       {
         "@type": "Room",
         name: "Garden Level Suite",
         description: "King bed with private entrance option",
+        occupancy: {
+          "@type": "QuantitativeValue",
+          value: 2,
+        },
+        bed: {
+          "@type": "BedDetails",
+          typeOfBed: "King",
+          numberOfBeds: 1,
+        },
       },
       {
         "@type": "Room",
         name: "Fourth Floor Bedroom",
         description: "Queen bed with historic charm",
+        occupancy: {
+          "@type": "QuantitativeValue",
+          value: 2,
+        },
+        bed: {
+          "@type": "BedDetails",
+          typeOfBed: "Queen",
+          numberOfBeds: 1,
+        },
       },
     ],
     numberOfBedrooms: 8,
