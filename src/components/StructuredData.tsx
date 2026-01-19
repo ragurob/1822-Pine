@@ -157,6 +157,30 @@ export function LocalBusinessSchema() {
     yearBuilt: 1854,
     petsAllowed: false,
     tourBookingPage: "https://rittenhouseresidence.com/book",
+    containsPlace: {
+      "@type": "Accommodation",
+      additionalType: "EntirePlace",
+      numberOfRooms: 8,
+      numberOfBathroomsTotal: 6,
+      occupancy: {
+        "@type": "QuantitativeValue",
+        value: 16,
+      },
+      bed: [
+        { "@type": "BedDetails", numberOfBeds: 4, typeOfBed: "King" },
+        { "@type": "BedDetails", numberOfBeds: 3, typeOfBed: "Queen" },
+        { "@type": "BedDetails", numberOfBeds: 2, typeOfBed: "Twin" },
+      ],
+      amenityFeature: [
+        { "@type": "LocationFeatureSpecification", name: "WiFi", value: true },
+        { "@type": "LocationFeatureSpecification", name: "Air conditioning", value: true },
+        { "@type": "LocationFeatureSpecification", name: "Kitchen", value: true },
+        { "@type": "LocationFeatureSpecification", name: "Washer", value: true },
+        { "@type": "LocationFeatureSpecification", name: "Dryer", value: true },
+        { "@type": "LocationFeatureSpecification", name: "Free parking", value: true },
+        { "@type": "LocationFeatureSpecification", name: "Roof deck", value: true },
+      ],
+    },
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.89",
